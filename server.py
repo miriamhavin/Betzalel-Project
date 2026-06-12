@@ -16,47 +16,30 @@ app    = Flask(__name__)
 # ── prompts ───────────────────────────────────────────────────────────────────
 
 INTERPRETATION_PROMPT = (
-    "You are a mythmaker. Look at this image and find the hidden scene inside it.\n\n"
-    "A hidden scene is not a description of objects. It is a MOMENT — something happening,\n"
-    "just finished, or about to begin — that the arrangement of objects secretly depicts.\n"
-    "The objects are evidence. You are the detective who sees what they are evidence OF.\n\n"
-    "GROUND EVERY OBSERVATION IN PHYSICAL FEATURES ONLY:\n"
-    "Look at each object as pure shape, color, size, texture, and position — ignore what it\n"
-    "is used for entirely. A tall white cylinder is not a 'bottle' — it is a tall white form\n"
-    "with a narrow neck. A flat dark rectangle is not a 'phone' — it is a dark flat slab.\n"
-    "Ask: what does this LOOK LIKE? Not: what is it FOR?\n"
-    "The scene must grow from visual facts — proportions, proximity, color contrast, silhouette —\n"
-    "not from the objects' everyday purpose or name.\n\n"
-    "What makes a scene good:\n"
-    "  • It is a single dramatic moment with a before and after\n"
-    "  • Every detail traces back to a specific physical feature of a specific object\n"
-    "  • It would collapse if you removed or moved any object\n"
-    "  • It makes you feel something — wonder, dread, tenderness, awe\n"
-    "  • It sounds like a title from a myth or a fairy tale, not a room description\n\n"
-    "Examples of the quality required:\n"
-    "  BAD:  'Objects arranged like a miniature landscape'\n"
-    "  GOOD: 'The crater lake where the last dragon drank, still warm'\n\n"
-    "  BAD:  'A workspace that represents a journey'\n"
-    "  GOOD: 'The cartographer\\'s camp the morning the mountain swallowed it'\n\n"
-    "  BAD:  'Items forming a metaphorical battle scene'\n"
-    "  GOOD: 'The exact moment the giant fell and everything scattered'\n\n"
-    "Step 1 — For each object note ONLY its physical properties: shape, color, size relative\n"
-    "          to others, surface texture, and exact position in frame. Do not name its function.\n\n"
-    "Step 2 — Write 3 candidate scenes (up to 8 words each) rooted in those physical observations.\n"
-    "          Push yourself — the third should be stranger and more specific than the first.\n\n"
-    "Step 3 — Pick the strongest. It wins if: (a) it could only be read from THIS exact\n"
-    "          arrangement of shapes and colors, (b) it contains no real object names,\n"
-    "          (c) it makes you feel something.\n\n"
-    "Step 4 — Assign each object its role in that scene — what it IS in the scene's world.\n"
-    "          Concrete nouns only: 'the crater', 'the sleeping god', 'the frozen river'.\n\n"
-    "Step 5 — Write drawing instructions: for each object, what lines to draw around it\n"
-    "          so the viewer sees the scene role, not the real object. Be specific to position.\n\n"
-    "OUTPUT FORMAT (strict, no extra text):\n\n"
-    "SCENE: <the winning scene — up to 8 words, reads like a story title, no real object names>\n\n"
-    "OBJECT: <real name> | BOX: [y_min, x_min, y_max, x_max] | ROLE: <what it is in the scene>\n"
+    "You are interpreting an image composed of physical objects.\n\n"
+    "Your task is to infer a possible hidden world suggested by the arrangement.\n"
+    "This world can be a character, a scene, a place, a creature, or a situation.\n"
+    "Step 1 — Visual grounding:\n"
+    "Describe each object only as a visual form (shape, color, size, texture)\n"
+    "and its spatial relation to other objects. Do not use object names or functions.\n\n"
+    "Step 2 — Interpretation:\n"
+    "Infer a single coherent interpretation of the arrangement.\n"
+    "This can be a narrative scene, a character, an environment, or an entity.\n"
+    "It must be grounded in visual relationships, not object identity.\n\n"
+    "Step 3 — Object roles:\n"
+    "For each object, assign a role in this interpretation.\n"
+    "Describe what it becomes (concrete noun or entity).\n"
+    "The role must be motivated by visual properties and spatial context.\n\n"
+    "Step 4 — Visual expansion:\n"
+    "Describe how each object should be visually extended or transformed\n"
+    "so the interpretation becomes immediately visible.\n"
+    "Focus on shapes, lines, and spatial growth.\n\n"
+    "OUTPUT FORMAT (strict):\n\n"
+    "INTERPRETATION: <single title, max 10 words>\n\n"
+    "OBJECT: <visual description> | ROLE: <interpretation role>\n"
     "...\n\n"
-    "DRAWING INSTRUCTIONS:\n"
-    "<per object: exact lines to draw around it, tied to its scene role and position>\n"
+    "VISUAL EXPANSION:\n"
+    "<per-object instructions>\n"
 )
 
 SCENE_DRAW_PROMPT = (
@@ -96,8 +79,7 @@ def run_predict(jpeg: bytes) -> tuple[bytes, str]:
             thinking_config=types.ThinkingConfig(thinking_budget=0)),  # type: ignore[call-arg]
     )
     interp       = r.text or ""
-    scene        = _parse(r"SCENE:\s*(.+)", interp)
-    short        = _parse(r"SHORT:\s*(.+)", interp)
+    scene        = _parse(r"(?:INTERPRETATION|SCENE):\s*(.+)", interp)
     objects      = _parse_objects(interp)
     instructions = _parse_instructions(interp)
 
@@ -134,14 +116,16 @@ def _parse(pattern: str, text: str) -> str:
 
 
 def _parse_objects(text: str) -> list:
+    # BOX is optional — matches both old and new prompt formats
     pat = re.compile(
-        r"OBJECT:\s*[^|]+?\s*\|\s*BOX:\s*\[[^\]]+\]\s*\|\s*ROLE:\s*.+",
+        r"OBJECT:\s*[^|]+?\s*\|(?:\s*BOX:\s*\[[^\]]+\]\s*\|)?\s*ROLE:\s*.+",
         re.IGNORECASE)
     return pat.findall(text)
 
 
 def _parse_instructions(text: str) -> str:
-    m = re.search(r"DRAWING INSTRUCTIONS:\s*\n([\s\S]+)", text, re.IGNORECASE)
+    # accepts VISUAL EXPANSION: or DRAWING INSTRUCTIONS:
+    m = re.search(r"(?:VISUAL EXPANSION|DRAWING INSTRUCTIONS):\s*\n([\s\S]+)", text, re.IGNORECASE)
     return m.group(1).strip() if m else ""
 
 # ── git ───────────────────────────────────────────────────────────────────────
