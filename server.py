@@ -246,9 +246,17 @@ body{background:var(--bg);color:var(--white);font-family:Helvetica,Arial,sans-se
 #gal{width:100%;max-width:1100px;margin:64px auto 48px;padding:0 20px}
 #gal-hdr{font-size:11px;color:var(--dim);letter-spacing:2px;text-transform:uppercase;text-align:center;border-top:1px solid var(--dim);padding-top:24px;margin-bottom:28px}
 #gal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px}
-.gi{background:var(--card)}
+.gi{background:var(--card);cursor:pointer;transition:opacity .15s}
+.gi:hover{opacity:.8}
 .gi img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
-.gi-cap{font-family:Georgia,serif;font-style:italic;font-size:12px;color:var(--med);padding:10px 12px;line-height:1.5}
+
+/* ── modal ── */
+#modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:100;align-items:center;justify-content:center;flex-direction:column;padding:24px}
+#modal.open{display:flex}
+#modal-img{max-width:min(700px,90vw);max-height:70vh;object-fit:contain;display:block}
+#modal-cap{font-family:Georgia,serif;font-style:italic;font-size:15px;color:var(--white);text-align:center;margin-top:20px;max-width:min(700px,90vw);line-height:1.6}
+#modal-close{position:absolute;top:20px;right:28px;font-size:28px;color:var(--med);cursor:pointer;line-height:1;background:none;border:none}
+#modal-close:hover{color:var(--white)}
 </style>
 </head>
 <body>
@@ -286,6 +294,12 @@ body{background:var(--bg);color:var(--white);font-family:Helvetica,Arial,sans-se
 <div id="gal">
   <div id="gal-hdr">everyone&rsquo;s snaps</div>
   <div id="gal-grid"></div>
+</div>
+
+<div id="modal" onclick="closeModal(event)">
+  <button id="modal-close" onclick="closeModal()">&times;</button>
+  <img id="modal-img" alt="">
+  <div id="modal-cap"></div>
 </div>
 
 <script>
@@ -398,19 +412,29 @@ async function loadGallery(){
     grid.innerHTML = '';
     for(const it of items){
       const d   = document.createElement('div'); d.className='gi';
+      d.onclick = ()=> openModal(it.ts, it.caption);
       const img = document.createElement('img');
-      img.src = '/saves/'+it.ts+'_prediction.jpg';
+      img.src     = '/saves/'+it.ts+'_original.jpg';
       img.loading = 'lazy';
+      img.alt     = '';
       d.appendChild(img);
-      if(it.caption){
-        const c = document.createElement('div'); c.className='gi-cap';
-        c.textContent = '[ '+it.caption+' ]';
-        d.appendChild(c);
-      }
       grid.appendChild(d);
     }
   }catch(e){ console.warn('gallery:', e); }
 }
+
+// ── modal ─────────────────────────────────────────────────────────────────────
+function openModal(ts, caption){
+  document.getElementById('modal-img').src = '/saves/'+ts+'_prediction.jpg';
+  document.getElementById('modal-cap').textContent = caption ? '[ '+caption+' ]' : '';
+  document.getElementById('modal').classList.add('open');
+}
+function closeModal(e){
+  if(e && e.target !== document.getElementById('modal') && e.target !== document.getElementById('modal-close')) return;
+  document.getElementById('modal').classList.remove('open');
+  document.getElementById('modal-img').src = '';
+}
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeModal(); });
 
 loadGallery();
 </script>
