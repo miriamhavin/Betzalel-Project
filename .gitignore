@@ -1,0 +1,24 @@
+# saved outputs — stay local only
+saves/
+
+# secrets
+.env
+
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# virtual environment
+venv/
+.venv/
+
+# large model files
+*.task
+*.pt
+*.pth
+*.ckpt
+
+# IDE
+.vscode/
+*.bak
