@@ -6,19 +6,26 @@ import queue
 import io
 import re
 import os
+import subprocess
+import datetime
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
 
 load_dotenv()
 
-VIDEO_W,  VIDEO_H  = 400, 300
-DRAW_BACKEND       = os.getenv("DRAW_BACKEND", "gemini")
+CAM_W, CAM_H = 640, 480
+DRAW_BACKEND  = os.getenv("DRAW_BACKEND", "gemini")
+APP_DIR       = os.path.dirname(os.path.abspath(__file__))
 
-BG       = "#0f0f1a"
-BG_CARD  = "#1a1a2e"
-TEXT_DIM = "#64748b"
+BG       = "#0a0a14"
+BG_CARD  = "#0f0f1e"
+TEXT_DIM = "#2e3a4e"
+TEXT_MED = "#64748b"
 ORANGE   = "#f97316"
+GREEN    = "#22c55e"
+RED_DIM  = "#374151"
+WHITE    = "#e2e8f0"
 
 INTERPRETATION_PROMPT_TEMPLATE = (
     "Analyze this image.\n\n"
@@ -83,7 +90,16 @@ class PipelineApp(tk.Tk):
         super().__init__()
         self.title("AI Pipeline")
         self.configure(bg=BG)
-        self.resizable(False, False)
+
+        self.state("zoomed")
+        self.resizable(True, True)
+        self.update()
+        sw = self.winfo_width()
+
+        self._lw = max(300, int(sw * 0.22))
+        self._lh = int(self._lw * 0.75)
+        self._pw = max(480, int(sw * 0.38))
+        self._ph = int(self._pw * 0.75)
 
         api_key = os.getenv("GEMINI_API_KEY")
         if not api_key:
@@ -99,6 +115,11 @@ class PipelineApp(tk.Tk):
         self._ai_busy      = False
         self._ai_stage     = ""
 
+        # pending result waiting for save/discard decision
+        self._pending_orig    = None
+        self._pending_pred    = None
+        self._pending_caption = ""
+
         self._build_ui()
         self.protocol("WM_DELETE_WINDOW", self._on_close)
         self._start_camera()
@@ -107,51 +128,82 @@ class PipelineApp(tk.Tk):
     # ── UI ────────────────────────────────────────────────────────────────────
 
     def _build_ui(self):
-        panels = tk.Frame(self, bg=BG)
-        panels.pack(padx=20, pady=(20, 12))
+        wrap = tk.Frame(self, bg=BG)
+        wrap.place(relx=0.5, rely=0.48, anchor="center")
 
-        lf = tk.Frame(panels, bg=BG)
-        lf.pack(side="left")
-        tk.Label(lf, text="Live Feed", font=("Helvetica", 11, "bold"),
-                 bg=BG, fg=TEXT_DIM).pack(pady=(0, 6))
-        live_box = tk.Frame(lf, width=VIDEO_W, height=VIDEO_H, bg="#000000")
+        # panels row
+        row = tk.Frame(wrap, bg=BG)
+        row.pack()
+
+        # Live feed
+        lf = tk.Frame(row, bg=BG)
+        lf.pack(side="left", anchor="n")
+        tk.Label(lf, text="live", font=("Helvetica", 9),
+                 bg=BG, fg=TEXT_DIM).pack(pady=(0, 5))
+        live_box = tk.Frame(lf, width=self._lw, height=self._lh, bg="#000000")
         live_box.pack()
         live_box.pack_propagate(False)
         self.live_lbl = tk.Label(live_box, bg="#000000")
         self.live_lbl.pack(fill="both", expand=True)
 
-        tk.Frame(panels, bg="#2a2a3e", width=2).pack(side="left", fill="y", padx=18)
+        # Divider
+        tk.Frame(row, bg=TEXT_DIM, width=1).pack(side="left", fill="y", padx=32)
 
-        rf = tk.Frame(panels, bg=BG)
-        rf.pack(side="left")
-        tk.Label(rf, text="AI's Take", font=("Helvetica", 11, "bold"),
-                 bg=BG, fg=TEXT_DIM).pack(pady=(0, 6))
-        ai_box = tk.Frame(rf, width=VIDEO_W, height=VIDEO_H, bg=BG_CARD)
+        # Prediction panel + caption
+        rf = tk.Frame(row, bg=BG)
+        rf.pack(side="left", anchor="n")
+        tk.Label(rf, text="prediction", font=("Helvetica", 9),
+                 bg=BG, fg=TEXT_DIM).pack(pady=(0, 5))
+        ai_box = tk.Frame(rf, width=self._pw, height=self._ph, bg=BG_CARD)
         ai_box.pack()
         ai_box.pack_propagate(False)
         self.ai_lbl = tk.Label(ai_box, bg=BG_CARD,
-                               text="Press  Snap!  to analyse",
+                               text="press  snap  to begin",
                                font=("Helvetica", 12), fg=TEXT_DIM,
-                               wraplength=VIDEO_W - 20)
+                               wraplength=self._pw - 30)
         self.ai_lbl.pack(fill="both", expand=True)
 
-        bottom = tk.Frame(self, bg=BG)
-        bottom.pack(fill="x", padx=20, pady=(0, 8))
+        self.caption_lbl = tk.Label(rf, text="",
+                                    font=("Georgia", 13, "italic"),
+                                    bg=BG, fg=WHITE,
+                                    wraplength=self._pw,
+                                    justify="center")
+        self.caption_lbl.pack(pady=(18, 0))
 
-        self.snap_btn = tk.Button(bottom, text="  Snap!  ",
-                                  font=("Helvetica", 13, "bold"),
-                                  bg=ORANGE, fg="white", relief="flat",
+        # ── bottom bar: snap button + status ─────────────────────────────────
+        self._snap_bar = tk.Frame(wrap, bg=BG)
+        self._snap_bar.pack(pady=(32, 0))
+
+        self.snap_btn = tk.Button(self._snap_bar, text="snap",
+                                  font=("Helvetica", 14, "bold"),
+                                  bg=ORANGE, fg=WHITE, relief="flat",
+                                  padx=36, pady=10,
+                                  cursor="hand2",
                                   command=self._fire_ai)
         self.snap_btn.pack(side="left")
 
-        self.status_lbl = tk.Label(bottom, text="", font=("Helvetica", 10),
-                                   bg=BG, fg=TEXT_DIM, anchor="w")
-        self.status_lbl.pack(side="left", padx=(14, 0))
+        self.status_lbl = tk.Label(self._snap_bar, text="",
+                                   font=("Helvetica", 10),
+                                   bg=BG, fg=TEXT_MED, anchor="w")
+        self.status_lbl.pack(side="left", padx=(20, 0))
 
-        self.scene_lbl = tk.Label(self, text="", font=("Helvetica", 11, "bold"),
-                                  bg=BG, fg=ORANGE, anchor="center",
-                                  wraplength=VIDEO_W * 2 + 56, justify="center")
-        self.scene_lbl.pack(fill="x", padx=20, pady=(0, 12))
+        # ── save / discard row (hidden until result arrives) ──────────────────
+        self._sd_bar = tk.Frame(wrap, bg=BG)
+        # not packed yet — shown only after a result
+
+        self.save_btn = tk.Button(self._sd_bar, text="save",
+                                  font=("Helvetica", 14, "bold"),
+                                  bg=GREEN, fg="#0a0a14", relief="flat",
+                                  padx=36, pady=10, cursor="hand2",
+                                  command=self._on_save)
+        self.save_btn.pack(side="left", padx=(0, 12))
+
+        self.discard_btn = tk.Button(self._sd_bar, text="discard",
+                                     font=("Helvetica", 14),
+                                     bg=RED_DIM, fg=WHITE, relief="flat",
+                                     padx=36, pady=10, cursor="hand2",
+                                     command=self._on_discard)
+        self.discard_btn.pack(side="left")
 
     # ── camera ────────────────────────────────────────────────────────────────
 
@@ -172,8 +224,8 @@ class PipelineApp(tk.Tk):
             cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
         if not cap.isOpened():
             return
-        cap.set(cv2.CAP_PROP_FRAME_WIDTH, VIDEO_W)
-        cap.set(cv2.CAP_PROP_FRAME_HEIGHT, VIDEO_H)
+        cap.set(cv2.CAP_PROP_FRAME_WIDTH,  CAM_W)
+        cap.set(cv2.CAP_PROP_FRAME_HEIGHT, CAM_H)
         while self.running:
             ret, frame = cap.read()
             if ret:
@@ -188,7 +240,8 @@ class PipelineApp(tk.Tk):
         try:
             frame = self._frame_q.get_nowait()
             rgb   = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            photo = ImageTk.PhotoImage(Image.fromarray(rgb).resize((VIDEO_W, VIDEO_H)))
+            photo = ImageTk.PhotoImage(
+                Image.fromarray(rgb).resize((self._lw, self._lh)))
             self.live_lbl.config(image=photo)
             self.live_lbl.image = photo  # type: ignore[attr-defined]
         except queue.Empty:
@@ -205,21 +258,58 @@ class PipelineApp(tk.Tk):
         if kind == "error":
             self._ai_busy  = False
             self._ai_stage = ""
-            self.status_lbl.config(text=f"Error: {payload['msg'][:80]}", fg="#ef4444")
-            self.snap_btn.config(state="normal")
+            self.status_lbl.config(text=f"error: {payload['msg'][:80]}", fg="#ef4444")
+            self._show_snap_bar()
         elif kind == "image":
-            img_bytes = payload["data"]
-            caption   = payload.get("caption", "")
-            img   = Image.open(io.BytesIO(img_bytes))
-            img   = img.resize((VIDEO_W, VIDEO_H), Image.Resampling.LANCZOS)
+            # display result
+            img   = Image.open(io.BytesIO(payload["data"]))
+            img   = img.resize((self._pw, self._ph), Image.Resampling.LANCZOS)
             photo = ImageTk.PhotoImage(img)
             self.ai_lbl.config(image=photo, text="")
             self.ai_lbl.image = photo  # type: ignore[attr-defined]
+            caption = payload.get("caption", "")
+            self.caption_lbl.config(text=f"[ {caption} ]" if caption else "")
+
+            # stash pending data, swap bars
+            self._pending_orig    = payload["orig"]
+            self._pending_pred    = payload["data"]
+            self._pending_caption = caption
+
             self._ai_busy  = False
             self._ai_stage = ""
-            self.scene_lbl.config(text=caption if caption else "")
-            self.status_lbl.config(text="Done — press Snap! for a new read", fg=TEXT_DIM)
-            self.snap_btn.config(state="normal")
+            self.status_lbl.config(text="", fg=TEXT_MED)
+            self._show_sd_bar()
+
+    # ── bar helpers ───────────────────────────────────────────────────────────
+
+    def _show_snap_bar(self):
+        self._sd_bar.pack_forget()
+        self._snap_bar.pack(pady=(32, 0))
+        self.snap_btn.config(state="normal")
+
+    def _show_sd_bar(self):
+        self._snap_bar.pack_forget()
+        self._sd_bar.pack(pady=(32, 0))
+
+    # ── save / discard actions ────────────────────────────────────────────────
+
+    def _on_save(self):
+        orig, pred, cap = self._pending_orig, self._pending_pred, self._pending_caption
+        self._clear_pending()
+        self._show_snap_bar()
+        self.status_lbl.config(text="saving…", fg=TEXT_MED)
+        threading.Thread(target=self._save_and_push,
+                         args=(orig, pred, cap), daemon=True).start()
+
+    def _on_discard(self):
+        self._clear_pending()
+        self._show_snap_bar()
+        self.status_lbl.config(text="discarded", fg=TEXT_DIM)
+
+    def _clear_pending(self):
+        self._pending_orig    = None
+        self._pending_pred    = None
+        self._pending_caption = ""
 
     # ── status ticker ─────────────────────────────────────────────────────────
 
@@ -228,11 +318,11 @@ class PipelineApp(tk.Tk):
             return
         if self._ai_busy:
             labels = {
-                "interpreting": "Finding hidden scene…",
-                "drawing":      "Drawing the scene…",
+                "interpreting": "finding hidden scene…",
+                "drawing":      "drawing the scene…",
             }
             self.status_lbl.config(
-                text=labels.get(self._ai_stage, "Working…"), fg=ORANGE)
+                text=labels.get(self._ai_stage, "working…"), fg=ORANGE)
         self.after(500, self._poll_status)
 
     # ── predict ───────────────────────────────────────────────────────────────
@@ -243,8 +333,8 @@ class PipelineApp(tk.Tk):
         self._ai_busy  = True
         self._ai_stage = "interpreting"
         self.snap_btn.config(state="disabled")
-        self.status_lbl.config(text="Finding hidden scene…", fg=ORANGE)
-        self.scene_lbl.config(text="")
+        self.caption_lbl.config(text="")
+        self.status_lbl.config(text="finding hidden scene…", fg=ORANGE)
         frame = self.current_frame.copy()
         threading.Thread(target=self._ai_worker, args=(frame,), daemon=True).start()
 
@@ -254,17 +344,24 @@ class PipelineApp(tk.Tk):
             Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)).save(buf, format="JPEG")
             jpeg = buf.getvalue()
             final_bytes, label = self._run_predict(jpeg)
-            self._save_result(jpeg, final_bytes, label)
-            self._ai_q.put({"kind": "image", "data": final_bytes, "caption": label})
+            # result goes to queue WITHOUT saving — user decides
+            self._ai_q.put({
+                "kind":    "image",
+                "data":    final_bytes,
+                "orig":    jpeg,
+                "caption": label,
+            })
         except Exception as exc:
             print(f"[AI error] {exc}")
             self._ai_q.put({"kind": "error", "msg": str(exc)})
 
-    def _save_result(self, original: bytes, prediction: bytes, caption: str):
-        import datetime
-        saves_dir = os.path.join(os.path.dirname(__file__), "saves")
+    # ── save + git push ───────────────────────────────────────────────────────
+
+    def _save_and_push(self, original: bytes, prediction: bytes, caption: str):
+        saves_dir = os.path.join(APP_DIR, "saves")
         os.makedirs(saves_dir, exist_ok=True)
         ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+
         with open(os.path.join(saves_dir, f"{ts}_original.jpg"), "wb") as f:
             f.write(original)
         with open(os.path.join(saves_dir, f"{ts}_prediction.jpg"), "wb") as f:
@@ -272,7 +369,23 @@ class PipelineApp(tk.Tk):
         if caption:
             with open(os.path.join(saves_dir, f"{ts}_scene.txt"), "w", encoding="utf-8") as f:
                 f.write(caption)
+
         print(f"[Saved] saves/{ts}_*")
+        self._git_push(ts)
+
+    def _git_push(self, ts: str):
+        try:
+            subprocess.run(["git", "add", "saves/"],
+                           cwd=APP_DIR, check=True, capture_output=True)
+            subprocess.run(["git", "commit", "-m", f"snap {ts}"],
+                           cwd=APP_DIR, check=True, capture_output=True)
+            subprocess.run(["git", "push"],
+                           cwd=APP_DIR, check=True, capture_output=True)
+            print(f"[Git] pushed snap {ts}")
+        except subprocess.CalledProcessError as e:
+            print(f"[Git push failed] {e.stderr.decode()[:200]}")
+
+    # ── predict pipeline ──────────────────────────────────────────────────────
 
     def _run_predict(self, jpeg: bytes) -> tuple[bytes, str]:
         self._ai_stage = "interpreting"
@@ -330,12 +443,11 @@ class PipelineApp(tk.Tk):
         try:
             import replicate, base64, urllib.request
             b64 = base64.b64encode(jpeg).decode()
-            prompt = f"{scene}. {instructions[:400]}"
             output = replicate.run(
                 "black-forest-labs/flux-dev",
                 input={
                     "image":               f"data:image/jpeg;base64,{b64}",
-                    "prompt":              prompt,
+                    "prompt":              f"{scene}. {instructions[:400]}",
                     "prompt_strength":     0.5,
                     "num_inference_steps": 28,
                     "guidance":            3.5,
@@ -346,8 +458,7 @@ class PipelineApp(tk.Tk):
             for item in items:
                 if hasattr(item, "read"):
                     return item.read()  # type: ignore[union-attr]
-                url = str(item)
-                with urllib.request.urlopen(url) as resp:
+                with urllib.request.urlopen(str(item)) as resp:
                     return resp.read()
         except Exception as exc:
             print(f"[Replicate error] {exc}")

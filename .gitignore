@@ -1,6 +1,3 @@
-# saved outputs — stay local only
-saves/
-
 # secrets
 .env
 
