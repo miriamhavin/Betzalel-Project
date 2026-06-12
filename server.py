@@ -32,39 +32,41 @@ INTERPRETATION_PROMPT = (
     "Describe what it becomes (concrete noun or entity).\n"
     "The role must be motivated by visual properties and spatial context.\n\n"
     "Step 4 — Visual expansion:\n"
-    "Describe how each object should be visually extended or transformed\n"
-    "so the interpretation becomes immediately visible.\n"
-    "Focus on shapes, lines, and spatial growth.\n\n"
-    "OUTPUT FORMAT (strict):\n\n"
+    "For EACH object separately, describe:\n"
+    "- what should be drawn directly around that object\n"
+    "- how the drawing attaches spatially to that object (touching, surrounding, extending from it)\n"
+    "Every instruction must clearly reference the object's position in the image.\n\n"
+    "OUTPUT FORMAT (strict — follow exactly):\n\n"
     "INTERPRETATION: <single title, max 10 words>\n\n"
-    "OBJECT: <visual description> | ROLE: <interpretation role>\n"
-    "...\n\n"
+    "OBJECT 1: <visual description> | POSITION: <where in frame> | ROLE: <what it becomes>\n"
+    "OBJECT 2: <visual description> | POSITION: <where in frame> | ROLE: <what it becomes>\n"
+    "... (one line per object)\n\n"
     "VISUAL EXPANSION:\n"
-    "<per-object instructions>\n"
+    "[OBJECT 1] <what to draw around it> | ATTACH: <how it connects — touching edge / extending from top / surrounding / etc.>\n"
+    "[OBJECT 2] <what to draw around it> | ATTACH: <how it connects>\n"
+    "... (one line per object, same order)\n"
 )
 
 SCENE_DRAW_PROMPT = (
-    "You are an illustrator expanding a photo into a scene.\n\n"
+    "You are an illustrator annotating a photo of physical objects.\n\n"
     "SCENE: {scene}\n\n"
-    "The photo shows physical objects. Each object has become something else in the scene above.\n"
-    "Your job: draw directly onto the photo to expand the world around each object so the "
-    "viewer immediately understands what that object has BECOME — not what it literally is.\n\n"
-    "How to expand:\n"
-    "• Draw the environment, context, and extensions that GROW OUT OF each object\n"
-    "• If an object is a character's body, draw the head, limbs, expression around it\n"
-    "• If an object is a landscape feature, draw the horizon, sky, or ground that belongs to it\n"
-    "• If an object is a machine part, draw the rest of the machine connecting to it\n"
-    "• Extend lines FROM the object outward — make the object the seed of a larger drawing\n"
-    "• Connect objects visually where the scene says they interact\n"
-    "• The drawn world must make the everyday objects unrecognisable — a viewer should see\n"
-    "  the SCENE, not a cup or a laptop or a bag\n\n"
-    "DRAWING INSTRUCTIONS (what each object has become and what to draw around it):\n"
+    "The photo contains real physical objects. Your task is to add visual extensions\n"
+    "that reveal the imagined scene while keeping the original objects clearly recognizable.\n\n"
+    "IMPORTANT RULE:\n"
+    "Do NOT modify or hide the objects themselves.\n"
+    "Do NOT transform them into different objects.\n"
+    "Treat each object as a fixed anchor in the image.\n\n"
+    "How to draw:\n"
+    "• Draw additions around, above, or between objects\n"
+    "• Extend environments, context, or symbolic elements outward from objects\n"
+    "• If an object is part of a character or entity, draw the rest of the entity around it\n"
+    "  while leaving the original object unchanged\n"
+    "• If objects interact, draw connecting lines or shared environment between them\n"
+    "• The original objects must remain clearly visible and identifiable\n\n"
+    "DRAWING INSTRUCTIONS:\n"
     "{instructions}\n\n"
-    "STYLE: bold black lines, expressive weight variation, no color fills — "
-    "sketch-like but confident. The drawn extensions should feel like they belong "
-    "to the same world as the objects, not like labels floating above them.\n"
-    "Make the scene readable at a glance — someone should look at the result and "
-    "immediately see the scene, not just the original objects.\n"
+    "STYLE: bold black line sketch, expressive but clean. No color fills.\n"
+    "Keep a clear separation between real objects and drawn additions.\n"
 )
 
 # ── AI pipeline ───────────────────────────────────────────────────────────────
@@ -117,9 +119,12 @@ def _parse(pattern: str, text: str) -> str:
 
 
 def _parse_objects(text: str) -> list:
-    # BOX is optional — matches both old and new prompt formats
+    # matches: OBJECT [N]: <desc> | [POSITION: <pos> |] [BOX: [...] |] ROLE: <role>
     pat = re.compile(
-        r"OBJECT:\s*[^|]+?\s*\|(?:\s*BOX:\s*\[[^\]]+\]\s*\|)?\s*ROLE:\s*.+",
+        r"OBJECT\s*\d*:\s*[^|]+?\s*\|"
+        r"(?:\s*POSITION:\s*[^|]+?\s*\|)?"
+        r"(?:\s*BOX:\s*\[[^\]]+\]\s*\|)?"
+        r"\s*ROLE:\s*.+",
         re.IGNORECASE)
     return pat.findall(text)
 
