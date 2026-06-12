@@ -44,8 +44,7 @@ INTERPRETATION_PROMPT = (
     "Step 5 — Write drawing instructions: for each object, what lines to draw around it\n"
     "          so the viewer sees the scene role, not the real object. Be specific to position.\n\n"
     "OUTPUT FORMAT (strict, no extra text):\n\n"
-    "SCENE: <the winning scene — one sentence, no real object names>\n"
-    "SHORT: <5 words max — punchy, evocative, no object names>\n\n"
+    "SCENE: <the winning scene — one full sentence, reads like a story, no real object names>\n\n"
     "OBJECT: <real name> | BOX: [y_min, x_min, y_max, x_max] | ROLE: <what it is in the scene>\n"
     "...\n\n"
     "DRAWING INSTRUCTIONS:\n"
@@ -95,11 +94,11 @@ def run_predict(jpeg: bytes) -> tuple[bytes, str]:
     instructions = _parse_instructions(interp)
 
     if not objects:
-        return jpeg, scene or short
+        return jpeg, scene
 
     prompt = SCENE_DRAW_PROMPT.format(scene=scene, instructions=instructions)
     result = _draw(jpeg, prompt)
-    return (result or jpeg), (short or scene)
+    return (result or jpeg), scene
 
 
 def _draw(jpeg: bytes, prompt: str) -> bytes | None:
