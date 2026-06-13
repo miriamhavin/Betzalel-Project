@@ -17,12 +17,14 @@ app    = Flask(__name__)
 # ── prompts ───────────────────────────────────────────────────────────────────
 
 COMBINED_PROMPT = (
-    "Look at the shapes and positions in this photo — not at what the objects are.\n"
-    "Find a surprising hidden scene that lives in the arrangement itself.\n"
-    "Then draw it: add minimal thin black lines directly on the photo to reveal that scene.\n"
-    "The photo stays completely intact underneath. Only add lines — no fills, no shading, nothing else.\n\n"
-    "Output one line of text first: INTERPRETATION: <what you see, max 8 words>\n"
-    "Then output the image.\n"
+    "Look at the silhouettes and positions of the objects in this photo.\n"
+    "Find a hidden scene that lives in their shapes — not in what they are or do.\n\n"
+    "For each object: pick the specific edge or contour that becomes part of the scene.\n"
+    "Draw thin black lines that extend FROM that edge outward, continuing what it already looks like.\n"
+    "Every line must start from an actual surface of an actual object in the photo.\n"
+    "The photo stays intact underneath. Only add lines — no fills, no shading, no reconstruction.\n\n"
+    "Output first: INTERPRETATION: <title, max 8 words>\n"
+    "Then output the image with the lines drawn on it.\n"
 )
 
 SCENE_DRAW_PROMPT = (
