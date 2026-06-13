@@ -65,10 +65,9 @@ INTERPRETATION_PROMPT_TEMPLATE = (
 
 "OUTPUT FORMAT (strict — follow exactly):\n\n"
 "INTERPRETATION: <single title, max 10 words>\n\n"
-"OBJECT 1: <visual form> | POSITION: <where in frame> | BOX: [x1,y1,x2,y2] | FEATURE: <exact edge/contour/shape> | ROLE: <what that feature becomes>\n"
-"OBJECT 2: <visual form> | POSITION: <where in frame> | BOX: [x1,y1,x2,y2] | FEATURE: <exact edge/contour/shape> | ROLE: <what that feature becomes>\n"
+"OBJECT 1: <visual form> | POSITION: <where in frame> | FEATURE: <exact edge/contour/shape> | ROLE: <what that feature becomes>\n"
+"OBJECT 2: <visual form> | POSITION: <where in frame> | FEATURE: <exact edge/contour/shape> | ROLE: <what that feature becomes>\n"
 "... (one line per object)\n\n"
-"BOX coordinates: normalized 0.0–1.0, origin top-left, format [x1,y1,x2,y2].\n\n"
 "VISUAL EXPANSION:\n"
 "[OBJECT 1] FROM its <feature> → <what scene element to draw, extending in which direction>\n"
 "[OBJECT 2] FROM its <feature> → <what scene element to draw, extending in which direction>\n"
@@ -419,61 +418,22 @@ class PipelineApp(tk.Tk):
             config=types.GenerateContentConfig(
                 thinking_config=types.ThinkingConfig(thinking_budget=0)),  # type: ignore[call-arg]
         )
-        interp   = r2.text or ""
-        scene    = self._parse_scene(interp)
-        objects  = self._parse_objects_with_roles(interp)
-        per_obj  = self._parse_per_object_instructions(self._parse_instructions(interp))
+        interp       = r2.text or ""
+        scene        = self._parse_scene(interp)
+        objects      = self._parse_objects_with_roles(interp)
+        instructions = self._parse_instructions(interp)
 
         print(f"\n── Scene: {scene}")
         for o in objects:
-            print(f"  [{o['pos']}] {o['name']} | box: {o['box']} | feat: {o['feature']} → {o['role']}")
+            print(f"  [{o['pos']}] {o['name']} | feat: {o['feature']} → {o['role']}")
 
         if not objects:
             return jpeg, scene
 
         self._ai_stage = "drawing"
-        orig_img  = Image.open(io.BytesIO(jpeg)).convert("RGB")
-        W, H      = orig_img.size
-        result_img = orig_img.copy()
-
-        for i, obj in enumerate(objects):
-            box         = obj.get("box")
-            instruction = per_obj[i] if i < len(per_obj) else ""
-            if not box or not instruction:
-                print(f"  [skip obj {i+1}] no box or instruction")
-                continue
-
-            # Expand box by 15% padding so the drawing has context to attach to
-            x1, y1, x2, y2 = box
-            pad = 0.12
-            cx1, cy1 = max(0.0, x1 - pad), max(0.0, y1 - pad)
-            cx2, cy2 = min(1.0, x2 + pad), min(1.0, y2 + pad)
-            px1, py1, px2, py2 = int(cx1*W), int(cy1*H), int(cx2*W), int(cy2*H)
-            if px2 - px1 < 16 or py2 - py1 < 16:
-                continue
-
-            crop = orig_img.crop((px1, py1, px2, py2))
-            buf  = io.BytesIO()
-            crop.save(buf, format="JPEG", quality=95)
-
-            prompt = SCENE_DRAW_PROMPT_TEMPLATE.format(scene=scene, instructions=instruction)
-            drawn  = self._draw_gemini(buf.getvalue(), prompt)
-            if not drawn:
-                continue
-
-            drawn_img = Image.open(io.BytesIO(drawn)).convert("RGB")
-            drawn_img = drawn_img.resize((px2 - px1, py2 - py1), Image.Resampling.LANCZOS)
-
-            # Darker pixel wins → preserves black lines without touching the photo elsewhere
-            orig_arr  = np.array(result_img.crop((px1, py1, px2, py2)), dtype=np.uint8)
-            drawn_arr = np.array(drawn_img, dtype=np.uint8)
-            merged    = np.minimum(orig_arr, drawn_arr)
-            result_img.paste(Image.fromarray(merged), (px1, py1))
-            print(f"  [drew obj {i+1}] {obj['name']}")
-
-        out = io.BytesIO()
-        result_img.save(out, format="JPEG", quality=95)
-        return out.getvalue(), scene
+        prompt = SCENE_DRAW_PROMPT_TEMPLATE.format(scene=scene, instructions=instructions)
+        result = self._draw_gemini(jpeg, prompt) or jpeg
+        return result, scene
 
     # ── drawing backends ─────────────────────────────────────────────────────
 
