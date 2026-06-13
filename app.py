@@ -49,26 +49,27 @@ INTERPRETATION_PROMPT_TEMPLATE = (
 "The winning interpretation makes someone say: 'I never would have thought of that,\n"
 "but now I can't unsee it.' It must be latent in the shapes, not imposed on them.\n\n"
 
-"Step 3 — Object roles:\n"
-"For each object, assign a role in this interpretation.\n"
-"Describe what it becomes (concrete noun or entity).\n"
-"The role must be directly motivated by the object’s visual form and position.\n\n"
+"Step 3 — Object roles, grounded in visual features:\n"
+"For each object, look at its actual visual form: its specific edges, contours, silhouette, proportions.\n"
+"Identify ONE specific visible feature of this object — an exact edge, curve, protrusion, flat side —\n"
+"that IS the scene element. Not ‘this object looks like’, but ‘this specific part of it IS’.\n"
+"Name the feature precisely (e.g. ‘its curved left edge’, ‘the flat top surface’, ‘the pointed tip’).\n"
+"The role is what that feature becomes in the interpretation.\n\n"
 
-"Step 4 — Scene lines:\n"
-"For EACH object, describe the minimal line drawing that makes its role in the scene visible.\n"
-"The object itself is never redrawn or obscured — only lines extend from its edges.\n"
-"Be specific about WHAT to draw (a horizon, a limb, a rooftop, a wave) and WHERE it attaches.\n"
-"Examples: 'mountain ridge extending above top edge' / 'two legs continuing downward from base' /\n"
-"'horizon line crossing left and right of object' / 'curved neck and head emerging from top-left corner'\n\n"
+"Step 4 — Drawing from the feature:\n"
+"For each object, the drawing starts exactly from the feature you named and extends it into the scene.\n"
+"The line makes visible what that feature is becoming — it completes the object’s role.\n"
+"State: which edge/contour of the object the line starts from, and what it extends into.\n"
+"Do not draw the object itself — only what grows from the named feature outward.\n\n"
 
 "OUTPUT FORMAT (strict — follow exactly):\n\n"
 "INTERPRETATION: <single title, max 10 words>\n\n"
-"OBJECT 1: <visual description> | POSITION: <where in frame> | ROLE: <what it becomes>\n"
-"OBJECT 2: <visual description> | POSITION: <where in frame> | ROLE: <what it becomes>\n"
+"OBJECT 1: <visual form> | POSITION: <where in frame> | FEATURE: <exact edge/contour/shape> | ROLE: <what that feature becomes>\n"
+"OBJECT 2: <visual form> | POSITION: <where in frame> | FEATURE: <exact edge/contour/shape> | ROLE: <what that feature becomes>\n"
 "... (one line per object)\n\n"
 "VISUAL EXPANSION:\n"
-"[OBJECT 1] <what to draw> | ATTACH: <where it connects to the object>\n"
-"[OBJECT 2] <what to draw> | ATTACH: <where it connects to the object>\n"
+"[OBJECT 1] FROM its <feature> → <what scene element to draw, extending in which direction>\n"
+"[OBJECT 2] FROM its <feature> → <what scene element to draw, extending in which direction>\n"
 "... (one line per object, same order)\n"
 )
 
@@ -94,12 +95,12 @@ SCENE_DRAW_PROMPT_TEMPLATE = (
 "• no scene completion\n"
 "• do not copy or reconstruct any part of the photograph\n\n"
 
-"DRAWING INSTRUCTIONS — execute exactly, one per object:\n"
+"DRAWING INSTRUCTIONS — one per object, format: FROM its <feature> → <what to draw>:\n"
 "{instructions}\n\n"
 
-"Each instruction names a recognisable scene element (a limb, a horizon, a rooftop, a wave).\n"
-"Draw that element as a minimal black line sketch attached to the object at the specified point.\n"
-"The lines should make the hidden scene readable — not decorate or frame the objects.\n\n"
+"Each instruction specifies an exact physical feature of the object and what grows from it.\n"
+"Start your line at that feature. Extend it outward into the named scene element.\n"
+"The object itself is untouched — only what extends from the named feature is drawn.\n"
 "LINE STYLE: thin solid black lines only. No fill. No shading. No color. Pure overlay.\n"
 )
 
@@ -422,7 +423,7 @@ class PipelineApp(tk.Tk):
         instructions = self._parse_instructions(interp)
         print(f"\n── Scene: {scene}")
         for o in objects:
-            print(f"  [{o['pos']}] {o['name']} → {o['role']}")
+            print(f"  [{o['pos']}] {o['name']} | feat: {o['feature']} → {o['role']}")
 
         if not objects:
             return jpeg, scene
@@ -487,18 +488,20 @@ class PipelineApp(tk.Tk):
 
     def _parse_objects_with_roles(self, text: str) -> list[dict]:
         objects = []
-        # matches: OBJECT [N]: <desc> | [POSITION: <pos> |] [BOX: [...] |] ROLE: <role>
+        # matches: OBJECT [N]: <desc> | [POSITION: <pos> |] [FEATURE: <feat> |] [BOX: [...] |] ROLE: <role>
         pat = re.compile(
             r'OBJECT\s*\d*:\s*(?P<name>[^|]+?)\s*\|'
             r'(?:\s*POSITION:\s*(?P<pos>[^|]+?)\s*\|)?'
+            r'(?:\s*FEATURE:\s*(?P<feat>[^|]+?)\s*\|)?'
             r'(?:\s*BOX:\s*\[[^\]]+\]\s*\|)?'
             r'\s*ROLE:\s*(?P<role>.+)',
             re.IGNORECASE)
         for m in pat.finditer(text):
             objects.append({
-                "name": m.group("name").strip(),
-                "pos":  (m.group("pos") or "").strip(),
-                "role": m.group("role").strip(),
+                "name":    m.group("name").strip(),
+                "pos":     (m.group("pos")  or "").strip(),
+                "feature": (m.group("feat") or "").strip(),
+                "role":    m.group("role").strip(),
             })
         return objects
 
