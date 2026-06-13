@@ -348,18 +348,23 @@ class PipelineApp(tk.Tk):
 
         cands  = r.candidates or []
         cparts = cands[0].content.parts if cands and cands[0].content else []  # type: ignore[union-attr]
+        print(f"\n── Response parts: {[type(p).__name__ for p in (cparts or [])]}")
 
         scene      = ""
         result_img = None
         for part in (cparts or []):
             if hasattr(part, "text") and part.text:
                 scene = self._parse_scene(part.text) or scene
-                print(f"\n── Scene: {scene}\n{part.text[:300]}")
+                print(f"── Text: {part.text[:400]}")
             idata = getattr(part, "inline_data", None)
             if idata and getattr(idata, "data", None):
                 result_img = bytes(idata.data)  # type: ignore[arg-type]
+                print(f"── Image: {len(result_img)} bytes, mime={getattr(idata, 'mime_type', '?')}")
 
-        return (result_img or jpeg), scene
+        if result_img is None:
+            raise RuntimeError("Model returned no image — check console for response details")
+
+        return result_img, scene
 
     # ── drawing backends ─────────────────────────────────────────────────────
 
