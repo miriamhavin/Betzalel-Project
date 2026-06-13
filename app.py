@@ -54,12 +54,15 @@ INTERPRETATION_PROMPT_TEMPLATE = (
 "Describe what it becomes (concrete noun or entity).\n"
 "The role must be directly motivated by the object’s visual form and position.\n\n"
 
-"Step 4 — Visual expansion:\n"
-"For EACH object separately, describe minimal lines to draw around it\n"
-"that make its role explicit without changing the object itself.\n"
-"The object stays completely intact — only lines are added around it.\n"
-"- what should be drawn directly around that object\n"
-"- how the drawing attaches spatially to that object (touching edge / extending from top / surrounding / etc.)\n\n"
+"Step 4 — Stroke geometry:\n"
+"For EACH object separately, specify the exact strokes to add around it.\n"
+"The object itself is never redrawn — only extension strokes from its edges.\n"
+"Express each stroke using these four fields, no prose:\n"
+"  anchor: which edge or point of the object the stroke starts from\n"
+"  direction: which way the stroke extends (upward / left / curving outward / etc.)\n"
+"  shape: straight / arc / curve\n"
+"  length: short (less than object width) / medium / long (greater than object width)\n"
+"No scene descriptions. Geometry only.\n\n"
 
 "OUTPUT FORMAT (strict — follow exactly):\n\n"
 "INTERPRETATION: <single title, max 10 words>\n\n"
@@ -67,33 +70,38 @@ INTERPRETATION_PROMPT_TEMPLATE = (
 "OBJECT 2: <visual description> | POSITION: <where in frame> | ROLE: <what it becomes>\n"
 "... (one line per object)\n\n"
 "VISUAL EXPANSION:\n"
-"[OBJECT 1] <lines to draw around it> | ATTACH: <spatial connection to object>\n"
-"[OBJECT 2] <lines to draw around it> | ATTACH: <spatial connection to object>\n"
+"[OBJECT 1] anchor: <edge/point> | direction: <where extends> | shape: <straight/arc/curve> | length: <short/medium/long>\n"
+"[OBJECT 2] anchor: <edge/point> | direction: <where extends> | shape: <straight/arc/curve> | length: <short/medium/long>\n"
 "... (one line per object, same order)\n"
 )
 
 SCENE_DRAW_PROMPT_TEMPLATE = (
-"You are adding a minimal black line overlay to a clean photograph.\n\n"
+"You are generating ONLY an overlay layer — not a scene, not a photograph.\n\n"
 
-"SCENE: {scene}\n\n"
+"TASK: place sparse black strokes on top of the locked photograph.\n\n"
 
-"The photograph is clean and must stay that way. You are adding lines ON TOP —\n"
-"not modifying, recoloring, or obscuring anything in the photo.\n"
-"The final result must look like: original photo + precise black line sketch overlay.\n\n"
+"OUTPUT CONTRACT:\n"
+"• Transparent layer + sparse black strokes only\n"
+"• Visual proof test: if the photograph were removed, only thin black lines would remain\n"
+"• If anything else appears (fills, shading, reconstructed scene), the output is invalid\n\n"
 
-"Rules:\n"
-"• The original photo is untouched underneath — every object remains fully visible and recognizable\n"
-"• You only ADD lines. Nothing in the photo is removed, hidden, blurred, or recolored\n"
-"• Lines extend FROM the edges of objects outward, or connect between objects\n"
-"• If an object is part of a body, draw the missing body parts around it\n"
-"• If an object is a landscape feature, draw the horizon, ground, or sky around it\n"
-"• Lines should be minimal and precise — only what is needed to make the scene readable\n\n"
+"SCENE CONTEXT: {scene}\n\n"
 
-"DRAWING INSTRUCTIONS (one per object, where to attach each line):\n"
+"NEGATIVE CONSTRAINTS — never violate:\n"
+"• no shading\n"
+"• no fill\n"
+"• no textures\n"
+"• no color regions\n"
+"• no background reconstruction\n"
+"• no object redrawing\n"
+"• no scene completion\n"
+"• do not copy or reconstruct any part of the photograph\n\n"
+
+"STROKE INSTRUCTIONS — execute exactly, one per object:\n"
 "{instructions}\n\n"
 
-"STYLE: clean confident black lines on the untouched photo. No fills, no shading, no color.\n"
-"The overlay should feel like a light illustration laid over a photograph.\n"
+"STROKE STYLE: 1–2px solid black lines only. No fill. No shading. Pure overlay.\n"
+"You are a drawing pen placed over a locked photograph. Draw only the strokes listed above.\n"
 )
 
 class PipelineApp(tk.Tk):
@@ -436,7 +444,9 @@ class PipelineApp(tk.Tk):
             model="gemini-2.5-flash-image",
             contents=[
                 types.Part.from_bytes(data=jpeg, mime_type="image/jpeg"),
+                types.Part.from_text(text="LOCKED IMAGE — DO NOT MODIFY, COPY, OR RECONSTRUCT THIS PHOTOGRAPH. It is fixed input only."),
                 types.Part.from_text(text=prompt),
+                types.Part.from_text(text="REMINDER: output ONLY sparse black line strokes as overlay. Do not reconstruct or redraw the photograph."),
             ],
             config=types.GenerateContentConfig(
                 response_modalities=["TEXT", "IMAGE"]),  # type: ignore[call-arg]
