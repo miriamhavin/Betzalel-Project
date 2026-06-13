@@ -16,48 +16,46 @@ app    = Flask(__name__)
 
 # ── prompts ───────────────────────────────────────────────────────────────────
 
-SHAPE_PROMPT = (
-    "Describe this image using ONLY geometric vocabulary — as a shape-reading machine with no object knowledge.\n\n"
-    "For each visible shape output one line:\n"
-    "SHAPE N: [geometric term] | [position in frame] | [size vs others] | [orientation]\n\n"
-    "Geometric terms only: cylinder, rectangle, disc, sphere, cone, wedge, column, slab, arch, ring,\n"
-    "  cube, triangle, L-shape, curve, block, strip, dome, rod, plate\n"
-    "Position: top-left / upper-center / center / lower-right / right-edge / etc.\n"
-    "Size: largest / smallest / medium / twice the height of shape 2 / etc.\n"
-    "Orientation: upright / tilted-left / horizontal / leaning / etc.\n\n"
-    "After all shapes, add one line:\n"
-    "SKELETON: [what shape do the centers form as a group? where are clusters, gaps, alignments?]\n\n"
-    "Output nothing else. No object names. No functions. No purpose."
-)
-
 INTERPRETATION_PROMPT = (
-    "You are given a description of abstract geometric shapes — no objects, no context, only geometry.\n\n"
-    "SHAPE DATA:\n"
-    "{shape_description}\n\n"
-    "Find a surprising hidden world that could be seen in this arrangement of shapes.\n\n"
-    "Step 1 — Read the arrangement:\n"
-    "Note the skeleton, clusters, size relationships, spatial tensions, empty regions.\n\n"
-    "Step 2 — Three candidate scenes:\n"
-    "Generate three candidate scenes from the geometry alone.\n"
-    "For each: (a) cite which shapes/positions support it, (b) does any shape contradict it? Discard if so.\n"
-    "Discard the obvious reading.\n"
-    "Choose the most surprising scene still fully supported by the shapes.\n"
-    "It must make someone say: 'I can't unsee it' — because it was always there in the shapes.\n\n"
-    "Step 3 — Shape roles:\n"
-    "For each shape, name the exact geometric feature (edge, curve, silhouette, proportion)\n"
+    "Find the hidden world inside this visual arrangement. Work in steps.\n\n"
+    "Step 1 — Geometric inventory (be precise):\n"
+    "For each visible object describe its exact visual form — not what it is, what it looks like:\n"
+    "  • silhouette shape (specific geometry: tapered cylinder, flat wide rectangle, L-shape, etc.)\n"
+    "  • exact position in the frame\n"
+    "  • its most prominent edges, contours, or proportional features\n"
+    "  • size relative to the others\n"
+    "  • orientation and any tilt or lean\n"
+    "Then: skeleton of the whole group — what shape do all centers form together?\n"
+    "Note clusters, alignments, gaps, spatial tensions.\n\n"
+    "Step 2 — Name, then discard:\n"
+    "In one line, name what each object actually is.\n"
+    "Now set those names aside — they play no role from here.\n\n"
+    "Step 3 — Interpretation (shape and position only):\n"
+    "Generate three candidate scenes. Each must be driven by the SHAPES and POSITIONS from Step 1,\n"
+    "not by the object names from Step 2.\n"
+    "Apply the ARRANGEMENT TEST to each candidate:\n"
+    "  'Would this interpretation still work if the objects were in different positions?'\n"
+    "  If yes — discard it. A valid interpretation only works because of THIS exact arrangement.\n"
+    "Apply the FUNCTION TEST:\n"
+    "  'Does this interpretation depend on what the objects actually do or are used for?'\n"
+    "  If yes — discard it.\n"
+    "From what remains, discard the most obvious reading.\n"
+    "Choose the interpretation that is most surprising yet passes both tests.\n\n"
+    "Step 4 — Object roles:\n"
+    "For each object, name the specific geometric feature (exact edge, curve, silhouette, proportion)\n"
     "that IS the scene element. Write: 'its [feature] IS [scene element].'\n\n"
-    "Step 4 — Extension lines:\n"
-    "For each shape, describe the single line extending FROM that feature that completes its role.\n"
-    "Do not redraw the shape — only what grows outward.\n\n"
+    "Step 5 — Extension lines:\n"
+    "For each object, describe the single line extending FROM the named feature that completes its role.\n"
+    "Do not redraw the object — only what grows outward from that feature.\n\n"
     "OUTPUT FORMAT (strict — follow exactly):\n\n"
     "INTERPRETATION: <title, max 10 words>\n\n"
-    "OBJECT 1: <geometric label> | POSITION: <location> | FEATURE: <edge or contour> | ROLE: <what it becomes>\n"
-    "OBJECT 2: <geometric label> | POSITION: <location> | FEATURE: <edge or contour> | ROLE: <what it becomes>\n"
-    "... (one line per shape)\n\n"
+    "OBJECT 1: <silhouette shape> | POSITION: <exact location> | FEATURE: <specific edge or contour> | ROLE: <what it becomes>\n"
+    "OBJECT 2: <silhouette shape> | POSITION: <exact location> | FEATURE: <specific edge or contour> | ROLE: <what it becomes>\n"
+    "... (one line per object)\n\n"
     "VISUAL EXPANSION:\n"
     "[OBJECT 1] FROM its <feature> → <what to draw extending outward>\n"
     "[OBJECT 2] FROM its <feature> → <what to draw extending outward>\n"
-    "... (one line per shape, same order)\n"
+    "... (one line per object, same order)\n"
 )
 
 SCENE_DRAW_PROMPT = (
@@ -137,28 +135,16 @@ def _parse_per_object_instructions(expansion: str) -> list[str]:
 # ── AI pipeline ───────────────────────────────────────────────────────────────
 
 def run_predict(jpeg: bytes) -> tuple[bytes, str]:
-    cfg = types.GenerateContentConfig(
-        thinking_config=types.ThinkingConfig(thinking_budget=0))  # type: ignore[call-arg]
-
-    # Step 1 — extract pure geometric shape description from the image
-    r_shapes = client.models.generate_content(
+    r = client.models.generate_content(
         model="gemini-2.5-flash",
         contents=[
             types.Part.from_bytes(data=jpeg, mime_type="image/jpeg"),
-            types.Part.from_text(text=SHAPE_PROMPT),
+            types.Part.from_text(text=INTERPRETATION_PROMPT),
         ],
-        config=cfg,
+        config=types.GenerateContentConfig(
+            thinking_config=types.ThinkingConfig(thinking_budget=0)),  # type: ignore[call-arg]
     )
-    shape_text = r_shapes.text or ""
-
-    # Step 2 — interpret from shapes only (no image — breaks object-recognition bias)
-    r_interp = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=[types.Part.from_text(
-            text=INTERPRETATION_PROMPT.format(shape_description=shape_text))],
-        config=cfg,
-    )
-    interp       = r_interp.text or ""
+    interp       = r.text or ""
     scene        = _parse(r"(?:INTERPRETATION|SCENE):\s*(.+)", interp)
     objects      = _parse_objects(interp)
     instructions = _parse_instructions(interp)
@@ -166,7 +152,6 @@ def run_predict(jpeg: bytes) -> tuple[bytes, str]:
     if not objects:
         return jpeg, scene
 
-    # Step 3 — draw overlay on original image
     prompt = SCENE_DRAW_PROMPT.format(scene=scene, instructions=instructions)
     result = _draw(jpeg, prompt)
     return (result or jpeg), scene
