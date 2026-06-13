@@ -30,7 +30,7 @@ WHITE    = "#e2e8f0"
 INTERPRETATION_PROMPT_TEMPLATE = (
 "You are interpreting an image composed of physical objects.\n\n"
 
-"Your task is to find a hidden world that is ALREADY VISIBLE in the arrangement —\n"
+"Your task is to find an imaginative hidden world that is ALREADY VISIBLE in the arrangement —\n"
 "not invented on top of it, but latent inside it.\n"
 "The test: if someone removed the drawn overlay and only saw the original photo,\n"
 "they could still recognise the interpretation once told what to look for.\n"
@@ -54,15 +54,12 @@ INTERPRETATION_PROMPT_TEMPLATE = (
 "Describe what it becomes (concrete noun or entity).\n"
 "The role must be directly motivated by the object’s visual form and position.\n\n"
 
-"Step 4 — Stroke geometry:\n"
-"For EACH object separately, specify the exact strokes to add around it.\n"
-"The object itself is never redrawn — only extension strokes from its edges.\n"
-"Express each stroke using these four fields, no prose:\n"
-"  anchor: which edge or point of the object the stroke starts from\n"
-"  direction: which way the stroke extends (upward / left / curving outward / etc.)\n"
-"  shape: straight / arc / curve\n"
-"  length: short (less than object width) / medium / long (greater than object width)\n"
-"No scene descriptions. Geometry only.\n\n"
+"Step 4 — Scene lines:\n"
+"For EACH object, describe the minimal line drawing that makes its role in the scene visible.\n"
+"The object itself is never redrawn or obscured — only lines extend from its edges.\n"
+"Be specific about WHAT to draw (a horizon, a limb, a rooftop, a wave) and WHERE it attaches.\n"
+"Examples: 'mountain ridge extending above top edge' / 'two legs continuing downward from base' /\n"
+"'horizon line crossing left and right of object' / 'curved neck and head emerging from top-left corner'\n\n"
 
 "OUTPUT FORMAT (strict — follow exactly):\n\n"
 "INTERPRETATION: <single title, max 10 words>\n\n"
@@ -70,8 +67,8 @@ INTERPRETATION_PROMPT_TEMPLATE = (
 "OBJECT 2: <visual description> | POSITION: <where in frame> | ROLE: <what it becomes>\n"
 "... (one line per object)\n\n"
 "VISUAL EXPANSION:\n"
-"[OBJECT 1] anchor: <edge/point> | direction: <where extends> | shape: <straight/arc/curve> | length: <short/medium/long>\n"
-"[OBJECT 2] anchor: <edge/point> | direction: <where extends> | shape: <straight/arc/curve> | length: <short/medium/long>\n"
+"[OBJECT 1] <what to draw> | ATTACH: <where it connects to the object>\n"
+"[OBJECT 2] <what to draw> | ATTACH: <where it connects to the object>\n"
 "... (one line per object, same order)\n"
 )
 
@@ -97,11 +94,13 @@ SCENE_DRAW_PROMPT_TEMPLATE = (
 "• no scene completion\n"
 "• do not copy or reconstruct any part of the photograph\n\n"
 
-"STROKE INSTRUCTIONS — execute exactly, one per object:\n"
+"DRAWING INSTRUCTIONS — execute exactly, one per object:\n"
 "{instructions}\n\n"
 
-"STROKE STYLE: 1–2px solid black lines only. No fill. No shading. Pure overlay.\n"
-"You are a drawing pen placed over a locked photograph. Draw only the strokes listed above.\n"
+"Each instruction names a recognisable scene element (a limb, a horizon, a rooftop, a wave).\n"
+"Draw that element as a minimal black line sketch attached to the object at the specified point.\n"
+"The lines should make the hidden scene readable — not decorate or frame the objects.\n\n"
+"LINE STYLE: thin solid black lines only. No fill. No shading. No color. Pure overlay.\n"
 )
 
 class PipelineApp(tk.Tk):
