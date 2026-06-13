@@ -16,46 +16,34 @@ app    = Flask(__name__)
 
 # ── prompts ───────────────────────────────────────────────────────────────────
 
-INTERPRETATION_PROMPT = (
-    "Find the hidden world inside this visual arrangement. Work in steps.\n\n"
-    "Step 1 — Geometric inventory (be precise):\n"
+COMBINED_PROMPT = (
+    "Find the hidden world inside this arrangement, then immediately draw it as a minimal black line overlay.\n\n"
+    "THINK THROUGH these steps before drawing:\n\n"
+    "Step 1 — Geometric inventory:\n"
     "For each visible object describe its exact visual form — not what it is, what it looks like:\n"
-    "  • silhouette shape (specific geometry: tapered cylinder, flat wide rectangle, L-shape, etc.)\n"
+    "  • silhouette shape (tapered cylinder, flat wide rectangle, L-shape, etc.)\n"
     "  • exact position in the frame\n"
-    "  • its most prominent edges, contours, or proportional features\n"
-    "  • size relative to the others\n"
-    "  • orientation and any tilt or lean\n"
-    "Then: skeleton of the whole group — what shape do all centers form together?\n"
-    "Note clusters, alignments, gaps, spatial tensions.\n\n"
+    "  • most prominent edges, contours, proportional features\n"
+    "  • size relative to others, orientation and any tilt\n"
+    "Skeleton: what shape do all centers form as a group?\n\n"
     "Step 2 — Name, then discard:\n"
-    "In one line, name what each object actually is.\n"
-    "Now set those names aside — they play no role from here.\n\n"
-    "Step 3 — Interpretation (shape and position only):\n"
-    "Generate three candidate scenes. Each must be driven by the SHAPES and POSITIONS from Step 1,\n"
-    "not by the object names from Step 2.\n"
-    "Apply the ARRANGEMENT TEST to each candidate:\n"
-    "  'Would this interpretation still work if the objects were in different positions?'\n"
-    "  If yes — discard it. A valid interpretation only works because of THIS exact arrangement.\n"
-    "Apply the FUNCTION TEST:\n"
-    "  'Does this interpretation depend on what the objects actually do or are used for?'\n"
-    "  If yes — discard it.\n"
-    "From what remains, discard the most obvious reading.\n"
-    "Choose the interpretation that is most surprising yet passes both tests.\n\n"
-    "Step 4 — Object roles:\n"
-    "For each object, name the specific geometric feature (exact edge, curve, silhouette, proportion)\n"
-    "that IS the scene element. Write: 'its [feature] IS [scene element].'\n\n"
-    "Step 5 — Extension lines:\n"
-    "For each object, describe the single line extending FROM the named feature that completes its role.\n"
-    "Do not redraw the object — only what grows outward from that feature.\n\n"
-    "OUTPUT FORMAT (strict — follow exactly):\n\n"
-    "INTERPRETATION: <title, max 10 words>\n\n"
-    "OBJECT 1: <silhouette shape> | POSITION: <exact location> | FEATURE: <specific edge or contour> | ROLE: <what it becomes>\n"
-    "OBJECT 2: <silhouette shape> | POSITION: <exact location> | FEATURE: <specific edge or contour> | ROLE: <what it becomes>\n"
-    "... (one line per object)\n\n"
-    "VISUAL EXPANSION:\n"
-    "[OBJECT 1] FROM its <feature> → <what to draw extending outward>\n"
-    "[OBJECT 2] FROM its <feature> → <what to draw extending outward>\n"
-    "... (one line per object, same order)\n"
+    "Name what each object actually is (one word each).\n"
+    "Set those names aside — they play no role from here.\n\n"
+    "Step 3 — Interpretation (shapes and positions only):\n"
+    "Generate three candidate scenes driven by SHAPES and POSITIONS, not by object names.\n"
+    "ARRANGEMENT TEST: would it work if objects were in different positions? If yes — discard.\n"
+    "FUNCTION TEST: does it depend on what objects do or are used for? If yes — discard.\n"
+    "Discard the most obvious reading. Choose the most surprising scene that passes both tests.\n\n"
+    "Step 4 — Object roles and extension lines:\n"
+    "For each object: which specific geometric feature IS the scene element?\n"
+    "What single line extends FROM that feature to complete its role?\n\n"
+    "NOW DRAW:\n"
+    "Produce the original photograph with a minimal black line overlay.\n"
+    "For each object, draw only the line described in Step 4 — starting from the named feature, extending outward.\n"
+    "The photograph is untouched underneath. You only ADD thin black lines.\n"
+    "No fills. No shading. No reconstruction. Pure line overlay on the intact photo.\n\n"
+    "Also output exactly one text line before the image:\n"
+    "INTERPRETATION: <title, max 10 words>\n"
 )
 
 SCENE_DRAW_PROMPT = (
@@ -136,25 +124,27 @@ def _parse_per_object_instructions(expansion: str) -> list[str]:
 
 def run_predict(jpeg: bytes) -> tuple[bytes, str]:
     r = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model="gemini-2.5-flash-image",
         contents=[
             types.Part.from_bytes(data=jpeg, mime_type="image/jpeg"),
-            types.Part.from_text(text=INTERPRETATION_PROMPT),
+            types.Part.from_text(text=COMBINED_PROMPT),
         ],
         config=types.GenerateContentConfig(
-            thinking_config=types.ThinkingConfig(thinking_budget=0)),  # type: ignore[call-arg]
+            response_modalities=["TEXT", "IMAGE"]),  # type: ignore[call-arg]
     )
-    interp       = r.text or ""
-    scene        = _parse(r"(?:INTERPRETATION|SCENE):\s*(.+)", interp)
-    objects      = _parse_objects(interp)
-    instructions = _parse_instructions(interp)
+    cands  = r.candidates or []
+    cparts = cands[0].content.parts if cands and cands[0].content else []  # type: ignore[union-attr]
 
-    if not objects:
-        return jpeg, scene
+    scene      = ""
+    result_img = None
+    for part in (cparts or []):
+        if hasattr(part, "text") and part.text:
+            scene = _parse(r"(?:INTERPRETATION|SCENE):\s*(.+)", part.text) or scene
+        idata = getattr(part, "inline_data", None)
+        if idata and getattr(idata, "data", None):
+            result_img = bytes(idata.data)  # type: ignore[arg-type]
 
-    prompt = SCENE_DRAW_PROMPT.format(scene=scene, instructions=instructions)
-    result = _draw(jpeg, prompt)
-    return (result or jpeg), scene
+    return (result_img or jpeg), scene
 
 
 def _draw(jpeg: bytes, prompt: str) -> bytes | None:

@@ -28,83 +28,41 @@ GREEN    = "#22c55e"
 RED_DIM  = "#374151"
 WHITE    = "#e2e8f0"
 
-INTERPRETATION_PROMPT_TEMPLATE = (
-"Find the hidden world inside this visual arrangement. Work in steps.\n\n"
+COMBINED_PROMPT = (
+"Find the hidden world inside this arrangement, then immediately draw it as a minimal black line overlay.\n\n"
 
-"Step 1 — Geometric inventory (be precise):\n"
+"THINK THROUGH these steps before drawing:\n\n"
+
+"Step 1 — Geometric inventory:\n"
 "For each visible object describe its exact visual form — not what it is, what it looks like:\n"
-"  • silhouette shape (specific geometry: tapered cylinder, flat wide rectangle, L-shape, etc.)\n"
+"  • silhouette shape (tapered cylinder, flat wide rectangle, L-shape, etc.)\n"
 "  • exact position in the frame\n"
-"  • its most prominent edges, contours, or proportional features\n"
-"  • size relative to the others\n"
-"  • orientation and any tilt or lean\n"
-"Then: skeleton of the whole group — what shape do all centers form together?\n"
-"Note clusters, alignments, gaps, spatial tensions.\n\n"
+"  • most prominent edges, contours, proportional features\n"
+"  • size relative to others, orientation and any tilt\n"
+"Skeleton: what shape do all centers form as a group?\n\n"
 
 "Step 2 — Name, then discard:\n"
-"In one line, name what each object actually is.\n"
-"Now set those names aside — they play no role from here.\n\n"
+"Name what each object actually is (one word each).\n"
+"Set those names aside — they play no role from here.\n\n"
 
-"Step 3 — Interpretation (shape and position only):\n"
-"Generate three candidate scenes. Each must be driven by the SHAPES and POSITIONS from Step 1,\n"
-"not by the object names from Step 2.\n"
-"Apply the ARRANGEMENT TEST to each candidate:\n"
-"  ‘Would this interpretation still work if the objects were in different positions?’\n"
-"  If yes — discard it. A valid interpretation only works because of THIS exact arrangement.\n"
-"Apply the FUNCTION TEST:\n"
-"  ‘Does this interpretation depend on what the objects actually do or are used for?’\n"
-"  If yes — discard it.\n"
-"From what remains, discard the most obvious reading.\n"
-"Choose the interpretation that is most surprising yet passes both tests.\n\n"
+"Step 3 — Interpretation (shapes and positions only):\n"
+"Generate three candidate scenes driven by SHAPES and POSITIONS, not by object names.\n"
+"ARRANGEMENT TEST: would it work if objects were in different positions? If yes — discard.\n"
+"FUNCTION TEST: does it depend on what objects do or are used for? If yes — discard.\n"
+"Discard the most obvious reading. Choose the most surprising scene that passes both tests.\n\n"
 
-"Step 4 — Object roles:\n"
-"For each object, name the specific geometric feature (exact edge, curve, silhouette, proportion)\n"
-"that IS the scene element. Write: ‘its [feature] IS [scene element].’\n\n"
+"Step 4 — Object roles and extension lines:\n"
+"For each object: which specific geometric feature IS the scene element?\n"
+"What single line extends FROM that feature to complete its role?\n\n"
 
-"Step 5 — Extension lines:\n"
-"For each object, describe the single line extending FROM the named feature that completes its role.\n"
-"Do not redraw the object — only what grows outward from that feature.\n\n"
+"NOW DRAW:\n"
+"Produce the original photograph with a minimal black line overlay.\n"
+"For each object, draw only the line described in Step 4 — starting from the named feature, extending outward.\n"
+"The photograph is untouched underneath. You only ADD thin black lines.\n"
+"No fills. No shading. No reconstruction. Pure line overlay on the intact photo.\n\n"
 
-"OUTPUT FORMAT (strict — follow exactly):\n\n"
-"INTERPRETATION: <title, max 10 words>\n\n"
-"OBJECT 1: <silhouette shape> | POSITION: <exact location> | FEATURE: <specific edge or contour> | ROLE: <what it becomes>\n"
-"OBJECT 2: <silhouette shape> | POSITION: <exact location> | FEATURE: <specific edge or contour> | ROLE: <what it becomes>\n"
-"... (one line per object)\n\n"
-"VISUAL EXPANSION:\n"
-"[OBJECT 1] FROM its <feature> → <what to draw extending outward>\n"
-"[OBJECT 2] FROM its <feature> → <what to draw extending outward>\n"
-"... (one line per object, same order)\n"
-)
-
-SCENE_DRAW_PROMPT_TEMPLATE = (
-"You are generating ONLY an overlay layer — not a scene, not a photograph.\n\n"
-
-"TASK: place sparse black strokes on top of the locked photograph.\n\n"
-
-"OUTPUT CONTRACT:\n"
-"• Transparent layer + sparse black strokes only\n"
-"• Visual proof test: if the photograph were removed, only thin black lines would remain\n"
-"• If anything else appears (fills, shading, reconstructed scene), the output is invalid\n\n"
-
-"SCENE CONTEXT: {scene}\n\n"
-
-"NEGATIVE CONSTRAINTS — never violate:\n"
-"• no shading\n"
-"• no fill\n"
-"• no textures\n"
-"• no color regions\n"
-"• no background reconstruction\n"
-"• no object redrawing\n"
-"• no scene completion\n"
-"• do not copy or reconstruct any part of the photograph\n\n"
-
-"DRAWING INSTRUCTIONS — one per object, format: FROM its <feature> → <what to draw>:\n"
-"{instructions}\n\n"
-
-"Each instruction specifies an exact physical feature of the object and what grows from it.\n"
-"Start your line at that feature. Extend it outward into the named scene element.\n"
-"The object itself is untouched — only what extends from the named feature is drawn.\n"
-"LINE STYLE: thin solid black lines only. No fill. No shading. No color. Pure overlay.\n"
+"Also output exactly one text line before the image:\n"
+"INTERPRETATION: <title, max 10 words>\n"
 )
 
 class PipelineApp(tk.Tk):
@@ -339,12 +297,7 @@ class PipelineApp(tk.Tk):
         if not self.running:
             return
         if self._ai_busy:
-            labels = {
-                "interpreting": "finding hidden scene…",
-                "drawing":      "drawing the scene…",
-            }
-            self.status_lbl.config(
-                text=labels.get(self._ai_stage, "working…"), fg=ORANGE)
+            self.status_lbl.config(text="finding and drawing scene…", fg=ORANGE)
         self.after(500, self._poll_status)
 
     # ── predict ───────────────────────────────────────────────────────────────
@@ -412,30 +365,29 @@ class PipelineApp(tk.Tk):
     def _run_predict(self, jpeg: bytes) -> tuple[bytes, str]:
         self._ai_stage = "interpreting"
         r = self.client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-2.5-flash-image",
             contents=[
                 types.Part.from_bytes(data=jpeg, mime_type="image/jpeg"),
-                types.Part.from_text(text=INTERPRETATION_PROMPT_TEMPLATE),
+                types.Part.from_text(text=COMBINED_PROMPT),
             ],
             config=types.GenerateContentConfig(
-                thinking_config=types.ThinkingConfig(thinking_budget=0)),  # type: ignore[call-arg]
+                response_modalities=["TEXT", "IMAGE"]),  # type: ignore[call-arg]
         )
-        interp       = r.text or ""
-        scene        = self._parse_scene(interp)
-        objects      = self._parse_objects_with_roles(interp)
-        instructions = self._parse_instructions(interp)
 
-        print(f"\n── Scene: {scene}")
-        for o in objects:
-            print(f"  [{o['pos']}] {o['name']} | feat: {o['feature']} → {o['role']}")
+        cands  = r.candidates or []
+        cparts = cands[0].content.parts if cands and cands[0].content else []  # type: ignore[union-attr]
 
-        if not objects:
-            return jpeg, scene
+        scene      = ""
+        result_img = None
+        for part in (cparts or []):
+            if hasattr(part, "text") and part.text:
+                scene = self._parse_scene(part.text) or scene
+                print(f"\n── Scene: {scene}\n{part.text[:300]}")
+            idata = getattr(part, "inline_data", None)
+            if idata and getattr(idata, "data", None):
+                result_img = bytes(idata.data)  # type: ignore[arg-type]
 
-        self._ai_stage = "drawing"
-        prompt = SCENE_DRAW_PROMPT_TEMPLATE.format(scene=scene, instructions=instructions)
-        result = self._draw_gemini(jpeg, prompt) or jpeg
-        return result, scene
+        return (result_img or jpeg), scene
 
     # ── drawing backends ─────────────────────────────────────────────────────
 
