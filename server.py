@@ -17,14 +17,16 @@ app    = Flask(__name__)
 # ── prompts ───────────────────────────────────────────────────────────────────
 
 COMBINED_PROMPT = (
-    "Look at the silhouettes and positions of the objects in this photo.\n"
-    "Find a hidden scene that lives in their shapes — not in what they are or do.\n\n"
-    "For each object: pick the specific edge or contour that becomes part of the scene.\n"
-    "Draw thin black lines that extend FROM that edge outward, continuing what it already looks like.\n"
-    "Every line must start from an actual surface of an actual object in the photo.\n"
-    "The photo stays intact underneath. Only add lines — no fills, no shading, no reconstruction.\n\n"
+    "Study the exact silhouettes, positions, and spatial relationships of the objects in this photo.\n"
+    "Find a hidden scene where EACH object becomes a specific element — chosen because of its actual shape.\n"
+    "Every part of the scene must be anchored to a real object: nothing invented in empty space.\n\n"
+    "For each object in the photo:\n"
+    "- Decide which scene element it becomes (based on its silhouette, not its function)\n"
+    "- Identify the specific edge or contour of that object that IS that scene element\n"
+    "- Draw a thin black line extending FROM that edge, completing what it already looks like\n\n"
+    "The photo stays intact underneath. Only add lines — no fills, no shading, no reconstruction.\n"
     "Output first: INTERPRETATION: <title, max 8 words>\n"
-    "Then output the image with the lines drawn on it.\n"
+    "Then output the image.\n"
 )
 
 SCENE_DRAW_PROMPT = (
