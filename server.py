@@ -1,4 +1,5 @@
 import os, io, re, base64, datetime, subprocess, threading
+import numpy as np
 from flask import Flask, request, jsonify, send_from_directory
 from PIL import Image
 from google import genai
@@ -46,9 +47,10 @@ INTERPRETATION_PROMPT = (
     "Do not draw the object itself — only what grows from the named feature outward.\n\n"
     "OUTPUT FORMAT (strict — follow exactly):\n\n"
     "INTERPRETATION: <single title, max 10 words>\n\n"
-    "OBJECT 1: <visual form> | POSITION: <where in frame> | FEATURE: <exact edge/contour/shape> | ROLE: <what that feature becomes>\n"
-    "OBJECT 2: <visual form> | POSITION: <where in frame> | FEATURE: <exact edge/contour/shape> | ROLE: <what that feature becomes>\n"
+    "OBJECT 1: <visual form> | POSITION: <where in frame> | BOX: [x1,y1,x2,y2] | FEATURE: <exact edge/contour/shape> | ROLE: <what that feature becomes>\n"
+    "OBJECT 2: <visual form> | POSITION: <where in frame> | BOX: [x1,y1,x2,y2] | FEATURE: <exact edge/contour/shape> | ROLE: <what that feature becomes>\n"
     "... (one line per object)\n\n"
+    "BOX coordinates: normalized 0.0–1.0, origin top-left, format [x1,y1,x2,y2].\n\n"
     "VISUAL EXPANSION:\n"
     "[OBJECT 1] FROM its <feature> → <what scene element to draw, extending in which direction>\n"
     "[OBJECT 2] FROM its <feature> → <what scene element to draw, extending in which direction>\n"
@@ -80,6 +82,55 @@ SCENE_DRAW_PROMPT = (
     "LINE STYLE: thin solid black lines only. No fill. No shading. No color. Pure overlay.\n"
 )
 
+# ── parsing helpers ───────────────────────────────────────────────────────────
+
+def _parse(pattern: str, text: str) -> str:
+    m = re.search(pattern, text, re.IGNORECASE)
+    return m.group(1).strip() if m else ""
+
+
+def _parse_objects(text: str) -> list[dict]:
+    objects = []
+    pat = re.compile(
+        r"OBJECT\s*\d*:\s*(?P<name>[^|]+?)\s*\|"
+        r"(?:\s*POSITION:\s*(?P<pos>[^|]+?)\s*\|)?"
+        r"(?:\s*BOX:\s*\[(?P<box>[^\]]+)\]\s*\|)?"
+        r"(?:\s*FEATURE:\s*(?P<feat>[^|]+?)\s*\|)?"
+        r"\s*ROLE:\s*(?P<role>.+)",
+        re.IGNORECASE)
+    for m in pat.finditer(text):
+        box_str = (m.group("box") or "").strip()
+        try:
+            box = [float(v) for v in box_str.split(",") if v.strip()] if box_str else None
+            box = box if box and len(box) == 4 else None
+        except ValueError:
+            box = None
+        objects.append({
+            "name":    m.group("name").strip(),
+            "pos":     (m.group("pos")  or "").strip(),
+            "box":     box,
+            "feature": (m.group("feat") or "").strip(),
+            "role":    m.group("role").strip(),
+        })
+    return objects
+
+
+def _parse_instructions(text: str) -> str:
+    m = re.search(r"(?:VISUAL EXPANSION|DRAWING INSTRUCTIONS):\s*\n([\s\S]+)", text, re.IGNORECASE)
+    return m.group(1).strip() if m else ""
+
+
+def _parse_per_object_instructions(expansion: str) -> list[str]:
+    results: dict[int, str] = {}
+    pat = re.compile(r'\[OBJECT\s*(\d+)\]\s*(.+?)(?=\n\s*\[OBJECT|\Z)', re.IGNORECASE | re.DOTALL)
+    for m in pat.finditer(expansion):
+        idx = int(m.group(1)) - 1
+        results[idx] = m.group(2).strip()
+    if not results:
+        return []
+    return [results.get(i, "") for i in range(max(results) + 1)]
+
+
 # ── AI pipeline ───────────────────────────────────────────────────────────────
 
 def run_predict(jpeg: bytes) -> tuple[bytes, str]:
@@ -92,17 +143,52 @@ def run_predict(jpeg: bytes) -> tuple[bytes, str]:
         config=types.GenerateContentConfig(
             thinking_config=types.ThinkingConfig(thinking_budget=0)),  # type: ignore[call-arg]
     )
-    interp       = r.text or ""
-    scene        = _parse(r"(?:INTERPRETATION|SCENE):\s*(.+)", interp)
-    objects      = _parse_objects(interp)
-    instructions = _parse_instructions(interp)
+    interp  = r.text or ""
+    scene   = _parse(r"(?:INTERPRETATION|SCENE):\s*(.+)", interp)
+    objects = _parse_objects(interp)
+    per_obj = _parse_per_object_instructions(_parse_instructions(interp))
 
     if not objects:
         return jpeg, scene
 
-    prompt = SCENE_DRAW_PROMPT.format(scene=scene, instructions=instructions)
-    result = _draw(jpeg, prompt)
-    return (result or jpeg), scene
+    orig_img   = Image.open(io.BytesIO(jpeg)).convert("RGB")
+    W, H       = orig_img.size
+    result_img = orig_img.copy()
+
+    for i, obj in enumerate(objects):
+        box         = obj.get("box")
+        instruction = per_obj[i] if i < len(per_obj) else ""
+        if not box or not instruction:
+            continue
+
+        x1, y1, x2, y2 = box
+        pad = 0.12
+        cx1, cy1 = max(0.0, x1 - pad), max(0.0, y1 - pad)
+        cx2, cy2 = min(1.0, x2 + pad), min(1.0, y2 + pad)
+        px1, py1, px2, py2 = int(cx1*W), int(cy1*H), int(cx2*W), int(cy2*H)
+        if px2 - px1 < 16 or py2 - py1 < 16:
+            continue
+
+        crop = orig_img.crop((px1, py1, px2, py2))
+        buf  = io.BytesIO()
+        crop.save(buf, format="JPEG", quality=95)
+
+        prompt = SCENE_DRAW_PROMPT.format(scene=scene, instructions=instruction)
+        drawn  = _draw(buf.getvalue(), prompt)
+        if not drawn:
+            continue
+
+        drawn_img = Image.open(io.BytesIO(drawn)).convert("RGB")
+        drawn_img = drawn_img.resize((px2 - px1, py2 - py1), Image.Resampling.LANCZOS)
+
+        orig_arr  = np.array(result_img.crop((px1, py1, px2, py2)), dtype=np.uint8)
+        drawn_arr = np.array(drawn_img, dtype=np.uint8)
+        merged    = np.minimum(orig_arr, drawn_arr)
+        result_img.paste(Image.fromarray(merged), (px1, py1))
+
+    out = io.BytesIO()
+    result_img.save(out, format="JPEG", quality=95)
+    return out.getvalue(), scene
 
 
 def _draw(jpeg: bytes, prompt: str) -> bytes | None:
@@ -125,27 +211,6 @@ def _draw(jpeg: bytes, prompt: str) -> bytes | None:
             return bytes(idata.data)  # type: ignore[arg-type]
     return None
 
-
-def _parse(pattern: str, text: str) -> str:
-    m = re.search(pattern, text, re.IGNORECASE)
-    return m.group(1).strip() if m else ""
-
-
-def _parse_objects(text: str) -> list:
-    # matches: OBJECT [N]: <desc> | [POSITION: <pos> |] [BOX: [...] |] ROLE: <role>
-    pat = re.compile(
-        r"OBJECT\s*\d*:\s*[^|]+?\s*\|"
-        r"(?:\s*POSITION:\s*[^|]+?\s*\|)?"
-        r"(?:\s*BOX:\s*\[[^\]]+\]\s*\|)?"
-        r"\s*ROLE:\s*.+",
-        re.IGNORECASE)
-    return pat.findall(text)
-
-
-def _parse_instructions(text: str) -> str:
-    # accepts VISUAL EXPANSION: or DRAWING INSTRUCTIONS:
-    m = re.search(r"(?:VISUAL EXPANSION|DRAWING INSTRUCTIONS):\s*\n([\s\S]+)", text, re.IGNORECASE)
-    return m.group(1).strip() if m else ""
 
 # ── git ───────────────────────────────────────────────────────────────────────
 
