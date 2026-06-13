@@ -41,11 +41,13 @@ INTERPRETATION_PROMPT_TEMPLATE = (
 "Then list all visible objects briefly as simple visual forms (no functions, no naming interpretation).\n\n"
 
 "Step 2 — Interpretation:\n"
-"Infer a single coherent interpretation of the arrangement.\n"
-"This can be a narrative scene, a character, an environment, or an entity.\n"
-"It must emerge from the actual visual forms and their spatial relationships —\n"
-"not from what the objects are used for.\n"
-"Ask: what do these shapes and positions already look like, if you forget what they are?\n\n"
+"Generate three candidate interpretations of the arrangement — each a different world.\n"
+"Discard the first one: it is the obvious reading and therefore the least interesting.\n"
+"Discard the second if it is merely a variation of the first.\n"
+"Choose the third — the one that surprises even you, but is still fully supported\n"
+"by the actual visual forms and spatial positions.\n"
+"The winning interpretation makes someone say: 'I never would have thought of that,\n"
+"but now I can't unsee it.' It must be latent in the shapes, not imposed on them.\n\n"
 
 "Step 3 — Object roles:\n"
 "For each object, assign a role in this interpretation.\n"
