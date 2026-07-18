@@ -1,157 +1,398 @@
-import os, io, re, base64, datetime, subprocess, threading
-import numpy as np
+import os, sys, json, base64, datetime, subprocess, threading, time, builtins as _builtins
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[union-attr]
+
+_orig_print = _builtins.print
+def print(*args, **kwargs):
+    ts = datetime.datetime.now().strftime("%H:%M:%S")
+    _orig_print(f"[{ts}]", *args, **kwargs)
+
 from flask import Flask, request, jsonify, send_from_directory
-from PIL import Image
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
+import serial
 
 load_dotenv()
 
 APP_DIR   = os.path.dirname(os.path.abspath(__file__))
 SAVES_DIR = os.path.join(APP_DIR, "saves")
+FONT_DIR  = os.path.join(APP_DIR, "font", "פונט מסדה")
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY", ""))
 app    = Flask(__name__)
 
+# ── Arduino buttons ──────────────────────────────────────────────────────────
+# Three physical buttons replace the keyboard: ENTER (advance), YES (mark
+# correct), NO (mark wrong). The Arduino sketch prints one of those words over
+# serial on each press; this thread reads them into a queue that /button-poll
+# hands to the browser one at a time, the same way it already polls /status
+# during a prediction. RESULT_ON/RESULT_OFF are sent back to the Arduino to
+# light the yes/no buttons' LEDs while a result is on screen.
+
+ARDUINO_PORT = os.getenv("ARDUINO_PORT", "COM3")
+ARDUINO_BAUD = int(os.getenv("ARDUINO_BAUD", "9600"))
+ARDUINO_EVENTS = {"ENTER", "YES", "NO"}
+
+_button_queue: list[str] = []
+_button_lock = threading.Lock()
+_ser = None
+_ser_lock = threading.Lock()
+
+
+def _arduino_listener():
+    global _ser
+    while True:
+        try:
+            ser = serial.Serial(ARDUINO_PORT, ARDUINO_BAUD, timeout=1)
+            with _ser_lock:
+                _ser = ser
+            print(f"[Arduino] connected on {ARDUINO_PORT}")
+            while True:
+                line = ser.readline().decode(errors="ignore").strip()
+                if line in ARDUINO_EVENTS:
+                    with _button_lock:
+                        _button_queue.append(line)
+                    print(f"[Arduino] button: {line}")
+        except Exception as exc:
+            with _ser_lock:
+                _ser = None
+            print(f"[Arduino] {exc} — retrying in 3s (set ARDUINO_PORT in .env if this persists)")
+            time.sleep(3)
+
+
+def _send_arduino(cmd: str):
+    with _ser_lock:
+        if _ser is None:
+            return
+        try:
+            _ser.write((cmd + "\n").encode())
+        except Exception as exc:
+            print(f"[Arduino] write failed: {exc}")
+
+
+threading.Thread(target=_arduino_listener, daemon=True).start()
+
+def _load_example(ts: str) -> tuple[bytes, bytes] | None:
+    orig = os.path.join(APP_DIR, "saves", f"{ts}_original.jpg")
+    pred = os.path.join(APP_DIR, "saves", f"{ts}_prediction.jpg")
+    if os.path.exists(orig) and os.path.exists(pred):
+        return open(orig, "rb").read(), open(pred, "rb").read()
+    return None
+
+_FEW_SHOT_EXAMPLES = [
+    ex for ts in ("20260614_184328", "20260614_193139")
+    if (ex := _load_example(ts)) is not None
+]
+
 # ── prompts ───────────────────────────────────────────────────────────────────
 
-COMBINED_PROMPT = (
-    "Look at the exact silhouettes and spatial arrangement of the objects in this photo.\n"
-    "Find a hidden scene where each object becomes a specific element — based on its shape, not its function.\n\n"
-    "The scene must be SURPRISING. The first thing you think of is too obvious — go further.\n"
-    "Ask: what is the least expected world that these exact shapes could already be part of?\n\n"
-    "For each object:\n"
-    "- Choose what scene element it becomes (from its silhouette only)\n"
-    "- Find the exact visible edge or contour of that object that IS that element\n"
-    "- Draw a thin black line that begins exactly at that edge and extends outward from it\n"
-    "  The line must start touching the object's actual surface — not floating near it\n\n"
-    "The original photo is completely untouched underneath.\n"
-    "Only add lines. No fills, no shading, no background, no reconstruction.\n\n"
-    "Output first: INTERPRETATION: <title, max 8 words>\n"
-    "Then output the image.\n"
+INTERPRET_PROMPT = (
+    "A person has intentionally arranged these physical objects on a table to represent a specific hidden scene or entity they had in mind — this is not a random arrangement. "
+    "You are playing a guessing game with them: you win only if your guess matches what they actually intended to build, based purely on the exact shapes, sizes, and spatial relationships they chose. "
+    "This is one round of a multi-round game — if round history is provided below, it shows which of your past guesses were marked correct or wrong; learn from it and adjust your guessing style accordingly.\n\n"
+    "1. DISCOVERY: Guess the one concrete plausable object, scene or character the person intended based on these specific shapes, sizes, and their relative proximity to one another. Never guess an abstract process, diagram, or industrial/technical procedure. Your guess must be explainable in a single, concrete term.\n"
+    "2. HYPOTHESIS: You must provide a guess that is physically believable. Explain how the objects' current spatial orientation allows for this interpretation. Avoid abstract, metaphorical, or technical/industrial framing; focus on tangible, real-world forms.\n"
+    "3. ANCHORING: Every object in the image must be assigned a functional, physical role AND a specific connecting mark that will be drawn from its exact visible edge. If an object is present, it must be essential to the scene's physical logic and must be drawn from.\n"
+    "4. NO REPEATS: You are strictly forbidden from guessing any scene or character listed under BANNED SCENES below (if present) — not even a reworded, renamed, or rephrased version of one. Every round in this game must be a genuinely different guess.\n\n"
+    "JSON REQUIREMENTS:\n"
+    "- 'scene': A minimal description of the discovered character or scene.\n"
+    "- 'reasoning': Explain how the physical arrangement supports this specific, grounded interpretation.\n"
+    "- 'additions': Additional full features that would help visualize the scene and give it personality:\n"
+    "    - 'feature': A concrete, fully-formed physical part that grows from that object.\n"
+    "    - 'placement': The exact object and edge the mark starts from .\n\n"
+    "Return ONLY valid JSON."
 )
 
-SCENE_DRAW_PROMPT = (
-    "You are generating ONLY an overlay layer — not a scene, not a photograph.\n\n"
-    "TASK: place sparse black strokes on top of the locked photograph.\n\n"
-    "OUTPUT CONTRACT:\n"
-    "• Transparent layer + sparse black strokes only\n"
-    "• Visual proof test: if the photograph were removed, only thin black lines would remain\n"
-    "• If anything else appears (fills, shading, reconstructed scene), the output is invalid\n\n"
-    "SCENE CONTEXT: {scene}\n\n"
-    "NEGATIVE CONSTRAINTS — never violate:\n"
-    "• no shading\n"
-    "• no fill\n"
-    "• no textures\n"
-    "• no color regions\n"
-    "• no background reconstruction\n"
-    "• no object redrawing\n"
-    "• no scene completion\n"
-    "• do not copy or reconstruct any part of the photograph\n\n"
-    "DRAWING INSTRUCTIONS — one per object, format: FROM its <feature> → <what to draw>:\n"
-    "{instructions}\n\n"
-    "Each instruction specifies an exact physical feature of the object and what grows from it.\n"
-    "Start your line at that feature. Extend it outward into the named scene element.\n"
-    "The object itself is untouched — only what extends from the named feature is drawn.\n"
-    "LINE STYLE: thin solid black lines only. No fill. No shading. No color. Pure overlay.\n"
-)
-
-# ── parsing helpers ───────────────────────────────────────────────────────────
-
-def _parse(pattern: str, text: str) -> str:
-    m = re.search(pattern, text, re.IGNORECASE)
-    return m.group(1).strip() if m else ""
-
-
-def _parse_objects(text: str) -> list[dict]:
-    objects = []
-    pat = re.compile(
-        r"OBJECT\s*\d*:\s*(?P<name>[^|]+?)\s*\|"
-        r"(?:\s*POSITION:\s*(?P<pos>[^|]+?)\s*\|)?"
-        r"(?:\s*BOX:\s*\[(?P<box>[^\]]+)\]\s*\|)?"
-        r"(?:\s*FEATURE:\s*(?P<feat>[^|]+?)\s*\|)?"
-        r"\s*ROLE:\s*(?P<role>.+)",
-        re.IGNORECASE)
-    for m in pat.finditer(text):
-        box_str = (m.group("box") or "").strip()
-        try:
-            box = [float(v) for v in box_str.split(",") if v.strip()] if box_str else None
-            box = box if box and len(box) == 4 else None
-        except ValueError:
-            box = None
-        objects.append({
-            "name":    m.group("name").strip(),
-            "pos":     (m.group("pos")  or "").strip(),
-            "box":     box,
-            "feature": (m.group("feat") or "").strip(),
-            "role":    m.group("role").strip(),
-        })
-    return objects
-
-
-def _parse_instructions(text: str) -> str:
-    m = re.search(r"(?:VISUAL EXPANSION|DRAWING INSTRUCTIONS):\s*\n([\s\S]+)", text, re.IGNORECASE)
-    return m.group(1).strip() if m else ""
-
-
-def _parse_per_object_instructions(expansion: str) -> list[str]:
-    results: dict[int, str] = {}
-    pat = re.compile(r'\[OBJECT\s*(\d+)\]\s*(.+?)(?=\n\s*\[OBJECT|\Z)', re.IGNORECASE | re.DOTALL)
-    for m in pat.finditer(expansion):
-        idx = int(m.group(1)) - 1
-        results[idx] = m.group(2).strip()
-    if not results:
-        return []
-    return [results.get(i, "") for i in range(max(results) + 1)]
-
-
-# ── AI pipeline ───────────────────────────────────────────────────────────────
-
-def run_predict(jpeg: bytes) -> tuple[bytes, str]:
-    r = client.models.generate_content(
-        model="gemini-2.5-flash-image",
-        contents=[
-            types.Part.from_bytes(data=jpeg, mime_type="image/jpeg"),
-            types.Part.from_text(text=COMBINED_PROMPT),
-        ],
-        config=types.GenerateContentConfig(
-            response_modalities=["TEXT", "IMAGE"]),  # type: ignore[call-arg]
+DRAW_PROMPT = (
+"(Context only — do not draw this scene directly): {scene}\n\n"
+    "SPECIFIC ADDITIONS TO DRAW — use these as your core guide:\n"
+    "{anchors}\n\n"
+    "Draw these additions onto the photo. Treat the list as a strong starting point, not a rigid checklist — "
+    "you have creative freedom to adjust a mark's exact shape, add a small extra touch, or skip one that wouldn't "
+    "read well, if it makes the overall result feel more alive and cohesive as a single drawing.\n\n"
+    "STRICT RULES:\n"
+    "1. PRESERVATION: The original photo must remain 100% unchanged underneath — no recoloring, no re-painting, no regenerating or reconstructing any part of the objects or background. You may not remove or add objects.\n"
+    "2. ANCHORING: Each line must begin exactly at an object's edge, whether from the list or your own small addition. Stay attached to the objects — don't float marks in empty space.\n"
+    "3. NO TRACING: Do not outline or trace the existing objects themselves — only draw what extends from them.\n"
+    "4. STYLE: black doodle style drawing on top of original photo\n"
+    "5. SUPPORTING ROLE: Every addition is a minor, secondary detail — never the main subject or visual focal point. The existing objects remain the primary subject of the image; if the original objects were removed, the additions alone should look like disconnected spare parts, not a recognizable creature, body, or full scene.\n\n"
+    "Output the photo with these additions drawn on top of it, so the user can see if you 'see' what they built."
     )
-    cands  = r.candidates or []
+
+VALIDATE_PROMPT = (
+    "You proposed a scene guess and additions to draw onto a sketch of physical objects.\n\n"
+    "SCENE: {scene}\n"
+    "PROPOSED ADDITIONS:\n{anchors}\n\n"
+    "Check: does any addition merely restate, rename, or redraw a shape that is ALREADY visibly present in the sketch, "
+    "rather than being a genuinely new mark extending from it?\n\n"
+    "Return ONLY valid JSON: {{\"ok\": true or false, \"violation\": \"<if false, which addition duplicates an existing object and why>\"}}"
+)
+
+def _to_silhouette(jpeg: bytes) -> bytes:
+    import cv2, numpy as np
+
+    img = cv2.imdecode(np.frombuffer(jpeg, np.uint8), cv2.IMREAD_COLOR)
+    if img is None:
+        raise RuntimeError("Failed to decode image for sketch preprocessing")
+    h, w = img.shape[:2]
+
+    canvas = np.ones((h, w, 3), dtype=np.uint8) * 255
+
+    # Multi-scale Canny: fine details + broad structure, both on white canvas
+    gray   = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    blur_fine   = cv2.GaussianBlur(gray, (3, 3), 0)
+    blur_coarse = cv2.GaussianBlur(gray, (7, 7), 0)
+    edges_fine   = cv2.Canny(blur_fine,   20,  60)
+    edges_coarse = cv2.Canny(blur_coarse,  8,  30)
+    edges = cv2.bitwise_or(edges_fine, edges_coarse)
+    thick = cv2.dilate(edges, np.ones((4, 4), np.uint8), iterations=1)
+    for cnt in cv2.findContours(thick, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)[0]:
+        if cv2.contourArea(cnt) < 100:
+            continue
+        cv2.drawContours(canvas, [cnt], -1, (0, 0, 0), 2)
+
+    # Soften jagged corners
+    canvas = cv2.GaussianBlur(canvas, (3, 3), 0)
+    _, canvas = cv2.threshold(canvas, 200, 255, cv2.THRESH_BINARY)
+
+    _, buf = cv2.imencode('.jpg', canvas, [cv2.IMWRITE_JPEG_QUALITY, 75])
+    return bytes(buf)
+
+
+def _parse_json_plan(text: str) -> tuple[str, str]:
+    import json, re
+    try:
+        s = text.strip()
+        m = re.search(r'```(?:json)?\s*([\s\S]+?)\s*```', s)
+        if m:
+            s = m.group(1)
+        data = json.loads(s)
+        scene = data.get("scene", "")
+        lines = [
+            f"- Draw {a.get('feature', '')} {a.get('placement', '')}".strip()
+            for a in data.get("additions", [])
+            if a.get('feature', '').strip()
+        ]
+        return scene, "\n".join(lines)
+    except Exception:
+        m2 = re.search(r'(?:INTERPRETATION|SCENE):\s*(.+)', text, re.IGNORECASE)
+        return (m2.group(1).strip() if m2 else ""), text
+
+
+_stage = ""   # set during run_predict, read by /status
+
+ROUNDS_PER_GAME = 3
+LEADERBOARD_PATH = os.path.join(APP_DIR, "leaderboard.json")
+
+_game = {"round": 0, "history": []}  # history: [{round, scene, success}]
+
+
+def _history_text(history: list) -> str:
+    if not history:
+        return "This is your first round — no history yet."
+    lines = ["ROUND HISTORY (most recent last) — learn from these to improve your guessing:"]
+    for h in history:
+        outcome = "CORRECT" if h["success"] is True else "WRONG" if h["success"] is False else "pending"
+        lines.append(f"- Round {h['round']}: you guessed '{h['scene']}' — {outcome}")
+
+    banned = [h["scene"] for h in history if h.get("scene")]
+    if banned:
+        lines.append("")
+        lines.append("BANNED SCENES — do not guess any of these again, in any form:")
+        for b in banned:
+            lines.append(f"- {b}")
+
+    return "\n".join(lines)
+
+
+def _load_leaderboard() -> list:
+    if not os.path.exists(LEADERBOARD_PATH):
+        return []
+    try:
+        with open(LEADERBOARD_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return []
+
+
+def _append_leaderboard(score: int):
+    board = _load_leaderboard()
+    board.append({"score": score, "ts": datetime.datetime.now().isoformat()})
+    with open(LEADERBOARD_PATH, "w", encoding="utf-8") as f:
+        json.dump(board, f, ensure_ascii=False, indent=2)
+
+
+def _score_distribution() -> list:
+    board = _load_leaderboard()
+    total = len(board)
+    dist = []
+    for s in range(ROUNDS_PER_GAME + 1):
+        count = sum(1 for e in board if e["score"] == s)
+        pct = round(100 * count / total) if total else 0
+        dist.append({"score": s, "count": count, "pct": pct})
+    return dist
+
+
+def _gemini_with_retry(call, retries=3, delay=5):
+    import time
+    for attempt in range(retries):
+        try:
+            return call()
+        except Exception as e:
+            msg = str(e)
+            if attempt < retries - 1 and ("502" in msg or "503" in msg or "Bad Gateway" in msg or "UNAVAILABLE" in msg or "429" in msg or "RESOURCE_EXHAUSTED" in msg):
+                wait = delay * (attempt + 1)
+                print(f"[Retry {attempt+1}] {msg[:80]} — waiting {wait}s")
+                time.sleep(wait)
+            else:
+                raise
+
+
+def _translate_to_hebrew(text: str) -> str:
+    if not text.strip():
+        return text
+    try:
+        r = _gemini_with_retry(lambda: client.models.generate_content(
+            model="gemini-2.5-flash-lite",
+            contents=[types.Part.from_text(text=(
+                "Translate the following short phrase into natural, simple Hebrew. "
+                "Output ONLY the Hebrew translation — no quotes, no explanation, no other text.\n\n"
+                f"{text}"
+            ))],
+            config=types.GenerateContentConfig(temperature=0.2),
+        ))
+        translated = (r.text or "").strip() if r else ""
+        return translated or text
+    except Exception as exc:
+        print(f"[Translate error] {exc}")
+        return text
+
+
+def _validate_additions(sketch: bytes, scene: str, anchors_text: str) -> tuple[bool, str]:
+    if not anchors_text.strip():
+        return True, ""
+    import re
+    try:
+        r = _gemini_with_retry(lambda: client.models.generate_content(
+            model="gemini-2.5-flash-lite",
+            contents=[
+                types.Part.from_bytes(data=sketch, mime_type="image/jpeg"),
+                types.Part.from_text(text=VALIDATE_PROMPT.format(scene=scene, anchors=anchors_text)),
+            ],
+            config=types.GenerateContentConfig(temperature=0.0),
+        ))
+        s = (r.text or "").strip() if r else ""
+        m = re.search(r'```(?:json)?\s*([\s\S]+?)\s*```', s)
+        if m:
+            s = m.group(1)
+        data = json.loads(s)
+        return bool(data.get("ok", True)), str(data.get("violation", ""))
+    except Exception as exc:
+        print(f"[Validate error] {exc}")
+        return True, ""  # fail open — don't block the round on a validator hiccup
+
+
+def run_predict(jpeg: bytes, history: list | None = None) -> tuple[bytes, str, str, bytes]:
+    global _stage
+    sketch = _to_silhouette(jpeg)
+
+    # Shrink silhouette for step 1 — interpretation only needs shapes, not detail
+    import cv2 as _cv2i, numpy as _npi
+    _si = _cv2i.imdecode(_npi.frombuffer(sketch, _npi.uint8), _cv2i.IMREAD_COLOR)
+    if _si is not None and _si.shape[1] > 512:
+        _sw = 512; _sh = int(_si.shape[0] * _sw / _si.shape[1])
+        _si = _cv2i.resize(_si, (_sw, _sh))
+        _, _sbuf = _cv2i.imencode('.jpg', _si, [_cv2i.IMWRITE_JPEG_QUALITY, 60])
+        sketch_small = bytes(_sbuf)
+    else:
+        sketch_small = sketch
+
+    # Step 1: interpret from sketch only (text model) — validated below; if the
+    # validator finds an addition that just duplicates an existing object, we
+    # re-run interpretation instead of proceeding to draw it.
+    _stage = "interpreting"
+    MAX_INTERPRET_ATTEMPTS = 3
+    scene, anchors_text = "", ""
+    for attempt in range(MAX_INTERPRET_ATTEMPTS):
+        print(f"\n[Step 1] interpret  silhouette={len(sketch_small)}b → gemini-2.5-flash-lite (attempt {attempt + 1})")
+        r1 = _gemini_with_retry(lambda: client.models.generate_content(
+            model="gemini-2.5-flash-lite",
+            contents=[
+                types.Part.from_bytes(data=sketch_small, mime_type="image/jpeg"),
+                types.Part.from_text(text=INTERPRET_PROMPT),
+                types.Part.from_text(text=_history_text(history or [])),
+            ],
+            config=types.GenerateContentConfig(temperature=1.0),
+        ))
+        raw = (r1.text or "") if r1 else ""
+        scene, anchors_text = _parse_json_plan(raw)
+        print(f"[Scene] {scene}\n[Anchors]\n{anchors_text}")
+
+        ok, violation = _validate_additions(sketch_small, scene, anchors_text)
+        if ok:
+            break
+        print(f"[Validate] rejected (attempt {attempt + 1}): {violation} — re-running interpretation")
+    else:
+        print("[Validate] still rejected after max attempts — proceeding with last result anyway")
+
+    # Step 2: draw on the real photo
+    _stage = "drawing"
+    print(f"\n[Step 2] draw  photo={len(jpeg)}b → gemini-2.5-flash-image ({len(_FEW_SHOT_EXAMPLES)} examples)")
+    _draw_contents: list[types.Content] = []
+    for _orig, _pred in _FEW_SHOT_EXAMPLES:
+        _draw_contents.append(types.Content(role="user", parts=[
+            types.Part.from_text(text="Add black line drawings to reveal a hidden scene in this photo:"),
+            types.Part.from_bytes(data=_orig, mime_type="image/jpeg"),
+        ]))
+        _draw_contents.append(types.Content(role="model", parts=[
+            types.Part.from_bytes(data=_pred, mime_type="image/jpeg"),
+        ]))
+    _draw_contents.append(types.Content(role="user", parts=[
+        types.Part.from_bytes(data=jpeg, mime_type="image/jpeg"),
+        types.Part.from_text(text=DRAW_PROMPT.format(scene=scene, anchors=anchors_text)),
+    ]))
+    r2 = _gemini_with_retry(lambda: client.models.generate_content(
+        model="gemini-2.5-flash-image",
+        contents=_draw_contents,  # type: ignore[arg-type]
+        config=types.GenerateContentConfig(
+            response_modalities=["TEXT", "IMAGE"],  # type: ignore[call-arg]
+            temperature=1.0),
+    ))
+    assert r2 is not None
+    cands  = r2.candidates or []
     cparts = cands[0].content.parts if cands and cands[0].content else []  # type: ignore[union-attr]
 
-    scene      = ""
     result_img = None
     for part in (cparts or []):
-        if hasattr(part, "text") and part.text:
-            scene = _parse(r"(?:INTERPRETATION|SCENE):\s*(.+)", part.text) or scene
         idata = getattr(part, "inline_data", None)
         if idata and getattr(idata, "data", None):
             result_img = bytes(idata.data)  # type: ignore[arg-type]
 
-    return (result_img or jpeg), scene
+    _stage = ""
+    if result_img is None:
+        raise RuntimeError("Model returned no image")
 
+    # Compress prediction for faster download to browser
+    import cv2 as _cv2, numpy as _np
+    _arr = _cv2.imdecode(_np.frombuffer(result_img, _np.uint8), _cv2.IMREAD_COLOR)
+    if _arr is not None:
+        _h, _w = _arr.shape[:2]
+        if _w > 1024:
+            _s = 1024 / _w
+            _arr = _cv2.resize(_arr, (1024, int(_h * _s)))
+        _, _buf = _cv2.imencode('.jpg', _arr, [_cv2.IMWRITE_JPEG_QUALITY, 82])
+        result_img = bytes(_buf)
 
-def _draw(jpeg: bytes, prompt: str) -> bytes | None:
-    r = client.models.generate_content(
-        model="gemini-2.5-flash-image",
-        contents=[
-            types.Part.from_bytes(data=jpeg, mime_type="image/jpeg"),
-            types.Part.from_text(text="LOCKED IMAGE — DO NOT MODIFY, COPY, OR RECONSTRUCT THIS PHOTOGRAPH. It is fixed input only."),
-            types.Part.from_text(text=prompt),
-            types.Part.from_text(text="REMINDER: output ONLY sparse black line strokes as overlay. Do not reconstruct or redraw the photograph."),
-        ],
-        config=types.GenerateContentConfig(
-            response_modalities=["TEXT", "IMAGE"]),  # type: ignore[call-arg]
-    )
-    cands  = r.candidates or []
-    cparts = cands[0].content.parts if cands and cands[0].content else []  # type: ignore[union-attr]
-    for part in (cparts or []):
-        idata = getattr(part, "inline_data", None)
-        if idata and getattr(idata, "data", None):
-            return bytes(idata.data)  # type: ignore[arg-type]
-    return None
+    # Translation is a fully separate call, made only after interpretation/drawing
+    # are done — the Hebrew text is for display only and never re-enters the
+    # game's history/banned-scenes context, which stays in English.
+    caption_he = _translate_to_hebrew(scene)
+    print(f"[Translate] '{scene}' → '{caption_he}'")
+
+    return result_img, scene, caption_he, sketch
 
 
 # ── git ───────────────────────────────────────────────────────────────────────
@@ -171,46 +412,113 @@ def git_push(ts: str):
 def index():
     return PAGE
 
+@app.route("/status")
+def status():
+    return jsonify({"stage": _stage})
+
+@app.route("/button-poll")
+def button_poll():
+    with _button_lock:
+        event = _button_queue.pop(0) if _button_queue else None
+    return jsonify({"event": event})
+
+@app.route("/silhouette", methods=["POST"])
+def silhouette_route():
+    try:
+        jpeg = base64.b64decode(request.get_json()["image"])
+        sketch = _to_silhouette(jpeg)
+        return jsonify({"silhouette": base64.b64encode(sketch).decode()})
+    except Exception as exc:
+        return jsonify({"error": str(exc)}), 500
+
+@app.route("/game/start", methods=["POST"])
+def game_start():
+    global _game
+    _game = {"round": 1, "history": []}
+    print("[Game] started")
+    return jsonify({"round": _game["round"], "rounds": ROUNDS_PER_GAME})
+
+
 @app.route("/snap", methods=["POST"])
 def snap():
     try:
+        if not (1 <= _game["round"] <= ROUNDS_PER_GAME):
+            return jsonify({"error": "No active game — start a game first"}), 400
+
         jpeg = base64.b64decode(request.get_json()["image"])
-        pred_bytes, caption = run_predict(jpeg)
+        pred_bytes, scene, caption_he, sketch = run_predict(jpeg, history=_game["history"])
+
+        os.makedirs(SAVES_DIR, exist_ok=True)
+        ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        with open(os.path.join(SAVES_DIR, f"{ts}_original.jpg"),    "wb") as f: f.write(jpeg)
+        with open(os.path.join(SAVES_DIR, f"{ts}_prediction.jpg"),  "wb") as f: f.write(pred_bytes)
+        with open(os.path.join(SAVES_DIR, f"{ts}_silhouette.jpg"),  "wb") as f: f.write(sketch)
+        if caption_he:
+            with open(os.path.join(SAVES_DIR, f"{ts}_scene.txt"), "w", encoding="utf-8") as f:
+                f.write(caption_he)
+        print(f"[Saved] round {_game['round']} — {ts}")
+        threading.Thread(target=git_push, args=(ts,), daemon=True).start()
+
+        # "scene" (English) feeds the model's own history/banned-scenes context;
+        # "caption" (Hebrew) is display-only, for the summary screen — translation
+        # never re-enters the game's reasoning loop.
+        _game["history"].append({
+            "round": _game["round"], "scene": scene, "caption": caption_he,
+            "success": None, "ts": ts,
+        })
+
+        _send_arduino("RESULT_ON")
         return jsonify({
             "prediction": base64.b64encode(pred_bytes).decode(),
             "original":   base64.b64encode(jpeg).decode(),
-            "caption":    caption,
+            "silhouette": base64.b64encode(sketch).decode(),
+            "caption":    caption_he,
+            "ts":         ts,
+            "round":      _game["round"],
+            "rounds":     ROUNDS_PER_GAME,
         })
     except Exception as exc:
         print(f"[snap error] {exc}")
         return jsonify({"error": str(exc)}), 500
 
 
-@app.route("/save", methods=["POST"])
-def save():
+@app.route("/round-result", methods=["POST"])
+def round_result():
     try:
-        data       = request.get_json()
-        original   = base64.b64decode(data["original"])
-        prediction = base64.b64decode(data["prediction"])
-        caption    = data.get("caption", "")
+        success = bool((request.get_json() or {}).get("success"))
+        for h in reversed(_game["history"]):
+            if h["success"] is None:
+                h["success"] = success
+                break
 
-        os.makedirs(SAVES_DIR, exist_ok=True)
-        ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        _send_arduino("RESULT_OFF")
 
-        with open(os.path.join(SAVES_DIR, f"{ts}_original.jpg"),   "wb") as f: f.write(original)
-        with open(os.path.join(SAVES_DIR, f"{ts}_prediction.jpg"), "wb") as f: f.write(prediction)
-        if caption:
-            with open(os.path.join(SAVES_DIR, f"{ts}_scene.txt"), "w", encoding="utf-8") as f:
-                f.write(caption)
+        if _game["round"] >= ROUNDS_PER_GAME:
+            score = sum(1 for h in _game["history"] if h["success"])
+            _append_leaderboard(score)
+            result = {
+                "done":        True,
+                "score":       score,
+                "rounds":      ROUNDS_PER_GAME,
+                "history":     _game["history"],
+                "leaderboard": _score_distribution(),
+            }
+            _game["round"] = 0
+            return jsonify(result)
 
-        threading.Thread(target=git_push, args=(ts,), daemon=True).start()
-        return jsonify({"ok": True, "ts": ts})
+        _game["round"] += 1
+        return jsonify({"done": False, "round": _game["round"], "rounds": ROUNDS_PER_GAME})
     except Exception as exc:
         return jsonify({"error": str(exc)}), 500
 
 
+@app.route("/leaderboard")
+def leaderboard_route():
+    return jsonify(_score_distribution())
+
+
 @app.route("/gallery")
-def gallery():
+def gallery_route():
     subprocess.run(["git", "pull"], cwd=APP_DIR, capture_output=True)
     items = []
     if os.path.exists(SAVES_DIR):
@@ -231,6 +539,10 @@ def gallery():
 def serve_save(filename):
     return send_from_directory(SAVES_DIR, filename)
 
+@app.route("/fonts/<path:filename>")
+def serve_font(filename):
+    return send_from_directory(FONT_DIR, filename)
+
 # ── HTML page ─────────────────────────────────────────────────────────────────
 
 PAGE = """<!DOCTYPE html>
@@ -238,95 +550,286 @@ PAGE = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI Pipeline</title>
+<title>Hidden Scene</title>
 <style>
+@font-face{font-family:'Masada';src:url('/fonts/Masada-Light.otf')  format('opentype');font-weight:300}
+@font-face{font-family:'Masada';src:url('/fonts/Masada-Book.otf')   format('opentype');font-weight:400}
+@font-face{font-family:'Masada';src:url('/fonts/Masada-Medium.otf') format('opentype');font-weight:500}
+@font-face{font-family:'Masada';src:url('/fonts/Masada-Demi.otf')   format('opentype');font-weight:600}
+@font-face{font-family:'Masada';src:url('/fonts/Masada-Bold.otf')   format('opentype');font-weight:700}
+@font-face{font-family:'Masada';src:url('/fonts/Masada-Black.otf')  format('opentype');font-weight:900}
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#0a0a14;--card:#0f0f1e;--dim:#2e3a4e;--med:#64748b;--orange:#f97316;--green:#22c55e;--white:#e2e8f0}
-body{background:var(--bg);color:var(--white);font-family:Helvetica,Arial,sans-serif;min-height:100vh}
+:root{
+  --bg:#0d0d0d;--surface:#1a1a19;--fg:#fff;
+  --dim:#2c2c2a;--med:#c3c2b7;--muted:#898781;
+  --border:rgba(255,255,255,.10);
+  --card-bg:#f1f1ef;--arrow:#ecc2d8;--score-orange:#e0952f;
+  --font-head:'Masada',serif;--font-body:'Masada',Helvetica,Arial,sans-serif;
+  --series-1:#3987e5;--ok:#4f9153;--bad:#c1502e;
+  --dur-fast:180ms;--dur:320ms;--dur-slow:650ms;
+  --ease:cubic-bezier(.4,0,.2,1)
+}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:100vh;overflow:hidden}
+.phase{display:none;position:fixed;inset:0;background:var(--bg)}
+.phase.active{display:flex;align-items:center;justify-content:center}
 
-/* ── layout ── */
-#main{display:flex;flex-direction:column;align-items:center;padding:40px 20px 20px}
-#panels{display:flex;align-items:flex-start}
-.plabel{font-size:11px;color:var(--dim);letter-spacing:1px;margin-bottom:8px;text-align:center}
+/* ── shared: corner hints, card, round dots, bottom caption ── */
+.hint{
+  position:fixed;top:20px;z-index:40;white-space:nowrap;
+  font-size:20px;font-weight:600;color:#fff;direction:rtl;
+  display:flex;align-items:center;gap:10px;line-height:1;
+  text-shadow:0 1px 6px rgba(0,0,0,.6)
+}
+.hint-tl{left:24px}
+.hint-tr{right:24px}
+.hint-dot{width:18px;height:18px;border-radius:50%;flex-shrink:0;border:2px solid rgba(255,255,255,.45)}
+.hint-dot.white{background:#eee}
+.hint-dot.green{background:var(--ok);width:28px;height:28px}
+.hint-dot.red{background:var(--bad);width:28px;height:28px}
+.hint-q{opacity:.85;margin:0 6px}
+.hint-line{
+  position:fixed;top:20px;left:24px;z-index:40;
+  display:inline-block;white-space:nowrap;max-width:calc(100vw - 48px);
+  font-size:20px;font-weight:600;color:#fff;direction:rtl;
+  line-height:1;text-shadow:0 1px 6px rgba(0,0,0,.6)
+}
+.hint-line .hint-dot{display:inline-block;vertical-align:middle;margin:0 6px -4px}
 
-/* ── live ── */
-#video{width:280px;height:210px;background:#000;display:block;object-fit:cover}
+.card{
+  position:relative;width:min(88vw,1100px);aspect-ratio:3/2;
+  background:var(--card-bg);border-radius:28px;overflow:hidden;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 20px 60px rgba(0,0,0,.4)
+}
 
-/* ── divider ── */
-#div{width:1px;background:var(--dim);margin:24px 40px 0;align-self:stretch}
+.bottom-caption{
+  position:fixed;left:0;right:0;bottom:36px;z-index:40;
+  text-align:center;color:#fff;font-size:21px;font-weight:600;direction:rtl;
+  text-shadow:0 1px 6px rgba(0,0,0,.6);padding:0 24px
+}
 
-/* ── prediction ── */
-#pred-box{width:480px;height:360px;background:var(--card);display:flex;align-items:center;justify-content:center;overflow:hidden}
-#pred-img{width:100%;height:100%;object-fit:cover;display:none}
-#pred-ph{color:var(--dim);font-size:13px}
-#caption{font-family:Georgia,serif;font-style:italic;font-size:14px;color:var(--white);text-align:center;margin-top:18px;min-height:20px;max-width:480px;line-height:1.5}
+.round-dots{position:fixed;top:20px;right:24px;z-index:40;display:flex;align-items:center;gap:12px;direction:rtl}
+.round-dots .label{font-size:18px;font-weight:700;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.round-dots .dot{width:16px;height:16px;border-radius:50%;border:2px solid var(--med)}
+.round-dots .dot.filled{background:var(--med)}
 
-/* ── controls ── */
-#controls{margin-top:32px;display:flex;flex-direction:column;align-items:center;gap:10px}
-.btn{border:none;cursor:pointer;font-family:inherit;font-weight:bold;font-size:15px;padding:12px 44px;letter-spacing:.5px}
-#snap-btn{background:var(--orange);color:#fff}
-#snap-btn:disabled{opacity:.45;cursor:default}
-#sd-bar{display:none;gap:12px}
-#save-btn{background:var(--green);color:#0a0a14}
-#disc-btn{background:#374151;color:var(--white);font-weight:normal}
-#status{font-size:13px;min-height:18px;color:var(--orange)}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
-.pulsing{animation:pulse 1.4s ease-in-out infinite}
+/* ── Gallery ── */
+.instr-bg-layer{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:var(--card-bg);
+  opacity:0;z-index:1;
+  transition:opacity 1.4s var(--ease);
+  animation:kenBurns 6.5s linear forwards
+}
+.instr-bg-layer.active{opacity:1;z-index:2}
+@keyframes kenBurns{from{transform:scale(1)}to{transform:scale(1.06)}}
+#instr-none{position:absolute;inset:0;background:var(--card-bg);z-index:0}
+#gal-counter{direction:rtl;font-variant-numeric:tabular-nums}
 
-/* ── gallery ── */
-#gal{width:100%;max-width:1100px;margin:64px auto 48px;padding:0 20px}
-#gal-hdr{font-size:11px;color:var(--dim);letter-spacing:2px;text-transform:uppercase;text-align:center;border-top:1px solid var(--dim);padding-top:24px;margin-bottom:28px}
-#gal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px}
-.gi{background:var(--card);cursor:pointer;transition:opacity .15s}
-.gi:hover{opacity:.8}
-.gi img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+/* ── Tutorial ── */
+.tut-content{padding:48px 64px;text-align:center;direction:rtl}
+.tut-content h1{font-family:var(--font-head);font-size:60px;font-weight:900;color:#111;margin-bottom:18px}
+.tut-rule{border:none;border-top:2px solid #ddd;width:65%;margin:0 auto 26px;border-radius:2px}
+.tut-content p{font-size:22px;font-weight:500;color:#333;line-height:1.85;white-space:pre-line}
+.tut-note{position:fixed;z-index:41;font-size:17px;font-weight:600;color:var(--med);line-height:1.4;max-width:200px}
+.tut-note-tl{top:122px;left:20px;text-align:left}
+.tut-note-tr{top:154px;right:20px;text-align:right}
+.tut-note-r{top:calc(50% - 40px);right:20px;text-align:right}
+.tut-note-bl{bottom:154px;left:20px;text-align:left}
+.tut-arrow{position:fixed;z-index:41}
+.tut-arrow-tl{top:50px;left:46px;width:56px;height:64px}
+.tut-arrow-tr{top:50px;right:46px;width:56px;height:64px;transform:scaleX(-1)}
+.tut-arrow-r{top:calc(50% - 30px);right:200px;width:45px;height:50px}
+.tut-arrow-bl{bottom:50px;left:64px;width:70px;height:96px}
 
-/* ── modal ── */
-#modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:100;align-items:center;justify-content:center;flex-direction:column;padding:24px}
+/* ── Round transition ── */
+.round-headline{text-align:center;direction:rtl}
+.round-headline .title{font-family:var(--font-head);font-size:72px;font-weight:900;color:#111;margin-bottom:24px}
+
+/* ── Build ── */
+#video-full{width:100%;height:100%;object-fit:cover}
+
+/* ── Loading ── */
+#load-original,#load-silhouette{
+  position:absolute;inset:0;
+  width:100%;height:100%;object-fit:contain;
+  opacity:0
+}
+#load-stage-text{
+  opacity:0;transform:translateY(8px);
+  transition:opacity var(--dur) var(--ease), transform var(--dur) var(--ease)
+}
+#load-stage-text.show{opacity:1;transform:translateY(0)}
+
+/* ── Result ── */
+#result-img{width:100%;height:100%;object-fit:contain}
+
+/* ── Idle overlay ── */
+#ph-idle{
+  position:fixed;inset:0;z-index:90;background:rgba(160,160,160,.82);
+  display:none;align-items:center;justify-content:center
+}
+#ph-idle.show{display:flex}
+.idle-card{
+  background:#fff;border-radius:28px;padding:60px 90px;
+  display:flex;flex-direction:column;align-items:center;
+  box-shadow:0 20px 60px rgba(0,0,0,.3)
+}
+.idle-title{font-family:var(--font-head);font-size:64px;font-weight:900;color:#111;direction:rtl;margin-bottom:26px}
+.idle-dots{display:flex;gap:14px;margin-bottom:26px}
+.idle-dots span{width:16px;height:16px;border-radius:50%;background:var(--arrow);animation:idlePulse 1.2s ease-in-out infinite}
+.idle-dots span:nth-child(2){animation-delay:.15s}
+.idle-dots span:nth-child(3){animation-delay:.3s}
+@keyframes idlePulse{0%,80%,100%{opacity:.3;transform:scale(.8)}40%{opacity:1;transform:scale(1)}}
+.idle-sub{font-size:22px;font-weight:600;color:#111;direction:rtl}
+
+/* ── Summary ── */
+.summary-title{font-family:var(--font-head);font-size:58px;font-weight:900;color:#fff;text-align:center;margin-bottom:8px}
+.summary-subtitle{font-size:19px;font-weight:600;color:var(--muted);text-align:center;margin-bottom:24px;letter-spacing:.04em}
+#summary-score{
+  font-size:88px;font-weight:700;text-align:center;margin-bottom:20px;
+  font-variant-numeric:proportional-nums;animation:popIn var(--dur-slow) var(--ease) both
+}
+#summary-score.score-bad{color:var(--bad)}
+#summary-score.score-mid{color:var(--score-orange)}
+#summary-score.score-ok{color:var(--ok)}
+#summary-percentile{font-size:20px;font-weight:600;color:#fff;text-align:center;margin-bottom:38px}
+@keyframes popIn{from{opacity:0;transform:scale(.85)}to{opacity:1;transform:scale(1)}}
+@keyframes cardIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+#summary-list{display:flex;direction:rtl;gap:28px;justify-content:center;flex-wrap:wrap;padding:0 40px;max-width:1400px}
+.summary-card{
+  width:360px;display:flex;flex-direction:column;align-items:center;gap:10px;
+  animation:cardIn var(--dur-slow) var(--ease) both
+}
+.summary-thumb{width:100%;aspect-ratio:3/2;object-fit:contain;background:var(--card-bg);border-radius:14px;cursor:pointer;display:block}
+.summary-meta{display:flex;align-items:center;gap:8px}
+.summary-label{color:#fff;font-size:17px;font-weight:600}
+.summary-icon{
+  width:20px;height:20px;border-radius:4px;border:2px solid;
+  display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0
+}
+.summary-icon.ok{color:var(--ok);border-color:var(--ok)}
+.summary-icon.bad{color:var(--bad);border-color:var(--bad)}
+
+/* ── Modal ── */
+#modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:100;align-items:center;justify-content:center;flex-direction:column;padding:24px}
 #modal.open{display:flex}
-#modal-img{max-width:min(700px,90vw);max-height:70vh;object-fit:contain;display:block}
-#modal-cap{font-family:Georgia,serif;font-style:italic;font-size:15px;color:var(--white);text-align:center;margin-top:20px;max-width:min(700px,90vw);line-height:1.6}
-#modal-close{position:absolute;top:20px;right:28px;font-size:28px;color:var(--med);cursor:pointer;line-height:1;background:none;border:none}
-#modal-close:hover{color:var(--white)}
+#modal-img{max-width:min(700px,90vw);max-height:70vh;object-fit:contain}
+#modal-cap{font-size:18px;font-weight:600;color:var(--fg);text-align:center;margin-top:20px;max-width:min(700px,90vw);line-height:1.5}
+#modal-close{position:absolute;top:20px;right:28px;font-size:32px;color:var(--med);cursor:pointer;background:none;border:none;line-height:1;font-family:inherit}
+#modal-close:hover{color:var(--fg)}
 </style>
 </head>
 <body>
 
-<div id="main">
-  <div id="panels">
-    <div>
-      <div class="plabel">live</div>
-      <video id="video" autoplay playsinline muted></video>
-      <canvas id="canvas" style="display:none"></canvas>
-    </div>
-    <div id="div"></div>
-    <div>
-      <div class="plabel">prediction</div>
-      <div id="pred-box">
-        <img id="pred-img" alt="">
-        <div id="pred-ph">press &nbsp;snap&nbsp; to begin</div>
-      </div>
-      <div id="caption"></div>
+<svg width="0" height="0">
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--arrow)"></path>
+    </marker>
+  </defs>
+</svg>
+
+<!-- Gallery -->
+<div id="ph-gallery" class="phase active">
+  <div class="hint hint-tl"><span class="hint-dot white"></span><span>להתחלה לחצו על הכפתור הלבן</span></div>
+  <div class="hint hint-tr" id="gal-counter"></div>
+  <div class="card">
+    <img id="instr-bg-a" class="instr-bg-layer" alt="">
+    <img id="instr-bg-b" class="instr-bg-layer" alt="">
+    <div id="instr-none"></div>
+  </div>
+  <div class="bottom-caption" id="instr-caption"></div>
+</div>
+
+<!-- Tutorial -->
+<div id="ph-tutorial" class="phase">
+  <div class="hint hint-tl"><span class="hint-dot white"></span><span>להמשך לחצו על הכפתור הלבן</span></div>
+  <div class="round-dots" id="tutorial-dots"></div>
+  <div class="card">
+    <div class="tut-content">
+      <h1>ברוכים הבאים!</h1>
+      <hr class="tut-rule">
+      <p>למשחק יש שלושה סבבים,
+בכל סבב עליכם לבנות מאותם חפצים משהו חדש.
+לאחר שתבנו המכונה תנסה לנחש מה בניתם
+להתחלת הסבב הראשון לחצו על הכפתור הלבן.
+
+אנא עיינו בהערות סביב המסך לפני תחילת הפעילות.</p>
     </div>
   </div>
+  <div class="tut-note tut-note-tl" dir="rtl">להוראות המשך הסבב</div>
+  <div class="tut-note tut-note-tr" dir="rtl">לצפייה במספר סבב שאתם נמצאים בו כעת</div>
+  <div class="tut-note tut-note-r" dir="rtl">במסך זה יוצג הפעולות שלכם לאורך המשימה</div>
+  <div class="tut-note tut-note-bl" dir="rtl">לצפייה בשלבים והצעת התשובות של AI</div>
+  <svg class="tut-arrow tut-arrow-tl" viewBox="0 0 56 64"><path d="M8,58 C8,20 32,6 46,4" stroke="var(--arrow)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path></svg>
+  <svg class="tut-arrow tut-arrow-tr" viewBox="0 0 56 64"><path d="M8,58 C8,20 32,6 46,4" stroke="var(--arrow)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path></svg>
+  <svg class="tut-arrow tut-arrow-r" viewBox="0 0 45 50"><path d="M39,44 C24,44 12,20 6,6" stroke="var(--arrow)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path></svg>
+  <svg class="tut-arrow tut-arrow-bl" viewBox="0 0 70 96"><path d="M8,8 C8,60 30,80 62,90" stroke="var(--arrow)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path></svg>
+</div>
 
-  <div id="controls">
-    <div id="snap-row">
-      <button class="btn" id="snap-btn" onclick="doSnap()">snap</button>
+<!-- Round transition -->
+<div id="ph-round" class="phase">
+  <div class="hint hint-tl" id="round-intro-hint" dir="rtl"></div>
+  <div class="round-dots" id="round-intro-dots"></div>
+  <div class="card">
+    <div class="round-headline">
+      <div class="title" id="round-intro-title"></div>
+      <hr class="tut-rule">
     </div>
-    <div id="sd-bar">
-      <button class="btn" id="save-btn" onclick="doSave()">save</button>
-      <button class="btn" id="disc-btn" onclick="doDiscard()">discard</button>
-    </div>
-    <div id="status"></div>
+  </div>
+  <div class="bottom-caption" dir="rtl">מחכה להצעה שלכם</div>
+</div>
+
+<!-- Build -->
+<div id="ph-build" class="phase">
+  <div class="hint hint-tl"><span class="hint-dot white"></span><span>להגשה תלחצו על הכפתור הלבן</span></div>
+  <div class="round-dots" id="build-dots"></div>
+  <div class="card"><video id="video-full" autoplay playsinline muted></video></div>
+</div>
+
+<!-- Loading -->
+<div id="ph-loading" class="phase">
+  <div class="hint hint-tl" dir="rtl">המתינו לתשובת המכונה</div>
+  <div class="round-dots" id="loading-dots"></div>
+  <div class="card">
+    <img id="load-original"   alt="">
+    <img id="load-silhouette" alt="">
+  </div>
+  <div class="bottom-caption" id="load-stage-text"></div>
+</div>
+
+<!-- Result -->
+<div id="ph-result" class="phase">
+  <div class="hint-line" dir="rtl">
+    <span class="hint-dot green"></span>לחצו על הכפתור הירוק אם כן
+    <span class="hint-q">האם זה תואם למה שדמיינתם?</span>
+    לחצו על הכפתור האדום אם לא<span class="hint-dot red"></span>
+  </div>
+  <div class="card"><img id="result-img" alt=""></div>
+  <div class="bottom-caption" id="result-caption"></div>
+</div>
+
+<!-- Idle check -->
+<div id="ph-idle">
+  <div class="idle-card">
+    <div class="idle-title">עדיין איתנו?</div>
+    <div class="idle-dots"><span></span><span></span><span></span></div>
+    <div class="idle-sub">לחצו על הכפתור הלבן על מנת להמשיך</div>
   </div>
 </div>
 
-<div id="gal">
-  <div id="gal-hdr">everyone&rsquo;s snaps</div>
-  <div id="gal-grid"></div>
+<!-- Summary -->
+<div id="ph-summary" class="phase" style="flex-direction:column">
+  <div class="hint hint-tl"><span class="hint-dot white"></span><span>לניסיון נוסף אנא לחצו על הכפתור הלבן</span></div>
+  <div class="hint hint-tr" dir="rtl">כל הכבוד, השלמתם את כל הסבבים!</div>
+  <div class="summary-title" dir="rtl">סיימנו!</div>
+  <div class="summary-subtitle" dir="rtl">התוצאות שלך</div>
+  <div id="summary-score"></div>
+  <div id="summary-percentile" dir="rtl"></div>
+  <div id="summary-list"></div>
 </div>
 
+<!-- Modal -->
 <div id="modal" onclick="closeModal(event)">
   <button id="modal-close" onclick="closeModal()">&times;</button>
   <img id="modal-img" alt="">
@@ -334,140 +837,434 @@ body{background:var(--bg);color:var(--white);font-family:Helvetica,Arial,sans-se
 </div>
 
 <script>
-const video  = document.getElementById('video');
-const canvas = document.getElementById('canvas');
-let pendOrig = null, pendPred = null, pendCap = '';
-let stTimer  = null;
+let stream       = null;
+let currentRound = 0;
+let roundsTotal  = 3;
 
-// ── camera ────────────────────────────────────────────────────────────────────
-navigator.mediaDevices.getUserMedia({
-  video:{ width:{ideal:640}, height:{ideal:480} }, audio:false
-}).then(s => video.srcObject = s)
-  .catch(e => status('camera: ' + e.message, '#ef4444'));
+function show(id){
+  document.querySelectorAll('.phase').forEach(p => p.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  armIdle();
+}
 
-// ── snap ──────────────────────────────────────────────────────────────────────
-async function doSnap(){
-  canvas.width  = video.videoWidth  || 640;
-  canvas.height = video.videoHeight || 480;
-  canvas.getContext('2d').drawImage(video, 0, 0);
-  const b64 = canvas.toDataURL('image/jpeg', 0.9).split(',')[1];
+// round-transition screen content per round
+const ROUND_INTROS = {
+  1: { hint: 'יאללה מתחילים!',        title: 'סבב ראשון!'  },
+  2: { hint: 'יאללה ממשיכים!',        title: 'סבב שני!'    },
+  3: { hint: 'יאללה עוד אחד ואחרון!', title: 'סבב שלישי!'  },
+};
+function renderRoundDots(elId, round){
+  let html = '<span class="label">סבב</span>';
+  for(let i = 1; i <= roundsTotal; i++){
+    html += `<span class="dot${i === round ? ' filled' : ''}"></span>`;
+  }
+  document.getElementById(elId).innerHTML = html;
+}
+function configureRoundScreen(n){
+  const info = ROUND_INTROS[n] || ROUND_INTROS[1];
+  document.getElementById('round-intro-hint').textContent  = info.hint;
+  document.getElementById('round-intro-title').textContent = info.title;
+  renderRoundDots('round-intro-dots', n);
+  renderRoundDots('build-dots', n);
+  renderRoundDots('loading-dots', n);
+}
 
-  document.getElementById('snap-btn').disabled = true;
-  document.getElementById('sd-bar').style.display = 'none';
-  document.getElementById('snap-row').style.display = 'flex';
-  document.getElementById('caption').textContent = '';
-  startLoading();
+// round-transition screen shows itself, then auto-advances to the camera
+// after a few seconds — no button press needed (white still skips it early)
+const ROUND_SCREEN_MS = 3000;
+let roundAutoTimer = null;
+function showRoundScreen(n){
+  configureRoundScreen(n);
+  show('ph-round');
+  clearTimeout(roundAutoTimer);
+  roundAutoTimer = setTimeout(() => {
+    if(document.querySelector('.phase.active').id === 'ph-round') show('ph-build');
+  }, ROUND_SCREEN_MS);
+}
 
-  try {
-    const res  = await fetch('/snap', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({image:b64})});
-    const data = await res.json();
-    stopLoading();
-
-    if(data.error){ status('error: '+data.error,'#ef4444'); document.getElementById('snap-btn').disabled=false; return; }
-
-    const img = document.getElementById('pred-img');
-    img.src = 'data:image/jpeg;base64,' + data.prediction;
-    img.style.display = 'block';
-    document.getElementById('pred-ph').style.display = 'none';
-
-    const cap = data.caption || '';
-    document.getElementById('caption').textContent = cap ? '[ '+cap+' ]' : '';
-
-    pendOrig = data.original;
-    pendPred = data.prediction;
-    pendCap  = cap;
-
-    status('');
-    document.getElementById('snap-row').style.display = 'none';
-    document.getElementById('sd-bar').style.display   = 'flex';
-
-  } catch(e){
-    stopLoading();
-    status('network error: '+e.message,'#ef4444');
-    document.getElementById('snap-btn').disabled = false;
+// idle "still with us?" overlay — shown after 60s with no button press
+// while waiting on the camera, a prediction, or a result
+let idleTimer = null;
+function armIdle(){
+  clearTimeout(idleTimer);
+  const active  = document.querySelector('.phase.active');
+  const watched = ['ph-build', 'ph-loading', 'ph-result'];
+  if(active && watched.includes(active.id)){
+    idleTimer = setTimeout(showIdle, 60000);
   }
 }
-
-// ── save / discard ────────────────────────────────────────────────────────────
-async function doSave(){
-  showSnap();
-  status('saving…','#64748b');
-  try{
-    const r = await fetch('/save',{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({original:pendOrig,prediction:pendPred,caption:pendCap})});
-    const d = await r.json();
-    if(d.ok){ status('saved','#22c55e'); setTimeout(()=>status(''),3000); setTimeout(loadGallery,1200); }
-    else     { status('save failed: '+(d.error||''),'#ef4444'); }
-  }catch(e){ status('save error: '+e.message,'#ef4444'); }
-  clearPend();
+function showIdle(){ document.getElementById('ph-idle').classList.add('show'); }
+function hideIdle(){ document.getElementById('ph-idle').classList.remove('show'); }
+function dismissIdleIfShown(){
+  if(document.getElementById('ph-idle').classList.contains('show')){
+    hideIdle();
+    armIdle();
+    return true;
+  }
+  return false;
 }
 
-function doDiscard(){
-  showSnap();
-  status('discarded','#2e3a4e');
-  setTimeout(()=>status(''),2000);
-  clearPend();
-}
-
-function showSnap(){
-  document.getElementById('sd-bar').style.display   = 'none';
-  document.getElementById('snap-row').style.display = 'flex';
-  document.getElementById('snap-btn').disabled = false;
-}
-function clearPend(){ pendOrig=null; pendPred=null; pendCap=''; }
-
-// ── status helpers ────────────────────────────────────────────────────────────
-function status(msg, col){
-  const el = document.getElementById('status');
-  el.textContent = msg;
-  el.style.color = col || '#f97316';
-}
-function startLoading(){
-  const el = document.getElementById('status');
-  const phases = ['finding hidden scene…','finding hidden scene…','drawing the scene…'];
-  let i = 0;
-  el.className = 'pulsing';
-  status(phases[0]);
-  stTimer = setInterval(()=>{ i++; if(i < phases.length) status(phases[i]); }, 12000);
-}
-function stopLoading(){
-  if(stTimer){ clearInterval(stTimer); stTimer=null; }
-  document.getElementById('status').className='';
-}
-
-// ── gallery ───────────────────────────────────────────────────────────────────
-async function loadGallery(){
-  try{
-    const items = await (await fetch('/gallery')).json();
-    const grid  = document.getElementById('gal-grid');
-    grid.innerHTML = '';
-    for(const it of items){
-      const d   = document.createElement('div'); d.className='gi';
-      d.onclick = ()=> openModal(it.ts, it.caption);
-      const img = document.createElement('img');
-      img.src     = '/saves/'+it.ts+'_original.jpg';
-      img.loading = 'lazy';
-      img.alt     = '';
-      d.appendChild(img);
-      grid.appendChild(d);
-    }
-  }catch(e){ console.warn('gallery:', e); }
-}
-
-// ── modal ─────────────────────────────────────────────────────────────────────
-function openModal(ts, caption){
-  document.getElementById('modal-img').src = '/saves/'+ts+'_prediction.jpg';
-  document.getElementById('modal-cap').textContent = caption ? '[ '+caption+' ]' : '';
+function openModal(src, caption){
+  document.getElementById('modal-img').src = src;
+  document.getElementById('modal-cap').textContent = caption || '';
   document.getElementById('modal').classList.add('open');
 }
+
+// camera
+async function initCamera(){
+  if(stream) stream.getTracks().forEach(t => t.stop());
+  stream = await navigator.mediaDevices.getUserMedia({video:{width:{ideal:1280},height:{ideal:720}},audio:false});
+  document.getElementById('video-full').srcObject = stream;
+}
+
+// instructions gallery slideshow
+let galItems   = [];
+let galIdx     = 0;
+let galSlideIv = null;
+let galFront   = 'a'; // which layer ('a'/'b') is currently on top
+
+async function initGallerySlideshow(){
+  try{ galItems = await (await fetch('/gallery')).json(); }
+  catch(e){ galItems = []; }
+  document.getElementById('instr-none').style.display = galItems.length ? 'none' : 'block';
+  document.getElementById('gal-counter').textContent = '';
+  if(galItems.length){ galIdx = 0; showSlide(galIdx); startSlideshow(); }
+  else { document.getElementById('instr-caption').textContent = ''; }
+}
+
+function showSlide(idx){
+  const it = galItems[idx];
+  if(!it) return;
+
+  const back  = document.getElementById('instr-bg-' + (galFront === 'a' ? 'b' : 'a'));
+  const front = document.getElementById('instr-bg-' + galFront);
+  const cap   = document.getElementById('instr-caption');
+
+  back.src = '/saves/' + it.ts + '_prediction.jpg';
+  back.style.animation = 'none';
+  void back.offsetWidth; // restart the Ken Burns zoom for the incoming image
+  back.style.animation = '';
+  back.classList.add('active');
+  front.classList.remove('active');
+  galFront = (galFront === 'a' ? 'b' : 'a');
+
+  cap.classList.add('fading');
+  setTimeout(() => {
+    cap.textContent = it.caption || '';
+    document.getElementById('gal-counter').textContent = `${idx + 1} / ${galItems.length} מתוך האסופה`;
+    cap.classList.remove('fading');
+  }, 320);
+}
+
+function startSlideshow(){
+  if(galSlideIv) clearInterval(galSlideIv);
+  if(galItems.length < 2) return;
+  galSlideIv = setInterval(() => { galIdx = (galIdx + 1) % galItems.length; showSlide(galIdx); }, 6000);
+}
+
+function stopSlideshow(){
+  if(galSlideIv){ clearInterval(galSlideIv); galSlideIv = null; }
+  document.getElementById('instr-bg-a').classList.remove('active');
+  document.getElementById('instr-bg-b').classList.remove('active');
+}
+
+// game
+function goTutorial(){
+  stopSlideshow();
+  renderRoundDots('tutorial-dots', 0);
+  show('ph-tutorial');
+}
+
+async function beginGame(){
+  const res  = await fetch('/game/start', { method:'POST', headers:{'Content-Type':'application/json'} });
+  const data = await res.json();
+  currentRound = data.round;
+  roundsTotal  = data.rounds;
+  await initCamera();
+  showRoundScreen(currentRound);
+}
+
+// snap
+const stageLabels = {
+  interpreting: 'בתהליך דמיון',
+  drawing:      'בתהליך ציור',
+  finishing:    'ממם.. מעניין מה יצרתם פה',
+};
+let statusIv   = null;
+let sawDrawing = false;
+
+function setStageText(t){
+  const el = document.getElementById('load-stage-text');
+  if(el.textContent === t){ el.classList.add('show'); return; }
+  el.classList.remove('show');
+  setTimeout(() => { el.textContent = t; el.classList.add('show'); }, 220);
+}
+function startStatusPoll(){
+  sawDrawing = false;
+  setStageText(stageLabels.interpreting);
+  statusIv = setInterval(async () => {
+    try{
+      const d = await (await fetch('/status')).json();
+      if(d.stage === 'drawing') sawDrawing = true;
+      const txt = d.stage ? stageLabels[d.stage] : (sawDrawing ? stageLabels.finishing : null);
+      if(txt) setStageText(txt);
+    } catch(e){}
+  }, 700);
+}
+function stopStatusPoll(){
+  if(statusIv){ clearInterval(statusIv); statusIv = null; }
+  document.getElementById('load-stage-text').classList.remove('show');
+}
+
+let snapBusy = false;
+async function fireSnap(){
+  if(snapBusy) return;
+  snapBusy = true;
+
+  const vid = document.getElementById('video-full');
+  const srcW = vid.videoWidth  || 1280;
+  const srcH = vid.videoHeight || 720;
+
+  // full-size for display
+  const cvsFull = document.createElement('canvas');
+  cvsFull.width  = srcW;
+  cvsFull.height = srcH;
+  cvsFull.getContext('2d').drawImage(vid, 0, 0);
+  const displayB64 = cvsFull.toDataURL('image/jpeg', 0.9).split(',')[1];
+
+  // smaller version for API upload
+  const MAX = 640;
+  const scale = srcW > MAX ? MAX / srcW : 1;
+  const cvsSmall = document.createElement('canvas');
+  cvsSmall.width  = Math.round(srcW * scale);
+  cvsSmall.height = Math.round(srcH * scale);
+  cvsSmall.getContext('2d').drawImage(vid, 0, 0, cvsSmall.width, cvsSmall.height);
+  const b64 = cvsSmall.toDataURL('image/jpeg', 0.75).split(',')[1];
+
+  const origEl = document.getElementById('load-original');
+  const silEl  = document.getElementById('load-silhouette');
+  origEl.style.opacity = '0';
+  silEl.style.opacity  = '0';
+  show('ph-loading');
+  startStatusPoll();
+
+  origEl.style.transition = 'none';
+  origEl.src              = 'data:image/jpeg;base64,' + displayB64;
+  origEl.style.opacity    = '1';
+
+  fetch('/silhouette', {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({image: displayB64})
+  }).then(r => r.json()).then(d => {
+    if(d.silhouette){
+      silEl.src = 'data:image/jpeg;base64,' + d.silhouette;
+      const ease = 'opacity 6s cubic-bezier(0.4,0,0.2,1)';
+      origEl.style.transition = ease;
+      silEl.style.transition  = ease;
+      requestAnimationFrame(() => {
+        origEl.style.opacity = '0';
+        silEl.style.opacity  = '1';
+      });
+    }
+  }).catch(() => {});
+
+  try{
+    const res  = await fetch('/snap', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({image: b64})
+    });
+    const data = await res.json();
+    stopStatusPoll();
+    if(data.error) throw new Error(data.error);
+    currentRound = data.round;
+    showResult(data);
+  } catch(e){
+    stopStatusPoll();
+    console.error('[snap error]', e.message);
+    show('ph-build');
+  }
+  snapBusy = false;
+}
+
+// result
+function showResult(data){
+  const ph = document.getElementById('ph-result');
+  ph.style.transform = ''; ph.style.opacity = '';
+  document.getElementById('result-img').src = 'data:image/jpeg;base64,' + data.prediction;
+  document.getElementById('result-caption').textContent = data.caption || '';
+  show('ph-result');
+}
+
+let resultBusy = false;
+async function markCorrect(){ await submitRoundResult(true); }
+async function markWrong(){ await submitRoundResult(false); }
+
+async function submitRoundResult(success){
+  if(resultBusy) return;
+  resultBusy = true;
+
+  const ph = document.getElementById('ph-result');
+  ph.style.transition = 'transform .65s cubic-bezier(.4,0,.2,1), opacity .6s';
+  ph.style.transform  = 'scale(0.08) translateY(60vh)';
+  ph.style.opacity    = '0';
+  await new Promise(r => setTimeout(r, 620));
+
+  try{
+    const res  = await fetch('/round-result', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({success})
+    });
+    const data = await res.json();
+    if(data.done){
+      showSummary(data);
+    } else {
+      currentRound = data.round;
+      showRoundScreen(currentRound);
+    }
+  } catch(e){
+    show('ph-build');
+  }
+  resultBusy = false;
+}
+
+// summary
+const ROUND_ORDINALS = ['ראשונה', 'שנייה', 'שלישית'];
+
+function showSummary(data){
+  const scoreEl = document.getElementById('summary-score');
+  scoreEl.textContent = `${data.score} / ${data.rounds}`;
+  scoreEl.classList.remove('score-bad', 'score-mid', 'score-ok');
+  scoreEl.classList.add(data.score <= 0 ? 'score-bad' : data.score === 1 ? 'score-mid' : 'score-ok');
+
+  const list = document.getElementById('summary-list');
+  list.innerHTML = '';
+  data.history.forEach((h, i) => {
+    const card = document.createElement('div');
+    card.className = 'summary-card';
+    card.style.animationDelay = (i * 90) + 'ms';
+
+    const thumb = document.createElement('img');
+    thumb.className = 'summary-thumb';
+    thumb.src = '/saves/' + h.ts + '_prediction.jpg';
+    thumb.alt = '';
+    thumb.onclick = () => openModal(thumb.src, h.caption);
+
+    const meta = document.createElement('div');
+    meta.className = 'summary-meta';
+    const label = document.createElement('span');
+    label.className = 'summary-label';
+    label.dir = 'rtl';
+    label.textContent = `תשובה ${ROUND_ORDINALS[i] || (i + 1)} מאת המכונה`;
+    const icon = document.createElement('span');
+    icon.className = 'summary-icon ' + (h.success ? 'ok' : 'bad');
+    icon.textContent = h.success ? '✓' : '✗';
+    meta.append(label, icon);
+
+    card.append(thumb, meta);
+    list.appendChild(card);
+  });
+
+  // gamified percentile stat — "you beat X% of exhibition participants"
+  const pctEl = document.getElementById('summary-percentile');
+  const lower = data.leaderboard.filter(e => e.score < data.score).reduce((a, e) => a + e.count, 0);
+  const total = data.leaderboard.reduce((a, e) => a + e.count, 0);
+  if(total > 1){
+    const beat = Math.round(100 * lower / (total - 1));
+    pctEl.textContent = `הצלחת יותר מ-${beat}% מהמשתתפים בתערוכה`;
+  } else {
+    pctEl.textContent = 'אתם המבקרים הראשונים שמנסים!';
+  }
+
+  currentRound = 0;
+  show('ph-summary');
+}
+
+function playAgain(){
+  show('ph-gallery');
+  initGallerySlideshow();
+}
+
+// modal
 function closeModal(e){
   if(e && e.target !== document.getElementById('modal') && e.target !== document.getElementById('modal-close')) return;
   document.getElementById('modal').classList.remove('open');
   document.getElementById('modal-img').src = '';
 }
-document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeModal(); });
 
-loadGallery();
+// keyboard — Enter advances, Escape marks wrong on the result screen
+// debug: jump straight to the summary screen with real saved images, no rounds needed
+async function debugSummary(){
+  let items = [];
+  try{ items = await (await fetch('/gallery')).json(); } catch(e){}
+
+  const sample = items.slice(0, roundsTotal);
+  const history = sample.map((it, i) => ({
+    ts: it.ts, caption: it.caption || `(debug ${i + 1})`, success: i % 2 === 0,
+  }));
+  const score = history.filter(h => h.success).length;
+
+  // fabricate a realistic spread across every score bucket so the debug view
+  // always shows the real percentile stat, instead of depending on however
+  // much (or little) real leaderboard.json data happens to exist right now
+  const board = [];
+  for(let s = 0; s <= roundsTotal; s++){
+    board.push({score: s, count: s === score ? 4 : 1 + Math.round(Math.random() * 6), pct: 0});
+  }
+  const total = board.reduce((a, e) => a + e.count, 0);
+  board.forEach(e => { e.pct = Math.round(100 * e.count / total); });
+
+  showSummary({ score, rounds: roundsTotal, history, leaderboard: board });
+}
+
+// shared "advance" action — fired by the Enter key or the white Arduino button
+function handleAdvance(){
+  if(dismissIdleIfShown()) return;
+  armIdle();
+  if(document.getElementById('modal').classList.contains('open')){ closeModal(); return; }
+  const active = document.querySelector('.phase.active').id;
+  if(active === 'ph-gallery'){  goTutorial();  return; }
+  if(active === 'ph-tutorial'){ beginGame();   return; }
+  if(active === 'ph-round'){    clearTimeout(roundAutoTimer); show('ph-build'); return; }
+  if(active === 'ph-build'){    fireSnap();    return; }
+  if(active === 'ph-result'){   markCorrect(); return; }
+  if(active === 'ph-summary'){  playAgain();   return; }
+}
+
+// physical Arduino buttons
+function handleYes(){
+  if(dismissIdleIfShown()) return;
+  armIdle();
+  if(document.getElementById('ph-result').classList.contains('active')) markCorrect();
+}
+function handleNo(){
+  if(dismissIdleIfShown()) return;
+  armIdle();
+  if(document.getElementById('modal').classList.contains('open')){ closeModal(); return; }
+  if(document.getElementById('ph-result').classList.contains('active')) markWrong();
+}
+
+document.addEventListener('keydown', e => {
+  if(e.key === 'd' || e.key === 'D'){ debugSummary(); return; }
+  if(dismissIdleIfShown()) return;
+  if(e.key === 'Escape'){
+    if(document.getElementById('modal').classList.contains('open')){ closeModal(); return; }
+    if(document.getElementById('ph-result').classList.contains('active')){ markWrong(); return; }
+    return;
+  }
+  if(e.key === 'Enter'){ handleAdvance(); }
+});
+
+// polled continuously — same events physical buttons send over serial
+setInterval(async () => {
+  try{
+    const d = await (await fetch('/button-poll')).json();
+    if(d.event === 'ENTER') handleAdvance();
+    else if(d.event === 'YES') handleYes();
+    else if(d.event === 'NO') handleNo();
+  } catch(e){}
+}, 200);
+
+initGallerySlideshow();
 </script>
 </body>
 </html>"""
