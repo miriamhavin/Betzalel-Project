@@ -27,7 +27,7 @@ Get a free Gemini key at [aistudio.google.com](https://aistudio.google.com). `AR
 
 **4. Font** — the `font/` folder (Masada family) must stay next to `server.py`; the page loads it from there via a `/fonts/...` route.
 
-**5. Arduino sketch** — flash `arduino_button/arduino_button.ino` to the Arduino with the Arduino IDE. Wiring: main button → D2+GND, yes button → D4+GND, no button → D7+GND, yes LED → D5, no LED → D6 (main button's LED wired straight to power, no pin needed).
+**5. Arduino sketch** — flash `arduino_button/arduino_button.ino` to the Arduino with the Arduino IDE. Wiring: main button → D2+GND, yes button → D4+GND, no button → D7+GND.
 
 ---
 
