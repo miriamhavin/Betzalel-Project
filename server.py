@@ -110,7 +110,7 @@ DRAW_PROMPT = (
 "(Context only — do not draw this scene directly): {scene}\n\n"
     "SPECIFIC ADDITIONS TO DRAW — use these as your core guide:\n"
     "{anchors}\n\n"
-    "Draw these additions onto the photo. Treat the list as a strong starting point, not a rigid checklist — "
+    "Draw these additions as black overlay doodles onto the photo. Treat the list as a strong starting point, not a rigid checklist — "
     "you have creative freedom to adjust a mark's exact shape, add a small extra touch, or skip one that wouldn't "
     "read well, if it makes the overall result feel more alive and cohesive as a single drawing.\n\n"
     "STRICT RULES:\n"
@@ -338,9 +338,10 @@ def run_predict(jpeg: bytes, history: list | None = None) -> tuple[bytes, str, s
     else:
         print("[Validate] still rejected after max attempts — proceeding with last result anyway")
 
-    # Step 2: draw on the real photo
+    # Step 2: draw on the real photo — the model occasionally returns a
+    # text-only response with no image part even on a successful call, so
+    # this is retried a couple of times before giving up.
     _stage = "drawing"
-    print(f"\n[Step 2] draw  photo={len(jpeg)}b → gemini-2.5-flash-image ({len(_FEW_SHOT_EXAMPLES)} examples)")
     _draw_contents: list[types.Content] = []
     for _orig, _pred in _FEW_SHOT_EXAMPLES:
         _draw_contents.append(types.Content(role="user", parts=[
@@ -354,22 +355,30 @@ def run_predict(jpeg: bytes, history: list | None = None) -> tuple[bytes, str, s
         types.Part.from_bytes(data=jpeg, mime_type="image/jpeg"),
         types.Part.from_text(text=DRAW_PROMPT.format(scene=scene, anchors=anchors_text)),
     ]))
-    r2 = _gemini_with_retry(lambda: client.models.generate_content(
-        model="gemini-2.5-flash-image",
-        contents=_draw_contents,  # type: ignore[arg-type]
-        config=types.GenerateContentConfig(
-            response_modalities=["TEXT", "IMAGE"],  # type: ignore[call-arg]
-            temperature=1.0),
-    ))
-    assert r2 is not None
-    cands  = r2.candidates or []
-    cparts = cands[0].content.parts if cands and cands[0].content else []  # type: ignore[union-attr]
 
+    MAX_DRAW_ATTEMPTS = 3
     result_img = None
-    for part in (cparts or []):
-        idata = getattr(part, "inline_data", None)
-        if idata and getattr(idata, "data", None):
-            result_img = bytes(idata.data)  # type: ignore[arg-type]
+    for draw_attempt in range(MAX_DRAW_ATTEMPTS):
+        print(f"\n[Step 2] draw  photo={len(jpeg)}b → gemini-2.5-flash-image ({len(_FEW_SHOT_EXAMPLES)} examples, attempt {draw_attempt + 1})")
+        r2 = _gemini_with_retry(lambda: client.models.generate_content(
+            model="gemini-2.5-flash-image",
+            contents=_draw_contents,  # type: ignore[arg-type]
+            config=types.GenerateContentConfig(
+                response_modalities=["TEXT", "IMAGE"],  # type: ignore[call-arg]
+                temperature=1.0),
+        ))
+        assert r2 is not None
+        cands  = r2.candidates or []
+        cparts = cands[0].content.parts if cands and cands[0].content else []  # type: ignore[union-attr]
+
+        for part in (cparts or []):
+            idata = getattr(part, "inline_data", None)
+            if idata and getattr(idata, "data", None):
+                result_img = bytes(idata.data)  # type: ignore[arg-type]
+
+        if result_img is not None:
+            break
+        print(f"[Step 2] no image in response (attempt {draw_attempt + 1}) — retrying")
 
     _stage = ""
     if result_img is None:
@@ -553,25 +562,33 @@ PAGE = """<!DOCTYPE html>
 <title>Hidden Scene</title>
 <style>
 @font-face{font-family:'Masada';src:url('/fonts/Masada-Light.otf')  format('opentype');font-weight:300}
+@font-face{font-family:'Masada';src:url('/fonts/Masada-LightItalic.otf') format('opentype');font-weight:300;font-style:italic}
 @font-face{font-family:'Masada';src:url('/fonts/Masada-Book.otf')   format('opentype');font-weight:400}
+@font-face{font-family:'Masada';src:url('/fonts/Masada-BookItalic.otf') format('opentype');font-weight:400;font-style:italic}
 @font-face{font-family:'Masada';src:url('/fonts/Masada-Medium.otf') format('opentype');font-weight:500}
 @font-face{font-family:'Masada';src:url('/fonts/Masada-Demi.otf')   format('opentype');font-weight:600}
 @font-face{font-family:'Masada';src:url('/fonts/Masada-Bold.otf')   format('opentype');font-weight:700}
 @font-face{font-family:'Masada';src:url('/fonts/Masada-Black.otf')  format('opentype');font-weight:900}
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#0d0d0d;--surface:#1a1a19;--fg:#fff;
+  --bg:#1e2021;--surface:#1a1a19;--fg:#fff;
   --dim:#2c2c2a;--med:#c3c2b7;--muted:#898781;
   --border:rgba(255,255,255,.10);
-  --card-bg:#f1f1ef;--arrow:#ecc2d8;--score-orange:#e0952f;
+  --card-bg:#ffffff;--arrow:#e2c9da;--arrow-line:#dddddd;--score-orange:#eaac0f;
   --font-head:'Masada',serif;--font-body:'Masada',Helvetica,Arial,sans-serif;
-  --series-1:#3987e5;--ok:#4f9153;--bad:#c1502e;
+  --series-1:#3987e5;--ok:#64bc69;--bad:#d35454;
+  --dot-green:#57965a;--dot-red:#d15524;
+  --round1:#d35454;--round2:#eaac0f;--round3:#64bc69;
   --dur-fast:180ms;--dur:320ms;--dur-slow:650ms;
   --ease:cubic-bezier(.4,0,.2,1)
 }
 body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:100vh;overflow:hidden}
-.phase{display:none;position:fixed;inset:0;background:var(--bg)}
-.phase.active{display:flex;align-items:center;justify-content:center}
+.phase{
+  display:flex;align-items:center;justify-content:center;
+  position:fixed;inset:0;background:var(--bg);
+  opacity:0;pointer-events:none;transition:opacity 320ms ease
+}
+.phase.active{opacity:1;pointer-events:auto}
 
 /* ── shared: corner hints, card, round dots, bottom caption ── */
 .hint{
@@ -582,22 +599,23 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
 }
 .hint-tl{left:24px}
 .hint-tr{right:24px}
-.hint-dot{width:18px;height:18px;border-radius:50%;flex-shrink:0;border:2px solid rgba(255,255,255,.45)}
-.hint-dot.white{background:#eee}
-.hint-dot.green{background:var(--ok);width:28px;height:28px}
-.hint-dot.red{background:var(--bad);width:28px;height:28px}
-.hint-q{opacity:.85;margin:0 6px}
+.hint-dot{width:24px;height:24px;border-radius:50%;flex-shrink:0;border:2px solid #dddddd}
+.hint-dot.white{background:#e5e5e5;box-shadow:0 0 0 6px rgba(255,255,255,.25)}
+.hint-dot.green{background:var(--dot-green);box-shadow:0 0 0 6px rgba(87,150,90,.25)}
+.hint-dot.red{background:var(--dot-red);box-shadow:0 0 0 6px rgba(209,85,36,.25)}
+.hint-q{opacity:.85}
+.result-stack{display:flex;flex-direction:column;align-items:center;gap:18px}
 .hint-line{
-  position:fixed;top:20px;left:24px;z-index:40;
-  display:inline-block;white-space:nowrap;max-width:calc(100vw - 48px);
-  font-size:20px;font-weight:600;color:#fff;direction:rtl;
-  line-height:1;text-shadow:0 1px 6px rgba(0,0,0,.6)
+  display:inline-flex;align-items:center;gap:24px;
+  direction:rtl;white-space:nowrap;max-width:calc(100vw - 48px);
+  font-size:20px;font-weight:600;color:#fff;
+  text-shadow:0 1px 6px rgba(0,0,0,.6)
 }
-.hint-line .hint-dot{display:inline-block;vertical-align:middle;margin:0 6px -4px}
+.hint-chunk{display:inline-flex;align-items:center;gap:8px;flex-shrink:0}
 
 .card{
-  position:relative;width:min(88vw,1100px);aspect-ratio:3/2;
-  background:var(--card-bg);border-radius:28px;overflow:hidden;
+  position:relative;width:min(80vw,1000px);aspect-ratio:3/2;
+  background:var(--card-bg);border-radius:36px;overflow:hidden;
   display:flex;align-items:center;justify-content:center;
   box-shadow:0 20px 60px rgba(0,0,0,.4)
 }
@@ -611,7 +629,9 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
 .round-dots{position:fixed;top:20px;right:24px;z-index:40;display:flex;align-items:center;gap:12px;direction:rtl}
 .round-dots .label{font-size:18px;font-weight:700;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.6)}
 .round-dots .dot{width:16px;height:16px;border-radius:50%;border:2px solid var(--med)}
-.round-dots .dot.filled{background:var(--med)}
+.round-dots .dot.dot-r1.filled{background:var(--round1);border-color:var(--round1)}
+.round-dots .dot.dot-r2.filled{background:var(--round2);border-color:var(--round2)}
+.round-dots .dot.dot-r3.filled{background:var(--round3);border-color:var(--round3)}
 
 /* ── Gallery ── */
 .instr-bg-layer{
@@ -627,10 +647,10 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
 
 /* ── Tutorial ── */
 .tut-content{padding:48px 64px;text-align:center;direction:rtl}
-.tut-content h1{font-family:var(--font-head);font-size:60px;font-weight:900;color:#111;margin-bottom:18px}
+.tut-content h1{font-family:var(--font-head);font-size:60px;font-weight:300;font-style:italic;color:#111;margin-bottom:18px}
 .tut-rule{border:none;border-top:2px solid #ddd;width:65%;margin:0 auto 26px;border-radius:2px}
 .tut-content p{font-size:22px;font-weight:500;color:#333;line-height:1.85;white-space:pre-line}
-.tut-note{position:fixed;z-index:41;font-size:17px;font-weight:600;color:var(--med);line-height:1.4;max-width:200px}
+.tut-note{position:fixed;z-index:41;font-size:22px;font-weight:600;color:var(--med);line-height:1.4;max-width:220px}
 .tut-note-tl{top:122px;left:20px;text-align:left}
 .tut-note-tr{top:154px;right:20px;text-align:right}
 .tut-note-r{top:calc(50% - 40px);right:20px;text-align:right}
@@ -638,15 +658,20 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
 .tut-arrow{position:fixed;z-index:41}
 .tut-arrow-tl{top:50px;left:46px;width:56px;height:64px}
 .tut-arrow-tr{top:50px;right:46px;width:56px;height:64px;transform:scaleX(-1)}
-.tut-arrow-r{top:calc(50% - 30px);right:200px;width:45px;height:50px}
+.tut-arrow-r{top:calc(50% + 26px);right:110px;width:70px;height:55px}
 .tut-arrow-bl{bottom:50px;left:64px;width:70px;height:96px}
-
-/* ── Round transition ── */
-.round-headline{text-align:center;direction:rtl}
-.round-headline .title{font-family:var(--font-head);font-size:72px;font-weight:900;color:#111;margin-bottom:24px}
 
 /* ── Build ── */
 #video-full{width:100%;height:100%;object-fit:cover}
+#round-overlay{
+  position:absolute;inset:0;z-index:5;
+  background:rgba(0,0,0,.5);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;
+  opacity:1;pointer-events:none;transition:opacity 700ms ease
+}
+#round-overlay.hide{opacity:0}
+.round-overlay-hint{font-size:22px;font-weight:600;color:#fff;direction:rtl;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.round-overlay-title{font-family:var(--font-head);font-size:72px;font-weight:300;font-style:italic;color:#fff;direction:rtl;text-shadow:0 2px 10px rgba(0,0,0,.6)}
 
 /* ── Loading ── */
 #load-original,#load-silhouette{
@@ -674,7 +699,7 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
   display:flex;flex-direction:column;align-items:center;
   box-shadow:0 20px 60px rgba(0,0,0,.3)
 }
-.idle-title{font-family:var(--font-head);font-size:64px;font-weight:900;color:#111;direction:rtl;margin-bottom:26px}
+.idle-title{font-family:var(--font-head);font-size:64px;font-weight:300;font-style:italic;color:#111;direction:rtl;margin-bottom:26px}
 .idle-dots{display:flex;gap:14px;margin-bottom:26px}
 .idle-dots span{width:16px;height:16px;border-radius:50%;background:var(--arrow);animation:idlePulse 1.2s ease-in-out infinite}
 .idle-dots span:nth-child(2){animation-delay:.15s}
@@ -683,7 +708,7 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
 .idle-sub{font-size:22px;font-weight:600;color:#111;direction:rtl}
 
 /* ── Summary ── */
-.summary-title{font-family:var(--font-head);font-size:58px;font-weight:900;color:#fff;text-align:center;margin-bottom:8px}
+.summary-title{font-family:var(--font-head);font-size:58px;font-weight:300;font-style:italic;color:#fff;text-align:center;margin-bottom:8px}
 .summary-subtitle{font-size:19px;font-weight:600;color:var(--muted);text-align:center;margin-bottom:24px;letter-spacing:.04em}
 #summary-score{
   font-size:88px;font-weight:700;text-align:center;margin-bottom:20px;
@@ -704,11 +729,12 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
 .summary-meta{display:flex;align-items:center;gap:8px}
 .summary-label{color:#fff;font-size:17px;font-weight:600}
 .summary-icon{
-  width:20px;height:20px;border-radius:4px;border:2px solid;
-  display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0
+  width:24px;height:24px;border-radius:50%;border:2px solid #dddddd;
+  display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:#fff;flex-shrink:0
 }
-.summary-icon.ok{color:var(--ok);border-color:var(--ok)}
-.summary-icon.bad{color:var(--bad);border-color:var(--bad)}
+.summary-icon.ok{background:var(--dot-green)}
+.summary-icon.bad{background:var(--dot-red)}
+.summary-return-inline{color:#fff}
 
 /* ── Modal ── */
 #modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:100;align-items:center;justify-content:center;flex-direction:column;padding:24px}
@@ -723,8 +749,8 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
 
 <svg width="0" height="0">
   <defs>
-    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-      <path d="M0,0 L8,4 L0,8 Z" fill="var(--arrow)"></path>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,1 C3,1 5,3 9,5 C5,7 3,9 0,9 C1.5,7 1.5,3 0,1 Z" fill="var(--arrow)"></path>
     </marker>
   </defs>
 </svg>
@@ -741,6 +767,20 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
   <div class="bottom-caption" id="instr-caption"></div>
 </div>
 
+<!-- Welcome / pick objects -->
+<div id="ph-welcome" class="phase">
+  <div class="hint hint-tl"><span class="hint-dot white"></span><span>להמשך לחצו על הכפתור הלבן</span></div>
+  <div class="card">
+    <div class="tut-content">
+      <h1>ברוכים הבאים!</h1>
+      <hr class="tut-rule">
+      <p>כדי להתחיל ליצור גשו לקיר החפצים מימנכם.
+בחרו 7 חפצים שמעניינים אתכם והביאו אותם לשולחן.
+לאחר שבחרתם לחצו על הכפתור הלבן.</p>
+    </div>
+  </div>
+</div>
+
 <!-- Tutorial -->
 <div id="ph-tutorial" class="phase">
   <div class="hint hint-tl"><span class="hint-dot white"></span><span>להמשך לחצו על הכפתור הלבן</span></div>
@@ -750,8 +790,8 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
       <h1>ברוכים הבאים!</h1>
       <hr class="tut-rule">
       <p>למשחק יש שלושה סבבים,
-בכל סבב עליכם לבנות מאותם חפצים משהו חדש.
-לאחר שתבנו המכונה תנסה לנחש מה בניתם
+בכל סבב עליכם לצייר מאותם חפצים משהו חדש.
+לאחר שתבנו המכונה תנסה לנחש מה ציירתם
 להתחלת הסבב הראשון לחצו על הכפתור הלבן.
 
 אנא עיינו בהערות סביב המסך לפני תחילת הפעילות.</p>
@@ -761,30 +801,23 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
   <div class="tut-note tut-note-tr" dir="rtl">לצפייה במספר סבב שאתם נמצאים בו כעת</div>
   <div class="tut-note tut-note-r" dir="rtl">במסך זה יוצג הפעולות שלכם לאורך המשימה</div>
   <div class="tut-note tut-note-bl" dir="rtl">לצפייה בשלבים והצעת התשובות של AI</div>
-  <svg class="tut-arrow tut-arrow-tl" viewBox="0 0 56 64"><path d="M8,58 C8,20 32,6 46,4" stroke="var(--arrow)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path></svg>
-  <svg class="tut-arrow tut-arrow-tr" viewBox="0 0 56 64"><path d="M8,58 C8,20 32,6 46,4" stroke="var(--arrow)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path></svg>
-  <svg class="tut-arrow tut-arrow-r" viewBox="0 0 45 50"><path d="M39,44 C24,44 12,20 6,6" stroke="var(--arrow)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path></svg>
-  <svg class="tut-arrow tut-arrow-bl" viewBox="0 0 70 96"><path d="M8,8 C8,60 30,80 62,90" stroke="var(--arrow)" stroke-width="2" fill="none" marker-end="url(#arrowhead)"></path></svg>
-</div>
-
-<!-- Round transition -->
-<div id="ph-round" class="phase">
-  <div class="hint hint-tl" id="round-intro-hint" dir="rtl"></div>
-  <div class="round-dots" id="round-intro-dots"></div>
-  <div class="card">
-    <div class="round-headline">
-      <div class="title" id="round-intro-title"></div>
-      <hr class="tut-rule">
-    </div>
-  </div>
-  <div class="bottom-caption" dir="rtl">מחכה להצעה שלכם</div>
+  <svg class="tut-arrow tut-arrow-tl" viewBox="0 0 56 64"><path d="M8,58 C8,20 32,6 46,4" stroke="var(--arrow-line)" stroke-width="3" stroke-linecap="round" fill="none" marker-end="url(#arrowhead)"></path></svg>
+  <svg class="tut-arrow tut-arrow-tr" viewBox="0 0 56 64"><path d="M8,58 C8,20 32,6 46,4" stroke="var(--arrow-line)" stroke-width="3" stroke-linecap="round" fill="none" marker-end="url(#arrowhead)"></path></svg>
+  <svg class="tut-arrow tut-arrow-r" viewBox="0 0 70 55"><path d="M60,6 C50,20 25,32 8,42" stroke="var(--arrow-line)" stroke-width="3" stroke-linecap="round" fill="none" marker-end="url(#arrowhead)"></path></svg>
+  <svg class="tut-arrow tut-arrow-bl" viewBox="0 0 70 96"><path d="M8,8 C8,60 30,80 62,90" stroke="var(--arrow-line)" stroke-width="3" stroke-linecap="round" fill="none" marker-end="url(#arrowhead)"></path></svg>
 </div>
 
 <!-- Build -->
 <div id="ph-build" class="phase">
   <div class="hint hint-tl"><span class="hint-dot white"></span><span>להגשה תלחצו על הכפתור הלבן</span></div>
   <div class="round-dots" id="build-dots"></div>
-  <div class="card"><video id="video-full" autoplay playsinline muted></video></div>
+  <div class="card">
+    <video id="video-full" autoplay playsinline muted></video>
+    <div id="round-overlay">
+      <div class="round-overlay-hint" id="round-overlay-hint"></div>
+      <div class="round-overlay-title" id="round-overlay-title"></div>
+    </div>
+  </div>
 </div>
 
 <!-- Loading -->
@@ -800,12 +833,14 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
 
 <!-- Result -->
 <div id="ph-result" class="phase">
-  <div class="hint-line" dir="rtl">
-    <span class="hint-dot green"></span>לחצו על הכפתור הירוק אם כן
-    <span class="hint-q">האם זה תואם למה שדמיינתם?</span>
-    לחצו על הכפתור האדום אם לא<span class="hint-dot red"></span>
+  <div class="result-stack">
+    <div class="hint-line">
+      <span class="hint-q" dir="rtl">האם זה תואם למה שדמיינתם?</span>
+      <span class="hint-chunk"><span class="hint-dot green"></span><span dir="rtl">לחצו על הכפתור הירוק אם כן</span></span>
+      <span class="hint-chunk"><span class="hint-dot red"></span><span dir="rtl">לחצו על הכפתור האדום אם לא</span></span>
+    </div>
+    <div class="card"><img id="result-img" alt=""></div>
   </div>
-  <div class="card"><img id="result-img" alt=""></div>
   <div class="bottom-caption" id="result-caption"></div>
 </div>
 
@@ -822,11 +857,12 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
 <div id="ph-summary" class="phase" style="flex-direction:column">
   <div class="hint hint-tl"><span class="hint-dot white"></span><span>לניסיון נוסף אנא לחצו על הכפתור הלבן</span></div>
   <div class="hint hint-tr" dir="rtl">כל הכבוד, השלמתם את כל הסבבים!</div>
-  <div class="summary-title" dir="rtl">סיימנו!</div>
+  <div class="summary-title" dir="rtl">סיימנו! <span class="summary-return-inline">בבקשה תחזירו את כל החפצים למקום על הקיר</span></div>
   <div class="summary-subtitle" dir="rtl">התוצאות שלך</div>
   <div id="summary-score"></div>
   <div id="summary-percentile" dir="rtl"></div>
   <div id="summary-list"></div>
+
 </div>
 
 <!-- Modal -->
@@ -856,45 +892,52 @@ const ROUND_INTROS = {
 function renderRoundDots(elId, round){
   let html = '<span class="label">סבב</span>';
   for(let i = 1; i <= roundsTotal; i++){
-    html += `<span class="dot${i === round ? ' filled' : ''}"></span>`;
+    html += `<span class="dot dot-r${i}${i === round ? ' filled' : ''}"></span>`;
   }
   document.getElementById(elId).innerHTML = html;
 }
 function configureRoundScreen(n){
-  const info = ROUND_INTROS[n] || ROUND_INTROS[1];
-  document.getElementById('round-intro-hint').textContent  = info.hint;
-  document.getElementById('round-intro-title').textContent = info.title;
-  renderRoundDots('round-intro-dots', n);
   renderRoundDots('build-dots', n);
   renderRoundDots('loading-dots', n);
 }
 
-// round-transition screen shows itself, then auto-advances to the camera
-// after a few seconds — no button press needed (white still skips it early)
-const ROUND_SCREEN_MS = 3000;
-let roundAutoTimer = null;
+// round title shows as a semi-transparent overlay on top of the live camera
+// feed for a couple seconds, then fades out smoothly on its own
+const ROUND_OVERLAY_MS = 2200;
+let roundOverlayTimer = null;
 function showRoundScreen(n){
+  const info = ROUND_INTROS[n] || ROUND_INTROS[1];
   configureRoundScreen(n);
-  show('ph-round');
-  clearTimeout(roundAutoTimer);
-  roundAutoTimer = setTimeout(() => {
-    if(document.querySelector('.phase.active').id === 'ph-round') show('ph-build');
-  }, ROUND_SCREEN_MS);
+  document.getElementById('round-overlay-hint').textContent  = info.hint;
+  document.getElementById('round-overlay-title').textContent = info.title;
+  const overlay = document.getElementById('round-overlay');
+  overlay.classList.remove('hide');
+  show('ph-build');
+  clearTimeout(roundOverlayTimer);
+  roundOverlayTimer = setTimeout(() => overlay.classList.add('hide'), ROUND_OVERLAY_MS);
 }
 
 // idle "still with us?" overlay — shown after 60s with no button press
 // while waiting on the camera, a prediction, or a result
 let idleTimer = null;
+let idleResetTimer = null;
 function armIdle(){
   clearTimeout(idleTimer);
   const active  = document.querySelector('.phase.active');
   const watched = ['ph-build', 'ph-loading', 'ph-result'];
   if(active && watched.includes(active.id)){
-    idleTimer = setTimeout(showIdle, 60000);
+    idleTimer = setTimeout(showIdle, 120000);
   }
 }
-function showIdle(){ document.getElementById('ph-idle').classList.add('show'); }
-function hideIdle(){ document.getElementById('ph-idle').classList.remove('show'); }
+function showIdle(){
+  document.getElementById('ph-idle').classList.add('show');
+  clearTimeout(idleResetTimer);
+  idleResetTimer = setTimeout(() => { hideIdle(); playAgain(); }, 30000);
+}
+function hideIdle(){
+  document.getElementById('ph-idle').classList.remove('show');
+  clearTimeout(idleResetTimer);
+}
 function dismissIdleIfShown(){
   if(document.getElementById('ph-idle').classList.contains('show')){
     hideIdle();
@@ -951,7 +994,7 @@ function showSlide(idx){
   cap.classList.add('fading');
   setTimeout(() => {
     cap.textContent = it.caption || '';
-    document.getElementById('gal-counter').textContent = `${idx + 1} / ${galItems.length} מתוך האסופה`;
+    document.getElementById('gal-counter').textContent = `${idx + 1} / ${galItems.length}`;
     cap.classList.remove('fading');
   }, 320);
 }
@@ -969,8 +1012,12 @@ function stopSlideshow(){
 }
 
 // game
-function goTutorial(){
+function goWelcome(){
   stopSlideshow();
+  show('ph-welcome');
+}
+
+function goTutorial(){
   renderRoundDots('tutorial-dots', 0);
   show('ph-tutorial');
 }
@@ -1082,8 +1129,23 @@ async function fireSnap(){
     stopStatusPoll();
     console.error('[snap error]', e.message);
     show('ph-build');
+    flashBuildError('המכונה לא הצליחה הפעם, נסו שוב');
   }
   snapBusy = false;
+}
+
+// brief visible error banner on the camera screen — reuses the round-overlay
+// styling so a failed prediction doesn't silently drop the user back to the
+// camera with no explanation
+let buildErrorTimer = null;
+function flashBuildError(msg){
+  const overlay = document.getElementById('round-overlay');
+  document.getElementById('round-overlay-hint').textContent  = msg;
+  document.getElementById('round-overlay-title').textContent = '';
+  overlay.classList.remove('hide');
+  clearTimeout(buildErrorTimer);
+  clearTimeout(roundOverlayTimer);
+  buildErrorTimer = setTimeout(() => overlay.classList.add('hide'), 2600);
 }
 
 // result
@@ -1154,7 +1216,7 @@ function showSummary(data){
     const label = document.createElement('span');
     label.className = 'summary-label';
     label.dir = 'rtl';
-    label.textContent = `תשובה ${ROUND_ORDINALS[i] || (i + 1)} מאת המכונה`;
+    label.textContent = `תשובה ${ROUND_ORDINALS[i] || (i + 1)}`;
     const icon = document.createElement('span');
     icon.className = 'summary-icon ' + (h.success ? 'ok' : 'bad');
     icon.textContent = h.success ? '✓' : '✗';
@@ -1222,9 +1284,9 @@ function handleAdvance(){
   armIdle();
   if(document.getElementById('modal').classList.contains('open')){ closeModal(); return; }
   const active = document.querySelector('.phase.active').id;
-  if(active === 'ph-gallery'){  goTutorial();  return; }
-  if(active === 'ph-tutorial'){ beginGame();   return; }
-  if(active === 'ph-round'){    clearTimeout(roundAutoTimer); show('ph-build'); return; }
+  if(active === 'ph-gallery'){  goWelcome();  return; }
+  if(active === 'ph-welcome'){  goTutorial(); return; }
+  if(active === 'ph-tutorial'){ beginGame();  return; }
   if(active === 'ph-build'){    fireSnap();    return; }
   if(active === 'ph-result'){   markCorrect(); return; }
   if(active === 'ph-summary'){  playAgain();   return; }
