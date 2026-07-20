@@ -574,13 +574,14 @@ PAGE = """<!DOCTYPE html>
   --bg:#1e2021;--surface:#1a1a19;--fg:#fff;
   --dim:#2c2c2a;--med:#c3c2b7;--muted:#898781;
   --border:rgba(255,255,255,.10);
-  --card-bg:#ffffff;--arrow:#e2c9da;--arrow-line:#dddddd;--score-orange:#eaac0f;
+  --card-bg:#ffffff;--arrow:#e2c9da;--score-orange:#eaac0f;
   --font-head:'Masada',serif;--font-body:'Masada',Helvetica,Arial,sans-serif;
   --series-1:#3987e5;--ok:#64bc69;--bad:#d35454;
   --dot-green:#57965a;--dot-red:#d15524;
   --round1:#d35454;--round2:#eaac0f;--round3:#64bc69;
   --dur-fast:180ms;--dur:320ms;--dur-slow:650ms;
-  --ease:cubic-bezier(.4,0,.2,1)
+  --ease:cubic-bezier(.4,0,.2,1);
+  --outside-scale:3   /* multiplier for instructional text OUTSIDE the central card */
 }
 body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:100vh;overflow:hidden}
 .phase{
@@ -592,9 +593,9 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
 
 /* ── shared: corner hints, card, round dots, bottom caption ── */
 .hint{
-  position:fixed;top:20px;z-index:40;white-space:nowrap;
-  font-size:20px;font-weight:600;color:#fff;direction:rtl;
-  display:flex;align-items:center;gap:10px;line-height:1;
+  position:fixed;top:20px;z-index:40;max-width:calc(50vw - 40px);
+  font-size:calc(20px * var(--outside-scale));font-weight:600;color:#fff;direction:rtl;
+  display:flex;align-items:center;gap:10px;line-height:1.25;
   text-shadow:0 1px 6px rgba(0,0,0,.6)
 }
 .hint-tl{left:24px}
@@ -606,9 +607,9 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
 .hint-q{opacity:.85}
 .result-stack{display:flex;flex-direction:column;align-items:center;gap:18px}
 .hint-line{
-  display:inline-flex;align-items:center;gap:24px;
-  direction:rtl;white-space:nowrap;max-width:calc(100vw - 48px);
-  font-size:20px;font-weight:600;color:#fff;
+  display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:16px 24px;
+  direction:rtl;max-width:calc(100vw - 48px);
+  font-size:calc(20px * var(--outside-scale));font-weight:600;color:#fff;
   text-shadow:0 1px 6px rgba(0,0,0,.6)
 }
 .hint-chunk{display:inline-flex;align-items:center;gap:8px;flex-shrink:0}
@@ -622,12 +623,12 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
 
 .bottom-caption{
   position:fixed;left:0;right:0;bottom:36px;z-index:40;
-  text-align:center;color:#fff;font-size:21px;font-weight:600;direction:rtl;
+  text-align:center;color:#fff;font-size:calc(21px * var(--outside-scale));font-weight:600;direction:rtl;
   text-shadow:0 1px 6px rgba(0,0,0,.6);padding:0 24px
 }
 
 .round-dots{position:fixed;top:20px;right:24px;z-index:40;display:flex;align-items:center;gap:12px;direction:rtl}
-.round-dots .label{font-size:18px;font-weight:700;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.round-dots .label{font-size:calc(18px * var(--outside-scale));font-weight:700;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.6)}
 .round-dots .dot{width:16px;height:16px;border-radius:50%;border:2px solid var(--med)}
 .round-dots .dot.dot-r1.filled{background:var(--round1);border-color:var(--round1)}
 .round-dots .dot.dot-r2.filled{background:var(--round2);border-color:var(--round2)}
@@ -650,16 +651,6 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
 .tut-content h1{font-family:var(--font-head);font-size:60px;font-weight:300;font-style:italic;color:#111;margin-bottom:18px}
 .tut-rule{border:none;border-top:2px solid #ddd;width:65%;margin:0 auto 26px;border-radius:2px}
 .tut-content p{font-size:22px;font-weight:500;color:#333;line-height:1.85;white-space:pre-line}
-.tut-note{position:fixed;z-index:41;font-size:22px;font-weight:600;color:var(--med);line-height:1.4;max-width:220px}
-.tut-note-tl{top:122px;left:20px;text-align:left}
-.tut-note-tr{top:154px;right:20px;text-align:right}
-.tut-note-r{top:calc(50% - 40px);right:20px;text-align:right}
-.tut-note-bl{bottom:154px;left:20px;text-align:left}
-.tut-arrow{position:fixed;z-index:41}
-.tut-arrow-tl{top:50px;left:46px;width:56px;height:64px}
-.tut-arrow-tr{top:50px;right:46px;width:56px;height:64px;transform:scaleX(-1)}
-.tut-arrow-r{top:calc(50% + 26px);right:110px;width:70px;height:55px}
-.tut-arrow-bl{bottom:50px;left:64px;width:70px;height:96px}
 
 /* ── Build ── */
 #video-full{width:100%;height:100%;object-fit:cover}
@@ -747,14 +738,6 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
 </head>
 <body>
 
-<svg width="0" height="0">
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
-      <path d="M0,1 C3,1 5,3 9,5 C5,7 3,9 0,9 C1.5,7 1.5,3 0,1 Z" fill="var(--arrow)"></path>
-    </marker>
-  </defs>
-</svg>
-
 <!-- Gallery -->
 <div id="ph-gallery" class="phase active">
   <div class="hint hint-tl"><span class="hint-dot white"></span><span>להתחלה לחצו על הכפתור הלבן</span></div>
@@ -792,24 +775,14 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
       <p>למשחק יש שלושה סבבים,
 בכל סבב עליכם לצייר מאותם חפצים משהו חדש.
 לאחר שתבנו המכונה תנסה לנחש מה ציירתם
-להתחלת הסבב הראשון לחצו על הכפתור הלבן.
-
-אנא עיינו בהערות סביב המסך לפני תחילת הפעילות.</p>
+להתחלת הסבב הראשון לחצו על הכפתור הלבן.</p>
     </div>
   </div>
-  <div class="tut-note tut-note-tl" dir="rtl">להוראות המשך הסבב</div>
-  <div class="tut-note tut-note-tr" dir="rtl">לצפייה במספר סבב שאתם נמצאים בו כעת</div>
-  <div class="tut-note tut-note-r" dir="rtl">במסך זה יוצג הפעולות שלכם לאורך המשימה</div>
-  <div class="tut-note tut-note-bl" dir="rtl">לצפייה בשלבים והצעת התשובות של AI</div>
-  <svg class="tut-arrow tut-arrow-tl" viewBox="0 0 56 64"><path d="M8,58 C8,20 32,6 46,4" stroke="var(--arrow-line)" stroke-width="3" stroke-linecap="round" fill="none" marker-end="url(#arrowhead)"></path></svg>
-  <svg class="tut-arrow tut-arrow-tr" viewBox="0 0 56 64"><path d="M8,58 C8,20 32,6 46,4" stroke="var(--arrow-line)" stroke-width="3" stroke-linecap="round" fill="none" marker-end="url(#arrowhead)"></path></svg>
-  <svg class="tut-arrow tut-arrow-r" viewBox="0 0 70 55"><path d="M60,6 C50,20 25,32 8,42" stroke="var(--arrow-line)" stroke-width="3" stroke-linecap="round" fill="none" marker-end="url(#arrowhead)"></path></svg>
-  <svg class="tut-arrow tut-arrow-bl" viewBox="0 0 70 96"><path d="M8,8 C8,60 30,80 62,90" stroke="var(--arrow-line)" stroke-width="3" stroke-linecap="round" fill="none" marker-end="url(#arrowhead)"></path></svg>
 </div>
 
 <!-- Build -->
 <div id="ph-build" class="phase">
-  <div class="hint hint-tl"><span class="hint-dot white"></span><span>להגשה תלחצו על הכפתור הלבן</span></div>
+  <div class="hint hint-tl"><span class="hint-dot white"></span><span>להגשה לחצו על הכפתור הלבן</span></div>
   <div class="round-dots" id="build-dots"></div>
   <div class="card">
     <video id="video-full" autoplay playsinline muted></video>
@@ -917,7 +890,7 @@ function showRoundScreen(n){
   roundOverlayTimer = setTimeout(() => overlay.classList.add('hide'), ROUND_OVERLAY_MS);
 }
 
-// idle "still with us?" overlay — shown after 60s with no button press
+// idle "still with us?" overlay — shown after 5 min with no button press
 // while waiting on the camera, a prediction, or a result
 let idleTimer = null;
 let idleResetTimer = null;
@@ -926,7 +899,7 @@ function armIdle(){
   const active  = document.querySelector('.phase.active');
   const watched = ['ph-build', 'ph-loading', 'ph-result'];
   if(active && watched.includes(active.id)){
-    idleTimer = setTimeout(showIdle, 120000);
+    idleTimer = setTimeout(showIdle, 300000);
   }
 }
 function showIdle(){
