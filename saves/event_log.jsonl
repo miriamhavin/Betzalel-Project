@@ -358,3 +358,7 @@
 {"time": "2026-07-27T15:35:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T15:35:16", "event": "button_press", "button": "YES"}
 {"time": "2026-07-27T15:35:31", "event": "snap", "round": 2, "ts": "20260727_153531", "scene": "A person holding a camera"}
+{"time": "2026-07-27T15:35:50", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T15:35:51", "event": "round_result", "round": 2, "ts": "20260727_153531", "success": false}
+{"time": "2026-07-27T15:36:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:36:55", "event": "snap", "round": 3, "ts": "20260727_153655", "scene": "A spoon in a bowl"}
