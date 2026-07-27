@@ -87,3 +87,7 @@
 {"time": "2026-07-27T13:27:37", "event": "game_start"}
 {"time": "2026-07-27T13:28:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T13:28:45", "event": "snap", "round": 1, "ts": "20260727_132845", "scene": "A computer monitor with a keyboard"}
+{"time": "2026-07-27T13:28:52", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T13:28:53", "event": "round_result", "round": 1, "ts": "20260727_132845", "success": false}
+{"time": "2026-07-27T13:29:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:30:02", "event": "snap", "round": 2, "ts": "20260727_133002", "scene": "A person on a bicycle"}
