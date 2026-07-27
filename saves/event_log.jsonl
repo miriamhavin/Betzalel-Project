@@ -278,3 +278,16 @@
 {"time": "2026-07-27T15:17:00", "event": "round_result", "round": 2, "ts": "20260727_151648", "success": true}
 {"time": "2026-07-27T15:17:19", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T15:17:35", "event": "snap", "round": 3, "ts": "20260727_151735", "scene": "A man wearing glasses"}
+{"time": "2026-07-27T15:17:45", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T15:17:46", "event": "round_result", "round": 3, "ts": "20260727_151735", "success": false}
+{"time": "2026-07-27T15:18:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:18:32", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T15:18:33", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T15:18:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T15:18:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:18:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:18:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:18:48", "event": "game_start"}
+{"time": "2026-07-27T15:18:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:18:53", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T15:19:05", "event": "snap", "round": 1, "ts": "20260727_151905", "scene": "A simple drawing of a cartoon cloud"}
