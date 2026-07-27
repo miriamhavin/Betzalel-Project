@@ -804,3 +804,12 @@
 {"time": "2026-07-27T19:18:13", "event": "round_result", "round": 2, "ts": "20260727_191809", "success": true}
 {"time": "2026-07-27T19:18:16", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T19:18:33", "event": "snap", "round": 3, "ts": "20260727_191833", "scene": "A stylized robot with goggles"}
+{"time": "2026-07-27T19:18:36", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T19:18:37", "event": "round_result", "round": 3, "ts": "20260727_191833", "success": true}
+{"time": "2026-07-27T19:18:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:18:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:18:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:18:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:18:47", "event": "game_start"}
+{"time": "2026-07-27T19:20:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:20:53", "event": "snap", "round": 1, "ts": "20260727_192053", "scene": "A running man"}
