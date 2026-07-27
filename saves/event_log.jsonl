@@ -849,3 +849,16 @@
 {"time": "2026-07-27T19:30:30", "event": "button_press", "button": "NO"}
 {"time": "2026-07-27T19:30:31", "event": "button_press", "button": "YES"}
 {"time": "2026-07-27T19:30:33", "event": "snap", "round": 3, "ts": "20260727_193033", "scene": "A scarecrow"}
+{"time": "2026-07-27T19:30:33", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T19:30:34", "event": "round_result", "round": 3, "ts": "20260727_193033", "success": true}
+{"time": "2026-07-27T19:30:39", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T19:30:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:30:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:31:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:34:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:34:45", "event": "game_start"}
+{"time": "2026-07-27T19:34:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:34:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:34:56", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:34:57", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T19:35:11", "event": "snap", "round": 1, "ts": "20260727_193511", "scene": "a rectangular box with a jagged edge"}
