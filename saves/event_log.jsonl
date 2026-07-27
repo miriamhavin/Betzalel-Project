@@ -208,3 +208,7 @@
 {"time": "2026-07-27T14:31:43", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T14:31:46", "event": "button_press", "button": "NO"}
 {"time": "2026-07-27T14:32:00", "event": "snap", "round": 2, "ts": "20260727_143200", "scene": "A retro robot waiter"}
+{"time": "2026-07-27T14:32:08", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T14:32:08", "event": "round_result", "round": 2, "ts": "20260727_143200", "success": false}
+{"time": "2026-07-27T14:33:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:33:55", "event": "snap", "round": 3, "ts": "20260727_143355", "scene": "A bird flying"}
