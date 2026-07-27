@@ -486,3 +486,10 @@
 {"time": "2026-07-27T16:28:10", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T16:28:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T16:28:30", "event": "snap", "round": 1, "ts": "20260727_162830", "scene": "A robot waving"}
+{"time": "2026-07-27T16:28:45", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T16:28:46", "event": "round_result", "round": 1, "ts": "20260727_162830", "success": false}
+{"time": "2026-07-27T16:32:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:32:31", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T16:32:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:32:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:32:45", "event": "snap", "round": 2, "ts": "20260727_163245", "scene": "A closed window"}
