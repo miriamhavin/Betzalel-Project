@@ -263,3 +263,9 @@
 {"time": "2026-07-27T15:08:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T15:08:45", "event": "button_press", "button": "NO"}
 {"time": "2026-07-27T15:08:56", "event": "snap", "round": 1, "ts": "20260727_150856", "scene": "A simple picture frame"}
+{"time": "2026-07-27T15:14:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:14:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:15:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:15:45", "event": "game_start"}
+{"time": "2026-07-27T15:15:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:16:03", "event": "snap", "round": 1, "ts": "20260727_151603", "scene": "A toothbrush and toothpaste tube"}
