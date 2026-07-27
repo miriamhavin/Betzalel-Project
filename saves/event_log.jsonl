@@ -185,3 +185,7 @@
 {"time": "2026-07-27T14:24:31", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T14:24:48", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T14:24:49", "event": "snap", "round": 1, "ts": "20260727_142449", "scene": "A person operating a boombox"}
+{"time": "2026-07-27T14:25:04", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T14:25:05", "event": "round_result", "round": 1, "ts": "20260727_142449", "success": false}
+{"time": "2026-07-27T14:26:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:26:26", "event": "snap", "round": 2, "ts": "20260727_142626", "scene": "A robot with a camera for a head"}
