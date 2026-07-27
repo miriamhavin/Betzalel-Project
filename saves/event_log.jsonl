@@ -721,3 +721,7 @@
 {"time": "2026-07-27T18:49:26", "event": "round_result", "round": 1, "ts": "20260727_184906", "success": false}
 {"time": "2026-07-27T18:49:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T18:50:17", "event": "snap", "round": 2, "ts": "20260727_185017", "scene": "A stylized shovel"}
+{"time": "2026-07-27T18:50:25", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T18:50:26", "event": "round_result", "round": 2, "ts": "20260727_185017", "success": false}
+{"time": "2026-07-27T18:50:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:51:08", "event": "snap", "round": 3, "ts": "20260727_185108", "scene": "A pair of spectacles"}
