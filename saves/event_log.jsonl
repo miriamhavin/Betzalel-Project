@@ -589,3 +589,7 @@
 {"time": "2026-07-27T17:32:23", "event": "round_result", "round": 1, "ts": "20260727_173203", "success": false}
 {"time": "2026-07-27T17:33:02", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T17:33:27", "event": "snap", "round": 2, "ts": "20260727_173327", "scene": "A person bending over to examine a cog"}
+{"time": "2026-07-27T17:33:35", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T17:33:35", "event": "round_result", "round": 2, "ts": "20260727_173327", "success": false}
+{"time": "2026-07-27T17:33:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:34:17", "event": "snap", "round": 3, "ts": "20260727_173417", "scene": "A monster with a gear for a mouth"}
