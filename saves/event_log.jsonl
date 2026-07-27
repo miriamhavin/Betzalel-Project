@@ -417,3 +417,13 @@
 {"time": "2026-07-27T15:50:54", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T15:51:01", "event": "button_press", "button": "YES"}
 {"time": "2026-07-27T15:51:12", "event": "snap", "round": 3, "ts": "20260727_155112", "scene": "A stylized mountain range with a winding river"}
+{"time": "2026-07-27T15:52:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:52:36", "event": "round_result", "round": 3, "ts": "20260727_155112", "success": true}
+{"time": "2026-07-27T15:52:43", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T15:52:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:52:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:52:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:53:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:53:04", "event": "game_start"}
+{"time": "2026-07-27T15:53:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:53:31", "event": "snap", "round": 1, "ts": "20260727_155331", "scene": "A key with a tag"}
