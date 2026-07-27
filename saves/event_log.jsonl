@@ -593,3 +593,16 @@
 {"time": "2026-07-27T17:33:35", "event": "round_result", "round": 2, "ts": "20260727_173327", "success": false}
 {"time": "2026-07-27T17:33:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T17:34:17", "event": "snap", "round": 3, "ts": "20260727_173417", "scene": "A monster with a gear for a mouth"}
+{"time": "2026-07-27T17:34:25", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T17:34:25", "event": "round_result", "round": 3, "ts": "20260727_173417", "success": false}
+{"time": "2026-07-27T17:35:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:35:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:39:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:39:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:39:34", "event": "game_start"}
+{"time": "2026-07-27T18:07:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:11:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:11:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:11:51", "event": "game_start"}
+{"time": "2026-07-27T18:11:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:12:10", "event": "snap", "round": 1, "ts": "20260727_181210", "scene": "A simple rectangular frame"}
