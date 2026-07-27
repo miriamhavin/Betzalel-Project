@@ -70,3 +70,7 @@
 {"time": "2026-07-27T13:11:57", "event": "game_start"}
 {"time": "2026-07-27T13:12:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T13:12:50", "event": "snap", "round": 1, "ts": "20260727_131250", "scene": "Guitar"}
+{"time": "2026-07-27T13:12:58", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T13:12:59", "event": "round_result", "round": 1, "ts": "20260727_131250", "success": false}
+{"time": "2026-07-27T13:13:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:14:02", "event": "snap", "round": 2, "ts": "20260727_131402", "scene": "A bird in flight"}
