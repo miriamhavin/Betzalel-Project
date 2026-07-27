@@ -663,3 +663,14 @@
 {"time": "2026-07-27T18:25:23", "event": "round_result", "round": 2, "ts": "20260727_182512", "success": false}
 {"time": "2026-07-27T18:25:37", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T18:25:55", "event": "snap", "round": 3, "ts": "20260727_182555", "scene": "A person holding a gun"}
+{"time": "2026-07-27T18:26:06", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T18:26:07", "event": "round_result", "round": 3, "ts": "20260727_182555", "success": false}
+{"time": "2026-07-27T18:27:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:27:38", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T18:30:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:31:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:31:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:31:40", "event": "game_start"}
+{"time": "2026-07-27T18:31:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:31:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:32:04", "event": "snap", "round": 1, "ts": "20260727_183204", "scene": "A mechanical spider"}
