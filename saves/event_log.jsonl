@@ -41,3 +41,7 @@
 {"time": "2026-07-27T12:56:49", "event": "game_start"}
 {"time": "2026-07-27T12:58:54", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T12:59:11", "event": "snap", "round": 1, "ts": "20260727_125911", "scene": "A skeleton"}
+{"time": "2026-07-27T12:59:30", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T12:59:31", "event": "round_result", "round": 1, "ts": "20260727_125911", "success": false}
+{"time": "2026-07-27T13:00:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:00:20", "event": "snap", "round": 2, "ts": "20260727_130020", "scene": "A dinosaur"}
