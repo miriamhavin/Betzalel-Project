@@ -171,3 +171,7 @@
 {"time": "2026-07-27T14:15:59", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T14:16:07", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T14:16:17", "event": "snap", "round": 2, "ts": "20260727_141617", "scene": "A toy ray gun"}
+{"time": "2026-07-27T14:16:24", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T14:16:25", "event": "round_result", "round": 2, "ts": "20260727_141617", "success": true}
+{"time": "2026-07-27T14:17:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:17:22", "event": "snap", "round": 3, "ts": "20260727_141722", "scene": "A small, cartoonish robot."}
