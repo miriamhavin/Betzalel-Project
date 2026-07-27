@@ -618,3 +618,22 @@
 {"time": "2026-07-27T18:13:23", "event": "button_press", "button": "NO"}
 {"time": "2026-07-27T18:13:25", "event": "button_press", "button": "NO"}
 {"time": "2026-07-27T18:13:32", "event": "snap", "round": 3, "ts": "20260727_181332", "scene": "A landscape painting"}
+{"time": "2026-07-27T18:13:41", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T18:13:41", "event": "round_result", "round": 3, "ts": "20260727_181332", "success": true}
+{"time": "2026-07-27T18:14:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:14:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:14:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:14:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:14:19", "event": "game_start"}
+{"time": "2026-07-27T18:14:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:14:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:14:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:14:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T18:14:28", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T18:14:29", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T18:14:30", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T18:14:32", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T18:14:33", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T18:14:34", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T18:14:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:14:36", "event": "snap", "round": 1, "ts": "20260727_181436", "scene": "A simple picture frame"}
