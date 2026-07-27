@@ -914,3 +914,12 @@
 {"time": "2026-07-27T20:02:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T20:02:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T20:02:52", "event": "snap", "round": 3, "ts": "20260727_200252", "scene": "A dragon"}
+{"time": "2026-07-27T20:03:00", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T20:03:01", "event": "round_result", "round": 3, "ts": "20260727_200252", "success": false}
+{"time": "2026-07-27T20:08:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:08:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:08:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:08:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:08:45", "event": "game_start"}
+{"time": "2026-07-27T20:08:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:09:14", "event": "snap", "round": 1, "ts": "20260727_200914", "scene": "A cross"}
