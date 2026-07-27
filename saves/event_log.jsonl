@@ -637,3 +637,8 @@
 {"time": "2026-07-27T18:14:34", "event": "button_press", "button": "YES"}
 {"time": "2026-07-27T18:14:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T18:14:36", "event": "snap", "round": 1, "ts": "20260727_181436", "scene": "A simple picture frame"}
+{"time": "2026-07-27T18:19:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:19:22", "event": "round_result", "round": 1, "ts": "20260727_181436", "success": true}
+{"time": "2026-07-27T18:19:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:20:08", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T18:20:16", "event": "snap", "round": 2, "ts": "20260727_182016", "scene": "A diver in a helmet"}
