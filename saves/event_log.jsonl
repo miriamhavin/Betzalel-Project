@@ -132,3 +132,8 @@
 {"time": "2026-07-27T13:40:51", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T13:40:55", "event": "button_press", "button": "NO"}
 {"time": "2026-07-27T13:40:56", "event": "snap", "round": 2, "ts": "20260727_134056", "scene": "A rectangular book"}
+{"time": "2026-07-27T13:41:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:41:01", "event": "round_result", "round": 2, "ts": "20260727_134056", "success": true}
+{"time": "2026-07-27T13:41:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:41:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:41:19", "event": "snap", "round": 3, "ts": "20260727_134119", "scene": "A window frame"}
