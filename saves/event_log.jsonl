@@ -476,3 +476,13 @@
 {"time": "2026-07-27T16:24:09", "event": "round_result", "round": 2, "ts": "20260727_162357", "success": true}
 {"time": "2026-07-27T16:25:12", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T16:25:30", "event": "snap", "round": 3, "ts": "20260727_162530", "scene": "A stylized bird perched on a branch"}
+{"time": "2026-07-27T16:25:34", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T16:25:35", "event": "round_result", "round": 3, "ts": "20260727_162530", "success": false}
+{"time": "2026-07-27T16:27:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:28:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:28:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:28:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:28:06", "event": "game_start"}
+{"time": "2026-07-27T16:28:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:28:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:28:30", "event": "snap", "round": 1, "ts": "20260727_162830", "scene": "A robot waving"}
