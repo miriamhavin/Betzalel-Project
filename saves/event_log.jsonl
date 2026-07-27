@@ -982,3 +982,7 @@
 {"time": "2026-07-27T20:59:09", "event": "game_start"}
 {"time": "2026-07-27T20:59:45", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T21:00:03", "event": "snap", "round": 1, "ts": "20260727_210003", "scene": "A handgun firing"}
+{"time": "2026-07-27T21:00:12", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T21:00:13", "event": "round_result", "round": 1, "ts": "20260727_210003", "success": false}
+{"time": "2026-07-27T21:00:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T21:01:10", "event": "snap", "round": 2, "ts": "20260727_210110", "scene": "A person falling"}
