@@ -927,3 +927,7 @@
 {"time": "2026-07-27T20:09:43", "event": "round_result", "round": 1, "ts": "20260727_200914", "success": false}
 {"time": "2026-07-27T20:12:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T20:12:46", "event": "snap", "round": 2, "ts": "20260727_201246", "scene": "A simplified human figure standing"}
+{"time": "2026-07-27T20:13:30", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T20:13:30", "event": "round_result", "round": 2, "ts": "20260727_201246", "success": true}
+{"time": "2026-07-27T20:13:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:13:58", "event": "snap", "round": 3, "ts": "20260727_201358", "scene": "A television set"}
