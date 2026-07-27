@@ -156,3 +156,13 @@
 {"time": "2026-07-27T14:06:58", "event": "round_result", "round": 2, "ts": "20260727_140620", "success": true}
 {"time": "2026-07-27T14:08:01", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T14:08:19", "event": "snap", "round": 3, "ts": "20260727_140819", "scene": "A pair of eyeglasses"}
+{"time": "2026-07-27T14:08:23", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T14:08:24", "event": "round_result", "round": 3, "ts": "20260727_140819", "success": false}
+{"time": "2026-07-27T14:12:31", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T14:12:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:12:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:13:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:14:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:14:11", "event": "game_start"}
+{"time": "2026-07-27T14:14:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:15:01", "event": "snap", "round": 1, "ts": "20260727_141501", "scene": "A stylized martini glass with a lemon garnish"}
