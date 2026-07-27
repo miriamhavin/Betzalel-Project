@@ -468,3 +468,7 @@
 {"time": "2026-07-27T16:21:01", "event": "game_start"}
 {"time": "2026-07-27T16:21:56", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T16:22:14", "event": "snap", "round": 1, "ts": "20260727_162214", "scene": "A bottle of perfume with a spray nozzle"}
+{"time": "2026-07-27T16:22:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T16:22:28", "event": "round_result", "round": 1, "ts": "20260727_162214", "success": false}
+{"time": "2026-07-27T16:23:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:23:57", "event": "snap", "round": 2, "ts": "20260727_162357", "scene": "A rudimentary robot figure"}
