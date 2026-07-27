@@ -946,3 +946,11 @@
 {"time": "2026-07-27T20:37:29", "event": "round_result", "round": 1, "ts": "20260727_203724", "success": false}
 {"time": "2026-07-27T20:37:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T20:37:55", "event": "snap", "round": 2, "ts": "20260727_203755", "scene": "A simple rectangular picture frame"}
+{"time": "2026-07-27T20:37:59", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T20:37:59", "event": "round_result", "round": 2, "ts": "20260727_203755", "success": true}
+{"time": "2026-07-27T20:43:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:43:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:44:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:44:03", "event": "game_start"}
+{"time": "2026-07-27T20:44:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:44:35", "event": "snap", "round": 1, "ts": "20260727_204435", "scene": "A stylized dragon breathing fire"}
