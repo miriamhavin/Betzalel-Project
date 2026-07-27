@@ -1,0 +1,5 @@
+{"time": "2026-07-27T11:25:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T11:43:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T11:43:24", "event": "game_start"}
+{"time": "2026-07-27T11:43:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T11:43:51", "event": "snap", "round": 1, "ts": "20260727_114351", "scene": "A rectangular frame"}
