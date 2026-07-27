@@ -175,3 +175,13 @@
 {"time": "2026-07-27T14:16:25", "event": "round_result", "round": 2, "ts": "20260727_141617", "success": true}
 {"time": "2026-07-27T14:17:06", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T14:17:22", "event": "snap", "round": 3, "ts": "20260727_141722", "scene": "A small, cartoonish robot."}
+{"time": "2026-07-27T14:17:34", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T14:17:35", "event": "round_result", "round": 3, "ts": "20260727_141722", "success": false}
+{"time": "2026-07-27T14:21:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:23:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:23:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:23:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:23:59", "event": "game_start"}
+{"time": "2026-07-27T14:24:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:24:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:24:49", "event": "snap", "round": 1, "ts": "20260727_142449", "scene": "A person operating a boombox"}
