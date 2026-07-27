@@ -269,3 +269,8 @@
 {"time": "2026-07-27T15:15:45", "event": "game_start"}
 {"time": "2026-07-27T15:15:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T15:16:03", "event": "snap", "round": 1, "ts": "20260727_151603", "scene": "A toothbrush and toothpaste tube"}
+{"time": "2026-07-27T15:16:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:16:27", "event": "round_result", "round": 1, "ts": "20260727_151603", "success": true}
+{"time": "2026-07-27T15:16:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:16:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:16:48", "event": "snap", "round": 2, "ts": "20260727_151648", "scene": "A sleeping person"}
