@@ -642,3 +642,7 @@
 {"time": "2026-07-27T18:19:57", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T18:20:08", "event": "button_press", "button": "NO"}
 {"time": "2026-07-27T18:20:16", "event": "snap", "round": 2, "ts": "20260727_182016", "scene": "A diver in a helmet"}
+{"time": "2026-07-27T18:20:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T18:20:28", "event": "round_result", "round": 2, "ts": "20260727_182016", "success": false}
+{"time": "2026-07-27T18:21:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:21:20", "event": "snap", "round": 3, "ts": "20260727_182120", "scene": "A sad robot face"}
