@@ -535,3 +535,7 @@
 {"time": "2026-07-27T16:54:56", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T16:59:36", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T16:59:52", "event": "snap", "round": 2, "ts": "20260727_165952", "scene": "Open book"}
+{"time": "2026-07-27T17:00:04", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T17:00:04", "event": "round_result", "round": 2, "ts": "20260727_165952", "success": false}
+{"time": "2026-07-27T17:00:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:00:31", "event": "snap", "round": 3, "ts": "20260727_170031", "scene": "A roughly drawn outline of a simple leaf."}
