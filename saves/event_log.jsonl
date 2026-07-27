@@ -28,3 +28,7 @@
 {"time": "2026-07-27T12:33:49", "event": "round_result", "round": 1, "ts": "20260727_123338", "success": false}
 {"time": "2026-07-27T12:34:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T12:34:57", "event": "snap", "round": 2, "ts": "20260727_123457", "scene": "A waiter"}
+{"time": "2026-07-27T12:35:02", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T12:35:03", "event": "round_result", "round": 2, "ts": "20260727_123457", "success": false}
+{"time": "2026-07-27T12:35:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T12:36:11", "event": "snap", "round": 3, "ts": "20260727_123611", "scene": "A toothbrush with toothpaste"}
