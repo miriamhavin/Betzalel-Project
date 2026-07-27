@@ -717,3 +717,7 @@
 {"time": "2026-07-27T18:48:40", "event": "game_start"}
 {"time": "2026-07-27T18:48:48", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T18:49:06", "event": "snap", "round": 1, "ts": "20260727_184906", "scene": "A stylized goat"}
+{"time": "2026-07-27T18:49:25", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T18:49:26", "event": "round_result", "round": 1, "ts": "20260727_184906", "success": false}
+{"time": "2026-07-27T18:49:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:50:17", "event": "snap", "round": 2, "ts": "20260727_185017", "scene": "A stylized shovel"}
