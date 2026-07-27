@@ -870,3 +870,17 @@
 {"time": "2026-07-27T19:38:21", "event": "round_result", "round": 2, "ts": "20260727_193813", "success": true}
 {"time": "2026-07-27T19:39:38", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T19:39:57", "event": "snap", "round": 3, "ts": "20260727_193957", "scene": "a knight with a shield"}
+{"time": "2026-07-27T19:40:06", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:40:07", "event": "round_result", "round": 3, "ts": "20260727_193957", "success": false}
+{"time": "2026-07-27T19:40:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:52:46", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:52:48", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T19:52:49", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T19:52:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:52:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:52:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:52:58", "event": "game_start"}
+{"time": "2026-07-27T19:53:03", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:53:04", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T19:53:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:53:22", "event": "snap", "round": 1, "ts": "20260727_195322", "scene": "A simple rectangular box"}
