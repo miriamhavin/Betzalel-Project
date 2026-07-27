@@ -813,3 +813,7 @@
 {"time": "2026-07-27T19:18:47", "event": "game_start"}
 {"time": "2026-07-27T19:20:28", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T19:20:53", "event": "snap", "round": 1, "ts": "20260727_192053", "scene": "A running man"}
+{"time": "2026-07-27T19:21:00", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:21:01", "event": "round_result", "round": 1, "ts": "20260727_192053", "success": false}
+{"time": "2026-07-27T19:22:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:22:26", "event": "snap", "round": 2, "ts": "20260727_192226", "scene": "A spray bottle"}
