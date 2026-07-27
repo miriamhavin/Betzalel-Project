@@ -539,3 +539,14 @@
 {"time": "2026-07-27T17:00:04", "event": "round_result", "round": 2, "ts": "20260727_165952", "success": false}
 {"time": "2026-07-27T17:00:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T17:00:31", "event": "snap", "round": 3, "ts": "20260727_170031", "scene": "A roughly drawn outline of a simple leaf."}
+{"time": "2026-07-27T17:00:39", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T17:00:40", "event": "round_result", "round": 3, "ts": "20260727_170031", "success": true}
+{"time": "2026-07-27T17:04:03", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T17:04:04", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T17:04:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:04:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:04:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:04:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:04:45", "event": "game_start"}
+{"time": "2026-07-27T17:05:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:05:38", "event": "snap", "round": 1, "ts": "20260727_170538", "scene": "a drawing of a stylized robot"}
