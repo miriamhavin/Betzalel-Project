@@ -104,3 +104,7 @@
 {"time": "2026-07-27T13:33:32", "event": "game_start"}
 {"time": "2026-07-27T13:34:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T13:34:32", "event": "snap", "round": 1, "ts": "20260727_133432", "scene": "A zipper"}
+{"time": "2026-07-27T13:34:38", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T13:34:39", "event": "round_result", "round": 1, "ts": "20260727_133432", "success": false}
+{"time": "2026-07-27T13:35:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:35:23", "event": "snap", "round": 2, "ts": "20260727_133523", "scene": "A monster truck"}
