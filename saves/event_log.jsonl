@@ -923,3 +923,7 @@
 {"time": "2026-07-27T20:08:45", "event": "game_start"}
 {"time": "2026-07-27T20:08:52", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T20:09:14", "event": "snap", "round": 1, "ts": "20260727_200914", "scene": "A cross"}
+{"time": "2026-07-27T20:09:42", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T20:09:43", "event": "round_result", "round": 1, "ts": "20260727_200914", "success": false}
+{"time": "2026-07-27T20:12:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:12:46", "event": "snap", "round": 2, "ts": "20260727_201246", "scene": "A simplified human figure standing"}
