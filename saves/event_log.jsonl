@@ -775,3 +775,7 @@
 {"time": "2026-07-27T19:10:21", "event": "game_start"}
 {"time": "2026-07-27T19:11:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T19:11:39", "event": "snap", "round": 1, "ts": "20260727_191139", "scene": "A rocket launching"}
+{"time": "2026-07-27T19:11:42", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:11:43", "event": "round_result", "round": 1, "ts": "20260727_191139", "success": false}
+{"time": "2026-07-27T19:13:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:13:52", "event": "snap", "round": 2, "ts": "20260727_191352", "scene": "A cartoon character"}
