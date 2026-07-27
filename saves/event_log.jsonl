@@ -694,3 +694,7 @@
 {"time": "2026-07-27T18:37:12", "event": "game_start"}
 {"time": "2026-07-27T18:37:54", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T18:38:14", "event": "snap", "round": 1, "ts": "20260727_183814", "scene": "A person holding a golf club to swing at a golf ball"}
+{"time": "2026-07-27T18:38:26", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T18:38:26", "event": "round_result", "round": 1, "ts": "20260727_183814", "success": false}
+{"time": "2026-07-27T18:39:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:39:55", "event": "snap", "round": 2, "ts": "20260727_183955", "scene": "A hand holding a wrench, preparing to tighten a bolt on a pipe"}
