@@ -901,3 +901,7 @@
 {"time": "2026-07-27T19:56:58", "event": "game_start"}
 {"time": "2026-07-27T19:57:45", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T19:58:03", "event": "snap", "round": 1, "ts": "20260727_195803", "scene": "A vacuum cleaner"}
+{"time": "2026-07-27T19:58:12", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:58:13", "event": "round_result", "round": 1, "ts": "20260727_195803", "success": false}
+{"time": "2026-07-27T19:58:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:58:57", "event": "snap", "round": 2, "ts": "20260727_195857", "scene": "A skull"}
