@@ -344,3 +344,12 @@
 {"time": "2026-07-27T15:33:22", "event": "button_press", "button": "YES"}
 {"time": "2026-07-27T15:33:29", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T15:33:29", "event": "snap", "round": 3, "ts": "20260727_153329", "scene": "A bone"}
+{"time": "2026-07-27T15:33:29", "event": "round_result", "round": 3, "ts": "20260727_153329", "success": true}
+{"time": "2026-07-27T15:33:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:33:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:33:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:34:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:34:18", "event": "game_start"}
+{"time": "2026-07-27T15:34:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:34:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:34:46", "event": "snap", "round": 1, "ts": "20260727_153446", "scene": "A cup of soda"}
