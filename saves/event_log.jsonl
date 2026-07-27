@@ -741,3 +741,7 @@
 {"time": "2026-07-27T18:56:34", "event": "game_start"}
 {"time": "2026-07-27T18:56:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T18:57:18", "event": "snap", "round": 1, "ts": "20260727_185718", "scene": "Clarinet player"}
+{"time": "2026-07-27T18:57:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T18:57:29", "event": "round_result", "round": 1, "ts": "20260727_185718", "success": false}
+{"time": "2026-07-27T18:58:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:58:22", "event": "snap", "round": 2, "ts": "20260727_185822", "scene": "A vintage camera"}
