@@ -61,3 +61,12 @@
 {"time": "2026-07-27T13:09:35", "event": "round_result", "round": 2, "ts": "20260727_130926", "success": true}
 {"time": "2026-07-27T13:10:20", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T13:10:35", "event": "snap", "round": 3, "ts": "20260727_131035", "scene": "A child playing"}
+{"time": "2026-07-27T13:10:41", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T13:10:42", "event": "round_result", "round": 3, "ts": "20260727_131035", "success": true}
+{"time": "2026-07-27T13:11:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:11:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:11:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:11:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:11:57", "event": "game_start"}
+{"time": "2026-07-27T13:12:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:12:50", "event": "snap", "round": 1, "ts": "20260727_131250", "scene": "Guitar"}
