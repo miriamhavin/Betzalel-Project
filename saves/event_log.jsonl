@@ -796,3 +796,7 @@
 {"time": "2026-07-27T19:17:35", "event": "button_press", "button": "NO"}
 {"time": "2026-07-27T19:17:36", "event": "button_press", "button": "YES"}
 {"time": "2026-07-27T19:17:45", "event": "snap", "round": 1, "ts": "20260727_191745", "scene": "A woman wearing a bow tie and earrings"}
+{"time": "2026-07-27T19:17:49", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:17:50", "event": "round_result", "round": 1, "ts": "20260727_191745", "success": false}
+{"time": "2026-07-27T19:17:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:18:09", "event": "snap", "round": 2, "ts": "20260727_191809", "scene": "A simple face with a nose, mouth, and eye"}
