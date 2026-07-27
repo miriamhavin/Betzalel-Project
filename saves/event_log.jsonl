@@ -212,3 +212,12 @@
 {"time": "2026-07-27T14:32:08", "event": "round_result", "round": 2, "ts": "20260727_143200", "success": false}
 {"time": "2026-07-27T14:33:36", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T14:33:55", "event": "snap", "round": 3, "ts": "20260727_143355", "scene": "A bird flying"}
+{"time": "2026-07-27T14:34:09", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T14:34:10", "event": "round_result", "round": 3, "ts": "20260727_143355", "success": false}
+{"time": "2026-07-27T14:40:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:40:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:41:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:41:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:41:45", "event": "game_start"}
+{"time": "2026-07-27T14:42:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:42:31", "event": "snap", "round": 1, "ts": "20260727_144231", "scene": "A skeleton playing a guitar"}
