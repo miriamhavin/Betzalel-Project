@@ -229,3 +229,12 @@
 {"time": "2026-07-27T14:43:40", "event": "round_result", "round": 2, "ts": "20260727_144334", "success": true}
 {"time": "2026-07-27T14:44:03", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T14:44:19", "event": "snap", "round": 3, "ts": "20260727_144419", "scene": "A skeleton playing a banjo"}
+{"time": "2026-07-27T14:44:25", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T14:44:26", "event": "round_result", "round": 3, "ts": "20260727_144419", "success": true}
+{"time": "2026-07-27T14:54:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:54:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:55:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:55:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:55:53", "event": "game_start"}
+{"time": "2026-07-27T14:56:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:56:39", "event": "snap", "round": 1, "ts": "20260727_145639", "scene": "A standing skeleton"}
