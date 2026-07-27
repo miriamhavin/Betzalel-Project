@@ -372,3 +372,8 @@
 {"time": "2026-07-27T15:37:34", "event": "game_start"}
 {"time": "2026-07-27T15:37:38", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T15:37:54", "event": "snap", "round": 1, "ts": "20260727_153754", "scene": "A computer mouse"}
+{"time": "2026-07-27T15:38:02", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T15:38:03", "event": "round_result", "round": 1, "ts": "20260727_153754", "success": false}
+{"time": "2026-07-27T15:38:26", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T15:38:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:38:44", "event": "snap", "round": 2, "ts": "20260727_153844", "scene": "A dog"}
