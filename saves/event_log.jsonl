@@ -558,3 +558,12 @@
 {"time": "2026-07-27T17:06:33", "event": "round_result", "round": 2, "ts": "20260727_170629", "success": true}
 {"time": "2026-07-27T17:09:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T17:09:23", "event": "snap", "round": 3, "ts": "20260727_170923", "scene": "a toothbrush holder"}
+{"time": "2026-07-27T17:09:30", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T17:09:31", "event": "round_result", "round": 3, "ts": "20260727_170923", "success": false}
+{"time": "2026-07-27T17:10:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:10:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:10:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:10:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:10:26", "event": "game_start"}
+{"time": "2026-07-27T17:14:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T17:14:58", "event": "snap", "round": 1, "ts": "20260727_171458", "scene": "A person playing a banjo"}
