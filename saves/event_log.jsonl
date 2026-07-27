@@ -821,3 +821,19 @@
 {"time": "2026-07-27T19:22:31", "event": "round_result", "round": 2, "ts": "20260727_192226", "success": false}
 {"time": "2026-07-27T19:23:29", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T19:23:46", "event": "snap", "round": 3, "ts": "20260727_192346", "scene": "A simple distillation apparatus"}
+{"time": "2026-07-27T19:23:52", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:23:53", "event": "round_result", "round": 3, "ts": "20260727_192346", "success": false}
+{"time": "2026-07-27T19:23:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:23:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:26:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:26:09", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:26:12", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T19:26:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:26:13", "event": "game_start"}
+{"time": "2026-07-27T19:26:21", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:26:22", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T19:26:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:26:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:26:38", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:26:38", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T19:26:49", "event": "snap", "round": 1, "ts": "20260727_192649", "scene": "A person holding a large object"}
