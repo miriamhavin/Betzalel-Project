@@ -148,3 +148,7 @@
 {"time": "2026-07-27T14:04:52", "event": "button_press", "button": "NO"}
 {"time": "2026-07-27T14:04:53", "event": "button_press", "button": "YES"}
 {"time": "2026-07-27T14:05:02", "event": "snap", "round": 1, "ts": "20260727_140502", "scene": "A closed envelope"}
+{"time": "2026-07-27T14:05:09", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T14:05:10", "event": "round_result", "round": 1, "ts": "20260727_140502", "success": false}
+{"time": "2026-07-27T14:06:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:06:20", "event": "snap", "round": 2, "ts": "20260727_140620", "scene": "A blank canvas"}
