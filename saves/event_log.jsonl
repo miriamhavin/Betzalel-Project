@@ -247,3 +247,19 @@
 {"time": "2026-07-27T14:58:05", "event": "button_press", "button": "NO"}
 {"time": "2026-07-27T14:58:32", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T14:58:48", "event": "snap", "round": 3, "ts": "20260727_145848", "scene": "A character in a hat and cape"}
+{"time": "2026-07-27T15:03:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:04:04", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T15:04:05", "event": "round_result", "round": 3, "ts": "20260727_145848", "success": false}
+{"time": "2026-07-27T15:04:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:08:29", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T15:08:30", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T15:08:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:08:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:08:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:08:36", "event": "game_start"}
+{"time": "2026-07-27T15:08:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:08:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:08:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:08:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:08:45", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T15:08:56", "event": "snap", "round": 1, "ts": "20260727_150856", "scene": "A simple picture frame"}
