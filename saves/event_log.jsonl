@@ -78,3 +78,12 @@
 {"time": "2026-07-27T13:14:19", "event": "round_result", "round": 2, "ts": "20260727_131402", "success": false}
 {"time": "2026-07-27T13:14:56", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T13:15:15", "event": "snap", "round": 3, "ts": "20260727_131515", "scene": "A face with a surprised expression"}
+{"time": "2026-07-27T13:15:29", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T13:15:30", "event": "round_result", "round": 3, "ts": "20260727_131515", "success": true}
+{"time": "2026-07-27T13:20:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:20:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:27:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:27:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:27:37", "event": "game_start"}
+{"time": "2026-07-27T13:28:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:28:45", "event": "snap", "round": 1, "ts": "20260727_132845", "scene": "A computer monitor with a keyboard"}
