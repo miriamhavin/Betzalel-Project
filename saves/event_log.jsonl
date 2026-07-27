@@ -990,3 +990,31 @@
 {"time": "2026-07-27T21:01:19", "event": "round_result", "round": 2, "ts": "20260727_210110", "success": true}
 {"time": "2026-07-27T21:01:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T21:02:03", "event": "snap", "round": 3, "ts": "20260727_210203", "scene": "A snail"}
+{"time": "2026-07-27T21:02:11", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T21:02:12", "event": "round_result", "round": 3, "ts": "20260727_210203", "success": false}
+{"time": "2026-07-27T21:20:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T21:20:36", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T21:20:38", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T21:20:39", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T21:20:40", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T21:20:40", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T21:20:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T21:20:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T21:20:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T21:20:43", "event": "game_start"}
+{"time": "2026-07-27T21:29:01", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T21:29:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T21:29:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T21:29:03", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T21:29:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T21:29:04", "event": "game_start"}
+{"time": "2026-07-27T21:29:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T21:29:04", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T21:29:04", "event": "game_start"}
+{"time": "2026-07-27T21:29:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T21:29:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T21:29:12", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T21:29:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T21:29:19", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T21:29:21", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T21:29:26", "event": "snap", "round": 1, "ts": "20260727_212926", "scene": "A simple picture frame"}
