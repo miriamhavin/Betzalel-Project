@@ -783,3 +783,16 @@
 {"time": "2026-07-27T19:14:12", "event": "round_result", "round": 2, "ts": "20260727_191352", "success": true}
 {"time": "2026-07-27T19:15:09", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T19:15:26", "event": "snap", "round": 3, "ts": "20260727_191526", "scene": "A bottle pouring liquid"}
+{"time": "2026-07-27T19:15:38", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:15:39", "event": "round_result", "round": 3, "ts": "20260727_191526", "success": false}
+{"time": "2026-07-27T19:16:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:16:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:17:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:17:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:17:24", "event": "game_start"}
+{"time": "2026-07-27T19:17:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:17:24", "event": "game_start"}
+{"time": "2026-07-27T19:17:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:17:35", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:17:36", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T19:17:45", "event": "snap", "round": 1, "ts": "20260727_191745", "scene": "A woman wearing a bow tie and earrings"}
