@@ -427,3 +427,7 @@
 {"time": "2026-07-27T15:53:04", "event": "game_start"}
 {"time": "2026-07-27T15:53:16", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T15:53:31", "event": "snap", "round": 1, "ts": "20260727_155331", "scene": "A key with a tag"}
+{"time": "2026-07-27T15:53:42", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T15:53:43", "event": "round_result", "round": 1, "ts": "20260727_155331", "success": false}
+{"time": "2026-07-27T15:54:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:54:26", "event": "snap", "round": 2, "ts": "20260727_155426", "scene": "A person's hand holding a whisk"}
