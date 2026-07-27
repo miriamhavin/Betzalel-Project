@@ -137,3 +137,14 @@
 {"time": "2026-07-27T13:41:02", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T13:41:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T13:41:19", "event": "snap", "round": 3, "ts": "20260727_134119", "scene": "A window frame"}
+{"time": "2026-07-27T14:04:41", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T14:04:42", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T14:04:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:04:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:04:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:04:46", "event": "game_start"}
+{"time": "2026-07-27T14:04:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:04:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:04:52", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T14:04:53", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T14:05:02", "event": "snap", "round": 1, "ts": "20260727_140502", "scene": "A closed envelope"}
