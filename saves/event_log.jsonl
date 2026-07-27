@@ -779,3 +779,7 @@
 {"time": "2026-07-27T19:11:43", "event": "round_result", "round": 1, "ts": "20260727_191139", "success": false}
 {"time": "2026-07-27T19:13:34", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T19:13:52", "event": "snap", "round": 2, "ts": "20260727_191352", "scene": "A cartoon character"}
+{"time": "2026-07-27T19:14:11", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T19:14:12", "event": "round_result", "round": 2, "ts": "20260727_191352", "success": true}
+{"time": "2026-07-27T19:15:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:15:26", "event": "snap", "round": 3, "ts": "20260727_191526", "scene": "A bottle pouring liquid"}
