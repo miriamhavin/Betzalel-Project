@@ -377,3 +377,7 @@
 {"time": "2026-07-27T15:38:26", "event": "button_press", "button": "YES"}
 {"time": "2026-07-27T15:38:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T15:38:44", "event": "snap", "round": 2, "ts": "20260727_153844", "scene": "A dog"}
+{"time": "2026-07-27T15:38:51", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T15:38:52", "event": "round_result", "round": 2, "ts": "20260727_153844", "success": false}
+{"time": "2026-07-27T15:40:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:40:31", "event": "snap", "round": 3, "ts": "20260727_154031", "scene": "A stylized human figure in a dynamic pose"}
