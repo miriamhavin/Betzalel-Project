@@ -9,3 +9,7 @@
 {"time": "2026-07-27T11:58:26", "event": "game_start"}
 {"time": "2026-07-27T11:58:53", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T11:59:09", "event": "snap", "round": 1, "ts": "20260727_115909", "scene": "a partially erased blackboard"}
+{"time": "2026-07-27T11:59:19", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T11:59:19", "event": "round_result", "round": 1, "ts": "20260727_115909", "success": false}
+{"time": "2026-07-27T11:59:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T11:59:39", "event": "snap", "round": 2, "ts": "20260727_115939", "scene": "a window frame"}
