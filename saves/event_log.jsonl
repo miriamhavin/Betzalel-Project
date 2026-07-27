@@ -817,3 +817,7 @@
 {"time": "2026-07-27T19:21:01", "event": "round_result", "round": 1, "ts": "20260727_192053", "success": false}
 {"time": "2026-07-27T19:22:10", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T19:22:26", "event": "snap", "round": 2, "ts": "20260727_192226", "scene": "A spray bottle"}
+{"time": "2026-07-27T19:22:30", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:22:31", "event": "round_result", "round": 2, "ts": "20260727_192226", "success": false}
+{"time": "2026-07-27T19:23:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:23:46", "event": "snap", "round": 3, "ts": "20260727_192346", "scene": "A simple distillation apparatus"}
