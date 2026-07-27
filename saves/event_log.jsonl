@@ -362,3 +362,13 @@
 {"time": "2026-07-27T15:35:51", "event": "round_result", "round": 2, "ts": "20260727_153531", "success": false}
 {"time": "2026-07-27T15:36:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T15:36:55", "event": "snap", "round": 3, "ts": "20260727_153655", "scene": "A spoon in a bowl"}
+{"time": "2026-07-27T15:37:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:37:08", "event": "round_result", "round": 3, "ts": "20260727_153655", "success": true}
+{"time": "2026-07-27T15:37:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:37:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:37:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:37:32", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T15:37:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:37:34", "event": "game_start"}
+{"time": "2026-07-27T15:37:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:37:54", "event": "snap", "round": 1, "ts": "20260727_153754", "scene": "A computer mouse"}
