@@ -74,3 +74,7 @@
 {"time": "2026-07-27T13:12:59", "event": "round_result", "round": 1, "ts": "20260727_131250", "success": false}
 {"time": "2026-07-27T13:13:43", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T13:14:02", "event": "snap", "round": 2, "ts": "20260727_131402", "scene": "A bird in flight"}
+{"time": "2026-07-27T13:14:19", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T13:14:19", "event": "round_result", "round": 2, "ts": "20260727_131402", "success": false}
+{"time": "2026-07-27T13:14:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T13:15:15", "event": "snap", "round": 3, "ts": "20260727_131515", "scene": "A face with a surprised expression"}
