@@ -684,3 +684,13 @@
 {"time": "2026-07-27T18:34:57", "event": "button_press", "button": "NO"}
 {"time": "2026-07-27T18:34:58", "event": "button_press", "button": "NO"}
 {"time": "2026-07-27T18:35:05", "event": "snap", "round": 3, "ts": "20260727_183505", "scene": "A simple wooden picture frame"}
+{"time": "2026-07-27T18:36:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:36:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:36:08", "event": "round_result", "round": 3, "ts": "20260727_183505", "success": true}
+{"time": "2026-07-27T18:36:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:37:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:37:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:37:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:37:12", "event": "game_start"}
+{"time": "2026-07-27T18:37:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:38:14", "event": "snap", "round": 1, "ts": "20260727_183814", "scene": "A person holding a golf club to swing at a golf ball"}
