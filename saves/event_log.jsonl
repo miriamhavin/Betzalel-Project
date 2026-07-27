@@ -193,3 +193,13 @@
 {"time": "2026-07-27T14:26:39", "event": "round_result", "round": 2, "ts": "20260727_142626", "success": false}
 {"time": "2026-07-27T14:27:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T14:27:44", "event": "snap", "round": 3, "ts": "20260727_142744", "scene": "A person holding a microphone and singing"}
+{"time": "2026-07-27T14:27:51", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T14:27:52", "event": "round_result", "round": 3, "ts": "20260727_142744", "success": false}
+{"time": "2026-07-27T14:29:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:29:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:30:04", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T14:30:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:30:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:30:50", "event": "game_start"}
+{"time": "2026-07-27T14:31:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:31:31", "event": "snap", "round": 1, "ts": "20260727_143131", "scene": "A person riding a scooter"}
