@@ -307,3 +307,10 @@
 {"time": "2026-07-27T15:21:03", "event": "button_press", "button": "YES"}
 {"time": "2026-07-27T15:21:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T15:21:13", "event": "snap", "round": 2, "ts": "20260727_152113", "scene": "A slightly lopsided envelope"}
+{"time": "2026-07-27T15:24:56", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T15:24:56", "event": "round_result", "round": 2, "ts": "20260727_152113", "success": true}
+{"time": "2026-07-27T15:25:03", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T15:25:07", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T15:25:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:25:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:25:25", "event": "snap", "round": 3, "ts": "20260727_152525", "scene": "A partially opened book"}
