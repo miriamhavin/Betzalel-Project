@@ -32,3 +32,12 @@
 {"time": "2026-07-27T12:35:03", "event": "round_result", "round": 2, "ts": "20260727_123457", "success": false}
 {"time": "2026-07-27T12:35:55", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T12:36:11", "event": "snap", "round": 3, "ts": "20260727_123611", "scene": "A toothbrush with toothpaste"}
+{"time": "2026-07-27T12:36:18", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T12:36:19", "event": "round_result", "round": 3, "ts": "20260727_123611", "success": false}
+{"time": "2026-07-27T12:37:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T12:38:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T12:55:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T12:56:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T12:56:49", "event": "game_start"}
+{"time": "2026-07-27T12:58:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T12:59:11", "event": "snap", "round": 1, "ts": "20260727_125911", "scene": "A skeleton"}
