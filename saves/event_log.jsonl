@@ -521,3 +521,12 @@
 {"time": "2026-07-27T16:44:13", "event": "round_result", "round": 2, "ts": "20260727_164353", "success": false}
 {"time": "2026-07-27T16:45:48", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T16:46:11", "event": "snap", "round": 3, "ts": "20260727_164611", "scene": "A key"}
+{"time": "2026-07-27T16:46:36", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T16:46:37", "event": "round_result", "round": 3, "ts": "20260727_164611", "success": true}
+{"time": "2026-07-27T16:47:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:47:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:48:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:48:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:48:55", "event": "game_start"}
+{"time": "2026-07-27T16:49:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T16:49:25", "event": "snap", "round": 1, "ts": "20260727_164925", "scene": "Stylized flower"}
