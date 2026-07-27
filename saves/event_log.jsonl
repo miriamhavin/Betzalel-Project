@@ -274,3 +274,7 @@
 {"time": "2026-07-27T15:16:31", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T15:16:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T15:16:48", "event": "snap", "round": 2, "ts": "20260727_151648", "scene": "A sleeping person"}
+{"time": "2026-07-27T15:17:00", "event": "button_press", "button": "YES"}
+{"time": "2026-07-27T15:17:00", "event": "round_result", "round": 2, "ts": "20260727_151648", "success": true}
+{"time": "2026-07-27T15:17:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T15:17:35", "event": "snap", "round": 3, "ts": "20260727_151735", "scene": "A man wearing glasses"}
