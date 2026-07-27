@@ -242,3 +242,8 @@
 {"time": "2026-07-27T14:56:45", "event": "round_result", "round": 1, "ts": "20260727_145639", "success": false}
 {"time": "2026-07-27T14:57:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T14:57:29", "event": "snap", "round": 2, "ts": "20260727_145729", "scene": "A person on a bicycle"}
+{"time": "2026-07-27T14:57:33", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T14:57:33", "event": "round_result", "round": 2, "ts": "20260727_145729", "success": false}
+{"time": "2026-07-27T14:58:05", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T14:58:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T14:58:48", "event": "snap", "round": 3, "ts": "20260727_145848", "scene": "A character in a hat and cape"}
