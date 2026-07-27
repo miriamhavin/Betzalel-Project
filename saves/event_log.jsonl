@@ -766,3 +766,12 @@
 {"time": "2026-07-27T19:06:37", "event": "round_result", "round": 2, "ts": "20260727_190624", "success": true}
 {"time": "2026-07-27T19:07:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T19:07:44", "event": "snap", "round": 3, "ts": "20260727_190744", "scene": "A bird flying"}
+{"time": "2026-07-27T19:07:55", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:07:56", "event": "round_result", "round": 3, "ts": "20260727_190744", "success": false}
+{"time": "2026-07-27T19:08:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:08:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:10:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:10:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:10:21", "event": "game_start"}
+{"time": "2026-07-27T19:11:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:11:39", "event": "snap", "round": 1, "ts": "20260727_191139", "scene": "A rocket launching"}
