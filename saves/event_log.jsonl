@@ -698,3 +698,7 @@
 {"time": "2026-07-27T18:38:26", "event": "round_result", "round": 1, "ts": "20260727_183814", "success": false}
 {"time": "2026-07-27T18:39:37", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T18:39:55", "event": "snap", "round": 2, "ts": "20260727_183955", "scene": "A hand holding a wrench, preparing to tighten a bolt on a pipe"}
+{"time": "2026-07-27T18:40:12", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T18:40:13", "event": "round_result", "round": 2, "ts": "20260727_183955", "success": false}
+{"time": "2026-07-27T18:40:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T18:41:11", "event": "snap", "round": 3, "ts": "20260727_184111", "scene": "A frog"}
