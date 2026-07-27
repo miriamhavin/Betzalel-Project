@@ -931,3 +931,14 @@
 {"time": "2026-07-27T20:13:30", "event": "round_result", "round": 2, "ts": "20260727_201246", "success": true}
 {"time": "2026-07-27T20:13:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T20:13:58", "event": "snap", "round": 3, "ts": "20260727_201358", "scene": "A television set"}
+{"time": "2026-07-27T20:16:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:16:17", "event": "round_result", "round": 3, "ts": "20260727_201358", "success": true}
+{"time": "2026-07-27T20:16:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:16:52", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T20:16:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:23:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:36:47", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T20:36:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:36:50", "event": "game_start"}
+{"time": "2026-07-27T20:37:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T20:37:24", "event": "snap", "round": 1, "ts": "20260727_203724", "scene": "A stylized rectangular window frame"}
