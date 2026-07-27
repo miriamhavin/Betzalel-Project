@@ -24,6 +24,23 @@ FONT_DIR  = os.path.join(APP_DIR, "font", "פונט מסדה")
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY", ""))
 app    = Flask(__name__)
 
+# ── event log ─────────────────────────────────────────────────────────────────
+# Append-only record of every physical button press and yes/no decision, kept
+# alongside the saved images so a full session can be reconstructed later.
+# Defined before the Arduino listener thread below, which logs to it as soon
+# as buttons start arriving.
+
+EVENT_LOG_PATH = os.path.join(SAVES_DIR, "event_log.jsonl")
+_log_lock = threading.Lock()
+
+
+def _log_event(event: str, **fields):
+    entry = {"time": datetime.datetime.now().isoformat(timespec="seconds"), "event": event, **fields}
+    os.makedirs(SAVES_DIR, exist_ok=True)
+    with _log_lock:
+        with open(EVENT_LOG_PATH, "a", encoding="utf-8") as f:
+            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+
 # ── Arduino buttons ──────────────────────────────────────────────────────────
 # Three physical buttons replace the keyboard: ENTER (advance), YES (mark
 # correct), NO (mark wrong). The Arduino sketch prints one of those words over
@@ -56,6 +73,7 @@ def _arduino_listener():
                     with _button_lock:
                         _button_queue.append(line)
                     print(f"[Arduino] button: {line}")
+                    _log_event("button_press", button=line)
         except Exception as exc:
             with _ser_lock:
                 _ser = None
@@ -445,6 +463,7 @@ def game_start():
     global _game
     _game = {"round": 1, "history": []}
     print("[Game] started")
+    _log_event("game_start")
     return jsonify({"round": _game["round"], "rounds": ROUNDS_PER_GAME})
 
 
@@ -466,6 +485,7 @@ def snap():
             with open(os.path.join(SAVES_DIR, f"{ts}_scene.txt"), "w", encoding="utf-8") as f:
                 f.write(caption_he)
         print(f"[Saved] round {_game['round']} — {ts}")
+        _log_event("snap", round=_game["round"], ts=ts, scene=scene)
         threading.Thread(target=git_push, args=(ts,), daemon=True).start()
 
         # "scene" (English) feeds the model's own history/banned-scenes context;
@@ -495,11 +515,14 @@ def snap():
 def round_result():
     try:
         success = bool((request.get_json() or {}).get("success"))
+        round_ts = None
         for h in reversed(_game["history"]):
             if h["success"] is None:
                 h["success"] = success
+                round_ts = h["ts"]
                 break
 
+        _log_event("round_result", round=_game["round"], ts=round_ts, success=success)
         _send_arduino("RESULT_OFF")
 
         if _game["round"] >= ROUNDS_PER_GAME:
@@ -661,8 +684,8 @@ body{background:var(--bg);color:var(--fg);font-family:var(--font-body);height:10
   opacity:1;pointer-events:none;transition:opacity 700ms ease
 }
 #round-overlay.hide{opacity:0}
-.round-overlay-hint{font-size:22px;font-weight:600;color:#fff;direction:rtl;text-shadow:0 1px 6px rgba(0,0,0,.6)}
-.round-overlay-title{font-family:var(--font-head);font-size:72px;font-weight:300;font-style:italic;color:#fff;direction:rtl;text-shadow:0 2px 10px rgba(0,0,0,.6)}
+.round-overlay-hint{font-size:19px;font-weight:600;color:#fff;direction:rtl;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.round-overlay-title{font-family:var(--font-head);font-size:60px;font-weight:300;font-style:italic;color:#fff;direction:rtl;text-shadow:0 2px 10px rgba(0,0,0,.6);text-align:center;max-width:88vw}
 
 /* ── Loading ── */
 #load-original,#load-silhouette{
