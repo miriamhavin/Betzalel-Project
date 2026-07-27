@@ -749,3 +749,12 @@
 {"time": "2026-07-27T19:00:58", "event": "round_result", "round": 2, "ts": "20260727_185822", "success": true}
 {"time": "2026-07-27T19:01:51", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T19:02:10", "event": "snap", "round": 3, "ts": "20260727_190210", "scene": "A star"}
+{"time": "2026-07-27T19:02:21", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T19:02:22", "event": "round_result", "round": 3, "ts": "20260727_190210", "success": false}
+{"time": "2026-07-27T19:02:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:03:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:04:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:04:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:04:28", "event": "game_start"}
+{"time": "2026-07-27T19:05:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-27T19:05:20", "event": "snap", "round": 1, "ts": "20260727_190520", "scene": "A broken heart being pieced back together with medical hardware."}
