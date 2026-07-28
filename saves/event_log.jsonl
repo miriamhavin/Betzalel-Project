@@ -1772,3 +1772,14 @@
 {"time": "2026-07-28T20:26:53", "event": "round_result", "round": 2, "ts": "20260728_202639", "success": false}
 {"time": "2026-07-28T20:27:41", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T20:28:07", "event": "snap", "round": 3, "ts": "20260728_202807", "scene": "A man holding a briefcase"}
+{"time": "2026-07-28T20:28:11", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T20:28:11", "event": "round_result", "round": 3, "ts": "20260728_202807", "success": true}
+{"time": "2026-07-28T20:30:25", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T20:30:25", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T20:32:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T20:32:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T20:33:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T20:33:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T20:33:38", "event": "game_start"}
+{"time": "2026-07-28T20:33:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T20:34:13", "event": "snap", "round": 1, "ts": "20260728_203413", "scene": "A skeleton key"}
