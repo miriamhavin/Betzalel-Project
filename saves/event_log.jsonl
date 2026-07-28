@@ -1783,3 +1783,7 @@
 {"time": "2026-07-28T20:33:38", "event": "game_start"}
 {"time": "2026-07-28T20:33:57", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T20:34:13", "event": "snap", "round": 1, "ts": "20260728_203413", "scene": "A skeleton key"}
+{"time": "2026-07-28T20:34:19", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T20:34:20", "event": "round_result", "round": 1, "ts": "20260728_203413", "success": true}
+{"time": "2026-07-28T20:34:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T20:35:02", "event": "snap", "round": 2, "ts": "20260728_203502", "scene": "A vacuum cleaner"}
