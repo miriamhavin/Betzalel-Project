@@ -1045,3 +1045,12 @@
 {"time": "2026-07-28T11:34:08", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T11:34:09", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T11:34:11", "event": "snap", "round": 1, "ts": "20260728_113411", "scene": "A stylized guitar"}
+{"time": "2026-07-28T12:11:28", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T12:11:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:11:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:11:38", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T12:11:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:11:45", "event": "game_start"}
+{"time": "2026-07-28T12:12:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:12:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:13:06", "event": "snap", "round": 1, "ts": "20260728_121306", "scene": "A dog digging a bone"}
