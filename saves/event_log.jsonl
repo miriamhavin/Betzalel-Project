@@ -1808,3 +1808,12 @@
 {"time": "2026-07-28T21:00:35", "event": "round_result", "round": 2, "ts": "20260728_210014", "success": false}
 {"time": "2026-07-28T21:01:14", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T21:01:35", "event": "snap", "round": 3, "ts": "20260728_210135", "scene": "A knight on horseback"}
+{"time": "2026-07-28T21:01:43", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:01:44", "event": "round_result", "round": 3, "ts": "20260728_210135", "success": false}
+{"time": "2026-07-28T21:01:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:01:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:01:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:02:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:02:03", "event": "game_start"}
+{"time": "2026-07-28T21:02:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:02:25", "event": "snap", "round": 1, "ts": "20260728_210225", "scene": "A scarecrow"}
