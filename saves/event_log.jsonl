@@ -1104,3 +1104,12 @@
 {"time": "2026-07-28T12:53:25", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T12:53:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T12:53:47", "event": "snap", "round": 3, "ts": "20260728_125347", "scene": "A person holding a tool"}
+{"time": "2026-07-28T12:53:59", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T12:54:00", "event": "round_result", "round": 3, "ts": "20260728_125347", "success": false}
+{"time": "2026-07-28T12:54:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:54:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:54:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:54:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:54:38", "event": "game_start"}
+{"time": "2026-07-28T12:58:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:59:07", "event": "snap", "round": 1, "ts": "20260728_125907", "scene": "A race car on a track"}
