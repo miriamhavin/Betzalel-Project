@@ -1263,3 +1263,7 @@
 {"time": "2026-07-28T13:52:45", "event": "game_start"}
 {"time": "2026-07-28T13:53:37", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T13:53:58", "event": "snap", "round": 1, "ts": "20260728_135358", "scene": "A hand holding a key"}
+{"time": "2026-07-28T13:54:11", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:54:12", "event": "round_result", "round": 1, "ts": "20260728_135358", "success": false}
+{"time": "2026-07-28T13:54:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:55:04", "event": "snap", "round": 2, "ts": "20260728_135504", "scene": "A hand reaching for a flower"}
