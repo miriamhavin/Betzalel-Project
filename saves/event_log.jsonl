@@ -1940,3 +1940,17 @@
 {"time": "2026-07-28T21:49:51", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T21:49:56", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T21:49:57", "event": "snap", "round": 3, "ts": "20260728_214957", "scene": "A pair of goggles falling off a head"}
+{"time": "2026-07-28T21:49:58", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T21:49:59", "event": "round_result", "round": 3, "ts": "20260728_214957", "success": true}
+{"time": "2026-07-28T21:50:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:50:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:50:41", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:50:43", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T21:53:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:54:11", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:54:12", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:54:12", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:54:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:54:21", "event": "game_start"}
+{"time": "2026-07-28T21:54:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:54:47", "event": "snap", "round": 1, "ts": "20260728_215447", "scene": "A simplified frame or border"}
