@@ -1246,3 +1246,7 @@
 {"time": "2026-07-28T13:47:37", "event": "game_start"}
 {"time": "2026-07-28T13:48:12", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T13:48:34", "event": "snap", "round": 1, "ts": "20260728_134834", "scene": "A skeleton wearing glasses and a hat"}
+{"time": "2026-07-28T13:48:44", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:48:45", "event": "round_result", "round": 1, "ts": "20260728_134834", "success": false}
+{"time": "2026-07-28T13:49:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:49:34", "event": "snap", "round": 2, "ts": "20260728_134934", "scene": "A person eating spaghetti"}
