@@ -1834,3 +1834,7 @@
 {"time": "2026-07-28T21:10:27", "event": "game_start"}
 {"time": "2026-07-28T21:10:53", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T21:11:13", "event": "snap", "round": 1, "ts": "20260728_211113", "scene": "A praying mantis"}
+{"time": "2026-07-28T21:11:30", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:11:31", "event": "round_result", "round": 1, "ts": "20260728_211113", "success": false}
+{"time": "2026-07-28T21:12:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:13:02", "event": "snap", "round": 2, "ts": "20260728_211302", "scene": "A standing figure holding a weapon"}
