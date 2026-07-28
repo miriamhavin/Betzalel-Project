@@ -1026,3 +1026,22 @@
 {"time": "2026-07-27T21:31:24", "event": "round_result", "round": 2, "ts": "20260727_213110", "success": true}
 {"time": "2026-07-27T21:32:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-27T21:32:34", "event": "snap", "round": 3, "ts": "20260727_213234", "scene": "A dancer in a leap"}
+{"time": "2026-07-27T21:32:43", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T21:32:44", "event": "round_result", "round": 3, "ts": "20260727_213234", "success": false}
+{"time": "2026-07-27T21:49:36", "event": "button_press", "button": "NO"}
+{"time": "2026-07-27T21:49:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T11:33:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T11:33:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T11:33:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T11:33:38", "event": "game_start"}
+{"time": "2026-07-28T11:33:48", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T11:33:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T11:33:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T11:33:54", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T11:34:04", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T11:34:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T11:34:06", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T11:34:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T11:34:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T11:34:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T11:34:11", "event": "snap", "round": 1, "ts": "20260728_113411", "scene": "A stylized guitar"}
