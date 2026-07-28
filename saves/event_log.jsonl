@@ -1893,3 +1893,23 @@
 {"time": "2026-07-28T21:41:05", "event": "round_result", "round": 2, "ts": "20260728_214058", "success": false}
 {"time": "2026-07-28T21:41:19", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T21:41:45", "event": "snap", "round": 3, "ts": "20260728_214145", "scene": "A dancing figure"}
+{"time": "2026-07-28T21:41:53", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:41:53", "event": "round_result", "round": 3, "ts": "20260728_214145", "success": false}
+{"time": "2026-07-28T21:42:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:48:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:48:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:48:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:48:12", "event": "game_start"}
+{"time": "2026-07-28T21:48:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:48:12", "event": "game_start"}
+{"time": "2026-07-28T21:48:13", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:48:14", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:48:14", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T21:48:15", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T21:48:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:48:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:48:39", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T21:48:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:48:50", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:48:52", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T21:48:58", "event": "snap", "round": 1, "ts": "20260728_214858", "scene": "A hand emerging from a ripped book"}
