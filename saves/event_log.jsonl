@@ -1312,3 +1312,7 @@
 {"time": "2026-07-28T14:19:02", "event": "button_press", "button": "YES"}
 {"time": "2026-07-28T14:19:04", "event": "button_press", "button": "YES"}
 {"time": "2026-07-28T14:19:08", "event": "snap", "round": 1, "ts": "20260728_141908", "scene": "A simple rectangular picture frame"}
+{"time": "2026-07-28T14:19:13", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T14:19:14", "event": "round_result", "round": 1, "ts": "20260728_141908", "success": true}
+{"time": "2026-07-28T14:19:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:19:42", "event": "snap", "round": 2, "ts": "20260728_141942", "scene": "A door frame"}
