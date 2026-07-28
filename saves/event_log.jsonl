@@ -1954,3 +1954,7 @@
 {"time": "2026-07-28T21:54:21", "event": "game_start"}
 {"time": "2026-07-28T21:54:30", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T21:54:47", "event": "snap", "round": 1, "ts": "20260728_215447", "scene": "A simplified frame or border"}
+{"time": "2026-07-28T21:54:54", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:54:55", "event": "round_result", "round": 1, "ts": "20260728_215447", "success": false}
+{"time": "2026-07-28T21:55:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:55:56", "event": "snap", "round": 2, "ts": "20260728_215556", "scene": "A dentist's chair"}
