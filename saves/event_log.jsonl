@@ -1746,3 +1746,7 @@
 {"time": "2026-07-28T20:04:51", "event": "round_result", "round": 1, "ts": "20260728_200446", "success": false}
 {"time": "2026-07-28T20:05:18", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T20:05:33", "event": "snap", "round": 2, "ts": "20260728_200533", "scene": "A person holding a key"}
+{"time": "2026-07-28T20:05:42", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T20:05:43", "event": "round_result", "round": 2, "ts": "20260728_200533", "success": false}
+{"time": "2026-07-28T20:06:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T20:06:44", "event": "snap", "round": 3, "ts": "20260728_200644", "scene": "A person riding a unicycle"}
