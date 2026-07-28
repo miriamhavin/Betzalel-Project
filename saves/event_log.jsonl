@@ -1371,3 +1371,7 @@
 {"time": "2026-07-28T14:39:52", "event": "round_result", "round": 1, "ts": "20260728_143933", "success": false}
 {"time": "2026-07-28T14:42:57", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T14:43:46", "event": "snap", "round": 2, "ts": "20260728_144346", "scene": "A bird in flight"}
+{"time": "2026-07-28T14:43:56", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T14:43:57", "event": "round_result", "round": 2, "ts": "20260728_144346", "success": false}
+{"time": "2026-07-28T14:45:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:46:17", "event": "snap", "round": 3, "ts": "20260728_144617", "scene": "A rectangular window frame"}
