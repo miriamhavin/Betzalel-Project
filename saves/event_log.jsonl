@@ -1690,3 +1690,7 @@
 {"time": "2026-07-28T19:25:44", "event": "button_press", "button": "YES"}
 {"time": "2026-07-28T19:27:03", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T19:27:38", "event": "snap", "round": 1, "ts": "20260728_192738", "scene": "A person is about to whisk eggs."}
+{"time": "2026-07-28T19:27:48", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T19:27:49", "event": "round_result", "round": 1, "ts": "20260728_192738", "success": false}
+{"time": "2026-07-28T19:27:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T19:28:20", "event": "snap", "round": 2, "ts": "20260728_192820", "scene": "A dog wearing a party hat"}
