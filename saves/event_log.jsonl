@@ -1068,3 +1068,18 @@
 {"time": "2026-07-28T12:20:47", "event": "button_press", "button": "YES"}
 {"time": "2026-07-28T12:20:48", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T12:21:00", "event": "snap", "round": 3, "ts": "20260728_122100", "scene": "A table with a tablecloth draped over it"}
+{"time": "2026-07-28T12:24:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:24:47", "event": "round_result", "round": 3, "ts": "20260728_122100", "success": true}
+{"time": "2026-07-28T12:25:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:25:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:25:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T12:26:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:26:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:26:30", "event": "game_start"}
+{"time": "2026-07-28T12:26:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:26:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:26:43", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T12:26:44", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T12:26:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:26:53", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T12:27:04", "event": "snap", "round": 1, "ts": "20260728_122704", "scene": "A stylized mechanical bird"}
