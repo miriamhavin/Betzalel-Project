@@ -1335,3 +1335,8 @@
 {"time": "2026-07-28T14:25:48", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T14:26:05", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T14:26:07", "event": "snap", "round": 2, "ts": "20260728_142607", "scene": "A hammer"}
+{"time": "2026-07-28T14:26:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:26:58", "event": "round_result", "round": 2, "ts": "20260728_142607", "success": true}
+{"time": "2026-07-28T14:27:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:27:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:27:22", "event": "snap", "round": 3, "ts": "20260728_142722", "scene": "A rectangular picture frame"}
