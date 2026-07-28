@@ -1679,3 +1679,14 @@
 {"time": "2026-07-28T19:20:59", "event": "round_result", "round": 2, "ts": "20260728_192045", "success": false}
 {"time": "2026-07-28T19:22:24", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T19:22:46", "event": "snap", "round": 3, "ts": "20260728_192246", "scene": "A cartoonish spider"}
+{"time": "2026-07-28T19:22:56", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T19:22:57", "event": "round_result", "round": 3, "ts": "20260728_192246", "success": false}
+{"time": "2026-07-28T19:24:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T19:24:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T19:25:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T19:25:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T19:25:42", "event": "game_start"}
+{"time": "2026-07-28T19:25:43", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T19:25:44", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T19:27:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T19:27:38", "event": "snap", "round": 1, "ts": "20260728_192738", "scene": "A person is about to whisk eggs."}
