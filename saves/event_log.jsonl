@@ -1147,3 +1147,12 @@
 {"time": "2026-07-28T13:21:00", "event": "round_result", "round": 2, "ts": "20260728_132054", "success": false}
 {"time": "2026-07-28T13:23:03", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T13:23:23", "event": "snap", "round": 3, "ts": "20260728_132323", "scene": "A stylized robot with a backpack"}
+{"time": "2026-07-28T13:23:33", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:23:33", "event": "round_result", "round": 3, "ts": "20260728_132323", "success": false}
+{"time": "2026-07-28T13:24:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:24:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:25:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:25:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:25:15", "event": "game_start"}
+{"time": "2026-07-28T13:25:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:25:54", "event": "snap", "round": 1, "ts": "20260728_132554", "scene": "A person holding a large shield"}
