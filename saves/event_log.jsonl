@@ -1192,3 +1192,7 @@
 {"time": "2026-07-28T13:29:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T13:29:31", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T13:29:41", "event": "snap", "round": 1, "ts": "20260728_132941", "scene": "A person doing a handstand"}
+{"time": "2026-07-28T13:31:07", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:31:08", "event": "round_result", "round": 1, "ts": "20260728_132941", "success": false}
+{"time": "2026-07-28T13:31:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:31:31", "event": "snap", "round": 2, "ts": "20260728_133131", "scene": "A window"}
