@@ -1675,3 +1675,7 @@
 {"time": "2026-07-28T19:20:31", "event": "button_press", "button": "NO"}
 {"time": "2026-07-28T19:20:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T19:20:45", "event": "snap", "round": 2, "ts": "20260728_192045", "scene": "A robot"}
+{"time": "2026-07-28T19:20:58", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T19:20:59", "event": "round_result", "round": 2, "ts": "20260728_192045", "success": false}
+{"time": "2026-07-28T19:22:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T19:22:46", "event": "snap", "round": 3, "ts": "20260728_192246", "scene": "A cartoonish spider"}
