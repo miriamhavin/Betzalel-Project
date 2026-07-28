@@ -1156,3 +1156,19 @@
 {"time": "2026-07-28T13:25:15", "event": "game_start"}
 {"time": "2026-07-28T13:25:34", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T13:25:54", "event": "snap", "round": 1, "ts": "20260728_132554", "scene": "A person holding a large shield"}
+{"time": "2026-07-28T13:26:11", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:26:11", "event": "round_result", "round": 1, "ts": "20260728_132554", "success": false}
+{"time": "2026-07-28T13:27:11", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:27:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:27:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:27:16", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:27:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:27:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:27:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:27:21", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T13:27:22", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:27:22", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:27:23", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T13:27:29", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T13:27:31", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:27:31", "event": "snap", "round": 2, "ts": "20260728_132731", "scene": "A cracked and worn picture frame"}
