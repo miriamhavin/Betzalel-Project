@@ -1851,3 +1851,7 @@
 {"time": "2026-07-28T21:15:33", "event": "game_start"}
 {"time": "2026-07-28T21:15:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T21:16:16", "event": "snap", "round": 1, "ts": "20260728_211616", "scene": "A hand holding a gun"}
+{"time": "2026-07-28T21:16:25", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:16:26", "event": "round_result", "round": 1, "ts": "20260728_211616", "success": false}
+{"time": "2026-07-28T21:16:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:16:59", "event": "snap", "round": 2, "ts": "20260728_211659", "scene": "A tuning fork"}
