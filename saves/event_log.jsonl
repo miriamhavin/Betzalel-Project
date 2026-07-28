@@ -1196,3 +1196,7 @@
 {"time": "2026-07-28T13:31:08", "event": "round_result", "round": 1, "ts": "20260728_132941", "success": false}
 {"time": "2026-07-28T13:31:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T13:31:31", "event": "snap", "round": 2, "ts": "20260728_133131", "scene": "A window"}
+{"time": "2026-07-28T13:31:36", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:31:37", "event": "round_result", "round": 2, "ts": "20260728_133131", "success": false}
+{"time": "2026-07-28T13:32:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:33:18", "event": "snap", "round": 3, "ts": "20260728_133318", "scene": "A person riding a motorcycle"}
