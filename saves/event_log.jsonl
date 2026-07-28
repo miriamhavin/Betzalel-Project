@@ -1316,3 +1316,8 @@
 {"time": "2026-07-28T14:19:14", "event": "round_result", "round": 1, "ts": "20260728_141908", "success": true}
 {"time": "2026-07-28T14:19:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T14:19:42", "event": "snap", "round": 2, "ts": "20260728_141942", "scene": "A door frame"}
+{"time": "2026-07-28T14:23:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:23:11", "event": "round_result", "round": 2, "ts": "20260728_141942", "success": true}
+{"time": "2026-07-28T14:23:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:23:23", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T14:23:31", "event": "snap", "round": 3, "ts": "20260728_142331", "scene": "A window frame"}
