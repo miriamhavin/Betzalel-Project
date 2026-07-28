@@ -1855,3 +1855,7 @@
 {"time": "2026-07-28T21:16:26", "event": "round_result", "round": 1, "ts": "20260728_211616", "success": false}
 {"time": "2026-07-28T21:16:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T21:16:59", "event": "snap", "round": 2, "ts": "20260728_211659", "scene": "A tuning fork"}
+{"time": "2026-07-28T21:17:15", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:17:16", "event": "round_result", "round": 2, "ts": "20260728_211659", "success": false}
+{"time": "2026-07-28T21:17:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:17:45", "event": "snap", "round": 3, "ts": "20260728_211745", "scene": "A cartoon alien character"}
