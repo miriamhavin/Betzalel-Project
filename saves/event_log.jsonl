@@ -1367,3 +1367,7 @@
 {"time": "2026-07-28T14:36:51", "event": "game_start"}
 {"time": "2026-07-28T14:39:12", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T14:39:33", "event": "snap", "round": 1, "ts": "20260728_143933", "scene": "A stylized profile of a person's head"}
+{"time": "2026-07-28T14:39:51", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T14:39:52", "event": "round_result", "round": 1, "ts": "20260728_143933", "success": false}
+{"time": "2026-07-28T14:42:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:43:46", "event": "snap", "round": 2, "ts": "20260728_144346", "scene": "A bird in flight"}
