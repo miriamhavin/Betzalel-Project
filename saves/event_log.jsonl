@@ -1059,3 +1059,12 @@
 {"time": "2026-07-28T12:14:30", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T12:14:37", "event": "button_press", "button": "YES"}
 {"time": "2026-07-28T12:14:49", "event": "snap", "round": 2, "ts": "20260728_121449", "scene": "A person in a wheelchair"}
+{"time": "2026-07-28T12:15:02", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T12:15:02", "event": "round_result", "round": 2, "ts": "20260728_121449", "success": false}
+{"time": "2026-07-28T12:19:31", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T12:20:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:20:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:20:47", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T12:20:47", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T12:20:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:21:00", "event": "snap", "round": 3, "ts": "20260728_122100", "scene": "A table with a tablecloth draped over it"}
