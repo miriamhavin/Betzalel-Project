@@ -1229,3 +1229,7 @@
 {"time": "2026-07-28T13:42:52", "event": "game_start"}
 {"time": "2026-07-28T13:43:31", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T13:43:50", "event": "snap", "round": 1, "ts": "20260728_134350", "scene": "A person holding a phone up to their ear"}
+{"time": "2026-07-28T13:44:06", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:44:07", "event": "round_result", "round": 1, "ts": "20260728_134350", "success": false}
+{"time": "2026-07-28T13:44:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:44:39", "event": "snap", "round": 2, "ts": "20260728_134439", "scene": "A person using a microphone"}
