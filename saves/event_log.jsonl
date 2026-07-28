@@ -1821,3 +1821,7 @@
 {"time": "2026-07-28T21:03:25", "event": "round_result", "round": 1, "ts": "20260728_210225", "success": false}
 {"time": "2026-07-28T21:05:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T21:05:52", "event": "snap", "round": 2, "ts": "20260728_210552", "scene": "A mushroom"}
+{"time": "2026-07-28T21:06:01", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T21:06:02", "event": "round_result", "round": 2, "ts": "20260728_210552", "success": false}
+{"time": "2026-07-28T21:06:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T21:07:04", "event": "snap", "round": 3, "ts": "20260728_210704", "scene": "A duck"}
