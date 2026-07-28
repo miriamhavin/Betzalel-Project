@@ -1220,3 +1220,12 @@
 {"time": "2026-07-28T13:40:03", "event": "round_result", "round": 2, "ts": "20260728_133958", "success": false}
 {"time": "2026-07-28T13:40:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T13:40:53", "event": "snap", "round": 3, "ts": "20260728_134053", "scene": "A person holding a sword"}
+{"time": "2026-07-28T13:41:03", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:41:03", "event": "round_result", "round": 3, "ts": "20260728_134053", "success": false}
+{"time": "2026-07-28T13:42:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:42:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:42:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:42:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:42:52", "event": "game_start"}
+{"time": "2026-07-28T13:43:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:43:50", "event": "snap", "round": 1, "ts": "20260728_134350", "scene": "A person holding a phone up to their ear"}
