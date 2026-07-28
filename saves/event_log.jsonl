@@ -1349,3 +1349,7 @@
 {"time": "2026-07-28T14:28:29", "event": "game_start"}
 {"time": "2026-07-28T14:30:16", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T14:30:42", "event": "snap", "round": 1, "ts": "20260728_143042", "scene": "A robot bird"}
+{"time": "2026-07-28T14:30:49", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T14:30:50", "event": "round_result", "round": 1, "ts": "20260728_143042", "success": false}
+{"time": "2026-07-28T14:32:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:33:02", "event": "snap", "round": 2, "ts": "20260728_143302", "scene": "A gift box with a ribbon"}
