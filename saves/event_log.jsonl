@@ -1791,3 +1791,12 @@
 {"time": "2026-07-28T20:35:08", "event": "round_result", "round": 2, "ts": "20260728_203502", "success": false}
 {"time": "2026-07-28T20:35:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T20:35:56", "event": "snap", "round": 3, "ts": "20260728_203556", "scene": "A person holding a key"}
+{"time": "2026-07-28T20:36:08", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T20:36:09", "event": "round_result", "round": 3, "ts": "20260728_203556", "success": false}
+{"time": "2026-07-28T20:55:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T20:58:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T20:58:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T20:58:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T20:58:29", "event": "game_start"}
+{"time": "2026-07-28T20:58:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T20:58:59", "event": "snap", "round": 1, "ts": "20260728_205859", "scene": "A horse with a sword"}
