@@ -1384,3 +1384,7 @@
 {"time": "2026-07-28T14:46:54", "event": "game_start"}
 {"time": "2026-07-28T14:47:25", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T14:47:56", "event": "snap", "round": 1, "ts": "20260728_144756", "scene": "A bird in flight"}
+{"time": "2026-07-28T14:48:03", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T14:48:04", "event": "round_result", "round": 1, "ts": "20260728_144756", "success": false}
+{"time": "2026-07-28T14:49:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:50:17", "event": "snap", "round": 2, "ts": "20260728_145017", "scene": "A person holding a sword"}
