@@ -1271,3 +1271,12 @@
 {"time": "2026-07-28T13:55:15", "event": "round_result", "round": 2, "ts": "20260728_135504", "success": true}
 {"time": "2026-07-28T13:55:54", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T13:56:14", "event": "snap", "round": 3, "ts": "20260728_135614", "scene": "A dog with a collar"}
+{"time": "2026-07-28T13:56:22", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:56:23", "event": "round_result", "round": 3, "ts": "20260728_135614", "success": false}
+{"time": "2026-07-28T13:57:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:57:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:58:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:59:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:59:28", "event": "game_start"}
+{"time": "2026-07-28T13:59:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:00:06", "event": "snap", "round": 1, "ts": "20260728_140006", "scene": "A person holding a whisk over a bowl"}
