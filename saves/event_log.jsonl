@@ -1321,3 +1321,12 @@
 {"time": "2026-07-28T14:23:13", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T14:23:23", "event": "button_press", "button": "NO"}
 {"time": "2026-07-28T14:23:31", "event": "snap", "round": 3, "ts": "20260728_142331", "scene": "A window frame"}
+{"time": "2026-07-28T14:23:38", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T14:23:38", "event": "round_result", "round": 3, "ts": "20260728_142331", "success": false}
+{"time": "2026-07-28T14:23:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:24:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:24:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:25:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:25:00", "event": "game_start"}
+{"time": "2026-07-28T14:25:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:25:29", "event": "snap", "round": 1, "ts": "20260728_142529", "scene": "A bone"}
