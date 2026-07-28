@@ -1280,3 +1280,7 @@
 {"time": "2026-07-28T13:59:28", "event": "game_start"}
 {"time": "2026-07-28T13:59:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T14:00:06", "event": "snap", "round": 1, "ts": "20260728_140006", "scene": "A person holding a whisk over a bowl"}
+{"time": "2026-07-28T14:00:14", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T14:00:15", "event": "round_result", "round": 1, "ts": "20260728_140006", "success": false}
+{"time": "2026-07-28T14:00:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T14:01:17", "event": "snap", "round": 2, "ts": "20260728_140117", "scene": "A woman's face with her hair blowing in the wind."}
