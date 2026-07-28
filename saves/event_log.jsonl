@@ -1172,3 +1172,9 @@
 {"time": "2026-07-28T13:27:29", "event": "button_press", "button": "YES"}
 {"time": "2026-07-28T13:27:31", "event": "button_press", "button": "NO"}
 {"time": "2026-07-28T13:27:31", "event": "snap", "round": 2, "ts": "20260728_132731", "scene": "A cracked and worn picture frame"}
+{"time": "2026-07-28T13:27:32", "event": "round_result", "round": 2, "ts": "20260728_132731", "success": false}
+{"time": "2026-07-28T13:27:32", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:27:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:27:39", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:27:51", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:27:56", "event": "snap", "round": 3, "ts": "20260728_132756", "scene": "A hand reaching out of a picture frame"}
