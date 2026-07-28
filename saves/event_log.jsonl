@@ -1054,3 +1054,8 @@
 {"time": "2026-07-28T12:12:48", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T12:12:57", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T12:13:06", "event": "snap", "round": 1, "ts": "20260728_121306", "scene": "A dog digging a bone"}
+{"time": "2026-07-28T12:13:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T12:13:29", "event": "round_result", "round": 1, "ts": "20260728_121306", "success": false}
+{"time": "2026-07-28T12:14:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T12:14:37", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T12:14:49", "event": "snap", "round": 2, "ts": "20260728_121449", "scene": "A person in a wheelchair"}
