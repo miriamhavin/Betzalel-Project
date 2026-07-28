@@ -1178,3 +1178,17 @@
 {"time": "2026-07-28T13:27:39", "event": "button_press", "button": "NO"}
 {"time": "2026-07-28T13:27:51", "event": "button_press", "button": "NO"}
 {"time": "2026-07-28T13:27:56", "event": "snap", "round": 3, "ts": "20260728_132756", "scene": "A hand reaching out of a picture frame"}
+{"time": "2026-07-28T13:28:01", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:28:02", "event": "round_result", "round": 3, "ts": "20260728_132756", "success": false}
+{"time": "2026-07-28T13:28:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:28:09", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T13:28:09", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T13:28:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:28:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:28:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:28:11", "event": "game_start"}
+{"time": "2026-07-28T13:29:18", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T13:29:20", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T13:29:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:29:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:29:41", "event": "snap", "round": 1, "ts": "20260728_132941", "scene": "A person doing a handstand"}
