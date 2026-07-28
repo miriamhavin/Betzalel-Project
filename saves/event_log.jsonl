@@ -1237,3 +1237,12 @@
 {"time": "2026-07-28T13:44:47", "event": "round_result", "round": 2, "ts": "20260728_134439", "success": true}
 {"time": "2026-07-28T13:45:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T13:45:42", "event": "snap", "round": 3, "ts": "20260728_134542", "scene": "A hand holding a key"}
+{"time": "2026-07-28T13:45:48", "event": "button_press", "button": "YES"}
+{"time": "2026-07-28T13:45:49", "event": "round_result", "round": 3, "ts": "20260728_134542", "success": true}
+{"time": "2026-07-28T13:46:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:46:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:47:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:47:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:47:37", "event": "game_start"}
+{"time": "2026-07-28T13:48:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T13:48:34", "event": "snap", "round": 1, "ts": "20260728_134834", "scene": "A skeleton wearing glasses and a hat"}
