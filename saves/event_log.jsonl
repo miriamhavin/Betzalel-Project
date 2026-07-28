@@ -1707,3 +1707,7 @@
 {"time": "2026-07-28T19:35:48", "event": "game_start"}
 {"time": "2026-07-28T19:36:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T19:36:45", "event": "snap", "round": 1, "ts": "20260728_193645", "scene": "A bird holding an object"}
+{"time": "2026-07-28T19:36:53", "event": "button_press", "button": "NO"}
+{"time": "2026-07-28T19:36:53", "event": "round_result", "round": 1, "ts": "20260728_193645", "success": false}
+{"time": "2026-07-28T19:37:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-28T19:37:57", "event": "snap", "round": 2, "ts": "20260728_193757", "scene": "A tractor"}
