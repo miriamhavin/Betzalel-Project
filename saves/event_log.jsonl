@@ -2572,3 +2572,12 @@
 {"time": "2026-07-29T16:08:33", "event": "round_result", "round": 2, "ts": "20260729_160813", "success": false}
 {"time": "2026-07-29T16:09:12", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T16:09:35", "event": "snap", "round": 3, "ts": "20260729_160935", "scene": "A person holding a gun to their head"}
+{"time": "2026-07-29T16:10:02", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T16:10:03", "event": "round_result", "round": 3, "ts": "20260729_160935", "success": false}
+{"time": "2026-07-29T16:10:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T16:10:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T16:11:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T16:11:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T16:11:01", "event": "game_start"}
+{"time": "2026-07-29T16:11:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T16:11:26", "event": "snap", "round": 1, "ts": "20260729_161126", "scene": "A human hand reaching upwards"}
