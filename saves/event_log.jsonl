@@ -2681,3 +2681,23 @@
 {"time": "2026-07-29T17:04:29", "event": "button_press", "button": "NO"}
 {"time": "2026-07-29T17:04:30", "event": "button_press", "button": "YES"}
 {"time": "2026-07-29T17:04:53", "event": "snap", "round": 1, "ts": "20260729_170453", "scene": "A simple rectangular picture frame"}
+{"time": "2026-07-29T17:13:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:18:54", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T17:18:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:18:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:18:57", "event": "game_start"}
+{"time": "2026-07-29T17:19:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:19:13", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T17:19:16", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T17:19:17", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T17:19:17", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T17:19:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:19:20", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T17:19:20", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T17:19:21", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T17:19:22", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T17:19:22", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T17:19:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:19:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:19:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:19:33", "event": "snap", "round": 1, "ts": "20260729_171933", "scene": "A hand reaching out to a large screen"}
