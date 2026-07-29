@@ -3117,3 +3117,7 @@
 {"time": "2026-07-29T20:17:13", "event": "game_start"}
 {"time": "2026-07-29T20:17:14", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T20:17:33", "event": "snap", "round": 1, "ts": "20260729_201733", "scene": "A knight charging into battle"}
+{"time": "2026-07-29T20:17:41", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T20:17:42", "event": "round_result", "round": 1, "ts": "20260729_201733", "success": false}
+{"time": "2026-07-29T20:18:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:18:40", "event": "snap", "round": 2, "ts": "20260729_201840", "scene": "A mushroom"}
