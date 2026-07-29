@@ -2467,3 +2467,8 @@
 {"time": "2026-07-29T15:24:37", "event": "button_press", "button": "YES"}
 {"time": "2026-07-29T15:24:38", "event": "button_press", "button": "NO"}
 {"time": "2026-07-29T15:24:59", "event": "snap", "round": 1, "ts": "20260729_152459", "scene": "A partially opened rectangular box"}
+{"time": "2026-07-29T15:25:04", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:25:04", "event": "round_result", "round": 1, "ts": "20260729_152459", "success": false}
+{"time": "2026-07-29T15:25:26", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:25:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:25:50", "event": "snap", "round": 2, "ts": "20260729_152550", "scene": "A hammer"}
