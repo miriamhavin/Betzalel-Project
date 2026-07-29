@@ -2961,3 +2961,25 @@
 {"time": "2026-07-29T19:22:44", "event": "round_result", "round": 2, "ts": "20260729_192146", "success": true}
 {"time": "2026-07-29T19:22:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T19:23:09", "event": "snap", "round": 3, "ts": "20260729_192309", "scene": "A stylized bird's head"}
+{"time": "2026-07-29T19:23:24", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:23:25", "event": "round_result", "round": 3, "ts": "20260729_192309", "success": false}
+{"time": "2026-07-29T19:23:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:26:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:26:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:26:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:26:19", "event": "game_start"}
+{"time": "2026-07-29T19:26:21", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T19:26:22", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:26:24", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:26:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:26:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:26:27", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:26:28", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T19:26:29", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T19:26:30", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:26:30", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:26:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:26:34", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:26:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:26:36", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T19:26:49", "event": "snap", "round": 1, "ts": "20260729_192649", "scene": "A wide, ornate picture frame"}
