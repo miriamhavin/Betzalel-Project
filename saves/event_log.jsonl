@@ -2532,3 +2532,9 @@
 {"time": "2026-07-29T15:56:05", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T15:56:16", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T15:56:26", "event": "snap", "round": 2, "ts": "20260729_155626", "scene": ""}
+{"time": "2026-07-29T15:56:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:56:33", "event": "round_result", "round": 2, "ts": "20260729_155626", "success": true}
+{"time": "2026-07-29T15:56:35", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T15:56:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:56:42", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:56:58", "event": "snap", "round": 3, "ts": "20260729_155658", "scene": "A simple picture frame"}
