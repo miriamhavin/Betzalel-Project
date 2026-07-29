@@ -2510,3 +2510,9 @@
 {"time": "2026-07-29T15:34:45", "event": "round_result", "round": 1, "ts": "20260729_153427", "success": true}
 {"time": "2026-07-29T15:34:57", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T15:35:30", "event": "snap", "round": 2, "ts": "20260729_153530", "scene": "a woman figure"}
+{"time": "2026-07-29T15:35:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:35:59", "event": "round_result", "round": 2, "ts": "20260729_153530", "success": true}
+{"time": "2026-07-29T15:36:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:36:05", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T15:36:06", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:36:28", "event": "snap", "round": 3, "ts": "20260729_153628", "scene": "a scarecrow"}
