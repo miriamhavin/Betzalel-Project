@@ -2516,3 +2516,12 @@
 {"time": "2026-07-29T15:36:05", "event": "button_press", "button": "YES"}
 {"time": "2026-07-29T15:36:06", "event": "button_press", "button": "NO"}
 {"time": "2026-07-29T15:36:28", "event": "snap", "round": 3, "ts": "20260729_153628", "scene": "a scarecrow"}
+{"time": "2026-07-29T15:36:40", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:36:41", "event": "round_result", "round": 3, "ts": "20260729_153628", "success": false}
+{"time": "2026-07-29T15:50:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:50:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:50:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:50:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:50:55", "event": "game_start"}
+{"time": "2026-07-29T15:51:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:51:30", "event": "snap", "round": 1, "ts": "20260729_155130", "scene": "A frog wearing a hat"}
