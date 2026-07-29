@@ -2295,3 +2295,9 @@
 {"time": "2026-07-29T13:45:37", "event": "game_start"}
 {"time": "2026-07-29T13:45:43", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T13:46:00", "event": "snap", "round": 1, "ts": "20260729_134600", "scene": "A rudimentary carriage"}
+{"time": "2026-07-29T13:46:15", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T13:46:15", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T13:46:16", "event": "round_result", "round": 1, "ts": "20260729_134600", "success": false}
+{"time": "2026-07-29T13:47:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:47:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:48:09", "event": "snap", "round": 2, "ts": "20260729_134809", "scene": "A partially opened envelope"}
