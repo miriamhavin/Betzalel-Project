@@ -2410,3 +2410,14 @@
 {"time": "2026-07-29T14:44:43", "event": "round_result", "round": 2, "ts": "20260729_144437", "success": true}
 {"time": "2026-07-29T14:45:36", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T14:45:57", "event": "snap", "round": 3, "ts": "20260729_144557", "scene": "A person holding a flower"}
+{"time": "2026-07-29T14:46:01", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T14:46:02", "event": "round_result", "round": 3, "ts": "20260729_144557", "success": true}
+{"time": "2026-07-29T14:58:36", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T14:58:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T14:58:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T14:59:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T14:59:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:00:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:00:05", "event": "game_start"}
+{"time": "2026-07-29T15:00:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:00:55", "event": "snap", "round": 1, "ts": "20260729_150055", "scene": "A person holding a can opener"}
