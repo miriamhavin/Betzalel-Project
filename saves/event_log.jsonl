@@ -2773,3 +2773,7 @@
 {"time": "2026-07-29T18:11:30", "event": "round_result", "round": 1, "ts": "20260729_181115", "success": false}
 {"time": "2026-07-29T18:12:50", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T18:13:46", "event": "snap", "round": 2, "ts": "20260729_181346", "scene": "A person with a leg and arm raised in a playful pose"}
+{"time": "2026-07-29T18:13:57", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:13:57", "event": "round_result", "round": 2, "ts": "20260729_181346", "success": false}
+{"time": "2026-07-29T18:14:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:15:40", "event": "snap", "round": 3, "ts": "20260729_181540", "scene": "A microphone on a stand"}
