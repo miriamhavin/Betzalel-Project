@@ -2667,3 +2667,17 @@
 {"time": "2026-07-29T16:50:31", "event": "round_result", "round": 2, "ts": "20260729_164506", "success": false}
 {"time": "2026-07-29T16:50:36", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T16:51:06", "event": "snap", "round": 3, "ts": "20260729_165106", "scene": "A mouse"}
+{"time": "2026-07-29T17:03:45", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T17:03:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:03:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:03:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:03:48", "event": "game_start"}
+{"time": "2026-07-29T17:03:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:03:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:03:54", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T17:03:55", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T17:03:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:03:59", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T17:04:29", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T17:04:30", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T17:04:53", "event": "snap", "round": 1, "ts": "20260729_170453", "scene": "A simple rectangular picture frame"}
