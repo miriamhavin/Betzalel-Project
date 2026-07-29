@@ -2009,3 +2009,13 @@
 {"time": "2026-07-29T11:32:16", "event": "button_press", "button": "NO"}
 {"time": "2026-07-29T11:32:18", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T11:32:21", "event": "snap", "round": 2, "ts": "20260729_113221", "scene": "A picture frame"}
+{"time": "2026-07-29T11:32:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T11:32:29", "event": "round_result", "round": 2, "ts": "20260729_113221", "success": false}
+{"time": "2026-07-29T11:32:34", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T11:32:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:32:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:32:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:32:58", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T11:32:58", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T11:33:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:33:01", "event": "snap", "round": 3, "ts": "20260729_113301", "scene": "Two hands reaching up"}
