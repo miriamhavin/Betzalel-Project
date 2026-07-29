@@ -2266,3 +2266,8 @@
 {"time": "2026-07-29T13:30:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T13:30:37", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T13:30:53", "event": "snap", "round": 1, "ts": "20260729_133053", "scene": "A closed book"}
+{"time": "2026-07-29T13:32:57", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T13:32:58", "event": "round_result", "round": 1, "ts": "20260729_133053", "success": false}
+{"time": "2026-07-29T13:33:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:33:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:33:11", "event": "snap", "round": 2, "ts": "20260729_133311", "scene": ""}
