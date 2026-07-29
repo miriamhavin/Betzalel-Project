@@ -2926,3 +2926,12 @@
 {"time": "2026-07-29T19:03:09", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T19:03:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T19:04:12", "event": "snap", "round": 3, "ts": "20260729_190412", "scene": "A person using pliers to remove a splinter"}
+{"time": "2026-07-29T19:04:19", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:04:19", "event": "round_result", "round": 3, "ts": "20260729_190412", "success": false}
+{"time": "2026-07-29T19:04:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:06:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:06:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:06:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:06:17", "event": "game_start"}
+{"time": "2026-07-29T19:06:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:07:12", "event": "snap", "round": 1, "ts": "20260729_190712", "scene": "A person holding a lever"}
