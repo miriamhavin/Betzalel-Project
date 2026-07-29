@@ -3090,3 +3090,13 @@
 {"time": "2026-07-29T20:08:54", "event": "round_result", "round": 2, "ts": "20260729_200839", "success": false}
 {"time": "2026-07-29T20:09:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T20:10:16", "event": "snap", "round": 3, "ts": "20260729_201016", "scene": "A person holding a torch"}
+{"time": "2026-07-29T20:10:27", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T20:10:28", "event": "round_result", "round": 3, "ts": "20260729_201016", "success": false}
+{"time": "2026-07-29T20:11:02", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T20:11:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:11:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:11:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:11:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:11:54", "event": "game_start"}
+{"time": "2026-07-29T20:11:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:12:14", "event": "snap", "round": 1, "ts": "20260729_201214", "scene": "A cartoon monster with a large mouth and a single eye"}
