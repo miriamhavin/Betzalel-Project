@@ -2286,3 +2286,12 @@
 {"time": "2026-07-29T13:43:32", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T13:43:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T13:43:55", "event": "snap", "round": 3, "ts": "20260729_134355", "scene": "Mickey Mouse"}
+{"time": "2026-07-29T13:44:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:44:03", "event": "round_result", "round": 3, "ts": "20260729_134355", "success": true}
+{"time": "2026-07-29T13:44:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:45:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:45:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:45:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:45:37", "event": "game_start"}
+{"time": "2026-07-29T13:45:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:46:00", "event": "snap", "round": 1, "ts": "20260729_134600", "scene": "A rudimentary carriage"}
