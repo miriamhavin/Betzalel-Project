@@ -2154,3 +2154,9 @@
 {"time": "2026-07-29T13:01:36", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T13:01:37", "event": "button_press", "button": "NO"}
 {"time": "2026-07-29T13:01:57", "event": "snap", "round": 1, "ts": "20260729_130157", "scene": "A simple, unadorned picture frame"}
+{"time": "2026-07-29T13:07:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:07:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:08:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:08:14", "event": "game_start"}
+{"time": "2026-07-29T13:09:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:09:31", "event": "snap", "round": 1, "ts": "20260729_130931", "scene": "A squid"}
