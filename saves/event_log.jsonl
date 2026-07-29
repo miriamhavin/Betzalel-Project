@@ -2935,3 +2935,7 @@
 {"time": "2026-07-29T19:06:17", "event": "game_start"}
 {"time": "2026-07-29T19:06:45", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T19:07:12", "event": "snap", "round": 1, "ts": "20260729_190712", "scene": "A person holding a lever"}
+{"time": "2026-07-29T19:07:24", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:07:25", "event": "round_result", "round": 1, "ts": "20260729_190712", "success": false}
+{"time": "2026-07-29T19:08:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:08:32", "event": "snap", "round": 2, "ts": "20260729_190832", "scene": "A spoon scooping a cloud"}
