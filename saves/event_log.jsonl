@@ -3001,3 +3001,13 @@
 {"time": "2026-07-29T19:31:13", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T19:31:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T19:31:38", "event": "snap", "round": 3, "ts": "20260729_193138", "scene": "A crudely drawn whiteboard border"}
+{"time": "2026-07-29T19:34:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:34:38", "event": "round_result", "round": 3, "ts": "20260729_193138", "success": false}
+{"time": "2026-07-29T19:34:43", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T19:34:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:36:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:36:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:37:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:37:30", "event": "game_start"}
+{"time": "2026-07-29T19:38:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:38:40", "event": "snap", "round": 1, "ts": "20260729_193840", "scene": "A figure holding a microphone"}
