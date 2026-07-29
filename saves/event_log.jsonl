@@ -3019,3 +3019,13 @@
 {"time": "2026-07-29T19:40:25", "event": "round_result", "round": 2, "ts": "20260729_194013", "success": false}
 {"time": "2026-07-29T19:40:52", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T19:41:23", "event": "snap", "round": 3, "ts": "20260729_194123", "scene": "A person holding a trophy"}
+{"time": "2026-07-29T19:41:30", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:41:31", "event": "round_result", "round": 3, "ts": "20260729_194123", "success": false}
+{"time": "2026-07-29T19:43:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:43:21", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T19:45:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:45:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:45:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:45:56", "event": "game_start"}
+{"time": "2026-07-29T19:46:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:46:50", "event": "snap", "round": 1, "ts": "20260729_194650", "scene": "A stylized human figure standing"}
