@@ -3037,3 +3037,14 @@
 {"time": "2026-07-29T19:48:56", "event": "round_result", "round": 2, "ts": "20260729_194847", "success": false}
 {"time": "2026-07-29T19:49:54", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T19:50:16", "event": "snap", "round": 3, "ts": "20260729_195016", "scene": "A cross"}
+{"time": "2026-07-29T19:50:22", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:50:23", "event": "round_result", "round": 3, "ts": "20260729_195016", "success": false}
+{"time": "2026-07-29T19:51:24", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:51:25", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T19:51:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:51:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:51:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:52:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:52:05", "event": "game_start"}
+{"time": "2026-07-29T19:53:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:53:23", "event": "snap", "round": 1, "ts": "20260729_195323", "scene": "A stylized mushroom"}
