@@ -3186,3 +3186,7 @@
 {"time": "2026-07-29T20:40:50", "event": "game_start"}
 {"time": "2026-07-29T20:41:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T20:41:59", "event": "snap", "round": 1, "ts": "20260729_204159", "scene": "A hand holding a tool"}
+{"time": "2026-07-29T20:42:12", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T20:42:13", "event": "round_result", "round": 1, "ts": "20260729_204159", "success": false}
+{"time": "2026-07-29T20:42:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:42:56", "event": "snap", "round": 2, "ts": "20260729_204256", "scene": "A mechanical bird"}
