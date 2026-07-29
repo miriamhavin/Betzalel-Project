@@ -2842,3 +2842,14 @@
 {"time": "2026-07-29T18:42:39", "event": "round_result", "round": 2, "ts": "20260729_184133", "success": false}
 {"time": "2026-07-29T18:43:14", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T18:43:58", "event": "snap", "round": 3, "ts": "20260729_184358", "scene": "A duck paddling"}
+{"time": "2026-07-29T18:44:20", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:44:20", "event": "round_result", "round": 3, "ts": "20260729_184358", "success": false}
+{"time": "2026-07-29T18:44:25", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:44:26", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:44:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:44:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:47:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:47:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:47:26", "event": "game_start"}
+{"time": "2026-07-29T18:47:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:48:16", "event": "snap", "round": 1, "ts": "20260729_184816", "scene": "A pair of scissors cutting a ribbon"}
