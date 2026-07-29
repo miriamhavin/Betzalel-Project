@@ -3156,3 +3156,7 @@
 {"time": "2026-07-29T20:32:02", "event": "round_result", "round": 1, "ts": "20260729_203148", "success": false}
 {"time": "2026-07-29T20:32:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T20:32:50", "event": "snap", "round": 2, "ts": "20260729_203250", "scene": "A simple candelabra"}
+{"time": "2026-07-29T20:32:55", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T20:32:56", "event": "round_result", "round": 2, "ts": "20260729_203250", "success": false}
+{"time": "2026-07-29T20:33:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:34:19", "event": "snap", "round": 3, "ts": "20260729_203419", "scene": "A stylized representation of a cassette tape mechanism"}
