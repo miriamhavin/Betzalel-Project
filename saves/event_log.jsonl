@@ -3215,3 +3215,13 @@
 {"time": "2026-07-29T21:07:47", "event": "round_result", "round": 2, "ts": "20260729_210739", "success": false}
 {"time": "2026-07-29T21:07:49", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T21:08:04", "event": "snap", "round": 3, "ts": "20260729_210804", "scene": "a rectangle"}
+{"time": "2026-07-29T21:08:21", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T21:08:22", "event": "round_result", "round": 3, "ts": "20260729_210804", "success": false}
+{"time": "2026-07-29T21:08:24", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T21:08:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T21:08:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T21:08:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T21:08:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T21:08:35", "event": "game_start"}
+{"time": "2026-07-29T21:08:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T21:08:55", "event": "snap", "round": 1, "ts": "20260729_210855", "scene": "a lever mechanism"}
