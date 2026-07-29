@@ -2777,3 +2777,23 @@
 {"time": "2026-07-29T18:13:57", "event": "round_result", "round": 2, "ts": "20260729_181346", "success": false}
 {"time": "2026-07-29T18:14:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T18:15:40", "event": "snap", "round": 3, "ts": "20260729_181540", "scene": "A microphone on a stand"}
+{"time": "2026-07-29T18:15:50", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:15:51", "event": "round_result", "round": 3, "ts": "20260729_181540", "success": false}
+{"time": "2026-07-29T18:15:59", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:16:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:19:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:19:52", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:19:53", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:19:57", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:19:58", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:19:59", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:20:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:20:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:20:05", "event": "game_start"}
+{"time": "2026-07-29T18:20:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:20:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:20:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:20:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:20:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:20:30", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:20:51", "event": "snap", "round": 1, "ts": "20260729_182051", "scene": "** Picture Frame"}
