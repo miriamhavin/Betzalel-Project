@@ -2760,3 +2760,12 @@
 {"time": "2026-07-29T17:40:59", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T17:41:00", "event": "button_press", "button": "NO"}
 {"time": "2026-07-29T17:41:14", "event": "snap", "round": 1, "ts": "20260729_174114", "scene": "A jack-in-the-box"}
+{"time": "2026-07-29T18:10:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:10:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:10:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:10:23", "event": "game_start"}
+{"time": "2026-07-29T18:10:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:10:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:10:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:11:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:11:15", "event": "snap", "round": 1, "ts": "20260729_181115", "scene": "A window frame"}
