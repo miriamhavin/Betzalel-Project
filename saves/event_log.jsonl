@@ -2619,3 +2619,7 @@
 {"time": "2026-07-29T16:28:50", "event": "round_result", "round": 1, "ts": "20260729_162843", "success": true}
 {"time": "2026-07-29T16:29:29", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T16:29:55", "event": "snap", "round": 2, "ts": "20260729_162955", "scene": "A spray gun"}
+{"time": "2026-07-29T16:30:01", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T16:30:01", "event": "round_result", "round": 2, "ts": "20260729_162955", "success": false}
+{"time": "2026-07-29T16:30:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T16:31:04", "event": "snap", "round": 3, "ts": "20260729_163104", "scene": "A pair of scissors"}
