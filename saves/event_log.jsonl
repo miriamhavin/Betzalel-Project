@@ -2581,3 +2581,7 @@
 {"time": "2026-07-29T16:11:01", "event": "game_start"}
 {"time": "2026-07-29T16:11:08", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T16:11:26", "event": "snap", "round": 1, "ts": "20260729_161126", "scene": "A human hand reaching upwards"}
+{"time": "2026-07-29T16:12:07", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T16:12:08", "event": "round_result", "round": 1, "ts": "20260729_161126", "success": false}
+{"time": "2026-07-29T16:13:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T16:13:45", "event": "snap", "round": 2, "ts": "20260729_161345", "scene": "A vacuum cleaner with a smiley face"}
