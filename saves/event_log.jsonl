@@ -2336,3 +2336,7 @@
 {"time": "2026-07-29T14:06:34", "event": "button_press", "button": "YES"}
 {"time": "2026-07-29T14:07:20", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T14:07:39", "event": "snap", "round": 1, "ts": "20260729_140739", "scene": "A person playing a gear-based video game"}
+{"time": "2026-07-29T14:07:47", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T14:07:47", "event": "round_result", "round": 1, "ts": "20260729_140739", "success": false}
+{"time": "2026-07-29T14:07:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T14:08:18", "event": "snap", "round": 2, "ts": "20260729_140818", "scene": "A musical instrument"}
