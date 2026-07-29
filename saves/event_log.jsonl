@@ -1962,3 +1962,20 @@
 {"time": "2026-07-28T21:56:05", "event": "round_result", "round": 2, "ts": "20260728_215556", "success": false}
 {"time": "2026-07-28T21:56:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-28T21:56:40", "event": "snap", "round": 3, "ts": "20260728_215640", "scene": "A cartoonish alien spaceship"}
+{"time": "2026-07-29T11:13:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:31:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:31:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:31:27", "event": "game_start"}
+{"time": "2026-07-29T11:31:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:31:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:31:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T11:31:39", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T11:31:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:31:41", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T11:31:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:31:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:31:47", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T11:31:49", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T11:31:50", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T11:31:50", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T11:31:51", "event": "snap", "round": 1, "ts": "20260729_113151", "scene": ""}
