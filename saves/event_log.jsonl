@@ -3194,3 +3194,16 @@
 {"time": "2026-07-29T20:43:05", "event": "round_result", "round": 2, "ts": "20260729_204256", "success": true}
 {"time": "2026-07-29T20:43:24", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T20:43:41", "event": "snap", "round": 3, "ts": "20260729_204341", "scene": "A stylized key"}
+{"time": "2026-07-29T20:43:49", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T20:43:49", "event": "round_result", "round": 3, "ts": "20260729_204341", "success": false}
+{"time": "2026-07-29T20:43:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T21:05:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T21:05:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T21:06:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T21:06:02", "event": "game_start"}
+{"time": "2026-07-29T21:06:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T21:06:09", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T21:06:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T21:06:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T21:06:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T21:06:20", "event": "snap", "round": 1, "ts": "20260729_210620", "scene": "a door"}
