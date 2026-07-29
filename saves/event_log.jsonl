@@ -2915,3 +2915,7 @@
 {"time": "2026-07-29T19:00:48", "event": "button_press", "button": "NO"}
 {"time": "2026-07-29T19:00:48", "event": "button_press", "button": "YES"}
 {"time": "2026-07-29T19:01:08", "event": "snap", "round": 1, "ts": "20260729_190108", "scene": "A person watering a small plant"}
+{"time": "2026-07-29T19:01:17", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:01:18", "event": "round_result", "round": 1, "ts": "20260729_190108", "success": false}
+{"time": "2026-07-29T19:01:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:02:11", "event": "snap", "round": 2, "ts": "20260729_190211", "scene": "A person holding a camera"}
