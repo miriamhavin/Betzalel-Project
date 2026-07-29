@@ -3251,3 +3251,7 @@
 {"time": "2026-07-29T21:40:16", "event": "game_start"}
 {"time": "2026-07-29T21:41:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T21:41:46", "event": "snap", "round": 1, "ts": "20260729_214146", "scene": "A bird in flight"}
+{"time": "2026-07-29T21:41:56", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T21:41:56", "event": "round_result", "round": 1, "ts": "20260729_214146", "success": true}
+{"time": "2026-07-29T21:45:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T21:45:30", "event": "snap", "round": 2, "ts": "20260729_214530", "scene": "A stylized envelope"}
