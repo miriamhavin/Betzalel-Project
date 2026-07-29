@@ -3108,3 +3108,12 @@
 {"time": "2026-07-29T20:13:08", "event": "round_result", "round": 2, "ts": "20260729_201254", "success": false}
 {"time": "2026-07-29T20:14:00", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T20:14:24", "event": "snap", "round": 3, "ts": "20260729_201424", "scene": "A person doing a handstand"}
+{"time": "2026-07-29T20:14:42", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T20:14:43", "event": "round_result", "round": 3, "ts": "20260729_201424", "success": false}
+{"time": "2026-07-29T20:14:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:17:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:17:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:17:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:17:13", "event": "game_start"}
+{"time": "2026-07-29T20:17:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:17:33", "event": "snap", "round": 1, "ts": "20260729_201733", "scene": "A knight charging into battle"}
