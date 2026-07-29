@@ -2874,3 +2874,25 @@
 {"time": "2026-07-29T18:55:38", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T18:55:49", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T18:56:19", "event": "snap", "round": 1, "ts": "20260729_185619", "scene": "A stylized laptop"}
+{"time": "2026-07-29T18:57:07", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:57:07", "event": "round_result", "round": 1, "ts": "20260729_185619", "success": false}
+{"time": "2026-07-29T18:57:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:57:45", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:57:46", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:57:47", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:57:50", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:57:50", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:57:51", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:57:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:57:52", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:57:53", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:57:54", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:57:55", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:57:56", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:57:56", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:57:57", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T18:57:57", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:57:58", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:58:00", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:58:07", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:58:28", "event": "snap", "round": 2, "ts": "20260729_185828", "scene": "A rabbit looking over a fence"}
