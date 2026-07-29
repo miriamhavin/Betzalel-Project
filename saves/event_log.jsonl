@@ -2429,3 +2429,21 @@
 {"time": "2026-07-29T15:02:41", "event": "round_result", "round": 2, "ts": "20260729_150233", "success": true}
 {"time": "2026-07-29T15:03:08", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T15:03:35", "event": "snap", "round": 3, "ts": "20260729_150335", "scene": "A person holding a whip"}
+{"time": "2026-07-29T15:03:40", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:03:41", "event": "round_result", "round": 3, "ts": "20260729_150335", "success": false}
+{"time": "2026-07-29T15:04:33", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:04:35", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T15:04:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:04:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:04:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:05:40", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:05:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:05:42", "event": "game_start"}
+{"time": "2026-07-29T15:05:51", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:05:53", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T15:05:55", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:05:55", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T15:05:55", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:05:56", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:06:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:06:33", "event": "snap", "round": 1, "ts": "20260729_150633", "scene": "a hand writing on a whiteboard"}
