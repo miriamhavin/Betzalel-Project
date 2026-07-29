@@ -2170,3 +2170,13 @@
 {"time": "2026-07-29T13:13:14", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T13:13:16", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T13:13:29", "event": "snap", "round": 3, "ts": "20260729_131329", "scene": "A key"}
+{"time": "2026-07-29T13:15:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:15:06", "event": "round_result", "round": 3, "ts": "20260729_131329", "success": true}
+{"time": "2026-07-29T13:15:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:15:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:15:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:15:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:15:28", "event": "game_start"}
+{"time": "2026-07-29T13:15:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:16:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:16:16", "event": "snap", "round": 1, "ts": "20260729_131616", "scene": "A watering can"}
