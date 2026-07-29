@@ -2224,3 +2224,7 @@
 {"time": "2026-07-29T13:24:50", "event": "round_result", "round": 1, "ts": "20260729_132432", "success": false}
 {"time": "2026-07-29T13:24:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T13:25:14", "event": "snap", "round": 2, "ts": "20260729_132514", "scene": "A vintage alarm clock"}
+{"time": "2026-07-29T13:25:26", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T13:25:27", "event": "round_result", "round": 2, "ts": "20260729_132514", "success": false}
+{"time": "2026-07-29T13:26:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:27:09", "event": "snap", "round": 3, "ts": "20260729_132709", "scene": "A key"}
