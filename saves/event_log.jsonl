@@ -2060,3 +2060,10 @@
 {"time": "2026-07-29T11:36:36", "event": "button_press", "button": "YES"}
 {"time": "2026-07-29T11:36:45", "event": "button_press", "button": "YES"}
 {"time": "2026-07-29T11:36:46", "event": "snap", "round": 2, "ts": "20260729_113646", "scene": "A person playing a recorder"}
+{"time": "2026-07-29T11:36:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:36:48", "event": "round_result", "round": 2, "ts": "20260729_113646", "success": true}
+{"time": "2026-07-29T11:36:50", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T11:36:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:36:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:36:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:37:08", "event": "snap", "round": 3, "ts": "20260729_113708", "scene": "A melting snowman"}
