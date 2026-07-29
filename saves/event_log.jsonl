@@ -3277,3 +3277,34 @@
 {"time": "2026-07-29T21:51:23", "event": "round_result", "round": 2, "ts": "20260729_215115", "success": true}
 {"time": "2026-07-29T21:52:19", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T21:52:35", "event": "snap", "round": 3, "ts": "20260729_215235", "scene": "A person on a scooter"}
+{"time": "2026-07-29T21:52:56", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T21:52:56", "event": "round_result", "round": 3, "ts": "20260729_215235", "success": false}
+{"time": "2026-07-29T21:56:53", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T21:56:54", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T21:56:54", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T21:56:54", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T21:56:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T22:32:33", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T22:32:33", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T22:32:34", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T22:32:35", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T22:32:35", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T22:32:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T22:32:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T22:32:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T22:32:40", "event": "game_start"}
+{"time": "2026-07-29T22:32:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T22:32:41", "event": "game_start"}
+{"time": "2026-07-29T22:32:42", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T22:32:42", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T22:32:43", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T22:42:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T22:42:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T22:42:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T22:42:33", "event": "game_start"}
+{"time": "2026-07-29T22:42:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T22:42:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T22:42:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T22:42:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T22:42:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T22:42:55", "event": "snap", "round": 1, "ts": "20260729_224255", "scene": "a rectangular frame"}
