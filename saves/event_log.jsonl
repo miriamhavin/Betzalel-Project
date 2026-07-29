@@ -2568,3 +2568,7 @@
 {"time": "2026-07-29T16:07:34", "event": "round_result", "round": 1, "ts": "20260729_160721", "success": true}
 {"time": "2026-07-29T16:07:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T16:08:13", "event": "snap", "round": 2, "ts": "20260729_160813", "scene": "A classic wind-up toy robot"}
+{"time": "2026-07-29T16:08:32", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T16:08:33", "event": "round_result", "round": 2, "ts": "20260729_160813", "success": false}
+{"time": "2026-07-29T16:09:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T16:09:35", "event": "snap", "round": 3, "ts": "20260729_160935", "scene": "A person holding a gun to their head"}
