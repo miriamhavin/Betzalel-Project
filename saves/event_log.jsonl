@@ -2746,3 +2746,17 @@
 {"time": "2026-07-29T17:39:30", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T17:39:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T17:39:38", "event": "snap", "round": 3, "ts": "20260729_173938", "scene": "A golf club"}
+{"time": "2026-07-29T17:39:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:39:42", "event": "round_result", "round": 3, "ts": "20260729_173938", "success": true}
+{"time": "2026-07-29T17:40:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:40:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:40:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:40:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T17:40:29", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T17:40:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:40:32", "event": "game_start"}
+{"time": "2026-07-29T17:40:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:40:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:40:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:41:00", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T17:41:14", "event": "snap", "round": 1, "ts": "20260729_174114", "scene": "A jack-in-the-box"}
