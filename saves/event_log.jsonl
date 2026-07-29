@@ -2365,3 +2365,16 @@
 {"time": "2026-07-29T14:27:26", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T14:27:29", "event": "button_press", "button": "NO"}
 {"time": "2026-07-29T14:27:33", "event": "snap", "round": 2, "ts": "20260729_142733", "scene": "A stylized picture frame"}
+{"time": "2026-07-29T14:27:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T14:27:34", "event": "round_result", "round": 2, "ts": "20260729_142733", "success": true}
+{"time": "2026-07-29T14:27:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T14:27:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T14:27:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T14:27:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T14:27:39", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T14:27:40", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T14:27:40", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T14:27:40", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T14:27:41", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T14:27:41", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T14:27:52", "event": "snap", "round": 3, "ts": "20260729_142752", "scene": "A open book"}
