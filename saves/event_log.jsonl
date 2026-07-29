@@ -2165,3 +2165,8 @@
 {"time": "2026-07-29T13:09:57", "event": "button_press", "button": "NO"}
 {"time": "2026-07-29T13:09:59", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T13:10:17", "event": "snap", "round": 2, "ts": "20260729_131017", "scene": "A standing person with a bag"}
+{"time": "2026-07-29T13:13:09", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T13:13:09", "event": "round_result", "round": 2, "ts": "20260729_131017", "success": true}
+{"time": "2026-07-29T13:13:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:13:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:13:29", "event": "snap", "round": 3, "ts": "20260729_131329", "scene": "A key"}
