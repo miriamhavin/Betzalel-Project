@@ -2051,3 +2051,12 @@
 {"time": "2026-07-29T11:35:47", "event": "game_start"}
 {"time": "2026-07-29T11:35:57", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T11:36:14", "event": "snap", "round": 1, "ts": "20260729_113614", "scene": "A person holding a flashlight"}
+{"time": "2026-07-29T11:36:26", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T11:36:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:36:27", "event": "round_result", "round": 1, "ts": "20260729_113614", "success": false}
+{"time": "2026-07-29T11:36:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:36:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:36:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T11:36:36", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T11:36:45", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T11:36:46", "event": "snap", "round": 2, "ts": "20260729_113646", "scene": "A person playing a recorder"}
