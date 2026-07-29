@@ -2188,3 +2188,17 @@
 {"time": "2026-07-29T13:17:34", "event": "round_result", "round": 2, "ts": "20260729_131717", "success": true}
 {"time": "2026-07-29T13:18:03", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T13:18:23", "event": "snap", "round": 3, "ts": "20260729_131823", "scene": "A dumbbell"}
+{"time": "2026-07-29T13:18:27", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T13:18:28", "event": "round_result", "round": 3, "ts": "20260729_131823", "success": true}
+{"time": "2026-07-29T13:19:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:19:31", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T13:19:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:19:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:19:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:19:37", "event": "game_start"}
+{"time": "2026-07-29T13:19:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:19:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:19:43", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T13:19:45", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T13:19:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:19:54", "event": "snap", "round": 1, "ts": "20260729_131954", "scene": "A rectangular picture frame"}
