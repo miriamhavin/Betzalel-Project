@@ -2801,3 +2801,8 @@
 {"time": "2026-07-29T18:20:57", "event": "round_result", "round": 1, "ts": "20260729_182051", "success": true}
 {"time": "2026-07-29T18:22:32", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T18:23:16", "event": "snap", "round": 2, "ts": "20260729_182316", "scene": "A cartoon-like monster head"}
+{"time": "2026-07-29T18:23:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:23:29", "event": "round_result", "round": 2, "ts": "20260729_182316", "success": false}
+{"time": "2026-07-29T18:24:12", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:24:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T18:25:01", "event": "snap", "round": 3, "ts": "20260729_182501", "scene": "A person holding a flag"}
