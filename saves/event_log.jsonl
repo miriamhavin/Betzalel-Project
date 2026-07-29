@@ -3056,3 +3056,12 @@
 {"time": "2026-07-29T19:55:08", "event": "round_result", "round": 2, "ts": "20260729_195501", "success": true}
 {"time": "2026-07-29T19:56:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T19:57:09", "event": "snap", "round": 3, "ts": "20260729_195709", "scene": "A bird in flight"}
+{"time": "2026-07-29T19:57:16", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:57:17", "event": "round_result", "round": 3, "ts": "20260729_195709", "success": false}
+{"time": "2026-07-29T20:00:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:00:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:00:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:00:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:00:58", "event": "game_start"}
+{"time": "2026-07-29T20:01:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:02:02", "event": "snap", "round": 1, "ts": "20260729_200202", "scene": "Person with a wrench and calipers"}
