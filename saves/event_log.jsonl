@@ -2900,3 +2900,18 @@
 {"time": "2026-07-29T18:58:34", "event": "round_result", "round": 2, "ts": "20260729_185828", "success": true}
 {"time": "2026-07-29T18:59:01", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T18:59:47", "event": "snap", "round": 3, "ts": "20260729_185947", "scene": "A burning torch"}
+{"time": "2026-07-29T18:59:59", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T18:59:59", "event": "round_result", "round": 3, "ts": "20260729_185947", "success": false}
+{"time": "2026-07-29T19:00:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:00:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:00:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:00:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:00:05", "event": "game_start"}
+{"time": "2026-07-29T19:00:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:00:06", "event": "game_start"}
+{"time": "2026-07-29T19:00:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T19:00:45", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T19:00:47", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T19:00:48", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T19:00:48", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T19:01:08", "event": "snap", "round": 1, "ts": "20260729_190108", "scene": "A person watering a small plant"}
