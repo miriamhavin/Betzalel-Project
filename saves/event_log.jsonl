@@ -2340,3 +2340,7 @@
 {"time": "2026-07-29T14:07:47", "event": "round_result", "round": 1, "ts": "20260729_140739", "success": false}
 {"time": "2026-07-29T14:07:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T14:08:18", "event": "snap", "round": 2, "ts": "20260729_140818", "scene": "A musical instrument"}
+{"time": "2026-07-29T14:08:26", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T14:08:26", "event": "round_result", "round": 2, "ts": "20260729_140818", "success": true}
+{"time": "2026-07-29T14:08:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T14:08:52", "event": "snap", "round": 3, "ts": "20260729_140852", "scene": "A person working at a desk with a computer"}
