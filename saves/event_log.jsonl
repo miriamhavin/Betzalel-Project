@@ -3082,3 +3082,7 @@
 {"time": "2026-07-29T20:06:22", "event": "game_start"}
 {"time": "2026-07-29T20:07:07", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T20:07:27", "event": "snap", "round": 1, "ts": "20260729_200727", "scene": "A wrench tool set"}
+{"time": "2026-07-29T20:07:34", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T20:07:35", "event": "round_result", "round": 1, "ts": "20260729_200727", "success": false}
+{"time": "2026-07-29T20:08:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T20:08:39", "event": "snap", "round": 2, "ts": "20260729_200839", "scene": "A robot's head"}
