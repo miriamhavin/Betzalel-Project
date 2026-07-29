@@ -2160,3 +2160,8 @@
 {"time": "2026-07-29T13:08:14", "event": "game_start"}
 {"time": "2026-07-29T13:09:12", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T13:09:31", "event": "snap", "round": 1, "ts": "20260729_130931", "scene": "A squid"}
+{"time": "2026-07-29T13:09:46", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T13:09:47", "event": "round_result", "round": 1, "ts": "20260729_130931", "success": false}
+{"time": "2026-07-29T13:09:57", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T13:09:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:10:17", "event": "snap", "round": 2, "ts": "20260729_131017", "scene": "A standing person with a bag"}
