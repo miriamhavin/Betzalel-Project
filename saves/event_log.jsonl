@@ -2722,3 +2722,7 @@
 {"time": "2026-07-29T17:25:17", "event": "round_result", "round": 1, "ts": "20260729_172501", "success": true}
 {"time": "2026-07-29T17:27:30", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T17:27:56", "event": "snap", "round": 2, "ts": "20260729_172756", "scene": "A shovel"}
+{"time": "2026-07-29T17:28:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:28:24", "event": "round_result", "round": 2, "ts": "20260729_172756", "success": true}
+{"time": "2026-07-29T17:28:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T17:28:59", "event": "snap", "round": 3, "ts": "20260729_172859", "scene": "An exclamation point"}
