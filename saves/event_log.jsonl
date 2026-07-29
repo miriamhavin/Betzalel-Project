@@ -2477,3 +2477,14 @@
 {"time": "2026-07-29T15:27:10", "event": "button_press", "button": "NO"}
 {"time": "2026-07-29T15:27:13", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T15:27:41", "event": "snap", "round": 3, "ts": "20260729_152741", "scene": "An hourglass"}
+{"time": "2026-07-29T15:27:59", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:28:00", "event": "round_result", "round": 3, "ts": "20260729_152741", "success": false}
+{"time": "2026-07-29T15:28:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:28:07", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:28:09", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:28:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:28:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:28:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:28:14", "event": "game_start"}
+{"time": "2026-07-29T15:28:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:28:36", "event": "snap", "round": 1, "ts": "20260729_152836", "scene": "a cartoon dog with floppy ears"}
