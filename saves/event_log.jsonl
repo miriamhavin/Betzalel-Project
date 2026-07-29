@@ -2538,3 +2538,12 @@
 {"time": "2026-07-29T15:56:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T15:56:42", "event": "button_press", "button": "NO"}
 {"time": "2026-07-29T15:56:58", "event": "snap", "round": 3, "ts": "20260729_155658", "scene": "A simple picture frame"}
+{"time": "2026-07-29T15:57:06", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:57:06", "event": "round_result", "round": 3, "ts": "20260729_155658", "success": false}
+{"time": "2026-07-29T15:57:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:57:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:58:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:58:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:58:42", "event": "game_start"}
+{"time": "2026-07-29T15:58:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:59:18", "event": "snap", "round": 1, "ts": "20260729_155918", "scene": "A bird in flight"}
