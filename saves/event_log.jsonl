@@ -2606,3 +2606,12 @@
 {"time": "2026-07-29T16:24:11", "event": "round_result", "round": 2, "ts": "20260729_162251", "success": false}
 {"time": "2026-07-29T16:24:45", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T16:25:04", "event": "snap", "round": 3, "ts": "20260729_162504", "scene": "A simple framed picture"}
+{"time": "2026-07-29T16:25:10", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T16:25:10", "event": "round_result", "round": 3, "ts": "20260729_162504", "success": false}
+{"time": "2026-07-29T16:26:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T16:26:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T16:27:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T16:27:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T16:27:37", "event": "game_start"}
+{"time": "2026-07-29T16:28:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T16:28:43", "event": "snap", "round": 1, "ts": "20260729_162843", "scene": "A stylized bird in profile"}
