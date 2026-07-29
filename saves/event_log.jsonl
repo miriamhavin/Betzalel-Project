@@ -2472,3 +2472,8 @@
 {"time": "2026-07-29T15:25:26", "event": "button_press", "button": "NO"}
 {"time": "2026-07-29T15:25:32", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T15:25:50", "event": "snap", "round": 2, "ts": "20260729_152550", "scene": "A hammer"}
+{"time": "2026-07-29T15:26:11", "event": "button_press", "button": "YES"}
+{"time": "2026-07-29T15:26:12", "event": "round_result", "round": 2, "ts": "20260729_152550", "success": true}
+{"time": "2026-07-29T15:27:10", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:27:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:27:41", "event": "snap", "round": 3, "ts": "20260729_152741", "scene": "An hourglass"}
