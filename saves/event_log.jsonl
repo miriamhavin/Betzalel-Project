@@ -2301,3 +2301,8 @@
 {"time": "2026-07-29T13:47:51", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T13:47:53", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T13:48:09", "event": "snap", "round": 2, "ts": "20260729_134809", "scene": "A partially opened envelope"}
+{"time": "2026-07-29T13:49:03", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T13:49:03", "event": "round_result", "round": 2, "ts": "20260729_134809", "success": false}
+{"time": "2026-07-29T13:49:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:49:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T13:49:28", "event": "snap", "round": 3, "ts": "20260729_134928", "scene": "A rectangular picture frame"}
