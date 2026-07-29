@@ -2492,3 +2492,7 @@
 {"time": "2026-07-29T15:28:48", "event": "round_result", "round": 1, "ts": "20260729_152836", "success": true}
 {"time": "2026-07-29T15:29:18", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-29T15:29:37", "event": "snap", "round": 2, "ts": "20260729_152937", "scene": "a spooky ghost"}
+{"time": "2026-07-29T15:29:55", "event": "button_press", "button": "NO"}
+{"time": "2026-07-29T15:29:56", "event": "round_result", "round": 2, "ts": "20260729_152937", "success": false}
+{"time": "2026-07-29T15:30:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-29T15:30:32", "event": "snap", "round": 3, "ts": "20260729_153032", "scene": "a knight's helmet"}
