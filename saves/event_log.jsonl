@@ -4303,3 +4303,12 @@
 {"time": "2026-07-30T19:55:52", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T19:56:00", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T19:56:11", "event": "snap", "round": 1, "ts": "20260730_195611", "scene": "a rectangle"}
+{"time": "2026-07-30T19:56:18", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:56:18", "event": "round_result", "round": 1, "ts": "20260730_195611", "success": false}
+{"time": "2026-07-30T19:56:24", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:56:36", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:56:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:57:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:58:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:58:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:58:46", "event": "snap", "round": 2, "ts": "20260730_195846", "scene": "a map"}
