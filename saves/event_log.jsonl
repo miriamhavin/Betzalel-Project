@@ -3446,3 +3446,16 @@
 {"time": "2026-07-30T12:39:31", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T12:39:32", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T12:39:39", "event": "snap", "round": 3, "ts": "20260730_123939", "scene": "A wizard holding a glowing orb"}
+{"time": "2026-07-30T12:42:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:42:49", "event": "round_result", "round": 3, "ts": "20260730_123939", "success": true}
+{"time": "2026-07-30T13:02:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:02:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:02:22", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T13:02:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:02:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:02:24", "event": "game_start"}
+{"time": "2026-07-30T13:02:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:02:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:02:48", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T13:02:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:02:57", "event": "snap", "round": 1, "ts": "20260730_130257", "scene": "a rectangular window frame"}
