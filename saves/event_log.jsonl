@@ -4615,3 +4615,7 @@
 {"time": "2026-07-30T22:07:34", "event": "game_start"}
 {"time": "2026-07-30T22:08:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T22:09:05", "event": "snap", "round": 1, "ts": "20260730_220905", "scene": "A stick figure running"}
+{"time": "2026-07-30T22:09:13", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T22:09:14", "event": "round_result", "round": 1, "ts": "20260730_220905", "success": false}
+{"time": "2026-07-30T22:09:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T22:10:15", "event": "snap", "round": 2, "ts": "20260730_221015", "scene": "A stylized horse"}
