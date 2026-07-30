@@ -3828,3 +3828,7 @@
 {"time": "2026-07-30T16:09:07", "event": "round_result", "round": 1, "ts": "20260730_160858", "success": false}
 {"time": "2026-07-30T16:10:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T16:10:42", "event": "snap", "round": 2, "ts": "20260730_161042", "scene": "A cartoonish alien character"}
+{"time": "2026-07-30T16:10:51", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T16:10:51", "event": "round_result", "round": 2, "ts": "20260730_161042", "success": false}
+{"time": "2026-07-30T16:11:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:11:43", "event": "snap", "round": 3, "ts": "20260730_161143", "scene": "A man with a bow tie"}
