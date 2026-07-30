@@ -3974,3 +3974,7 @@
 {"time": "2026-07-30T17:14:04", "event": "round_result", "round": 1, "ts": "20260730_171357", "success": false}
 {"time": "2026-07-30T17:14:08", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T17:14:45", "event": "snap", "round": 2, "ts": "20260730_171445", "scene": "A person wearing a backpack"}
+{"time": "2026-07-30T17:14:56", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T17:14:57", "event": "round_result", "round": 2, "ts": "20260730_171445", "success": false}
+{"time": "2026-07-30T17:15:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:16:00", "event": "snap", "round": 3, "ts": "20260730_171600", "scene": "A dancer performing a pirouette"}
