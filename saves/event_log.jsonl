@@ -3314,3 +3314,7 @@
 {"time": "2026-07-30T09:38:03", "event": "game_start"}
 {"time": "2026-07-30T09:38:36", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T09:38:53", "event": "snap", "round": 1, "ts": "20260730_093853", "scene": "A person holding a baby."}
+{"time": "2026-07-30T09:39:06", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T09:39:07", "event": "round_result", "round": 1, "ts": "20260730_093853", "success": false}
+{"time": "2026-07-30T09:39:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T09:40:01", "event": "snap", "round": 2, "ts": "20260730_094001", "scene": "A person flexing their arm muscles"}
