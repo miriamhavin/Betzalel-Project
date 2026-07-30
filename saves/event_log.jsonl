@@ -4478,3 +4478,12 @@
 {"time": "2026-07-30T21:08:22", "event": "round_result", "round": 2, "ts": "20260730_210816", "success": false}
 {"time": "2026-07-30T21:08:53", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T21:09:12", "event": "snap", "round": 3, "ts": "20260730_210912", "scene": "A person peeking around a corner"}
+{"time": "2026-07-30T21:09:16", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:09:17", "event": "round_result", "round": 3, "ts": "20260730_210912", "success": false}
+{"time": "2026-07-30T21:12:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:12:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:12:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:12:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:12:32", "event": "game_start"}
+{"time": "2026-07-30T21:12:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:12:57", "event": "snap", "round": 1, "ts": "20260730_211257", "scene": "A simplified robot"}
