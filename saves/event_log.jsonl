@@ -4246,3 +4246,8 @@
 {"time": "2026-07-30T19:34:21", "event": "round_result", "round": 1, "ts": "20260730_193409", "success": true}
 {"time": "2026-07-30T19:34:41", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T19:35:02", "event": "snap", "round": 2, "ts": "20260730_193502", "scene": "A broken plate with food scraps"}
+{"time": "2026-07-30T19:35:16", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:35:16", "event": "round_result", "round": 2, "ts": "20260730_193502", "success": false}
+{"time": "2026-07-30T19:35:56", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:36:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:36:27", "event": "snap", "round": 3, "ts": "20260730_193627", "scene": "A toothbrush with toothpaste"}
