@@ -4251,3 +4251,12 @@
 {"time": "2026-07-30T19:35:56", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T19:36:07", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T19:36:27", "event": "snap", "round": 3, "ts": "20260730_193627", "scene": "A toothbrush with toothpaste"}
+{"time": "2026-07-30T19:36:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:36:38", "event": "round_result", "round": 3, "ts": "20260730_193627", "success": false}
+{"time": "2026-07-30T19:39:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:39:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:39:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:39:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:39:41", "event": "game_start"}
+{"time": "2026-07-30T19:39:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:40:05", "event": "snap", "round": 1, "ts": "20260730_194005", "scene": "A cartoon frog musician"}
