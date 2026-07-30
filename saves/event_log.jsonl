@@ -4129,3 +4129,21 @@
 {"time": "2026-07-30T18:43:30", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T18:43:34", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T18:43:49", "event": "snap", "round": 3, "ts": "20260730_184349", "scene": "A cowboy hat"}
+{"time": "2026-07-30T18:43:57", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:43:58", "event": "round_result", "round": 3, "ts": "20260730_184349", "success": false}
+{"time": "2026-07-30T18:44:01", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:44:01", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:44:02", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:44:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:44:06", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:44:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:44:47", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:44:49", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T18:44:50", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T18:44:52", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:45:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:45:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:45:34", "event": "game_start"}
+{"time": "2026-07-30T18:45:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:46:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:46:15", "event": "snap", "round": 1, "ts": "20260730_184615", "scene": "A vintage hand mixer"}
