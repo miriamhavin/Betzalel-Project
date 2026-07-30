@@ -3925,3 +3925,12 @@
 {"time": "2026-07-30T16:54:41", "event": "round_result", "round": 2, "ts": "20260730_165433", "success": false}
 {"time": "2026-07-30T16:54:51", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T16:55:13", "event": "snap", "round": 3, "ts": "20260730_165513", "scene": "A pen with a cap"}
+{"time": "2026-07-30T16:55:22", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T16:55:23", "event": "round_result", "round": 3, "ts": "20260730_165513", "success": false}
+{"time": "2026-07-30T16:55:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:55:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:55:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:55:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:55:27", "event": "game_start"}
+{"time": "2026-07-30T16:55:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:55:58", "event": "snap", "round": 1, "ts": "20260730_165558", "scene": "A cow's head"}
