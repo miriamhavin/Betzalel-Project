@@ -3381,3 +3381,7 @@
 {"time": "2026-07-30T12:28:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T12:28:53", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T12:28:59", "event": "snap", "round": 2, "ts": "20260730_122859", "scene": "A partially opened treasure chest"}
+{"time": "2026-07-30T12:29:08", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T12:29:09", "event": "round_result", "round": 2, "ts": "20260730_122859", "success": false}
+{"time": "2026-07-30T12:29:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:29:42", "event": "snap", "round": 3, "ts": "20260730_122942", "scene": "A sewing machine"}
