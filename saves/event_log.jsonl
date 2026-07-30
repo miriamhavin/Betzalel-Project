@@ -3944,3 +3944,12 @@
 {"time": "2026-07-30T16:56:55", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T16:56:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T16:57:14", "event": "snap", "round": 3, "ts": "20260730_165714", "scene": "A simplified house with a chimney"}
+{"time": "2026-07-30T16:57:22", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T16:57:22", "event": "round_result", "round": 3, "ts": "20260730_165714", "success": false}
+{"time": "2026-07-30T16:57:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:57:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:57:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:58:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:58:45", "event": "game_start"}
+{"time": "2026-07-30T17:00:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:00:20", "event": "snap", "round": 1, "ts": "20260730_170020", "scene": "A person in a diving pose"}
