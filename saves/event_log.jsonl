@@ -4507,3 +4507,7 @@
 {"time": "2026-07-30T21:18:32", "event": "game_start"}
 {"time": "2026-07-30T21:18:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T21:18:52", "event": "snap", "round": 1, "ts": "20260730_211852", "scene": "A tipped-over bucket of paint with drips"}
+{"time": "2026-07-30T21:19:01", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:19:02", "event": "round_result", "round": 1, "ts": "20260730_211852", "success": false}
+{"time": "2026-07-30T21:19:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:19:59", "event": "snap", "round": 2, "ts": "20260730_211959", "scene": "A rabbit in a hat"}
