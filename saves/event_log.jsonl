@@ -3404,3 +3404,21 @@
 {"time": "2026-07-30T12:35:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T12:35:34", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T12:35:43", "event": "snap", "round": 3, "ts": "20260730_123543", "scene": "A man playing a trumpet"}
+{"time": "2026-07-30T12:36:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:36:00", "event": "round_result", "round": 3, "ts": "20260730_123543", "success": true}
+{"time": "2026-07-30T12:36:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:36:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:36:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:36:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:36:14", "event": "game_start"}
+{"time": "2026-07-30T12:36:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:36:14", "event": "game_start"}
+{"time": "2026-07-30T12:36:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:36:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:36:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:36:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:36:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:36:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:36:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:36:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:36:35", "event": "snap", "round": 1, "ts": "20260730_123635", "scene": "A stylized human figure holding a microphone."}
