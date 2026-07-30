@@ -3875,3 +3875,11 @@
 {"time": "2026-07-30T16:20:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T16:20:43", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T16:20:46", "event": "snap", "round": 2, "ts": "20260730_162046", "scene": "A simple rectangle"}
+{"time": "2026-07-30T16:26:10", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T16:26:13", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T16:26:14", "event": "round_result", "round": 2, "ts": "20260730_162046", "success": false}
+{"time": "2026-07-30T16:26:16", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T16:26:20", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T16:26:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:26:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:26:40", "event": "snap", "round": 3, "ts": "20260730_162640", "scene": "A cartoon speech bubble"}
