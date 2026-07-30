@@ -3807,3 +3807,12 @@
 {"time": "2026-07-30T15:30:22", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T15:30:23", "event": "button_press", "button": "YES"}
 {"time": "2026-07-30T15:32:20", "event": "snap", "round": 2, "ts": "20260730_153220", "scene": "A key on a keyring"}
+{"time": "2026-07-30T15:34:27", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T15:34:27", "event": "round_result", "round": 2, "ts": "20260730_153220", "success": false}
+{"time": "2026-07-30T15:34:32", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T15:49:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T15:50:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T15:51:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T15:51:16", "event": "game_start"}
+{"time": "2026-07-30T15:51:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T15:52:09", "event": "snap", "round": 1, "ts": "20260730_155209", "scene": "A stylized alarm clock"}
