@@ -4227,3 +4227,7 @@
 {"time": "2026-07-30T19:28:37", "event": "round_result", "round": 1, "ts": "20260730_192829", "success": false}
 {"time": "2026-07-30T19:29:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T19:29:22", "event": "snap", "round": 2, "ts": "20260730_192922", "scene": "A person opening a refrigerator"}
+{"time": "2026-07-30T19:29:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:29:29", "event": "round_result", "round": 2, "ts": "20260730_192922", "success": false}
+{"time": "2026-07-30T19:30:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:30:20", "event": "snap", "round": 3, "ts": "20260730_193020", "scene": "A flower with a bee"}
