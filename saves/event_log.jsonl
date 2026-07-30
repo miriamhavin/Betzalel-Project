@@ -4022,3 +4022,13 @@
 {"time": "2026-07-30T17:34:16", "event": "round_result", "round": 2, "ts": "20260730_173408", "success": true}
 {"time": "2026-07-30T17:35:19", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T17:35:39", "event": "snap", "round": 3, "ts": "20260730_173539", "scene": "a person giving a gift"}
+{"time": "2026-07-30T17:35:48", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T17:35:49", "event": "round_result", "round": 3, "ts": "20260730_173539", "success": true}
+{"time": "2026-07-30T17:35:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:42:44", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T17:42:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:44:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:44:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:44:24", "event": "game_start"}
+{"time": "2026-07-30T17:44:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:45:17", "event": "snap", "round": 1, "ts": "20260730_174517", "scene": "A rabbit"}
