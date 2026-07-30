@@ -3477,3 +3477,12 @@
 {"time": "2026-07-30T13:04:26", "event": "round_result", "round": 2, "ts": "20260730_130402", "success": true}
 {"time": "2026-07-30T13:04:43", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T13:05:04", "event": "snap", "round": 3, "ts": "20260730_130504", "scene": "a rocking chair"}
+{"time": "2026-07-30T13:08:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:08:26", "event": "round_result", "round": 3, "ts": "20260730_130504", "success": true}
+{"time": "2026-07-30T13:08:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:08:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:08:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:08:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:08:44", "event": "game_start"}
+{"time": "2026-07-30T13:08:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:09:10", "event": "snap", "round": 1, "ts": "20260730_130910", "scene": "a seal or stamp"}
