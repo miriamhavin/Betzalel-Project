@@ -4391,3 +4391,12 @@
 {"time": "2026-07-30T20:29:37", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T20:29:41", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T20:30:01", "event": "snap", "round": 3, "ts": "20260730_203001", "scene": "A monkey wearing sunglasses"}
+{"time": "2026-07-30T20:32:06", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T20:32:07", "event": "round_result", "round": 3, "ts": "20260730_203001", "success": false}
+{"time": "2026-07-30T20:32:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:32:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:33:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:33:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:33:43", "event": "game_start"}
+{"time": "2026-07-30T20:35:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:35:21", "event": "snap", "round": 1, "ts": "20260730_203521", "scene": "Mr. Game & Watch playing soccer"}
