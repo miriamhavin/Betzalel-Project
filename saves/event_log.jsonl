@@ -4364,3 +4364,12 @@
 {"time": "2026-07-30T20:14:32", "event": "button_press", "button": "YES"}
 {"time": "2026-07-30T20:14:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T20:15:04", "event": "snap", "round": 3, "ts": "20260730_201504", "scene": "A stylized face"}
+{"time": "2026-07-30T20:15:10", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T20:15:10", "event": "round_result", "round": 3, "ts": "20260730_201504", "success": false}
+{"time": "2026-07-30T20:15:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:15:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:15:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:15:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:15:39", "event": "game_start"}
+{"time": "2026-07-30T20:16:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:16:22", "event": "snap", "round": 1, "ts": "20260730_201622", "scene": "A robot carrying a large dish"}
