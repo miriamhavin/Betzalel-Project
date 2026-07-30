@@ -4498,3 +4498,12 @@
 {"time": "2026-07-30T21:17:39", "event": "button_press", "button": "YES"}
 {"time": "2026-07-30T21:17:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T21:18:05", "event": "snap", "round": 3, "ts": "20260730_211805", "scene": "A watering can with a sprouting plant"}
+{"time": "2026-07-30T21:18:14", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:18:15", "event": "round_result", "round": 3, "ts": "20260730_211805", "success": false}
+{"time": "2026-07-30T21:18:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:18:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:18:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:18:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:18:32", "event": "game_start"}
+{"time": "2026-07-30T21:18:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:18:52", "event": "snap", "round": 1, "ts": "20260730_211852", "scene": "A tipped-over bucket of paint with drips"}
