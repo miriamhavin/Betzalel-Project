@@ -4153,3 +4153,7 @@
 {"time": "2026-07-30T18:46:59", "event": "button_press", "button": "YES"}
 {"time": "2026-07-30T18:47:02", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T18:47:20", "event": "snap", "round": 2, "ts": "20260730_184720", "scene": "A cartoon alien with a whisk for a head"}
+{"time": "2026-07-30T18:47:28", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T18:47:29", "event": "round_result", "round": 2, "ts": "20260730_184720", "success": true}
+{"time": "2026-07-30T18:48:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:48:25", "event": "snap", "round": 3, "ts": "20260730_184825", "scene": "A retro electric can opener"}
