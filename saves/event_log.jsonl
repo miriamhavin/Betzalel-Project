@@ -4316,3 +4316,28 @@
 {"time": "2026-07-30T19:58:58", "event": "round_result", "round": 2, "ts": "20260730_195846", "success": true}
 {"time": "2026-07-30T19:59:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T19:59:41", "event": "snap", "round": 3, "ts": "20260730_195941", "scene": "a robot vacuum cleaner"}
+{"time": "2026-07-30T20:00:05", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T20:00:06", "event": "round_result", "round": 3, "ts": "20260730_195941", "success": true}
+{"time": "2026-07-30T20:11:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:11:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:11:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:11:07", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T20:11:08", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T20:11:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:11:20", "event": "game_start"}
+{"time": "2026-07-30T20:11:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T20:11:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:11:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:11:34", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T20:11:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:11:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:11:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:11:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:11:44", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T20:11:44", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T20:11:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:11:45", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T20:11:45", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T20:11:46", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T20:11:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:11:47", "event": "snap", "round": 1, "ts": "20260730_201147", "scene": "A rectangular building"}
