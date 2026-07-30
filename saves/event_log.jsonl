@@ -3508,3 +3508,7 @@
 {"time": "2026-07-30T13:17:26", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T13:19:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T13:19:58", "event": "snap", "round": 2, "ts": "20260730_131958", "scene": "A table lamp"}
+{"time": "2026-07-30T13:20:14", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T13:20:15", "event": "round_result", "round": 2, "ts": "20260730_131958", "success": false}
+{"time": "2026-07-30T13:20:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:20:41", "event": "snap", "round": 3, "ts": "20260730_132041", "scene": "A suitcase"}
