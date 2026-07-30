@@ -4223,3 +4223,7 @@
 {"time": "2026-07-30T19:27:51", "event": "game_start"}
 {"time": "2026-07-30T19:28:10", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T19:28:29", "event": "snap", "round": 1, "ts": "20260730_192829", "scene": "A witch stirring a cauldron"}
+{"time": "2026-07-30T19:28:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:28:37", "event": "round_result", "round": 1, "ts": "20260730_192829", "success": false}
+{"time": "2026-07-30T19:29:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:29:22", "event": "snap", "round": 2, "ts": "20260730_192922", "scene": "A person opening a refrigerator"}
