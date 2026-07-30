@@ -4051,3 +4051,19 @@
 {"time": "2026-07-30T17:56:52", "event": "round_result", "round": 1, "ts": "20260730_175641", "success": false}
 {"time": "2026-07-30T17:57:12", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T17:57:31", "event": "snap", "round": 2, "ts": "20260730_175731", "scene": "A Rooster"}
+{"time": "2026-07-30T17:57:35", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T17:57:36", "event": "round_result", "round": 2, "ts": "20260730_175731", "success": false}
+{"time": "2026-07-30T18:19:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:19:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:19:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:19:12", "event": "game_start"}
+{"time": "2026-07-30T18:19:13", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:19:17", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:19:18", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:19:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:19:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:19:33", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:19:34", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T18:19:35", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:19:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:19:39", "event": "snap", "round": 1, "ts": "20260730_181939", "scene": "A simple rectangular picture frame"}
