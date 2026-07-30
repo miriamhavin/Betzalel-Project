@@ -3330,3 +3330,7 @@
 {"time": "2026-07-30T11:48:29", "event": "game_start"}
 {"time": "2026-07-30T11:48:41", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T11:49:00", "event": "snap", "round": 1, "ts": "20260730_114900", "scene": "Pirate flag"}
+{"time": "2026-07-30T11:49:10", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T11:49:11", "event": "round_result", "round": 1, "ts": "20260730_114900", "success": false}
+{"time": "2026-07-30T11:50:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T11:50:51", "event": "snap", "round": 2, "ts": "20260730_115051", "scene": "Rattlesnake"}
