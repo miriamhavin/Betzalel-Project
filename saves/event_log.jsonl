@@ -3816,3 +3816,11 @@
 {"time": "2026-07-30T15:51:16", "event": "game_start"}
 {"time": "2026-07-30T15:51:53", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T15:52:09", "event": "snap", "round": 1, "ts": "20260730_155209", "scene": "A stylized alarm clock"}
+{"time": "2026-07-30T15:54:13", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T15:54:14", "event": "round_result", "round": 1, "ts": "20260730_155209", "success": false}
+{"time": "2026-07-30T16:08:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:08:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:08:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:08:20", "event": "game_start"}
+{"time": "2026-07-30T16:08:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:08:58", "event": "snap", "round": 1, "ts": "20260730_160858", "scene": "A cowboy riding a horse"}
