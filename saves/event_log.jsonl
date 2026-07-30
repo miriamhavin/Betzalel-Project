@@ -4578,3 +4578,7 @@
 {"time": "2026-07-30T21:42:35", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T21:42:50", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T21:43:06", "event": "snap", "round": 1, "ts": "20260730_214306", "scene": "A light bulb"}
+{"time": "2026-07-30T21:43:09", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:43:10", "event": "round_result", "round": 1, "ts": "20260730_214306", "success": false}
+{"time": "2026-07-30T21:43:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:43:40", "event": "snap", "round": 2, "ts": "20260730_214340", "scene": "A sun with a face"}
