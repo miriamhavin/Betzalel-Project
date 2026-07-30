@@ -4105,3 +4105,8 @@
 {"time": "2026-07-30T18:30:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T18:30:41", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T18:30:59", "event": "snap", "round": 2, "ts": "20260730_183059", "scene": "A television screen with a jagged edge"}
+{"time": "2026-07-30T18:35:04", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:35:05", "event": "round_result", "round": 2, "ts": "20260730_183059", "success": false}
+{"time": "2026-07-30T18:35:06", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:35:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:35:26", "event": "snap", "round": 3, "ts": "20260730_183526", "scene": "A cracked picture frame"}
