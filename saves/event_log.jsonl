@@ -4487,3 +4487,7 @@
 {"time": "2026-07-30T21:12:32", "event": "game_start"}
 {"time": "2026-07-30T21:12:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T21:12:57", "event": "snap", "round": 1, "ts": "20260730_211257", "scene": "A simplified robot"}
+{"time": "2026-07-30T21:13:05", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:13:05", "event": "round_result", "round": 1, "ts": "20260730_211257", "success": false}
+{"time": "2026-07-30T21:13:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:13:40", "event": "snap", "round": 2, "ts": "20260730_211340", "scene": "A stick figure person holding a gear"}
