@@ -4474,3 +4474,7 @@
 {"time": "2026-07-30T21:07:34", "event": "round_result", "round": 1, "ts": "20260730_210725", "success": false}
 {"time": "2026-07-30T21:07:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T21:08:16", "event": "snap", "round": 2, "ts": "20260730_210816", "scene": "A robotic arm holding a lightbulb"}
+{"time": "2026-07-30T21:08:21", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:08:22", "event": "round_result", "round": 2, "ts": "20260730_210816", "success": false}
+{"time": "2026-07-30T21:08:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:09:12", "event": "snap", "round": 3, "ts": "20260730_210912", "scene": "A person peeking around a corner"}
