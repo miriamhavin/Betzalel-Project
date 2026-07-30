@@ -4203,3 +4203,7 @@
 {"time": "2026-07-30T19:21:21", "event": "game_start"}
 {"time": "2026-07-30T19:21:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T19:21:45", "event": "snap", "round": 1, "ts": "20260730_192145", "scene": "A small boat capsizing in rough water"}
+{"time": "2026-07-30T19:22:35", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:22:36", "event": "round_result", "round": 1, "ts": "20260730_192145", "success": false}
+{"time": "2026-07-30T19:22:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:22:57", "event": "snap", "round": 2, "ts": "20260730_192257", "scene": "A knight drawing a sword"}
