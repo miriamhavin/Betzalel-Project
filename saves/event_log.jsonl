@@ -3970,3 +3970,7 @@
 {"time": "2026-07-30T17:13:31", "event": "game_start"}
 {"time": "2026-07-30T17:13:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T17:13:57", "event": "snap", "round": 1, "ts": "20260730_171357", "scene": "A person holding a fishing rod"}
+{"time": "2026-07-30T17:14:03", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T17:14:04", "event": "round_result", "round": 1, "ts": "20260730_171357", "success": false}
+{"time": "2026-07-30T17:14:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:14:45", "event": "snap", "round": 2, "ts": "20260730_171445", "scene": "A person wearing a backpack"}
