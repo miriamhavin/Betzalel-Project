@@ -3512,3 +3512,12 @@
 {"time": "2026-07-30T13:20:15", "event": "round_result", "round": 2, "ts": "20260730_131958", "success": false}
 {"time": "2026-07-30T13:20:25", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T13:20:41", "event": "snap", "round": 3, "ts": "20260730_132041", "scene": "A suitcase"}
+{"time": "2026-07-30T13:20:52", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T13:20:52", "event": "round_result", "round": 3, "ts": "20260730_132041", "success": true}
+{"time": "2026-07-30T13:20:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:22:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:22:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:22:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:22:32", "event": "game_start"}
+{"time": "2026-07-30T13:23:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:23:23", "event": "snap", "round": 1, "ts": "20260730_132323", "scene": "a revolver"}
