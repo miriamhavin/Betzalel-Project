@@ -4582,3 +4582,9 @@
 {"time": "2026-07-30T21:43:10", "event": "round_result", "round": 1, "ts": "20260730_214306", "success": false}
 {"time": "2026-07-30T21:43:25", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T21:43:40", "event": "snap", "round": 2, "ts": "20260730_214340", "scene": "A sun with a face"}
+{"time": "2026-07-30T21:43:44", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:43:45", "event": "round_result", "round": 2, "ts": "20260730_214340", "success": false}
+{"time": "2026-07-30T21:45:41", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T21:45:42", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:45:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:45:59", "event": "snap", "round": 3, "ts": "20260730_214559", "scene": "A book"}
