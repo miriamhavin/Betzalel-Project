@@ -3917,3 +3917,7 @@
 {"time": "2026-07-30T16:51:36", "event": "game_start"}
 {"time": "2026-07-30T16:52:16", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T16:52:37", "event": "snap", "round": 1, "ts": "20260730_165237", "scene": "A standing llama"}
+{"time": "2026-07-30T16:52:47", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T16:52:47", "event": "round_result", "round": 1, "ts": "20260730_165237", "success": false}
+{"time": "2026-07-30T16:54:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:54:33", "event": "snap", "round": 2, "ts": "20260730_165433", "scene": "A stylized insect"}
