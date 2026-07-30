@@ -3644,3 +3644,13 @@
 {"time": "2026-07-30T14:37:02", "event": "round_result", "round": 2, "ts": "20260730_143619", "success": true}
 {"time": "2026-07-30T14:37:10", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T14:37:29", "event": "snap", "round": 3, "ts": "20260730_143729", "scene": "A table with a partially eaten sandwich"}
+{"time": "2026-07-30T14:37:34", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T14:37:35", "event": "round_result", "round": 3, "ts": "20260730_143729", "success": true}
+{"time": "2026-07-30T14:37:37", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T14:38:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T14:38:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T14:38:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T14:38:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T14:38:23", "event": "game_start"}
+{"time": "2026-07-30T14:38:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T14:38:47", "event": "snap", "round": 1, "ts": "20260730_143847", "scene": "A character blowing a horn"}
