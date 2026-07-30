@@ -3990,3 +3990,7 @@
 {"time": "2026-07-30T17:19:48", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T17:19:49", "event": "button_press", "button": "YES"}
 {"time": "2026-07-30T17:19:52", "event": "snap", "round": 1, "ts": "20260730_171952", "scene": "A stylized roller skate"}
+{"time": "2026-07-30T17:19:58", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T17:19:59", "event": "round_result", "round": 1, "ts": "20260730_171952", "success": false}
+{"time": "2026-07-30T17:20:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:21:04", "event": "snap", "round": 2, "ts": "20260730_172104", "scene": "A simplified bone"}
