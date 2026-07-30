@@ -4549,3 +4549,25 @@
 {"time": "2026-07-30T21:31:51", "event": "round_result", "round": 2, "ts": "20260730_213120", "success": true}
 {"time": "2026-07-30T21:32:44", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T21:32:59", "event": "snap", "round": 3, "ts": "20260730_213259", "scene": "A plant growing from a pot"}
+{"time": "2026-07-30T21:33:06", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:33:07", "event": "round_result", "round": 3, "ts": "20260730_213259", "success": false}
+{"time": "2026-07-30T21:34:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:34:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:34:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:34:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:34:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:34:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:34:29", "event": "game_start"}
+{"time": "2026-07-30T21:34:30", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T21:34:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:34:30", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T21:34:30", "event": "game_start"}
+{"time": "2026-07-30T21:34:31", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:34:33", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T21:34:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:34:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:34:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:34:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:34:46", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T21:34:47", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:34:56", "event": "snap", "round": 1, "ts": "20260730_213456", "scene": "a rectangular envelope"}
