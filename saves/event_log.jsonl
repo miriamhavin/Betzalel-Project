@@ -4207,3 +4207,8 @@
 {"time": "2026-07-30T19:22:36", "event": "round_result", "round": 1, "ts": "20260730_192145", "success": false}
 {"time": "2026-07-30T19:22:38", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T19:22:57", "event": "snap", "round": 2, "ts": "20260730_192257", "scene": "A knight drawing a sword"}
+{"time": "2026-07-30T19:23:04", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:23:05", "event": "round_result", "round": 2, "ts": "20260730_192257", "success": false}
+{"time": "2026-07-30T19:26:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:26:51", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:26:59", "event": "snap", "round": 3, "ts": "20260730_192659", "scene": "A dog with a bone"}
