@@ -3438,3 +3438,11 @@
 {"time": "2026-07-30T12:38:37", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T12:38:37", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T12:38:41", "event": "snap", "round": 2, "ts": "20260730_123841", "scene": "A stick figure dancer"}
+{"time": "2026-07-30T12:38:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:38:51", "event": "round_result", "round": 2, "ts": "20260730_123841", "success": true}
+{"time": "2026-07-30T12:39:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:39:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:39:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:39:31", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T12:39:32", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T12:39:39", "event": "snap", "round": 3, "ts": "20260730_123939", "scene": "A wizard holding a glowing orb"}
