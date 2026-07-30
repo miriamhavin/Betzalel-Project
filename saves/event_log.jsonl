@@ -3883,3 +3883,20 @@
 {"time": "2026-07-30T16:26:23", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T16:26:26", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T16:26:40", "event": "snap", "round": 3, "ts": "20260730_162640", "scene": "A cartoon speech bubble"}
+{"time": "2026-07-30T16:26:52", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T16:26:53", "event": "round_result", "round": 3, "ts": "20260730_162640", "success": true}
+{"time": "2026-07-30T16:26:58", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T16:27:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:27:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:28:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:28:16", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T16:28:49", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T16:28:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:28:52", "event": "game_start"}
+{"time": "2026-07-30T16:46:41", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T16:46:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:47:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:47:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:47:52", "event": "game_start"}
+{"time": "2026-07-30T16:48:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:48:43", "event": "snap", "round": 1, "ts": "20260730_164843", "scene": "a person looking through binoculars"}
