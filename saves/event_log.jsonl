@@ -3824,3 +3824,7 @@
 {"time": "2026-07-30T16:08:20", "event": "game_start"}
 {"time": "2026-07-30T16:08:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T16:08:58", "event": "snap", "round": 1, "ts": "20260730_160858", "scene": "A cowboy riding a horse"}
+{"time": "2026-07-30T16:09:06", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T16:09:07", "event": "round_result", "round": 1, "ts": "20260730_160858", "success": false}
+{"time": "2026-07-30T16:10:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:10:42", "event": "snap", "round": 2, "ts": "20260730_161042", "scene": "A cartoonish alien character"}
