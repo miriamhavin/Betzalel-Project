@@ -3800,3 +3800,10 @@
 {"time": "2026-07-30T15:26:29", "event": "game_start"}
 {"time": "2026-07-30T15:26:32", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T15:26:49", "event": "snap", "round": 1, "ts": "20260730_152649", "scene": "A simple rectangular picture frame"}
+{"time": "2026-07-30T15:28:21", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T15:28:22", "event": "round_result", "round": 1, "ts": "20260730_152649", "success": false}
+{"time": "2026-07-30T15:28:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T15:30:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T15:30:22", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T15:30:23", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T15:32:20", "event": "snap", "round": 2, "ts": "20260730_153220", "scene": "A key on a keyring"}
