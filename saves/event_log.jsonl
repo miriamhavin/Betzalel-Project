@@ -4174,3 +4174,12 @@
 {"time": "2026-07-30T18:56:34", "event": "round_result", "round": 2, "ts": "20260730_185629", "success": false}
 {"time": "2026-07-30T18:56:44", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T18:57:03", "event": "snap", "round": 3, "ts": "20260730_185703", "scene": "A single ear of corn on the cob"}
+{"time": "2026-07-30T18:57:10", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:57:10", "event": "round_result", "round": 3, "ts": "20260730_185703", "success": false}
+{"time": "2026-07-30T19:11:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:13:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:13:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:13:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:13:49", "event": "game_start"}
+{"time": "2026-07-30T19:13:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:14:13", "event": "snap", "round": 1, "ts": "20260730_191413", "scene": "A mouse drinking from a bottle"}
