@@ -4231,3 +4231,14 @@
 {"time": "2026-07-30T19:29:29", "event": "round_result", "round": 2, "ts": "20260730_192922", "success": false}
 {"time": "2026-07-30T19:30:01", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T19:30:20", "event": "snap", "round": 3, "ts": "20260730_193020", "scene": "A flower with a bee"}
+{"time": "2026-07-30T19:30:25", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T19:30:26", "event": "round_result", "round": 3, "ts": "20260730_193020", "success": true}
+{"time": "2026-07-30T19:33:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:33:31", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:33:33", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T19:33:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:33:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:33:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:33:40", "event": "game_start"}
+{"time": "2026-07-30T19:33:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:34:09", "event": "snap", "round": 1, "ts": "20260730_193409", "scene": "A blank document with a torn edge"}
