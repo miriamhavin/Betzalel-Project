@@ -4528,3 +4528,7 @@
 {"time": "2026-07-30T21:23:28", "event": "round_result", "round": 1, "ts": "20260730_212317", "success": false}
 {"time": "2026-07-30T21:25:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T21:25:31", "event": "snap", "round": 2, "ts": "20260730_212531", "scene": "a skeleton"}
+{"time": "2026-07-30T21:25:39", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:25:40", "event": "round_result", "round": 2, "ts": "20260730_212531", "success": false}
+{"time": "2026-07-30T21:26:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:26:51", "event": "snap", "round": 3, "ts": "20260730_212651", "scene": "a wizard casting a spell"}
