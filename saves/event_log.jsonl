@@ -3671,3 +3671,12 @@
 {"time": "2026-07-30T14:44:39", "event": "game_start"}
 {"time": "2026-07-30T14:45:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T14:45:33", "event": "snap", "round": 1, "ts": "20260730_144533", "scene": "Snoopy on his doghouse"}
+{"time": "2026-07-30T14:45:46", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T14:45:46", "event": "round_result", "round": 1, "ts": "20260730_144533", "success": false}
+{"time": "2026-07-30T14:47:53", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T14:47:54", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T14:47:55", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T14:47:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T14:48:07", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T14:48:13", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T14:48:14", "event": "snap", "round": 2, "ts": "20260730_144814", "scene": "A folded napkin"}
