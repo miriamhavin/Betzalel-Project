@@ -3571,3 +3571,12 @@
 {"time": "2026-07-30T13:43:30", "event": "round_result", "round": 2, "ts": "20260730_134321", "success": true}
 {"time": "2026-07-30T13:43:52", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T13:44:08", "event": "snap", "round": 3, "ts": "20260730_134408", "scene": "A person giving a piggyback ride"}
+{"time": "2026-07-30T13:44:19", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T13:44:20", "event": "round_result", "round": 3, "ts": "20260730_134408", "success": false}
+{"time": "2026-07-30T13:45:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:48:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:49:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:49:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:49:37", "event": "game_start"}
+{"time": "2026-07-30T13:49:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:49:58", "event": "snap", "round": 1, "ts": "20260730_134958", "scene": "A surprised cartoon face"}
