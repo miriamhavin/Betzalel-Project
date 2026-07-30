@@ -3355,3 +3355,23 @@
 {"time": "2026-07-30T12:14:00", "event": "round_result", "round": 2, "ts": "20260730_121354", "success": true}
 {"time": "2026-07-30T12:14:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T12:14:32", "event": "snap", "round": 3, "ts": "20260730_121432", "scene": "A smiling dog wearing a party hat"}
+{"time": "2026-07-30T12:14:37", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T12:14:37", "event": "round_result", "round": 3, "ts": "20260730_121432", "success": true}
+{"time": "2026-07-30T12:21:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:21:02", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T12:21:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:21:05", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T12:21:07", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T12:21:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:21:09", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T12:21:09", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T12:26:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:26:54", "event": "game_start"}
+{"time": "2026-07-30T12:26:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:26:55", "event": "game_start"}
+{"time": "2026-07-30T12:26:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:26:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:27:00", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T12:27:02", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T12:27:02", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T12:27:21", "event": "snap", "round": 1, "ts": "20260730_122721", "scene": "A folded map"}
