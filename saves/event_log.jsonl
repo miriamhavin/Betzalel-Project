@@ -4212,3 +4212,14 @@
 {"time": "2026-07-30T19:26:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T19:26:51", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T19:26:59", "event": "snap", "round": 3, "ts": "20260730_192659", "scene": "A dog with a bone"}
+{"time": "2026-07-30T19:27:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:27:12", "event": "round_result", "round": 3, "ts": "20260730_192659", "success": true}
+{"time": "2026-07-30T19:27:19", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:27:22", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T19:27:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:27:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:27:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:27:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:27:51", "event": "game_start"}
+{"time": "2026-07-30T19:28:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T19:28:29", "event": "snap", "round": 1, "ts": "20260730_192829", "scene": "A witch stirring a cauldron"}
