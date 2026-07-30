@@ -4110,3 +4110,12 @@
 {"time": "2026-07-30T18:35:06", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T18:35:10", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T18:35:26", "event": "snap", "round": 3, "ts": "20260730_183526", "scene": "A cracked picture frame"}
+{"time": "2026-07-30T18:35:30", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:35:31", "event": "round_result", "round": 3, "ts": "20260730_183526", "success": false}
+{"time": "2026-07-30T18:36:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:36:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:36:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:36:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:36:46", "event": "game_start"}
+{"time": "2026-07-30T18:39:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:40:12", "event": "snap", "round": 1, "ts": "20260730_184012", "scene": "A robot head"}
