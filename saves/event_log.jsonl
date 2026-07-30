@@ -4571,3 +4571,10 @@
 {"time": "2026-07-30T21:34:46", "event": "button_press", "button": "YES"}
 {"time": "2026-07-30T21:34:47", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T21:34:56", "event": "snap", "round": 1, "ts": "20260730_213456", "scene": "a rectangular envelope"}
+{"time": "2026-07-30T21:41:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:42:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:42:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:42:17", "event": "game_start"}
+{"time": "2026-07-30T21:42:35", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:42:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:43:06", "event": "snap", "round": 1, "ts": "20260730_214306", "scene": "A light bulb"}
