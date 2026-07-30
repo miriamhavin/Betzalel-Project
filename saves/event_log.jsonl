@@ -3486,3 +3486,7 @@
 {"time": "2026-07-30T13:08:44", "event": "game_start"}
 {"time": "2026-07-30T13:08:53", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T13:09:10", "event": "snap", "round": 1, "ts": "20260730_130910", "scene": "a seal or stamp"}
+{"time": "2026-07-30T13:09:29", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T13:09:30", "event": "round_result", "round": 1, "ts": "20260730_130910", "success": false}
+{"time": "2026-07-30T13:10:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:10:44", "event": "snap", "round": 2, "ts": "20260730_131044", "scene": "a stylized depiction of a tortoise"}
