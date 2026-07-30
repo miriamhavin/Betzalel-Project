@@ -4358,3 +4358,9 @@
 {"time": "2026-07-30T20:12:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T20:12:05", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T20:12:11", "event": "snap", "round": 2, "ts": "20260730_201211", "scene": "A flat screen television"}
+{"time": "2026-07-30T20:13:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:13:50", "event": "round_result", "round": 2, "ts": "20260730_201211", "success": true}
+{"time": "2026-07-30T20:13:54", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T20:14:32", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T20:14:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:15:04", "event": "snap", "round": 3, "ts": "20260730_201504", "scene": "A stylized face"}
