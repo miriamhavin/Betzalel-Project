@@ -4511,3 +4511,7 @@
 {"time": "2026-07-30T21:19:02", "event": "round_result", "round": 1, "ts": "20260730_211852", "success": false}
 {"time": "2026-07-30T21:19:43", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T21:19:59", "event": "snap", "round": 2, "ts": "20260730_211959", "scene": "A rabbit in a hat"}
+{"time": "2026-07-30T21:20:07", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:20:08", "event": "round_result", "round": 2, "ts": "20260730_211959", "success": false}
+{"time": "2026-07-30T21:20:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:21:03", "event": "snap", "round": 3, "ts": "20260730_212103", "scene": "A medieval knight's helmet"}
