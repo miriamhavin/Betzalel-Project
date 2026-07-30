@@ -3550,3 +3550,16 @@
 {"time": "2026-07-30T13:29:33", "event": "round_result", "round": 2, "ts": "20260730_132924", "success": true}
 {"time": "2026-07-30T13:30:23", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T13:30:41", "event": "snap", "round": 3, "ts": "20260730_133041", "scene": "A hammer"}
+{"time": "2026-07-30T13:30:48", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T13:30:48", "event": "round_result", "round": 3, "ts": "20260730_133041", "success": false}
+{"time": "2026-07-30T13:37:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:40:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:41:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:41:11", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T13:41:16", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T13:41:34", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T13:41:47", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T13:41:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:41:54", "event": "game_start"}
+{"time": "2026-07-30T13:42:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:42:36", "event": "snap", "round": 1, "ts": "20260730_134236", "scene": "A person brushing their teeth"}
