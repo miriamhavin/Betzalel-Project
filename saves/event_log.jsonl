@@ -4461,3 +4461,12 @@
 {"time": "2026-07-30T21:03:31", "event": "round_result", "round": 2, "ts": "20260730_210326", "success": false}
 {"time": "2026-07-30T21:04:25", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T21:04:41", "event": "snap", "round": 3, "ts": "20260730_210441", "scene": "A person riding a bicycle"}
+{"time": "2026-07-30T21:04:48", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:04:48", "event": "round_result", "round": 3, "ts": "20260730_210441", "success": false}
+{"time": "2026-07-30T21:05:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:05:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:06:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:06:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:06:38", "event": "game_start"}
+{"time": "2026-07-30T21:07:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T21:07:25", "event": "snap", "round": 1, "ts": "20260730_210725", "scene": "A person wearing a hat"}
