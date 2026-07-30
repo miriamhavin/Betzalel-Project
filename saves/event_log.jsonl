@@ -3953,3 +3953,7 @@
 {"time": "2026-07-30T16:58:45", "event": "game_start"}
 {"time": "2026-07-30T17:00:02", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T17:00:20", "event": "snap", "round": 1, "ts": "20260730_170020", "scene": "A person in a diving pose"}
+{"time": "2026-07-30T17:00:29", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T17:00:30", "event": "round_result", "round": 1, "ts": "20260730_170020", "success": false}
+{"time": "2026-07-30T17:00:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:01:05", "event": "snap", "round": 2, "ts": "20260730_170105", "scene": "A person riding a horse"}
