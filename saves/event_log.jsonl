@@ -3998,3 +3998,14 @@
 {"time": "2026-07-30T17:24:31", "event": "round_result", "round": 2, "ts": "20260730_172104", "success": false}
 {"time": "2026-07-30T17:24:37", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T17:24:56", "event": "snap", "round": 3, "ts": "20260730_172456", "scene": "A rectangular frame"}
+{"time": "2026-07-30T17:29:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:29:10", "event": "round_result", "round": 3, "ts": "20260730_172456", "success": true}
+{"time": "2026-07-30T17:30:03", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T17:30:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:30:09", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T17:30:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:31:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:31:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:31:27", "event": "game_start"}
+{"time": "2026-07-30T17:32:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:33:11", "event": "snap", "round": 1, "ts": "20260730_173311", "scene": "a key unlocking a treasure chest"}
