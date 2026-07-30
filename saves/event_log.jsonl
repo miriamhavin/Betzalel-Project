@@ -4123,3 +4123,9 @@
 {"time": "2026-07-30T18:40:23", "event": "round_result", "round": 1, "ts": "20260730_184012", "success": false}
 {"time": "2026-07-30T18:40:45", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T18:41:03", "event": "snap", "round": 2, "ts": "20260730_184103", "scene": "A smiling face"}
+{"time": "2026-07-30T18:41:12", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:41:13", "event": "round_result", "round": 2, "ts": "20260730_184103", "success": false}
+{"time": "2026-07-30T18:41:30", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:43:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:43:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:43:49", "event": "snap", "round": 3, "ts": "20260730_184349", "scene": "A cowboy hat"}
