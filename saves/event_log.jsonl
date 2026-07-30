@@ -3978,3 +3978,15 @@
 {"time": "2026-07-30T17:14:57", "event": "round_result", "round": 2, "ts": "20260730_171445", "success": false}
 {"time": "2026-07-30T17:15:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T17:16:00", "event": "snap", "round": 3, "ts": "20260730_171600", "scene": "A dancer performing a pirouette"}
+{"time": "2026-07-30T17:16:10", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T17:16:11", "event": "round_result", "round": 3, "ts": "20260730_171600", "success": true}
+{"time": "2026-07-30T17:19:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:19:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:19:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:19:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:19:23", "event": "game_start"}
+{"time": "2026-07-30T17:19:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:19:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:19:48", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T17:19:49", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T17:19:52", "event": "snap", "round": 1, "ts": "20260730_171952", "scene": "A stylized roller skate"}
