@@ -3791,3 +3791,12 @@
 {"time": "2026-07-30T15:19:30", "event": "round_result", "round": 2, "ts": "20260730_151925", "success": false}
 {"time": "2026-07-30T15:20:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T15:20:38", "event": "snap", "round": 3, "ts": "20260730_152038", "scene": "a camel"}
+{"time": "2026-07-30T15:20:43", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T15:20:43", "event": "round_result", "round": 3, "ts": "20260730_152038", "success": false}
+{"time": "2026-07-30T15:25:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T15:26:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T15:26:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T15:26:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T15:26:29", "event": "game_start"}
+{"time": "2026-07-30T15:26:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T15:26:49", "event": "snap", "round": 1, "ts": "20260730_152649", "scene": "A simple rectangular picture frame"}
