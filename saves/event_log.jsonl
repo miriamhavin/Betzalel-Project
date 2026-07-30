@@ -3542,3 +3542,7 @@
 {"time": "2026-07-30T13:27:27", "event": "game_start"}
 {"time": "2026-07-30T13:28:09", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T13:28:27", "event": "snap", "round": 1, "ts": "20260730_132827", "scene": "A cartoon mouse character"}
+{"time": "2026-07-30T13:28:44", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T13:28:45", "event": "round_result", "round": 1, "ts": "20260730_132827", "success": false}
+{"time": "2026-07-30T13:29:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:29:24", "event": "snap", "round": 2, "ts": "20260730_132924", "scene": "A duck"}
