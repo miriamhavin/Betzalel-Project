@@ -3900,3 +3900,7 @@
 {"time": "2026-07-30T16:47:52", "event": "game_start"}
 {"time": "2026-07-30T16:48:24", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T16:48:43", "event": "snap", "round": 1, "ts": "20260730_164843", "scene": "a person looking through binoculars"}
+{"time": "2026-07-30T16:48:54", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T16:48:55", "event": "round_result", "round": 1, "ts": "20260730_164843", "success": false}
+{"time": "2026-07-30T16:49:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T16:49:36", "event": "snap", "round": 2, "ts": "20260730_164936", "scene": "a vacuum cleaner"}
