@@ -3711,3 +3711,7 @@
 {"time": "2026-07-30T14:49:56", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T14:49:58", "event": "button_press", "button": "YES"}
 {"time": "2026-07-30T14:50:01", "event": "snap", "round": 1, "ts": "20260730_145001", "scene": "a woman with a handbag"}
+{"time": "2026-07-30T14:53:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T14:53:16", "event": "round_result", "round": 1, "ts": "20260730_145001", "success": true}
+{"time": "2026-07-30T14:53:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T14:54:10", "event": "snap", "round": 2, "ts": "20260730_145410", "scene": "a dog digging"}
