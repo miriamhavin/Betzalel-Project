@@ -3521,3 +3521,7 @@
 {"time": "2026-07-30T13:22:32", "event": "game_start"}
 {"time": "2026-07-30T13:23:07", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T13:23:23", "event": "snap", "round": 1, "ts": "20260730_132323", "scene": "a revolver"}
+{"time": "2026-07-30T13:23:30", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T13:23:31", "event": "round_result", "round": 1, "ts": "20260730_132323", "success": false}
+{"time": "2026-07-30T13:23:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:24:15", "event": "snap", "round": 2, "ts": "20260730_132415", "scene": "a trash can"}
