@@ -3490,3 +3490,7 @@
 {"time": "2026-07-30T13:09:30", "event": "round_result", "round": 1, "ts": "20260730_130910", "success": false}
 {"time": "2026-07-30T13:10:26", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T13:10:44", "event": "snap", "round": 2, "ts": "20260730_131044", "scene": "a stylized depiction of a tortoise"}
+{"time": "2026-07-30T13:10:53", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T13:10:54", "event": "round_result", "round": 2, "ts": "20260730_131044", "success": false}
+{"time": "2026-07-30T13:11:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:12:08", "event": "snap", "round": 3, "ts": "20260730_131208", "scene": "a wind-up toy robot"}
