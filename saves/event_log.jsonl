@@ -4386,3 +4386,8 @@
 {"time": "2026-07-30T20:28:33", "event": "button_press", "button": "NO"}
 {"time": "2026-07-30T20:28:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T20:28:54", "event": "snap", "round": 2, "ts": "20260730_202854", "scene": "A cat"}
+{"time": "2026-07-30T20:29:07", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T20:29:08", "event": "round_result", "round": 2, "ts": "20260730_202854", "success": false}
+{"time": "2026-07-30T20:29:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T20:29:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:30:01", "event": "snap", "round": 3, "ts": "20260730_203001", "scene": "A monkey wearing sunglasses"}
