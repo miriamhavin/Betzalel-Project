@@ -4418,3 +4418,7 @@
 {"time": "2026-07-30T20:45:47", "event": "game_start"}
 {"time": "2026-07-30T20:46:30", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T20:46:54", "event": "snap", "round": 1, "ts": "20260730_204654", "scene": "A leaping dog"}
+{"time": "2026-07-30T20:47:02", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T20:47:03", "event": "round_result", "round": 1, "ts": "20260730_204654", "success": false}
+{"time": "2026-07-30T20:48:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:48:38", "event": "snap", "round": 2, "ts": "20260730_204838", "scene": "A person doing a handstand"}
