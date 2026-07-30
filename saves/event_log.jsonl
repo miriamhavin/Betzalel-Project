@@ -3957,3 +3957,7 @@
 {"time": "2026-07-30T17:00:30", "event": "round_result", "round": 1, "ts": "20260730_170020", "success": false}
 {"time": "2026-07-30T17:00:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T17:01:05", "event": "snap", "round": 2, "ts": "20260730_170105", "scene": "A person riding a horse"}
+{"time": "2026-07-30T17:01:13", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T17:01:14", "event": "round_result", "round": 2, "ts": "20260730_170105", "success": false}
+{"time": "2026-07-30T17:01:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:01:55", "event": "snap", "round": 3, "ts": "20260730_170155", "scene": "An elephant"}
