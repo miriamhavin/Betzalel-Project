@@ -4095,3 +4095,13 @@
 {"time": "2026-07-30T18:21:15", "event": "button_press", "button": "YES"}
 {"time": "2026-07-30T18:21:15", "event": "button_press", "button": "YES"}
 {"time": "2026-07-30T18:21:30", "event": "snap", "round": 1, "ts": "20260730_182130", "scene": "A rectangular book with a decorative border"}
+{"time": "2026-07-30T18:24:45", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:24:45", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T18:24:46", "event": "round_result", "round": 1, "ts": "20260730_182130", "success": false}
+{"time": "2026-07-30T18:30:01", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T18:30:02", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T18:30:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:30:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:30:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:30:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T18:30:59", "event": "snap", "round": 2, "ts": "20260730_183059", "scene": "A television screen with a jagged edge"}
