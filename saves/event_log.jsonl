@@ -4426,3 +4426,13 @@
 {"time": "2026-07-30T20:48:46", "event": "round_result", "round": 2, "ts": "20260730_204838", "success": false}
 {"time": "2026-07-30T20:49:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T20:50:17", "event": "snap", "round": 3, "ts": "20260730_205017", "scene": "A stylized human figure with a staff"}
+{"time": "2026-07-30T20:50:34", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T20:50:34", "event": "round_result", "round": 3, "ts": "20260730_205017", "success": true}
+{"time": "2026-07-30T20:54:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:55:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:55:38", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T20:55:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:55:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:55:40", "event": "game_start"}
+{"time": "2026-07-30T20:55:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T20:56:04", "event": "snap", "round": 1, "ts": "20260730_205604", "scene": "A pig with a gun"}
