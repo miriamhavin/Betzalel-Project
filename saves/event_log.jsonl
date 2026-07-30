@@ -4599,3 +4599,7 @@
 {"time": "2026-07-30T21:59:09", "event": "round_result", "round": 1, "ts": "20260730_215902", "success": false}
 {"time": "2026-07-30T21:59:37", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T21:59:52", "event": "snap", "round": 2, "ts": "20260730_215952", "scene": "A hammer and nail being struck"}
+{"time": "2026-07-30T21:59:56", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T21:59:57", "event": "round_result", "round": 2, "ts": "20260730_215952", "success": false}
+{"time": "2026-07-30T22:00:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T22:00:43", "event": "snap", "round": 3, "ts": "20260730_220043", "scene": "A dog barking"}
