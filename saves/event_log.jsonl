@@ -3533,3 +3533,12 @@
 {"time": "2026-07-30T13:24:26", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T13:24:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T13:24:41", "event": "snap", "round": 3, "ts": "20260730_132441", "scene": "a knight's helmet"}
+{"time": "2026-07-30T13:24:51", "event": "button_press", "button": "YES"}
+{"time": "2026-07-30T13:24:52", "event": "round_result", "round": 3, "ts": "20260730_132441", "success": true}
+{"time": "2026-07-30T13:25:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:25:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:27:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:27:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:27:27", "event": "game_start"}
+{"time": "2026-07-30T13:28:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T13:28:27", "event": "snap", "round": 1, "ts": "20260730_132827", "scene": "A cartoon mouse character"}
