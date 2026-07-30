@@ -3994,3 +3994,7 @@
 {"time": "2026-07-30T17:19:59", "event": "round_result", "round": 1, "ts": "20260730_171952", "success": false}
 {"time": "2026-07-30T17:20:32", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T17:21:04", "event": "snap", "round": 2, "ts": "20260730_172104", "scene": "A simplified bone"}
+{"time": "2026-07-30T17:24:30", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T17:24:31", "event": "round_result", "round": 2, "ts": "20260730_172104", "success": false}
+{"time": "2026-07-30T17:24:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T17:24:56", "event": "snap", "round": 3, "ts": "20260730_172456", "scene": "A rectangular frame"}
