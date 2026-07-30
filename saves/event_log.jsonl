@@ -3347,3 +3347,7 @@
 {"time": "2026-07-30T12:12:50", "event": "game_start"}
 {"time": "2026-07-30T12:13:01", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T12:13:18", "event": "snap", "round": 1, "ts": "20260730_121318", "scene": "A cartoon-style elephant"}
+{"time": "2026-07-30T12:13:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T12:13:29", "event": "round_result", "round": 1, "ts": "20260730_121318", "success": false}
+{"time": "2026-07-30T12:13:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-30T12:13:54", "event": "snap", "round": 2, "ts": "20260730_121354", "scene": "A cartoon camel"}
