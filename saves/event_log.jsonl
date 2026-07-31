@@ -5223,3 +5223,12 @@
 {"time": "2026-07-31T13:22:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:24:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:24:28", "event": "snap", "round": 3, "ts": "20260731_132428", "scene": "A rabbit with long ears"}
+{"time": "2026-07-31T13:24:36", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T13:24:37", "event": "round_result", "round": 3, "ts": "20260731_132428", "success": false}
+{"time": "2026-07-31T13:24:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:24:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:24:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:28:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:28:30", "event": "game_start"}
+{"time": "2026-07-31T13:28:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:28:54", "event": "snap", "round": 1, "ts": "20260731_132854", "scene": "A monkey picking its ear"}
