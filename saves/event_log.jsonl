@@ -5003,3 +5003,19 @@
 {"time": "2026-07-31T11:57:57", "event": "round_result", "round": 2, "ts": "20260731_115749", "success": false}
 {"time": "2026-07-31T11:58:34", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:58:52", "event": "snap", "round": 3, "ts": "20260731_115852", "scene": "A mouse playing a record player"}
+{"time": "2026-07-31T11:59:03", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:59:04", "event": "round_result", "round": 3, "ts": "20260731_115852", "success": false}
+{"time": "2026-07-31T12:00:03", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T12:00:05", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T12:00:05", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T12:00:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:00:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:00:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:00:16", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T12:00:17", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T12:00:20", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T12:00:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:00:21", "event": "game_start"}
+{"time": "2026-07-31T12:03:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T12:04:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:04:30", "event": "snap", "round": 1, "ts": "20260731_120430", "scene": "A flower"}
