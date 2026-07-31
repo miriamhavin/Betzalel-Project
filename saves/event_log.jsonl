@@ -5232,3 +5232,10 @@
 {"time": "2026-07-31T13:28:30", "event": "game_start"}
 {"time": "2026-07-31T13:28:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:28:54", "event": "snap", "round": 1, "ts": "20260731_132854", "scene": "A monkey picking its ear"}
+{"time": "2026-07-31T13:29:08", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T13:29:09", "event": "round_result", "round": 1, "ts": "20260731_132854", "success": false}
+{"time": "2026-07-31T13:30:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:31:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:31:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:31:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:31:28", "event": "snap", "round": 2, "ts": "20260731_133128", "scene": "A dinosaur"}
