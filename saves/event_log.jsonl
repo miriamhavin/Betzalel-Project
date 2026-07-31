@@ -4825,3 +4825,12 @@
 {"time": "2026-07-31T11:15:34", "event": "round_result", "round": 2, "ts": "20260731_111525", "success": false}
 {"time": "2026-07-31T11:16:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:16:33", "event": "snap", "round": 3, "ts": "20260731_111633", "scene": "A ghost figure."}
+{"time": "2026-07-31T11:16:40", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:16:41", "event": "round_result", "round": 3, "ts": "20260731_111633", "success": false}
+{"time": "2026-07-31T11:16:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:17:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:17:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:17:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:17:04", "event": "game_start"}
+{"time": "2026-07-31T11:17:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:17:22", "event": "snap", "round": 1, "ts": "20260731_111722", "scene": "A simplified skull"}
