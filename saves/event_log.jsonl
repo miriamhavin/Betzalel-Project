@@ -4660,3 +4660,17 @@
 {"time": "2026-07-31T08:17:31", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T08:17:32", "event": "button_press", "button": "NO"}
 {"time": "2026-07-31T08:17:42", "event": "snap", "round": 2, "ts": "20260731_081742", "scene": "A doorway"}
+{"time": "2026-07-31T10:27:52", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T10:27:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:27:55", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T10:27:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:27:58", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T10:28:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:28:00", "event": "game_start"}
+{"time": "2026-07-31T10:28:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:28:01", "event": "game_start"}
+{"time": "2026-07-31T10:28:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:28:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:28:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:28:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:28:18", "event": "snap", "round": 1, "ts": "20260731_102818", "scene": "A rectangle"}
