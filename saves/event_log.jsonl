@@ -4955,3 +4955,26 @@
 {"time": "2026-07-31T11:50:06", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:50:06", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:50:21", "event": "snap", "round": 3, "ts": "20260731_115021", "scene": "A simple house with a pitched roof"}
+{"time": "2026-07-31T11:50:26", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T11:50:27", "event": "round_result", "round": 3, "ts": "20260731_115021", "success": true}
+{"time": "2026-07-31T11:50:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:50:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:50:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:51:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:51:06", "event": "game_start"}
+{"time": "2026-07-31T11:51:09", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T11:51:10", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T11:51:11", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:51:12", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T11:51:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:51:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:51:53", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:51:54", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T11:51:56", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T11:51:58", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T11:51:59", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:52:00", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:52:00", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:52:00", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:52:01", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T11:52:02", "event": "snap", "round": 1, "ts": "20260731_115202", "scene": "a light bulb powering a small fan"}
