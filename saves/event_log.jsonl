@@ -5648,3 +5648,7 @@
 {"time": "2026-07-31T15:07:58", "event": "game_start"}
 {"time": "2026-07-31T15:08:12", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T15:08:30", "event": "snap", "round": 1, "ts": "20260731_150830", "scene": "A person running"}
+{"time": "2026-07-31T15:08:55", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T15:08:55", "event": "round_result", "round": 1, "ts": "20260731_150830", "success": false}
+{"time": "2026-07-31T15:09:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:09:26", "event": "snap", "round": 2, "ts": "20260731_150926", "scene": "A crane lifting a heavy load"}
