@@ -5503,3 +5503,7 @@
 {"time": "2026-07-31T14:27:33", "event": "game_start"}
 {"time": "2026-07-31T14:28:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:29:15", "event": "snap", "round": 1, "ts": "20260731_142915", "scene": "A hand holding a key"}
+{"time": "2026-07-31T14:29:23", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:29:24", "event": "round_result", "round": 1, "ts": "20260731_142915", "success": false}
+{"time": "2026-07-31T14:30:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:30:26", "event": "snap", "round": 2, "ts": "20260731_143026", "scene": "A person using a key to unlock a box"}
