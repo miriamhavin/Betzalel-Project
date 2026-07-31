@@ -5751,3 +5751,7 @@
 {"time": "2026-07-31T15:35:40", "event": "game_start"}
 {"time": "2026-07-31T15:35:45", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T15:36:04", "event": "snap", "round": 1, "ts": "20260731_153604", "scene": "A person with scissors"}
+{"time": "2026-07-31T15:36:17", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T15:36:18", "event": "round_result", "round": 1, "ts": "20260731_153604", "success": false}
+{"time": "2026-07-31T15:37:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:37:28", "event": "snap", "round": 2, "ts": "20260731_153728", "scene": "A dancing figure"}
