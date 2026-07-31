@@ -5205,3 +5205,12 @@
 {"time": "2026-07-31T13:07:02", "event": "round_result", "round": 2, "ts": "20260731_130655", "success": false}
 {"time": "2026-07-31T13:07:59", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:08:16", "event": "snap", "round": 3, "ts": "20260731_130816", "scene": "A dog catching a frisbee"}
+{"time": "2026-07-31T13:08:22", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T13:08:23", "event": "round_result", "round": 3, "ts": "20260731_130816", "success": false}
+{"time": "2026-07-31T13:08:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:08:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:10:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:10:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:10:53", "event": "game_start"}
+{"time": "2026-07-31T13:13:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:14:02", "event": "snap", "round": 1, "ts": "20260731_131402", "scene": "A cartoon character with a surprised expression"}
