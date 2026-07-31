@@ -5090,3 +5090,7 @@
 {"time": "2026-07-31T12:36:28", "event": "game_start"}
 {"time": "2026-07-31T12:37:45", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T12:38:00", "event": "snap", "round": 1, "ts": "20260731_123800", "scene": "A whisk and a spoon"}
+{"time": "2026-07-31T12:38:11", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T12:38:11", "event": "round_result", "round": 1, "ts": "20260731_123800", "success": false}
+{"time": "2026-07-31T12:38:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:39:05", "event": "snap", "round": 2, "ts": "20260731_123905", "scene": "A person holding a flower"}
