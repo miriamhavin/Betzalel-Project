@@ -5037,3 +5037,9 @@
 {"time": "2026-07-31T12:11:00", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T12:11:15", "event": "button_press", "button": "NO"}
 {"time": "2026-07-31T12:11:18", "event": "snap", "round": 1, "ts": "20260731_121118", "scene": "A frog jumping onto a lily pad"}
+{"time": "2026-07-31T12:11:23", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T12:11:24", "event": "round_result", "round": 1, "ts": "20260731_121118", "success": false}
+{"time": "2026-07-31T12:12:42", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T12:12:42", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T12:15:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:15:40", "event": "snap", "round": 2, "ts": "20260731_121540", "scene": "A person holding a toothbrush"}
