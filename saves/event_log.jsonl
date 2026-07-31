@@ -5303,3 +5303,11 @@
 {"time": "2026-07-31T13:45:46", "event": "round_result", "round": 1, "ts": "20260731_134537", "success": false}
 {"time": "2026-07-31T13:46:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:47:03", "event": "snap", "round": 2, "ts": "20260731_134703", "scene": "A duck"}
+{"time": "2026-07-31T13:47:37", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T13:47:38", "event": "round_result", "round": 2, "ts": "20260731_134703", "success": true}
+{"time": "2026-07-31T13:50:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:50:31", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T13:50:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T13:50:38", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T13:50:39", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T13:50:41", "event": "snap", "round": 3, "ts": "20260731_135041", "scene": "A person holding a camera"}
