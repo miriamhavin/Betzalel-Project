@@ -5414,3 +5414,18 @@
 {"time": "2026-07-31T14:13:13", "event": "round_result", "round": 2, "ts": "20260731_141306", "success": false}
 {"time": "2026-07-31T14:14:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:14:57", "event": "snap", "round": 3, "ts": "20260731_141457", "scene": "A rabbit playing a drum"}
+{"time": "2026-07-31T14:15:11", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T14:15:12", "event": "round_result", "round": 3, "ts": "20260731_141457", "success": true}
+{"time": "2026-07-31T14:15:21", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:15:23", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T14:15:24", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T14:15:24", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:15:24", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:15:25", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:15:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:15:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:15:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:15:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:15:31", "event": "game_start"}
+{"time": "2026-07-31T14:16:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:17:06", "event": "snap", "round": 1, "ts": "20260731_141706", "scene": "A frog jumping"}
