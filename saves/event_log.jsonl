@@ -5197,3 +5197,7 @@
 {"time": "2026-07-31T13:04:23", "event": "game_start"}
 {"time": "2026-07-31T13:05:18", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:05:38", "event": "snap", "round": 1, "ts": "20260731_130538", "scene": "A person holding a flashlight looking at a bug"}
+{"time": "2026-07-31T13:06:00", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T13:06:01", "event": "round_result", "round": 1, "ts": "20260731_130538", "success": false}
+{"time": "2026-07-31T13:06:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:06:55", "event": "snap", "round": 2, "ts": "20260731_130655", "scene": "A charging rhinoceros"}
