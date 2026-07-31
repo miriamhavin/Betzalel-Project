@@ -5139,3 +5139,12 @@
 {"time": "2026-07-31T12:50:52", "event": "round_result", "round": 2, "ts": "20260731_125046", "success": false}
 {"time": "2026-07-31T12:51:24", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T12:51:42", "event": "snap", "round": 3, "ts": "20260731_125142", "scene": "A duck"}
+{"time": "2026-07-31T12:51:45", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T12:51:46", "event": "round_result", "round": 3, "ts": "20260731_125142", "success": false}
+{"time": "2026-07-31T12:52:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:55:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:55:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:55:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:55:32", "event": "game_start"}
+{"time": "2026-07-31T12:55:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:55:52", "event": "snap", "round": 1, "ts": "20260731_125552", "scene": "A cartoonish rooster"}
