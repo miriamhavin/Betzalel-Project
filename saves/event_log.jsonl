@@ -4842,3 +4842,12 @@
 {"time": "2026-07-31T11:21:50", "event": "round_result", "round": 2, "ts": "20260731_112142", "success": false}
 {"time": "2026-07-31T11:22:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:22:52", "event": "snap", "round": 3, "ts": "20260731_112252", "scene": "A stylized flame"}
+{"time": "2026-07-31T11:22:59", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:22:59", "event": "round_result", "round": 3, "ts": "20260731_112252", "success": false}
+{"time": "2026-07-31T11:23:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:23:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:24:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:24:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:24:28", "event": "game_start"}
+{"time": "2026-07-31T11:24:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:24:51", "event": "snap", "round": 1, "ts": "20260731_112451", "scene": "A bowling pin falling down"}
