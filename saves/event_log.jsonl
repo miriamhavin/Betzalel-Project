@@ -5188,3 +5188,12 @@
 {"time": "2026-07-31T13:04:05", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:04:10", "event": "button_press", "button": "NO"}
 {"time": "2026-07-31T13:04:10", "event": "snap", "round": 3, "ts": "20260731_130410", "scene": "A painting on an easel"}
+{"time": "2026-07-31T13:04:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:04:13", "event": "round_result", "round": 3, "ts": "20260731_130410", "success": true}
+{"time": "2026-07-31T13:04:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:04:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:04:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:04:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:04:23", "event": "game_start"}
+{"time": "2026-07-31T13:05:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:05:38", "event": "snap", "round": 1, "ts": "20260731_130538", "scene": "A person holding a flashlight looking at a bug"}
