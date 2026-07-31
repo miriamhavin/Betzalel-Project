@@ -5511,3 +5511,13 @@
 {"time": "2026-07-31T14:30:43", "event": "round_result", "round": 2, "ts": "20260731_143026", "success": false}
 {"time": "2026-07-31T14:33:19", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:33:37", "event": "snap", "round": 3, "ts": "20260731_143337", "scene": "A mechanical bird with a wind-up key"}
+{"time": "2026-07-31T14:34:07", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:34:08", "event": "round_result", "round": 3, "ts": "20260731_143337", "success": false}
+{"time": "2026-07-31T14:34:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:34:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:34:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:34:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:34:59", "event": "game_start"}
+{"time": "2026-07-31T14:35:21", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:35:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:36:11", "event": "snap", "round": 1, "ts": "20260731_143611", "scene": "A hand holding a key"}
