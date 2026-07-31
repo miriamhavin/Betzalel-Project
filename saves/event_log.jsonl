@@ -5585,3 +5585,12 @@
 {"time": "2026-07-31T14:49:55", "event": "round_result", "round": 2, "ts": "20260731_144946", "success": false}
 {"time": "2026-07-31T14:49:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:50:15", "event": "snap", "round": 3, "ts": "20260731_145015", "scene": "A person hammering a nail"}
+{"time": "2026-07-31T14:50:26", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T14:50:27", "event": "round_result", "round": 3, "ts": "20260731_145015", "success": true}
+{"time": "2026-07-31T14:51:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:51:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:51:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:51:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:51:08", "event": "game_start"}
+{"time": "2026-07-31T14:51:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:51:26", "event": "snap", "round": 1, "ts": "20260731_145126", "scene": "A person with a head and a distinctive hairpiece"}
