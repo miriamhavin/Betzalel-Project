@@ -5392,3 +5392,7 @@
 {"time": "2026-07-31T14:04:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:04:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:05:04", "event": "snap", "round": 2, "ts": "20260731_140504", "scene": "a startled ghost"}
+{"time": "2026-07-31T14:05:10", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:05:11", "event": "round_result", "round": 2, "ts": "20260731_140504", "success": false}
+{"time": "2026-07-31T14:05:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:05:55", "event": "snap", "round": 3, "ts": "20260731_140555", "scene": "a frog sitting on a lily pad"}
