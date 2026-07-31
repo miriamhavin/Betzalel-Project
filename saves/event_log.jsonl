@@ -4683,3 +4683,12 @@
 {"time": "2026-07-31T10:30:02", "event": "round_result", "round": 2, "ts": "20260731_102954", "success": false}
 {"time": "2026-07-31T10:30:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T10:31:06", "event": "snap", "round": 3, "ts": "20260731_103106", "scene": "A puppet"}
+{"time": "2026-07-31T10:31:13", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T10:31:14", "event": "round_result", "round": 3, "ts": "20260731_103106", "success": false}
+{"time": "2026-07-31T10:31:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:31:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:32:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:32:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:32:57", "event": "game_start"}
+{"time": "2026-07-31T10:33:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:33:52", "event": "snap", "round": 1, "ts": "20260731_103352", "scene": "A person speaking into a microphone"}
