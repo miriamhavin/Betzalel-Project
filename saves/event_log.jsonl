@@ -5489,3 +5489,17 @@
 {"time": "2026-07-31T14:26:51", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:26:52", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:27:08", "event": "snap", "round": 3, "ts": "20260731_142708", "scene": "A simplified rendering of a key"}
+{"time": "2026-07-31T14:27:17", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:27:18", "event": "round_result", "round": 3, "ts": "20260731_142708", "success": false}
+{"time": "2026-07-31T14:27:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:27:27", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:27:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:27:29", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:27:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:27:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:27:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:27:33", "event": "game_start"}
+{"time": "2026-07-31T14:27:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:27:33", "event": "game_start"}
+{"time": "2026-07-31T14:28:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:29:15", "event": "snap", "round": 1, "ts": "20260731_142915", "scene": "A hand holding a key"}
