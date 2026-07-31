@@ -4774,3 +4774,12 @@
 {"time": "2026-07-31T10:55:24", "event": "round_result", "round": 2, "ts": "20260731_105519", "success": false}
 {"time": "2026-07-31T10:55:36", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T10:55:54", "event": "snap", "round": 3, "ts": "20260731_105554", "scene": "A jack-in-the-box"}
+{"time": "2026-07-31T10:56:01", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T10:56:01", "event": "round_result", "round": 3, "ts": "20260731_105554", "success": true}
+{"time": "2026-07-31T11:00:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:00:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:01:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:02:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:02:06", "event": "game_start"}
+{"time": "2026-07-31T11:02:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:02:31", "event": "snap", "round": 1, "ts": "20260731_110231", "scene": "a cartoon frog character"}
