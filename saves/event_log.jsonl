@@ -5246,3 +5246,12 @@
 {"time": "2026-07-31T13:32:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:32:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:32:26", "event": "snap", "round": 3, "ts": "20260731_133226", "scene": "A person with a broken leg on crutches"}
+{"time": "2026-07-31T13:32:36", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T13:32:37", "event": "round_result", "round": 3, "ts": "20260731_133226", "success": false}
+{"time": "2026-07-31T13:32:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:33:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:34:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:34:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:34:21", "event": "game_start"}
+{"time": "2026-07-31T13:34:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:34:41", "event": "snap", "round": 1, "ts": "20260731_133441", "scene": "A person hanging from a rope"}
