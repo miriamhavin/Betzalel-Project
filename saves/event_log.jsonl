@@ -5599,3 +5599,7 @@
 {"time": "2026-07-31T14:52:05", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:52:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:52:22", "event": "snap", "round": 2, "ts": "20260731_145222", "scene": "A dog"}
+{"time": "2026-07-31T14:52:33", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:52:34", "event": "round_result", "round": 2, "ts": "20260731_145222", "success": false}
+{"time": "2026-07-31T14:53:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:54:00", "event": "snap", "round": 3, "ts": "20260731_145400", "scene": "A cartoon-style scientist"}
