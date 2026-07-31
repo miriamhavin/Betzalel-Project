@@ -4679,3 +4679,7 @@
 {"time": "2026-07-31T10:29:34", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T10:29:41", "event": "button_press", "button": "NO"}
 {"time": "2026-07-31T10:29:54", "event": "snap", "round": 2, "ts": "20260731_102954", "scene": "A hammer"}
+{"time": "2026-07-31T10:30:01", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T10:30:02", "event": "round_result", "round": 2, "ts": "20260731_102954", "success": false}
+{"time": "2026-07-31T10:30:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:31:06", "event": "snap", "round": 3, "ts": "20260731_103106", "scene": "A puppet"}
