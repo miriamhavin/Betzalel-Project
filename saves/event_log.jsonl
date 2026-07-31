@@ -4860,3 +4860,15 @@
 {"time": "2026-07-31T11:25:59", "event": "round_result", "round": 2, "ts": "20260731_112548", "success": false}
 {"time": "2026-07-31T11:26:08", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:26:24", "event": "snap", "round": 3, "ts": "20260731_112624", "scene": "A person singing into a microphone"}
+{"time": "2026-07-31T11:26:31", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T11:26:32", "event": "round_result", "round": 3, "ts": "20260731_112624", "success": true}
+{"time": "2026-07-31T11:27:30", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T11:27:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:27:41", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:27:44", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T11:27:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:28:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:28:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:28:31", "event": "game_start"}
+{"time": "2026-07-31T11:28:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:28:48", "event": "snap", "round": 1, "ts": "20260731_112848", "scene": "A cat with a long tail"}
