@@ -4995,3 +4995,7 @@
 {"time": "2026-07-31T11:54:59", "event": "game_start"}
 {"time": "2026-07-31T11:56:30", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:56:47", "event": "snap", "round": 1, "ts": "20260731_115647", "scene": "A bear wearing glasses"}
+{"time": "2026-07-31T11:56:54", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:56:55", "event": "round_result", "round": 1, "ts": "20260731_115647", "success": false}
+{"time": "2026-07-31T11:57:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:57:49", "event": "snap", "round": 2, "ts": "20260731_115749", "scene": "A person holding a bouquet of flowers"}
