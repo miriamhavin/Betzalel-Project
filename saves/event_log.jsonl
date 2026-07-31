@@ -5614,3 +5614,7 @@
 {"time": "2026-07-31T14:56:02", "event": "game_start"}
 {"time": "2026-07-31T14:56:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:57:03", "event": "snap", "round": 1, "ts": "20260731_145703", "scene": "A whisk in use"}
+{"time": "2026-07-31T14:57:13", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:57:14", "event": "round_result", "round": 1, "ts": "20260731_145703", "success": false}
+{"time": "2026-07-31T14:57:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:58:04", "event": "snap", "round": 2, "ts": "20260731_145804", "scene": "A sewing machine"}
