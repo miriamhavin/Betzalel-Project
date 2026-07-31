@@ -4877,3 +4877,7 @@
 {"time": "2026-07-31T11:29:16", "event": "button_press", "button": "NO"}
 {"time": "2026-07-31T11:29:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:29:37", "event": "snap", "round": 2, "ts": "20260731_112937", "scene": "A mouse"}
+{"time": "2026-07-31T11:29:46", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T11:29:47", "event": "round_result", "round": 2, "ts": "20260731_112937", "success": true}
+{"time": "2026-07-31T11:30:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:30:16", "event": "snap", "round": 3, "ts": "20260731_113016", "scene": "A person walking a dog on a leash"}
