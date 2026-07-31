@@ -5444,3 +5444,18 @@
 {"time": "2026-07-31T14:18:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:18:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:18:52", "event": "snap", "round": 3, "ts": "20260731_141852", "scene": "A dog with its tongue out"}
+{"time": "2026-07-31T14:19:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:19:37", "event": "round_result", "round": 3, "ts": "20260731_141852", "success": true}
+{"time": "2026-07-31T14:19:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:20:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:20:09", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:20:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:20:10", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T14:20:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:20:11", "event": "game_start"}
+{"time": "2026-07-31T14:20:12", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T14:20:16", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:20:17", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:20:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:20:18", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:20:35", "event": "snap", "round": 1, "ts": "20260731_142035", "scene": "A person holding a golf club"}
