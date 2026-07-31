@@ -5266,3 +5266,7 @@
 {"time": "2026-07-31T13:35:02", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:35:03", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:35:08", "event": "snap", "round": 2, "ts": "20260731_133508", "scene": "A person doing a handstand"}
+{"time": "2026-07-31T13:35:15", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T13:35:16", "event": "round_result", "round": 2, "ts": "20260731_133508", "success": false}
+{"time": "2026-07-31T13:37:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:37:51", "event": "snap", "round": 3, "ts": "20260731_133751", "scene": "A person jumping"}
