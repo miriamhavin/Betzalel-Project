@@ -4898,3 +4898,15 @@
 {"time": "2026-07-31T11:34:26", "event": "round_result", "round": 2, "ts": "20260731_113254", "success": false}
 {"time": "2026-07-31T11:34:56", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:35:14", "event": "snap", "round": 3, "ts": "20260731_113514", "scene": "A cartoon monster eating a donut"}
+{"time": "2026-07-31T11:35:26", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:35:27", "event": "round_result", "round": 3, "ts": "20260731_113514", "success": false}
+{"time": "2026-07-31T11:35:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:35:34", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:35:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:35:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:35:40", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:36:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:36:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:36:07", "event": "game_start"}
+{"time": "2026-07-31T11:36:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:36:31", "event": "snap", "round": 1, "ts": "20260731_113631", "scene": "A vintage record player with a tonearm."}
