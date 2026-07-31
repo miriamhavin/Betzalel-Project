@@ -4817,3 +4817,7 @@
 {"time": "2026-07-31T11:13:06", "event": "game_start"}
 {"time": "2026-07-31T11:14:06", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:14:25", "event": "snap", "round": 1, "ts": "20260731_111425", "scene": "A stylized representation of a person bending over to pick up a flower."}
+{"time": "2026-07-31T11:14:39", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:14:40", "event": "round_result", "round": 1, "ts": "20260731_111425", "success": false}
+{"time": "2026-07-31T11:15:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:15:25", "event": "snap", "round": 2, "ts": "20260731_111525", "scene": "A sprouting seed"}
