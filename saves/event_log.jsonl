@@ -5465,3 +5465,8 @@
 {"time": "2026-07-31T14:21:03", "event": "button_press", "button": "NO"}
 {"time": "2026-07-31T14:21:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:21:22", "event": "snap", "round": 2, "ts": "20260731_142122", "scene": "A person singing loudly with their mouth open"}
+{"time": "2026-07-31T14:21:47", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:21:48", "event": "round_result", "round": 2, "ts": "20260731_142122", "success": false}
+{"time": "2026-07-31T14:21:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:21:49", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T14:22:07", "event": "snap", "round": 3, "ts": "20260731_142207", "scene": "A robot arm operating a lever"}
