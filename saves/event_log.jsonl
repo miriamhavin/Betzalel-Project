@@ -5094,3 +5094,7 @@
 {"time": "2026-07-31T12:38:11", "event": "round_result", "round": 1, "ts": "20260731_123800", "success": false}
 {"time": "2026-07-31T12:38:48", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T12:39:05", "event": "snap", "round": 2, "ts": "20260731_123905", "scene": "A person holding a flower"}
+{"time": "2026-07-31T12:39:16", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T12:39:17", "event": "round_result", "round": 2, "ts": "20260731_123905", "success": false}
+{"time": "2026-07-31T12:39:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:39:57", "event": "snap", "round": 3, "ts": "20260731_123957", "scene": "A dinosaur"}
