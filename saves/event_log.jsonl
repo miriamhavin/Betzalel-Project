@@ -4757,3 +4757,12 @@
 {"time": "2026-07-31T10:53:17", "event": "round_result", "round": 2, "ts": "20260731_105307", "success": false}
 {"time": "2026-07-31T10:53:30", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T10:53:47", "event": "snap", "round": 3, "ts": "20260731_105347", "scene": "A person on a scooter"}
+{"time": "2026-07-31T10:53:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:53:55", "event": "round_result", "round": 3, "ts": "20260731_105347", "success": true}
+{"time": "2026-07-31T10:53:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:54:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:54:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:54:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:54:14", "event": "game_start"}
+{"time": "2026-07-31T10:54:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:54:35", "event": "snap", "round": 1, "ts": "20260731_105435", "scene": "A moose with keys for antlers"}
