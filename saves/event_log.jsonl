@@ -4791,3 +4791,12 @@
 {"time": "2026-07-31T11:03:34", "event": "round_result", "round": 2, "ts": "20260731_110323", "success": false}
 {"time": "2026-07-31T11:04:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:04:29", "event": "snap", "round": 3, "ts": "20260731_110429", "scene": "a human figure in motion"}
+{"time": "2026-07-31T11:04:33", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:04:34", "event": "round_result", "round": 3, "ts": "20260731_110429", "success": false}
+{"time": "2026-07-31T11:08:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:08:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:08:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:08:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:08:26", "event": "game_start"}
+{"time": "2026-07-31T11:08:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:08:51", "event": "snap", "round": 1, "ts": "20260731_110851", "scene": "A person holding a tool"}
