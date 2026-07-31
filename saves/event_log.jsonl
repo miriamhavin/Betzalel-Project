@@ -5396,3 +5396,13 @@
 {"time": "2026-07-31T14:05:11", "event": "round_result", "round": 2, "ts": "20260731_140504", "success": false}
 {"time": "2026-07-31T14:05:36", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:05:55", "event": "snap", "round": 3, "ts": "20260731_140555", "scene": "a frog sitting on a lily pad"}
+{"time": "2026-07-31T14:06:07", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:06:08", "event": "round_result", "round": 3, "ts": "20260731_140555", "success": false}
+{"time": "2026-07-31T14:09:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:09:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:09:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:09:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:09:13", "event": "game_start"}
+{"time": "2026-07-31T14:09:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:09:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:09:31", "event": "snap", "round": 1, "ts": "20260731_140931", "scene": "A person holding scissors"}
