@@ -5131,3 +5131,7 @@
 {"time": "2026-07-31T12:48:58", "event": "game_start"}
 {"time": "2026-07-31T12:49:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T12:49:39", "event": "snap", "round": 1, "ts": "20260731_124939", "scene": "A rabbit"}
+{"time": "2026-07-31T12:49:45", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T12:49:45", "event": "round_result", "round": 1, "ts": "20260731_124939", "success": true}
+{"time": "2026-07-31T12:50:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:50:46", "event": "snap", "round": 2, "ts": "20260731_125046", "scene": "A lightbulb illuminating a piece of paper"}
