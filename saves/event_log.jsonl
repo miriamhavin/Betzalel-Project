@@ -5564,3 +5564,16 @@
 {"time": "2026-07-31T14:46:13", "event": "button_press", "button": "NO"}
 {"time": "2026-07-31T14:46:38", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:46:55", "event": "snap", "round": 3, "ts": "20260731_144655", "scene": "A surprised rabbit looking at a carrot"}
+{"time": "2026-07-31T14:47:09", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:47:09", "event": "round_result", "round": 3, "ts": "20260731_144655", "success": false}
+{"time": "2026-07-31T14:47:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:48:17", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:48:20", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:48:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:48:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:48:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:48:22", "event": "game_start"}
+{"time": "2026-07-31T14:48:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:48:46", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:48:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:48:57", "event": "snap", "round": 1, "ts": "20260731_144857", "scene": "A cartoonish representation of a drill bit head"}
