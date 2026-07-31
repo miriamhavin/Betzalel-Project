@@ -5081,3 +5081,12 @@
 {"time": "2026-07-31T12:28:08", "event": "round_result", "round": 2, "ts": "20260731_122755", "success": false}
 {"time": "2026-07-31T12:30:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T12:30:19", "event": "snap", "round": 3, "ts": "20260731_123019", "scene": "A person kicking a ball"}
+{"time": "2026-07-31T12:30:29", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T12:30:30", "event": "round_result", "round": 3, "ts": "20260731_123019", "success": false}
+{"time": "2026-07-31T12:33:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:33:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:33:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:36:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:36:28", "event": "game_start"}
+{"time": "2026-07-31T12:37:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:38:00", "event": "snap", "round": 1, "ts": "20260731_123800", "scene": "A whisk and a spoon"}
