@@ -4872,3 +4872,8 @@
 {"time": "2026-07-31T11:28:31", "event": "game_start"}
 {"time": "2026-07-31T11:28:32", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:28:48", "event": "snap", "round": 1, "ts": "20260731_112848", "scene": "A cat with a long tail"}
+{"time": "2026-07-31T11:29:00", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:29:00", "event": "round_result", "round": 1, "ts": "20260731_112848", "success": false}
+{"time": "2026-07-31T11:29:16", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:29:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:29:37", "event": "snap", "round": 2, "ts": "20260731_112937", "scene": "A mouse"}
