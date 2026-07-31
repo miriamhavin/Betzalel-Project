@@ -5811,3 +5811,12 @@
 {"time": "2026-07-31T15:45:18", "event": "round_result", "round": 2, "ts": "20260731_154513", "success": false}
 {"time": "2026-07-31T15:45:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T15:45:37", "event": "snap", "round": 3, "ts": "20260731_154537", "scene": "A dancing figure"}
+{"time": "2026-07-31T15:45:40", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T15:45:41", "event": "round_result", "round": 3, "ts": "20260731_154537", "success": false}
+{"time": "2026-07-31T15:45:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:45:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:45:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:45:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:45:56", "event": "game_start"}
+{"time": "2026-07-31T15:47:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:47:27", "event": "snap", "round": 1, "ts": "20260731_154727", "scene": "A person dancing"}
