@@ -5056,3 +5056,7 @@
 {"time": "2026-07-31T12:17:50", "event": "game_start"}
 {"time": "2026-07-31T12:17:53", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T12:18:11", "event": "snap", "round": 1, "ts": "20260731_121811", "scene": "A woman carrying a large bag on her shoulder"}
+{"time": "2026-07-31T12:18:27", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T12:18:28", "event": "round_result", "round": 1, "ts": "20260731_121811", "success": false}
+{"time": "2026-07-31T12:19:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:20:06", "event": "snap", "round": 2, "ts": "20260731_122006", "scene": "A stylized bird with gears"}
