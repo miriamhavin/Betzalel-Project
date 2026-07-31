@@ -5385,3 +5385,10 @@
 {"time": "2026-07-31T14:02:57", "event": "game_start"}
 {"time": "2026-07-31T14:03:06", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:03:23", "event": "snap", "round": 1, "ts": "20260731_140323", "scene": "snail"}
+{"time": "2026-07-31T14:03:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:03:38", "event": "round_result", "round": 1, "ts": "20260731_140323", "success": false}
+{"time": "2026-07-31T14:04:26", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T14:04:27", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T14:04:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:04:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:05:04", "event": "snap", "round": 2, "ts": "20260731_140504", "scene": "a startled ghost"}
