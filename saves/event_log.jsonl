@@ -5673,3 +5673,14 @@
 {"time": "2026-07-31T15:14:56", "event": "round_result", "round": 2, "ts": "20260731_151447", "success": false}
 {"time": "2026-07-31T15:16:37", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T15:16:55", "event": "snap", "round": 3, "ts": "20260731_151655", "scene": "A bottle opener"}
+{"time": "2026-07-31T15:17:03", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T15:17:04", "event": "round_result", "round": 3, "ts": "20260731_151655", "success": false}
+{"time": "2026-07-31T15:17:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:18:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:18:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:18:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:18:19", "event": "game_start"}
+{"time": "2026-07-31T15:19:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:20:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:20:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:20:12", "event": "snap", "round": 1, "ts": "20260731_152012", "scene": "a person in a wheelchair"}
