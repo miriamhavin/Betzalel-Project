@@ -5531,3 +5531,8 @@
 {"time": "2026-07-31T14:38:06", "event": "button_press", "button": "NO"}
 {"time": "2026-07-31T14:38:07", "event": "button_press", "button": "NO"}
 {"time": "2026-07-31T14:38:10", "event": "snap", "round": 2, "ts": "20260731_143810", "scene": "A key in a lock"}
+{"time": "2026-07-31T14:38:17", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:38:18", "event": "round_result", "round": 2, "ts": "20260731_143810", "success": false}
+{"time": "2026-07-31T14:38:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:39:00", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:39:11", "event": "snap", "round": 3, "ts": "20260731_143911", "scene": "An alarm clock"}
