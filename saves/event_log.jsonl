@@ -5622,3 +5622,12 @@
 {"time": "2026-07-31T14:58:11", "event": "round_result", "round": 2, "ts": "20260731_145804", "success": false}
 {"time": "2026-07-31T14:58:30", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:58:47", "event": "snap", "round": 3, "ts": "20260731_145847", "scene": "A cartoon-like alien creature"}
+{"time": "2026-07-31T14:58:52", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:58:53", "event": "round_result", "round": 3, "ts": "20260731_145847", "success": false}
+{"time": "2026-07-31T14:59:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:59:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:59:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:00:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:00:05", "event": "game_start"}
+{"time": "2026-07-31T15:01:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:01:21", "event": "snap", "round": 1, "ts": "20260731_150121", "scene": "a dragon's head"}
