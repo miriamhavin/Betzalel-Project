@@ -5064,3 +5064,12 @@
 {"time": "2026-07-31T12:20:21", "event": "round_result", "round": 2, "ts": "20260731_122006", "success": true}
 {"time": "2026-07-31T12:21:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T12:22:04", "event": "snap", "round": 3, "ts": "20260731_122204", "scene": "A knight holding a shield and sword"}
+{"time": "2026-07-31T12:22:14", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T12:22:15", "event": "round_result", "round": 3, "ts": "20260731_122204", "success": true}
+{"time": "2026-07-31T12:22:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:22:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:23:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:25:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:25:01", "event": "game_start"}
+{"time": "2026-07-31T12:25:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:26:10", "event": "snap", "round": 1, "ts": "20260731_122610", "scene": "A surgeon holding surgical scissors"}
