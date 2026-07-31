@@ -4999,3 +4999,7 @@
 {"time": "2026-07-31T11:56:55", "event": "round_result", "round": 1, "ts": "20260731_115647", "success": false}
 {"time": "2026-07-31T11:57:32", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:57:49", "event": "snap", "round": 2, "ts": "20260731_115749", "scene": "A person holding a bouquet of flowers"}
+{"time": "2026-07-31T11:57:57", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:57:57", "event": "round_result", "round": 2, "ts": "20260731_115749", "success": false}
+{"time": "2026-07-31T11:58:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:58:52", "event": "snap", "round": 3, "ts": "20260731_115852", "scene": "A mouse playing a record player"}
