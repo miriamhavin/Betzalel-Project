@@ -5345,3 +5345,16 @@
 {"time": "2026-07-31T13:58:34", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:58:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:58:46", "event": "snap", "round": 3, "ts": "20260731_135846", "scene": "A happy dog"}
+{"time": "2026-07-31T13:58:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:58:52", "event": "round_result", "round": 3, "ts": "20260731_135846", "success": true}
+{"time": "2026-07-31T13:58:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:59:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:59:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:59:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:59:24", "event": "game_start"}
+{"time": "2026-07-31T13:59:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:59:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:59:49", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T13:59:49", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T13:59:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:59:54", "event": "snap", "round": 1, "ts": "20260731_135954", "scene": "A cat chasing a mouse"}
