@@ -4918,3 +4918,12 @@
 {"time": "2026-07-31T11:38:35", "event": "round_result", "round": 2, "ts": "20260731_113820", "success": false}
 {"time": "2026-07-31T11:38:57", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:39:15", "event": "snap", "round": 3, "ts": "20260731_113915", "scene": "A person working at a desk"}
+{"time": "2026-07-31T11:39:26", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:39:27", "event": "round_result", "round": 3, "ts": "20260731_113915", "success": false}
+{"time": "2026-07-31T11:39:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:40:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:41:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:41:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:41:44", "event": "game_start"}
+{"time": "2026-07-31T11:41:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:42:15", "event": "snap", "round": 1, "ts": "20260731_114215", "scene": "A dog begging"}
