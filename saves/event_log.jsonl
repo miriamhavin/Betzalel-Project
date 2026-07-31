@@ -5709,3 +5709,8 @@
 {"time": "2026-07-31T15:23:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T15:23:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T15:23:28", "event": "snap", "round": 1, "ts": "20260731_152328", "scene": "A hand holding a pencil, writing on a whiteboard."}
+{"time": "2026-07-31T15:23:36", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T15:23:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T15:23:37", "event": "round_result", "round": 1, "ts": "20260731_152328", "success": false}
+{"time": "2026-07-31T15:24:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:24:55", "event": "snap", "round": 2, "ts": "20260731_152455", "scene": "A movie camera"}
