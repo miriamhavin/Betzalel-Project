@@ -5290,3 +5290,12 @@
 {"time": "2026-07-31T13:42:06", "event": "round_result", "round": 2, "ts": "20260731_134158", "success": true}
 {"time": "2026-07-31T13:44:32", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:44:49", "event": "snap", "round": 3, "ts": "20260731_134449", "scene": "A woodpecker pecking at a tree"}
+{"time": "2026-07-31T13:45:00", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T13:45:01", "event": "round_result", "round": 3, "ts": "20260731_134449", "success": false}
+{"time": "2026-07-31T13:45:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:45:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:45:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:45:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:45:16", "event": "game_start"}
+{"time": "2026-07-31T13:45:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:45:37", "event": "snap", "round": 1, "ts": "20260731_134537", "scene": "A briefcase"}
