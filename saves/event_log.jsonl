@@ -4741,3 +4741,11 @@
 {"time": "2026-07-31T10:41:54", "event": "button_press", "button": "NO"}
 {"time": "2026-07-31T10:41:55", "event": "button_press", "button": "YES"}
 {"time": "2026-07-31T10:42:06", "event": "snap", "round": 2, "ts": "20260731_104206", "scene": "A picture frame"}
+{"time": "2026-07-31T10:49:50", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T10:49:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:50:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:50:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:50:08", "event": "game_start"}
+{"time": "2026-07-31T10:50:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:50:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T10:50:45", "event": "snap", "round": 1, "ts": "20260731_105045", "scene": "A key and a lock"}
