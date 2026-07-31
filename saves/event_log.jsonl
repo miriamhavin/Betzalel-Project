@@ -5019,3 +5019,7 @@
 {"time": "2026-07-31T12:03:28", "event": "button_press", "button": "NO"}
 {"time": "2026-07-31T12:04:10", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T12:04:30", "event": "snap", "round": 1, "ts": "20260731_120430", "scene": "A flower"}
+{"time": "2026-07-31T12:04:45", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T12:04:46", "event": "round_result", "round": 1, "ts": "20260731_120430", "success": false}
+{"time": "2026-07-31T12:04:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T12:05:11", "event": "snap", "round": 2, "ts": "20260731_120511", "scene": "A man holding a sword"}
