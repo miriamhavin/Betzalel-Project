@@ -5299,3 +5299,7 @@
 {"time": "2026-07-31T13:45:16", "event": "game_start"}
 {"time": "2026-07-31T13:45:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:45:37", "event": "snap", "round": 1, "ts": "20260731_134537", "scene": "A briefcase"}
+{"time": "2026-07-31T13:45:46", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T13:45:46", "event": "round_result", "round": 1, "ts": "20260731_134537", "success": false}
+{"time": "2026-07-31T13:46:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:47:03", "event": "snap", "round": 2, "ts": "20260731_134703", "scene": "A duck"}
