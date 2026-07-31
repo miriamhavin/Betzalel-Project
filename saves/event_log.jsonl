@@ -5239,3 +5239,10 @@
 {"time": "2026-07-31T13:31:14", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:31:20", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:31:28", "event": "snap", "round": 2, "ts": "20260731_133128", "scene": "A dinosaur"}
+{"time": "2026-07-31T13:31:37", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T13:31:38", "event": "round_result", "round": 2, "ts": "20260731_133128", "success": false}
+{"time": "2026-07-31T13:32:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:32:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:32:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:32:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:32:26", "event": "snap", "round": 3, "ts": "20260731_133226", "scene": "A person with a broken leg on crutches"}
