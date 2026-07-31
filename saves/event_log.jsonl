@@ -5218,3 +5218,8 @@
 {"time": "2026-07-31T13:14:16", "event": "round_result", "round": 1, "ts": "20260731_131402", "success": true}
 {"time": "2026-07-31T13:16:56", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T13:17:13", "event": "snap", "round": 2, "ts": "20260731_131713", "scene": "A clown"}
+{"time": "2026-07-31T13:17:18", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T13:17:19", "event": "round_result", "round": 2, "ts": "20260731_131713", "success": true}
+{"time": "2026-07-31T13:22:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:24:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T13:24:28", "event": "snap", "round": 3, "ts": "20260731_132428", "scene": "A rabbit with long ears"}
