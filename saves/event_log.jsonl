@@ -4935,3 +4935,14 @@
 {"time": "2026-07-31T11:43:31", "event": "round_result", "round": 2, "ts": "20260731_114320", "success": true}
 {"time": "2026-07-31T11:44:49", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:45:06", "event": "snap", "round": 3, "ts": "20260731_114506", "scene": "A coiled snake"}
+{"time": "2026-07-31T11:45:12", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:45:13", "event": "round_result", "round": 3, "ts": "20260731_114506", "success": false}
+{"time": "2026-07-31T11:45:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:45:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:45:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:46:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:46:01", "event": "game_start"}
+{"time": "2026-07-31T11:46:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:46:01", "event": "game_start"}
+{"time": "2026-07-31T11:46:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:46:24", "event": "snap", "round": 1, "ts": "20260731_114624", "scene": "A child's drawing of a wheelbarrow"}
