@@ -5665,3 +5665,7 @@
 {"time": "2026-07-31T15:12:41", "event": "game_start"}
 {"time": "2026-07-31T15:13:12", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T15:13:30", "event": "snap", "round": 1, "ts": "20260731_151330", "scene": "A dragon"}
+{"time": "2026-07-31T15:13:36", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T15:13:37", "event": "round_result", "round": 1, "ts": "20260731_151330", "success": false}
+{"time": "2026-07-31T15:14:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T15:14:47", "event": "snap", "round": 2, "ts": "20260731_151447", "scene": "A man with a key"}
