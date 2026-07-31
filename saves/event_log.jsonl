@@ -4623,3 +4623,29 @@
 {"time": "2026-07-30T22:10:22", "event": "round_result", "round": 2, "ts": "20260730_221015", "success": true}
 {"time": "2026-07-30T22:11:09", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-30T22:11:25", "event": "snap", "round": 3, "ts": "20260730_221125", "scene": "A pair of binoculars"}
+{"time": "2026-07-30T22:11:28", "event": "button_press", "button": "NO"}
+{"time": "2026-07-30T22:11:28", "event": "round_result", "round": 3, "ts": "20260730_221125", "success": false}
+{"time": "2026-07-30T22:12:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T08:16:49", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T08:16:50", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T08:16:51", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T08:16:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T08:16:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T08:16:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T08:16:58", "event": "game_start"}
+{"time": "2026-07-31T08:16:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T08:16:59", "event": "game_start"}
+{"time": "2026-07-31T08:17:01", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T08:17:01", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T08:17:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T08:17:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T08:17:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T08:17:06", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T08:17:07", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T08:17:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T08:17:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T08:17:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T08:17:17", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T08:17:18", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T08:17:18", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T08:17:19", "event": "snap", "round": 1, "ts": "20260731_081719", "scene": "A window frame"}
