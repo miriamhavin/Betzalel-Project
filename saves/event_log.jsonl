@@ -4804,3 +4804,7 @@
 {"time": "2026-07-31T11:09:11", "event": "round_result", "round": 1, "ts": "20260731_110851", "success": true}
 {"time": "2026-07-31T11:09:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:09:37", "event": "snap", "round": 2, "ts": "20260731_110937", "scene": "A man's hand reaching out"}
+{"time": "2026-07-31T11:09:42", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:09:43", "event": "round_result", "round": 2, "ts": "20260731_110937", "success": false}
+{"time": "2026-07-31T11:10:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:10:17", "event": "snap", "round": 3, "ts": "20260731_111017", "scene": "A bird with its wings spread"}
