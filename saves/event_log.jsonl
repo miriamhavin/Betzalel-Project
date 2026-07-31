@@ -4927,3 +4927,7 @@
 {"time": "2026-07-31T11:41:44", "event": "game_start"}
 {"time": "2026-07-31T11:41:56", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T11:42:15", "event": "snap", "round": 1, "ts": "20260731_114215", "scene": "A dog begging"}
+{"time": "2026-07-31T11:42:24", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T11:42:24", "event": "round_result", "round": 1, "ts": "20260731_114215", "success": false}
+{"time": "2026-07-31T11:43:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T11:43:20", "event": "snap", "round": 2, "ts": "20260731_114320", "scene": "A person with sunglasses and a key"}
