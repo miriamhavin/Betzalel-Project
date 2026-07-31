@@ -5366,3 +5366,22 @@
 {"time": "2026-07-31T14:00:50", "event": "round_result", "round": 2, "ts": "20260731_140030", "success": false}
 {"time": "2026-07-31T14:01:25", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T14:01:42", "event": "snap", "round": 3, "ts": "20260731_140142", "scene": "A person holding a pencil and writing on paper"}
+{"time": "2026-07-31T14:01:53", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:01:53", "event": "round_result", "round": 3, "ts": "20260731_140142", "success": false}
+{"time": "2026-07-31T14:01:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:02:08", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T14:02:10", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T14:02:16", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:02:17", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:02:17", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:02:17", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:02:18", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:02:21", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:02:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:02:54", "event": "button_press", "button": "NO"}
+{"time": "2026-07-31T14:02:55", "event": "button_press", "button": "YES"}
+{"time": "2026-07-31T14:02:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:02:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:02:57", "event": "game_start"}
+{"time": "2026-07-31T14:03:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-07-31T14:03:23", "event": "snap", "round": 1, "ts": "20260731_140323", "scene": "snail"}
