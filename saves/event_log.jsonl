@@ -5955,3 +5955,7 @@
 {"time": "2026-08-02T12:49:21", "event": "game_start"}
 {"time": "2026-08-02T12:49:24", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T12:49:39", "event": "snap", "round": 1, "ts": "20260802_124939", "scene": "A watering can watering a plant"}
+{"time": "2026-08-02T12:49:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T12:49:55", "event": "round_result", "round": 1, "ts": "20260802_124939", "success": false}
+{"time": "2026-08-02T12:49:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:50:13", "event": "snap", "round": 2, "ts": "20260802_125013", "scene": "A person using a key"}
