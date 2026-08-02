@@ -6870,3 +6870,15 @@
 {"time": "2026-08-02T21:18:36", "event": "game_start"}
 {"time": "2026-08-02T21:18:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T21:19:15", "event": "snap", "round": 1, "ts": "20260802_211915", "scene": "A frog wearing a hat"}
+{"time": "2026-08-02T21:19:19", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:19:20", "event": "round_result", "round": 1, "ts": "20260802_211915", "success": false}
+{"time": "2026-08-02T21:20:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:20:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:20:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:20:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:20:49", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:20:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:20:51", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:20:52", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T21:20:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:20:52", "event": "snap", "round": 2, "ts": "20260802_212052", "scene": ""}
