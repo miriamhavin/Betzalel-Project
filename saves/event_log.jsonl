@@ -6236,3 +6236,7 @@
 {"time": "2026-08-02T15:36:00", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T15:36:05", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T15:36:16", "event": "snap", "round": 1, "ts": "20260802_153616", "scene": "Astronaut"}
+{"time": "2026-08-02T15:36:24", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T15:36:25", "event": "round_result", "round": 1, "ts": "20260802_153616", "success": true}
+{"time": "2026-08-02T15:37:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T15:37:17", "event": "snap", "round": 2, "ts": "20260802_153717", "scene": "A toy tractor pulling a small cart"}
