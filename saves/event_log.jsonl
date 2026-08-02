@@ -6603,3 +6603,12 @@
 {"time": "2026-08-02T18:30:55", "event": "round_result", "round": 2, "ts": "20260802_183047", "success": false}
 {"time": "2026-08-02T18:31:13", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T18:31:29", "event": "snap", "round": 3, "ts": "20260802_183129", "scene": "A person holding a toothbrush"}
+{"time": "2026-08-02T18:31:37", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T18:31:37", "event": "round_result", "round": 3, "ts": "20260802_183129", "success": false}
+{"time": "2026-08-02T18:32:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:32:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:33:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:33:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:33:50", "event": "game_start"}
+{"time": "2026-08-02T18:34:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:34:28", "event": "snap", "round": 1, "ts": "20260802_183428", "scene": "A champagne bottle with a cork popping out."}
