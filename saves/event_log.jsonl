@@ -6882,3 +6882,23 @@
 {"time": "2026-08-02T21:20:52", "event": "button_press", "button": "YES"}
 {"time": "2026-08-02T21:20:52", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T21:20:52", "event": "snap", "round": 2, "ts": "20260802_212052", "scene": ""}
+{"time": "2026-08-02T21:21:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:21:25", "event": "round_result", "round": 2, "ts": "20260802_212052", "success": true}
+{"time": "2026-08-02T21:35:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:35:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:35:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:35:47", "event": "game_start"}
+{"time": "2026-08-02T21:35:49", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:35:50", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:35:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:35:55", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T21:35:56", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T21:35:58", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:35:59", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:36:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:36:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:36:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:36:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:36:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:36:06", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:36:07", "event": "snap", "round": 1, "ts": "20260802_213607", "scene": ""}
