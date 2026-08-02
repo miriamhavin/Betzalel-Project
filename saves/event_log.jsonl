@@ -6254,3 +6254,7 @@
 {"time": "2026-08-02T15:56:43", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T15:56:50", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T15:57:00", "event": "snap", "round": 2, "ts": "20260802_155700", "scene": "A shovel"}
+{"time": "2026-08-02T15:57:08", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T15:57:08", "event": "round_result", "round": 2, "ts": "20260802_155700", "success": false}
+{"time": "2026-08-02T15:57:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T15:57:50", "event": "snap", "round": 3, "ts": "20260802_155750", "scene": "A small boat"}
