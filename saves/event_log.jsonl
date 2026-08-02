@@ -6676,3 +6676,7 @@
 {"time": "2026-08-02T19:41:08", "event": "game_start"}
 {"time": "2026-08-02T19:42:09", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T19:42:25", "event": "snap", "round": 1, "ts": "20260802_194225", "scene": "A person holding a bottle and pointing a finger"}
+{"time": "2026-08-02T19:42:43", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T19:42:44", "event": "round_result", "round": 1, "ts": "20260802_194225", "success": false}
+{"time": "2026-08-02T19:43:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T19:43:27", "event": "snap", "round": 2, "ts": "20260802_194327", "scene": "A bird with a worm"}
