@@ -6796,3 +6796,14 @@
 {"time": "2026-08-02T20:47:23", "event": "round_result", "round": 1, "ts": "20260802_204715", "success": false}
 {"time": "2026-08-02T20:48:26", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T20:48:44", "event": "snap", "round": 2, "ts": "20260802_204844", "scene": "A person holding a smartphone"}
+{"time": "2026-08-02T20:48:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T20:48:53", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T20:48:53", "event": "round_result", "round": 2, "ts": "20260802_204844", "success": false}
+{"time": "2026-08-02T20:48:54", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T20:48:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T20:48:55", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T20:48:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T20:48:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:48:57", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T20:48:58", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T20:49:14", "event": "snap", "round": 3, "ts": "20260802_204914", "scene": "A person operating a camera"}
