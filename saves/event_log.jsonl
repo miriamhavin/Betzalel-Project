@@ -6046,3 +6046,19 @@
 {"time": "2026-08-02T14:26:07", "event": "round_result", "round": 2, "ts": "20260802_142601", "success": false}
 {"time": "2026-08-02T14:26:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T14:26:50", "event": "snap", "round": 3, "ts": "20260802_142650", "scene": "A chef with a large hat, holding a whisk"}
+{"time": "2026-08-02T14:26:56", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T14:26:57", "event": "round_result", "round": 3, "ts": "20260802_142650", "success": false}
+{"time": "2026-08-02T14:27:48", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T14:28:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:28:36", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T14:28:37", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T14:28:37", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T14:30:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:30:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:30:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:30:38", "event": "game_start"}
+{"time": "2026-08-02T14:30:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:30:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:30:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:30:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:30:56", "event": "snap", "round": 1, "ts": "20260802_143056", "scene": "A rectangle"}
