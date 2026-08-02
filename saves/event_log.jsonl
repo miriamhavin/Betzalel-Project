@@ -6042,3 +6042,7 @@
 {"time": "2026-08-02T14:25:38", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T14:25:45", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T14:26:01", "event": "snap", "round": 2, "ts": "20260802_142601", "scene": "A character with a hammer and a saw"}
+{"time": "2026-08-02T14:26:07", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T14:26:07", "event": "round_result", "round": 2, "ts": "20260802_142601", "success": false}
+{"time": "2026-08-02T14:26:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:26:50", "event": "snap", "round": 3, "ts": "20260802_142650", "scene": "A chef with a large hat, holding a whisk"}
