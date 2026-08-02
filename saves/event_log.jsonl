@@ -6807,3 +6807,12 @@
 {"time": "2026-08-02T20:48:57", "event": "button_press", "button": "YES"}
 {"time": "2026-08-02T20:48:58", "event": "button_press", "button": "NO"}
 {"time": "2026-08-02T20:49:14", "event": "snap", "round": 3, "ts": "20260802_204914", "scene": "A person operating a camera"}
+{"time": "2026-08-02T20:49:50", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T20:49:51", "event": "round_result", "round": 3, "ts": "20260802_204914", "success": false}
+{"time": "2026-08-02T20:49:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:49:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:51:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:51:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:51:08", "event": "game_start"}
+{"time": "2026-08-02T20:51:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:51:28", "event": "snap", "round": 1, "ts": "20260802_205128", "scene": "a person cooking"}
