@@ -6726,3 +6726,12 @@
 {"time": "2026-08-02T20:25:00", "event": "round_result", "round": 2, "ts": "20260802_202453", "success": false}
 {"time": "2026-08-02T20:25:01", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T20:25:17", "event": "snap", "round": 3, "ts": "20260802_202517", "scene": "A simple drawing of a map"}
+{"time": "2026-08-02T20:25:22", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T20:25:23", "event": "round_result", "round": 3, "ts": "20260802_202517", "success": false}
+{"time": "2026-08-02T20:25:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:25:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:26:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:26:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:26:52", "event": "game_start"}
+{"time": "2026-08-02T20:27:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:27:19", "event": "snap", "round": 1, "ts": "20260802_202719", "scene": "A face with a hat"}
