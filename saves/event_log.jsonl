@@ -6599,3 +6599,7 @@
 {"time": "2026-08-02T18:29:59", "event": "round_result", "round": 1, "ts": "20260802_182952", "success": false}
 {"time": "2026-08-02T18:30:29", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T18:30:47", "event": "snap", "round": 2, "ts": "20260802_183047", "scene": "A dentist's drill"}
+{"time": "2026-08-02T18:30:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T18:30:55", "event": "round_result", "round": 2, "ts": "20260802_183047", "success": false}
+{"time": "2026-08-02T18:31:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:31:29", "event": "snap", "round": 3, "ts": "20260802_183129", "scene": "A person holding a toothbrush"}
