@@ -6779,3 +6779,16 @@
 {"time": "2026-08-02T20:43:33", "event": "round_result", "round": 2, "ts": "20260802_204325", "success": false}
 {"time": "2026-08-02T20:44:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T20:44:38", "event": "snap", "round": 3, "ts": "20260802_204438", "scene": "A woman with a handbag"}
+{"time": "2026-08-02T20:44:47", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T20:44:48", "event": "round_result", "round": 3, "ts": "20260802_204438", "success": false}
+{"time": "2026-08-02T20:44:49", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T20:44:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:44:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:44:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:46:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:46:23", "event": "game_start"}
+{"time": "2026-08-02T20:46:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:47:03", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T20:47:04", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T20:47:11", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T20:47:15", "event": "snap", "round": 1, "ts": "20260802_204715", "scene": "A framed window looking out"}
