@@ -6005,3 +6005,14 @@
 {"time": "2026-08-02T13:46:09", "event": "game_start"}
 {"time": "2026-08-02T13:46:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T13:46:34", "event": "snap", "round": 1, "ts": "20260802_134634", "scene": "A pair of pruning shears"}
+{"time": "2026-08-02T13:59:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:14:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:14:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:14:52", "event": "game_start"}
+{"time": "2026-08-02T14:14:53", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T14:14:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T14:14:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:15:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:15:04", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T14:15:06", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T14:15:10", "event": "snap", "round": 1, "ts": "20260802_141510", "scene": "An open book"}
