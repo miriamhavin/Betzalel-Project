@@ -5963,3 +5963,10 @@
 {"time": "2026-08-02T12:50:42", "event": "round_result", "round": 2, "ts": "20260802_125013", "success": false}
 {"time": "2026-08-02T12:51:00", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T12:51:17", "event": "snap", "round": 3, "ts": "20260802_125117", "scene": "A bird"}
+{"time": "2026-08-02T13:18:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:19:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:21:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:21:29", "event": "game_start"}
+{"time": "2026-08-02T13:21:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:21:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:21:55", "event": "snap", "round": 1, "ts": "20260802_132155", "scene": "a stylized scorpion"}
