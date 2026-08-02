@@ -6080,3 +6080,7 @@
 {"time": "2026-08-02T14:45:25", "event": "round_result", "round": 1, "ts": "20260802_144516", "success": false}
 {"time": "2026-08-02T14:46:01", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T14:46:18", "event": "snap", "round": 2, "ts": "20260802_144618", "scene": "A person with their back to the viewer, looking out over a landscape"}
+{"time": "2026-08-02T14:46:26", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T14:46:27", "event": "round_result", "round": 2, "ts": "20260802_144618", "success": false}
+{"time": "2026-08-02T14:46:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:46:47", "event": "snap", "round": 3, "ts": "20260802_144647", "scene": "A person holding a bottle and exhaling smoke"}
