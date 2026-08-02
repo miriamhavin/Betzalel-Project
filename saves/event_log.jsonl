@@ -6556,3 +6556,7 @@
 {"time": "2026-08-02T18:23:54", "event": "round_result", "round": 1, "ts": "20260802_182343", "success": false}
 {"time": "2026-08-02T18:24:12", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T18:24:30", "event": "snap", "round": 2, "ts": "20260802_182430", "scene": "A bugle player"}
+{"time": "2026-08-02T18:24:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T18:24:41", "event": "round_result", "round": 2, "ts": "20260802_182430", "success": false}
+{"time": "2026-08-02T18:25:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:25:21", "event": "snap", "round": 3, "ts": "20260802_182521", "scene": "A knight's sword"}
