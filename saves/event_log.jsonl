@@ -6843,3 +6843,13 @@
 {"time": "2026-08-02T20:59:34", "event": "round_result", "round": 2, "ts": "20260802_205925", "success": false}
 {"time": "2026-08-02T20:59:55", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T21:00:12", "event": "snap", "round": 3, "ts": "20260802_210012", "scene": "A dog with a bone"}
+{"time": "2026-08-02T21:00:26", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:00:27", "event": "round_result", "round": 3, "ts": "20260802_210012", "success": false}
+{"time": "2026-08-02T21:01:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:01:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:02:03", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:11:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:11:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:11:03", "event": "game_start"}
+{"time": "2026-08-02T21:11:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:11:26", "event": "snap", "round": 1, "ts": "20260802_211126", "scene": "a window frame"}
