@@ -6653,3 +6653,12 @@
 {"time": "2026-08-02T19:09:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T19:09:47", "event": "button_press", "button": "NO"}
 {"time": "2026-08-02T19:09:55", "event": "snap", "round": 3, "ts": "20260802_190955", "scene": "a simple table"}
+{"time": "2026-08-02T19:12:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T19:12:03", "event": "round_result", "round": 3, "ts": "20260802_190955", "success": true}
+{"time": "2026-08-02T19:12:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T19:12:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T19:12:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T19:12:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T19:12:22", "event": "game_start"}
+{"time": "2026-08-02T19:12:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T19:12:44", "event": "snap", "round": 1, "ts": "20260802_191244", "scene": "A toothbrush with paste"}
