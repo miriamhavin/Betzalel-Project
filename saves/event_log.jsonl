@@ -5946,3 +5946,12 @@
 {"time": "2026-08-02T12:42:07", "event": "round_result", "round": 2, "ts": "20260802_124149", "success": false}
 {"time": "2026-08-02T12:43:03", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T12:43:18", "event": "snap", "round": 3, "ts": "20260802_124318", "scene": "A bird in flight"}
+{"time": "2026-08-02T12:43:24", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T12:43:25", "event": "round_result", "round": 3, "ts": "20260802_124318", "success": false}
+{"time": "2026-08-02T12:48:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:48:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:48:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:49:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:49:21", "event": "game_start"}
+{"time": "2026-08-02T12:49:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:49:39", "event": "snap", "round": 1, "ts": "20260802_124939", "scene": "A watering can watering a plant"}
