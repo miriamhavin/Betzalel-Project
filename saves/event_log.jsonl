@@ -6369,3 +6369,13 @@
 {"time": "2026-08-02T16:52:04", "event": "round_result", "round": 2, "ts": "20260802_165153", "success": false}
 {"time": "2026-08-02T16:52:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T16:52:57", "event": "snap", "round": 3, "ts": "20260802_165257", "scene": "A frog with a broken leg"}
+{"time": "2026-08-02T16:53:05", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T16:53:06", "event": "round_result", "round": 3, "ts": "20260802_165257", "success": true}
+{"time": "2026-08-02T16:58:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T16:58:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T16:58:28", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T17:01:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:01:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:01:54", "event": "game_start"}
+{"time": "2026-08-02T17:02:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:02:31", "event": "snap", "round": 1, "ts": "20260802_170231", "scene": "A person holding a pill"}
