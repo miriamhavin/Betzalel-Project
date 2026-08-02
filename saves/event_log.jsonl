@@ -6506,3 +6506,7 @@
 {"time": "2026-08-02T18:13:31", "event": "game_start"}
 {"time": "2026-08-02T18:13:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T18:14:05", "event": "snap", "round": 1, "ts": "20260802_181405", "scene": "A robot soldier"}
+{"time": "2026-08-02T18:14:15", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T18:14:15", "event": "round_result", "round": 1, "ts": "20260802_181405", "success": false}
+{"time": "2026-08-02T18:15:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:16:17", "event": "snap", "round": 2, "ts": "20260802_181617", "scene": "A human hand holding a large key"}
