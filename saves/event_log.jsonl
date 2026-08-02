@@ -5978,3 +5978,13 @@
 {"time": "2026-08-02T13:23:25", "event": "round_result", "round": 2, "ts": "20260802_132317", "success": false}
 {"time": "2026-08-02T13:23:54", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T13:24:10", "event": "snap", "round": 3, "ts": "20260802_132410", "scene": "a wrench"}
+{"time": "2026-08-02T13:24:24", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T13:24:25", "event": "round_result", "round": 3, "ts": "20260802_132410", "success": false}
+{"time": "2026-08-02T13:25:10", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T13:25:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:25:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:26:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:26:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:26:12", "event": "game_start"}
+{"time": "2026-08-02T13:26:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:26:38", "event": "snap", "round": 1, "ts": "20260802_132638", "scene": "A mechanical spider"}
