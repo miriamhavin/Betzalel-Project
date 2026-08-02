@@ -5926,3 +5926,15 @@
 {"time": "2026-08-02T12:16:45", "event": "round_result", "round": 2, "ts": "20260802_121638", "success": false}
 {"time": "2026-08-02T12:17:55", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T12:18:10", "event": "snap", "round": 3, "ts": "20260802_121810", "scene": "A T-rex dinosaur"}
+{"time": "2026-08-02T12:18:18", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T12:18:19", "event": "round_result", "round": 3, "ts": "20260802_121810", "success": true}
+{"time": "2026-08-02T12:39:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T12:39:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:39:44", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T12:39:45", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T12:39:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:39:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:40:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:40:04", "event": "game_start"}
+{"time": "2026-08-02T12:40:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:40:19", "event": "snap", "round": 1, "ts": "20260802_124019", "scene": "A rolled-up scroll with a key"}
