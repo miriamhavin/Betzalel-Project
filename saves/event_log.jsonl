@@ -6762,3 +6762,12 @@
 {"time": "2026-08-02T20:38:32", "event": "round_result", "round": 2, "ts": "20260802_203824", "success": false}
 {"time": "2026-08-02T20:39:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T20:39:38", "event": "snap", "round": 3, "ts": "20260802_203938", "scene": "A person playing a keyboard"}
+{"time": "2026-08-02T20:39:48", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T20:39:49", "event": "round_result", "round": 3, "ts": "20260802_203938", "success": false}
+{"time": "2026-08-02T20:41:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:41:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:41:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:41:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:41:18", "event": "game_start"}
+{"time": "2026-08-02T20:42:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:42:41", "event": "snap", "round": 1, "ts": "20260802_204241", "scene": "A smiling frog"}
