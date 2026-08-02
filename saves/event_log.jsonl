@@ -5907,3 +5907,14 @@
 {"time": "2026-08-02T10:30:11", "event": "round_result", "round": 2, "ts": "20260802_103005", "success": true}
 {"time": "2026-08-02T10:30:29", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T10:30:45", "event": "snap", "round": 3, "ts": "20260802_103045", "scene": "A mechanical spider"}
+{"time": "2026-08-02T10:30:53", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T10:30:54", "event": "round_result", "round": 3, "ts": "20260802_103045", "success": true}
+{"time": "2026-08-02T12:14:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:14:37", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T12:14:40", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T12:14:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:14:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:14:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:14:53", "event": "game_start"}
+{"time": "2026-08-02T12:15:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:15:31", "event": "snap", "round": 1, "ts": "20260802_121531", "scene": "Cartoon ghost"}
