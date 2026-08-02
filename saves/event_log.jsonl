@@ -6471,3 +6471,8 @@
 {"time": "2026-08-02T17:51:15", "event": "game_start"}
 {"time": "2026-08-02T17:51:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T17:52:03", "event": "snap", "round": 1, "ts": "20260802_175203", "scene": "A man holding a rifle"}
+{"time": "2026-08-02T17:52:08", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T17:52:09", "event": "round_result", "round": 1, "ts": "20260802_175203", "success": false}
+{"time": "2026-08-02T17:57:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:57:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:58:11", "event": "snap", "round": 2, "ts": "20260802_175811", "scene": "A simple rectangular frame or border."}
