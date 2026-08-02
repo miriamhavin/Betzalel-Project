@@ -6821,3 +6821,8 @@
 {"time": "2026-08-02T20:52:29", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T20:52:30", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T20:52:46", "event": "snap", "round": 2, "ts": "20260802_205246", "scene": "a person eating"}
+{"time": "2026-08-02T20:52:52", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T20:52:53", "event": "round_result", "round": 2, "ts": "20260802_205246", "success": true}
+{"time": "2026-08-02T20:52:59", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T20:53:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:53:17", "event": "snap", "round": 3, "ts": "20260802_205317", "scene": "a person working at a desk"}
