@@ -6595,3 +6595,7 @@
 {"time": "2026-08-02T18:29:21", "event": "game_start"}
 {"time": "2026-08-02T18:29:36", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T18:29:52", "event": "snap", "round": 1, "ts": "20260802_182952", "scene": "A dog with its mouth open"}
+{"time": "2026-08-02T18:29:58", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T18:29:59", "event": "round_result", "round": 1, "ts": "20260802_182952", "success": false}
+{"time": "2026-08-02T18:30:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:30:47", "event": "snap", "round": 2, "ts": "20260802_183047", "scene": "A dentist's drill"}
