@@ -5866,3 +5866,11 @@
 {"time": "2026-07-31T16:00:45", "event": "button_press", "button": "YES"}
 {"time": "2026-07-31T16:00:52", "event": "button_press", "button": "ENTER"}
 {"time": "2026-07-31T16:01:12", "event": "snap", "round": 2, "ts": "20260731_160112", "scene": "A person sitting at a table"}
+{"time": "2026-08-02T08:48:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T08:48:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T08:48:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T08:48:46", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T08:48:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T08:48:49", "event": "game_start"}
+{"time": "2026-08-02T08:49:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T08:50:15", "event": "snap", "round": 1, "ts": "20260802_085015", "scene": "A dragon"}
