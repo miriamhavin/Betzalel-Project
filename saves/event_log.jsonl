@@ -6258,3 +6258,12 @@
 {"time": "2026-08-02T15:57:08", "event": "round_result", "round": 2, "ts": "20260802_155700", "success": false}
 {"time": "2026-08-02T15:57:32", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T15:57:50", "event": "snap", "round": 3, "ts": "20260802_155750", "scene": "A small boat"}
+{"time": "2026-08-02T15:58:03", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T15:58:04", "event": "round_result", "round": 3, "ts": "20260802_155750", "success": false}
+{"time": "2026-08-02T16:17:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T16:17:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T16:18:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T16:18:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T16:18:25", "event": "game_start"}
+{"time": "2026-08-02T16:18:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T16:18:50", "event": "snap", "round": 1, "ts": "20260802_161850", "scene": "A small astronaut"}
