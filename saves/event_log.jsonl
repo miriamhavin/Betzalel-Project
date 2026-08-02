@@ -6302,3 +6302,7 @@
 {"time": "2026-08-02T16:27:51", "event": "game_start"}
 {"time": "2026-08-02T16:27:53", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T16:28:12", "event": "snap", "round": 1, "ts": "20260802_162812", "scene": "A vintage movie camera"}
+{"time": "2026-08-02T16:28:19", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T16:28:20", "event": "round_result", "round": 1, "ts": "20260802_162812", "success": true}
+{"time": "2026-08-02T16:31:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T16:31:38", "event": "snap", "round": 2, "ts": "20260802_163138", "scene": "A light bulb"}
