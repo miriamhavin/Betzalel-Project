@@ -6552,3 +6552,7 @@
 {"time": "2026-08-02T18:23:03", "event": "game_start"}
 {"time": "2026-08-02T18:23:26", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T18:23:43", "event": "snap", "round": 1, "ts": "20260802_182343", "scene": "A locked safe with a key"}
+{"time": "2026-08-02T18:23:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T18:23:54", "event": "round_result", "round": 1, "ts": "20260802_182343", "success": false}
+{"time": "2026-08-02T18:24:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:24:30", "event": "snap", "round": 2, "ts": "20260802_182430", "scene": "A bugle player"}
