@@ -6444,3 +6444,12 @@
 {"time": "2026-08-02T17:20:46", "event": "button_press", "button": "YES"}
 {"time": "2026-08-02T17:20:50", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T17:21:07", "event": "snap", "round": 3, "ts": "20260802_172107", "scene": "A large 'D' with a gear and a coin"}
+{"time": "2026-08-02T17:21:16", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T17:21:17", "event": "round_result", "round": 3, "ts": "20260802_172107", "success": false}
+{"time": "2026-08-02T17:32:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:32:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:33:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:33:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:33:57", "event": "game_start"}
+{"time": "2026-08-02T17:34:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:35:00", "event": "snap", "round": 1, "ts": "20260802_173500", "scene": "A dragon"}
