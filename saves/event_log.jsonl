@@ -6740,3 +6740,7 @@
 {"time": "2026-08-02T20:27:43", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T20:27:53", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T20:28:01", "event": "snap", "round": 2, "ts": "20260802_202801", "scene": "A pirate flag"}
+{"time": "2026-08-02T20:28:09", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T20:28:10", "event": "round_result", "round": 2, "ts": "20260802_202801", "success": false}
+{"time": "2026-08-02T20:28:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:28:37", "event": "snap", "round": 3, "ts": "20260802_202837", "scene": "A baby pacifier"}
