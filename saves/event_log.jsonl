@@ -6543,3 +6543,12 @@
 {"time": "2026-08-02T18:22:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T18:22:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T18:22:38", "event": "snap", "round": 3, "ts": "20260802_182238", "scene": "A rectangular table"}
+{"time": "2026-08-02T18:22:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T18:22:43", "event": "round_result", "round": 3, "ts": "20260802_182238", "success": false}
+{"time": "2026-08-02T18:22:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:22:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:22:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:23:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:23:03", "event": "game_start"}
+{"time": "2026-08-02T18:23:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:23:43", "event": "snap", "round": 1, "ts": "20260802_182343", "scene": "A locked safe with a key"}
