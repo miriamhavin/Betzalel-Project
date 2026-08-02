@@ -5988,3 +5988,7 @@
 {"time": "2026-08-02T13:26:12", "event": "game_start"}
 {"time": "2026-08-02T13:26:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T13:26:38", "event": "snap", "round": 1, "ts": "20260802_132638", "scene": "A mechanical spider"}
+{"time": "2026-08-02T13:26:47", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T13:26:48", "event": "round_result", "round": 1, "ts": "20260802_132638", "success": false}
+{"time": "2026-08-02T13:27:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:27:18", "event": "snap", "round": 2, "ts": "20260802_132718", "scene": "A vintage tractor"}
