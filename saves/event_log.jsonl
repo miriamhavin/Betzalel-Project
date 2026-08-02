@@ -6612,3 +6612,11 @@
 {"time": "2026-08-02T18:33:50", "event": "game_start"}
 {"time": "2026-08-02T18:34:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T18:34:28", "event": "snap", "round": 1, "ts": "20260802_183428", "scene": "A champagne bottle with a cork popping out."}
+{"time": "2026-08-02T18:34:39", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T18:34:40", "event": "round_result", "round": 1, "ts": "20260802_183428", "success": false}
+{"time": "2026-08-02T18:38:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:38:14", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T18:38:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:38:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:38:19", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T18:38:25", "event": "snap", "round": 2, "ts": "20260802_183825", "scene": "A table with a runner"}
