@@ -6348,3 +6348,16 @@
 {"time": "2026-08-02T16:48:25", "event": "round_result", "round": 2, "ts": "20260802_164817", "success": false}
 {"time": "2026-08-02T16:48:50", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T16:49:07", "event": "snap", "round": 3, "ts": "20260802_164907", "scene": "A person performing a handstand"}
+{"time": "2026-08-02T16:49:20", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T16:49:21", "event": "round_result", "round": 3, "ts": "20260802_164907", "success": true}
+{"time": "2026-08-02T16:49:48", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T16:49:50", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T16:49:51", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T16:49:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T16:49:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T16:49:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T16:49:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T16:49:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T16:49:58", "event": "game_start"}
+{"time": "2026-08-02T16:50:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T16:51:08", "event": "snap", "round": 1, "ts": "20260802_165108", "scene": "A snowboarder mid-jump"}
