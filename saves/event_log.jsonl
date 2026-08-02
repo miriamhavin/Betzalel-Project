@@ -6461,3 +6461,13 @@
 {"time": "2026-08-02T17:36:23", "event": "round_result", "round": 2, "ts": "20260802_173612", "success": false}
 {"time": "2026-08-02T17:37:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T17:37:40", "event": "snap", "round": 3, "ts": "20260802_173740", "scene": "A smiling snowman"}
+{"time": "2026-08-02T17:37:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T17:37:45", "event": "round_result", "round": 3, "ts": "20260802_173740", "success": false}
+{"time": "2026-08-02T17:50:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T17:50:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:50:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:51:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:51:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:51:15", "event": "game_start"}
+{"time": "2026-08-02T17:51:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:52:03", "event": "snap", "round": 1, "ts": "20260802_175203", "scene": "A man holding a rifle"}
