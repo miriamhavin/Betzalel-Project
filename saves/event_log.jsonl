@@ -6744,3 +6744,13 @@
 {"time": "2026-08-02T20:28:10", "event": "round_result", "round": 2, "ts": "20260802_202801", "success": false}
 {"time": "2026-08-02T20:28:19", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T20:28:37", "event": "snap", "round": 3, "ts": "20260802_202837", "scene": "A baby pacifier"}
+{"time": "2026-08-02T20:28:42", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T20:28:42", "event": "round_result", "round": 3, "ts": "20260802_202837", "success": true}
+{"time": "2026-08-02T20:32:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:32:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:32:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:33:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:33:31", "event": "game_start"}
+{"time": "2026-08-02T20:36:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:36:39", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T20:36:40", "event": "snap", "round": 1, "ts": "20260802_203640", "scene": "A standing figure with a large, ornate hat"}
