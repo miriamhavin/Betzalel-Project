@@ -6432,3 +6432,10 @@
 {"time": "2026-08-02T17:20:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T17:20:12", "event": "button_press", "button": "NO"}
 {"time": "2026-08-02T17:20:12", "event": "snap", "round": 1, "ts": "20260802_172012", "scene": "a plain rectangle"}
+{"time": "2026-08-02T17:20:13", "event": "round_result", "round": 1, "ts": "20260802_172012", "success": false}
+{"time": "2026-08-02T17:20:13", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T17:20:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:20:21", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T17:20:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:20:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:20:34", "event": "snap", "round": 2, "ts": "20260802_172034", "scene": "a dog house"}
