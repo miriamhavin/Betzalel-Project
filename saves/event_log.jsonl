@@ -6457,3 +6457,7 @@
 {"time": "2026-08-02T17:35:14", "event": "round_result", "round": 1, "ts": "20260802_173500", "success": false}
 {"time": "2026-08-02T17:35:55", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T17:36:12", "event": "snap", "round": 2, "ts": "20260802_173612", "scene": "A person doing a handstand"}
+{"time": "2026-08-02T17:36:22", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T17:36:23", "event": "round_result", "round": 2, "ts": "20260802_173612", "success": false}
+{"time": "2026-08-02T17:37:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:37:40", "event": "snap", "round": 3, "ts": "20260802_173740", "scene": "A smiling snowman"}
