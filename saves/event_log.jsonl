@@ -6284,3 +6284,7 @@
 {"time": "2026-08-02T16:23:25", "event": "game_start"}
 {"time": "2026-08-02T16:23:45", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T16:24:03", "event": "snap", "round": 1, "ts": "20260802_162403", "scene": "A cat sitting on a windowsill"}
+{"time": "2026-08-02T16:24:17", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T16:24:18", "event": "round_result", "round": 1, "ts": "20260802_162403", "success": false}
+{"time": "2026-08-02T16:24:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T16:25:11", "event": "snap", "round": 2, "ts": "20260802_162511", "scene": "A bird eating from a bird feeder"}
