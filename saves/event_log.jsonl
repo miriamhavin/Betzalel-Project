@@ -6910,3 +6910,14 @@
 {"time": "2026-08-02T21:37:09", "event": "round_result", "round": 2, "ts": "20260802_213702", "success": false}
 {"time": "2026-08-02T21:37:29", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T21:37:46", "event": "snap", "round": 3, "ts": "20260802_213746", "scene": "A closed cardboard box"}
+{"time": "2026-08-02T21:37:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:37:53", "event": "round_result", "round": 3, "ts": "20260802_213746", "success": false}
+{"time": "2026-08-02T21:37:56", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T21:37:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:38:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:38:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:39:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:39:00", "event": "game_start"}
+{"time": "2026-08-02T21:39:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:39:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T21:39:54", "event": "snap", "round": 1, "ts": "20260802_213954", "scene": "A scarecrow"}
