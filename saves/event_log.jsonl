@@ -5996,3 +5996,12 @@
 {"time": "2026-08-02T13:27:23", "event": "round_result", "round": 2, "ts": "20260802_132718", "success": true}
 {"time": "2026-08-02T13:27:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T13:27:58", "event": "snap", "round": 3, "ts": "20260802_132758", "scene": "A medieval catapult"}
+{"time": "2026-08-02T13:28:07", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T13:28:08", "event": "round_result", "round": 3, "ts": "20260802_132758", "success": false}
+{"time": "2026-08-02T13:45:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:46:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:46:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:46:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:46:09", "event": "game_start"}
+{"time": "2026-08-02T13:46:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:46:34", "event": "snap", "round": 1, "ts": "20260802_134634", "scene": "A pair of pruning shears"}
