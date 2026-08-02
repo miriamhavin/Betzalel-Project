@@ -5959,3 +5959,7 @@
 {"time": "2026-08-02T12:49:55", "event": "round_result", "round": 1, "ts": "20260802_124939", "success": false}
 {"time": "2026-08-02T12:49:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T12:50:13", "event": "snap", "round": 2, "ts": "20260802_125013", "scene": "A person using a key"}
+{"time": "2026-08-02T12:50:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T12:50:42", "event": "round_result", "round": 2, "ts": "20260802_125013", "success": false}
+{"time": "2026-08-02T12:51:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:51:17", "event": "snap", "round": 3, "ts": "20260802_125117", "scene": "A bird"}
