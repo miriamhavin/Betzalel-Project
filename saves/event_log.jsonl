@@ -6718,3 +6718,7 @@
 {"time": "2026-08-02T20:24:10", "event": "button_press", "button": "NO"}
 {"time": "2026-08-02T20:24:10", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T20:24:22", "event": "snap", "round": 1, "ts": "20260802_202422", "scene": "A passport"}
+{"time": "2026-08-02T20:24:28", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T20:24:29", "event": "round_result", "round": 1, "ts": "20260802_202422", "success": false}
+{"time": "2026-08-02T20:24:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:24:53", "event": "snap", "round": 2, "ts": "20260802_202453", "scene": "A computer mouse"}
