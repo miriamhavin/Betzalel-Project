@@ -6626,3 +6626,7 @@
 {"time": "2026-08-02T18:45:54", "event": "game_start"}
 {"time": "2026-08-02T18:46:19", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T18:46:39", "event": "snap", "round": 1, "ts": "20260802_184639", "scene": "A bottle opener preparing to open a bottle"}
+{"time": "2026-08-02T18:46:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T18:46:55", "event": "round_result", "round": 1, "ts": "20260802_184639", "success": false}
+{"time": "2026-08-02T18:47:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:47:37", "event": "snap", "round": 2, "ts": "20260802_184737", "scene": "A hairdryer"}
