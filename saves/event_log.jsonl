@@ -6178,3 +6178,7 @@
 {"time": "2026-08-02T15:18:36", "event": "button_press", "button": "NO"}
 {"time": "2026-08-02T15:19:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T15:20:03", "event": "snap", "round": 1, "ts": "20260802_152003", "scene": "A flag flying from a pole"}
+{"time": "2026-08-02T15:20:12", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T15:20:12", "event": "round_result", "round": 1, "ts": "20260802_152003", "success": false}
+{"time": "2026-08-02T15:20:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T15:21:15", "event": "snap", "round": 2, "ts": "20260802_152115", "scene": "A cat"}
