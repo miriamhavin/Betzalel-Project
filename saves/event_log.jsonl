@@ -6439,3 +6439,8 @@
 {"time": "2026-08-02T17:20:26", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T17:20:28", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T17:20:34", "event": "snap", "round": 2, "ts": "20260802_172034", "scene": "a dog house"}
+{"time": "2026-08-02T17:20:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:20:42", "event": "round_result", "round": 2, "ts": "20260802_172034", "success": true}
+{"time": "2026-08-02T17:20:46", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T17:20:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:21:07", "event": "snap", "round": 3, "ts": "20260802_172107", "scene": "A large 'D' with a gear and a coin"}
