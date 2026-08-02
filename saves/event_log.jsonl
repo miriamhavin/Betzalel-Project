@@ -6453,3 +6453,7 @@
 {"time": "2026-08-02T17:33:57", "event": "game_start"}
 {"time": "2026-08-02T17:34:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T17:35:00", "event": "snap", "round": 1, "ts": "20260802_173500", "scene": "A dragon"}
+{"time": "2026-08-02T17:35:13", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T17:35:14", "event": "round_result", "round": 1, "ts": "20260802_173500", "success": false}
+{"time": "2026-08-02T17:35:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T17:36:12", "event": "snap", "round": 2, "ts": "20260802_173612", "scene": "A person doing a handstand"}
