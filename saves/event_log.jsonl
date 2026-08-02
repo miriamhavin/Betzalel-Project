@@ -6662,3 +6662,7 @@
 {"time": "2026-08-02T19:12:22", "event": "game_start"}
 {"time": "2026-08-02T19:12:25", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T19:12:44", "event": "snap", "round": 1, "ts": "20260802_191244", "scene": "A toothbrush with paste"}
+{"time": "2026-08-02T19:13:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T19:13:01", "event": "round_result", "round": 1, "ts": "20260802_191244", "success": false}
+{"time": "2026-08-02T19:13:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T19:13:20", "event": "snap", "round": 2, "ts": "20260802_191320", "scene": "A spoon and a person"}
