@@ -6722,3 +6722,7 @@
 {"time": "2026-08-02T20:24:29", "event": "round_result", "round": 1, "ts": "20260802_202422", "success": false}
 {"time": "2026-08-02T20:24:38", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T20:24:53", "event": "snap", "round": 2, "ts": "20260802_202453", "scene": "A computer mouse"}
+{"time": "2026-08-02T20:24:59", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T20:25:00", "event": "round_result", "round": 2, "ts": "20260802_202453", "success": false}
+{"time": "2026-08-02T20:25:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T20:25:17", "event": "snap", "round": 3, "ts": "20260802_202517", "scene": "A simple drawing of a map"}
