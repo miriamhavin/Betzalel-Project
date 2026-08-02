@@ -6630,3 +6630,7 @@
 {"time": "2026-08-02T18:46:55", "event": "round_result", "round": 1, "ts": "20260802_184639", "success": false}
 {"time": "2026-08-02T18:47:19", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T18:47:37", "event": "snap", "round": 2, "ts": "20260802_184737", "scene": "A hairdryer"}
+{"time": "2026-08-02T18:47:43", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T18:47:44", "event": "round_result", "round": 2, "ts": "20260802_184737", "success": false}
+{"time": "2026-08-02T18:48:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T18:48:40", "event": "snap", "round": 3, "ts": "20260802_184840", "scene": "A hand holding a whisk"}
