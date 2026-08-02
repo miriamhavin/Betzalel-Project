@@ -5970,3 +5970,7 @@
 {"time": "2026-08-02T13:21:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T13:21:52", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T13:21:55", "event": "snap", "round": 1, "ts": "20260802_132155", "scene": "a stylized scorpion"}
+{"time": "2026-08-02T13:22:06", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T13:22:07", "event": "round_result", "round": 1, "ts": "20260802_132155", "success": false}
+{"time": "2026-08-02T13:23:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T13:23:17", "event": "snap", "round": 2, "ts": "20260802_132317", "scene": "a sperm cell"}
