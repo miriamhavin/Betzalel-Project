@@ -5938,3 +5938,7 @@
 {"time": "2026-08-02T12:40:04", "event": "game_start"}
 {"time": "2026-08-02T12:40:05", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T12:40:19", "event": "snap", "round": 1, "ts": "20260802_124019", "scene": "A rolled-up scroll with a key"}
+{"time": "2026-08-02T12:41:02", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T12:41:03", "event": "round_result", "round": 1, "ts": "20260802_124019", "success": false}
+{"time": "2026-08-02T12:41:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T12:41:49", "event": "snap", "round": 2, "ts": "20260802_124149", "scene": "A stylized map with a compass rose"}
