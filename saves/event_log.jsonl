@@ -6034,3 +6034,11 @@
 {"time": "2026-08-02T14:18:58", "event": "game_start"}
 {"time": "2026-08-02T14:19:53", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T14:20:08", "event": "snap", "round": 1, "ts": "20260802_142008", "scene": "A person holding a smoking cigarette"}
+{"time": "2026-08-02T14:20:34", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T14:20:34", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T14:20:34", "event": "round_result", "round": 1, "ts": "20260802_142008", "success": false}
+{"time": "2026-08-02T14:20:34", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T14:20:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-02T14:25:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:25:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-02T14:26:01", "event": "snap", "round": 2, "ts": "20260802_142601", "scene": "A character with a hammer and a saw"}
