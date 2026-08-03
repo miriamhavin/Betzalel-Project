@@ -7062,3 +7062,7 @@
 {"time": "2026-08-03T12:43:31", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T12:43:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T12:43:58", "event": "snap", "round": 2, "ts": "20260803_124358", "scene": "A stylized comma"}
+{"time": "2026-08-03T12:44:20", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T12:44:20", "event": "round_result", "round": 2, "ts": "20260803_124358", "success": false}
+{"time": "2026-08-03T12:44:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T12:44:40", "event": "snap", "round": 3, "ts": "20260803_124440", "scene": "A stylized key"}
