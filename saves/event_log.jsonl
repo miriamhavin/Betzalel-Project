@@ -6954,3 +6954,7 @@
 {"time": "2026-08-03T11:21:08", "event": "round_result", "round": 1, "ts": "20260803_112059", "success": false}
 {"time": "2026-08-03T11:21:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T11:21:56", "event": "snap", "round": 2, "ts": "20260803_112156", "scene": "A skeleton key in a lock"}
+{"time": "2026-08-03T11:22:07", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T11:22:08", "event": "round_result", "round": 2, "ts": "20260803_112156", "success": false}
+{"time": "2026-08-03T11:22:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:23:01", "event": "snap", "round": 3, "ts": "20260803_112301", "scene": "A dinosaur"}
