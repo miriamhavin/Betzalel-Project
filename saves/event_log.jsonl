@@ -6994,3 +6994,19 @@
 {"time": "2026-08-03T11:54:13", "event": "round_result", "round": 2, "ts": "20260803_115406", "success": true}
 {"time": "2026-08-03T11:54:44", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T11:55:00", "event": "snap", "round": 3, "ts": "20260803_115500", "scene": "A watering can with a sprout"}
+{"time": "2026-08-03T11:57:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:58:00", "event": "round_result", "round": 3, "ts": "20260803_115500", "success": true}
+{"time": "2026-08-03T11:58:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:58:11", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T11:58:13", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T11:58:15", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T11:58:16", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T11:58:17", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T11:58:21", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T11:58:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:58:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:58:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:58:57", "event": "game_start"}
+{"time": "2026-08-03T12:01:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T12:01:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T12:01:27", "event": "snap", "round": 1, "ts": "20260803_120127", "scene": "A person holding a phone"}
