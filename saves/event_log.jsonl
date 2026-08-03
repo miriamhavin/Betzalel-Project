@@ -8155,3 +8155,13 @@
 {"time": "2026-08-03T17:58:44", "event": "round_result", "round": 2, "ts": "20260803_175832", "success": false}
 {"time": "2026-08-03T18:00:01", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T18:00:21", "event": "snap", "round": 3, "ts": "20260803_180021", "scene": "A wizard casting a spell"}
+{"time": "2026-08-03T18:00:33", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:00:34", "event": "round_result", "round": 3, "ts": "20260803_180021", "success": true}
+{"time": "2026-08-03T18:06:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:06:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:07:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:07:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:07:19", "event": "game_start"}
+{"time": "2026-08-03T18:07:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:07:39", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:07:56", "event": "snap", "round": 1, "ts": "20260803_180756", "scene": "A person painting"}
