@@ -8343,3 +8343,19 @@
 {"time": "2026-08-03T18:36:13", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T18:36:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T18:37:11", "event": "snap", "round": 3, "ts": "20260803_183711", "scene": "A simple rocket ship"}
+{"time": "2026-08-03T18:37:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:37:47", "event": "round_result", "round": 3, "ts": "20260803_183711", "success": true}
+{"time": "2026-08-03T18:38:11", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:38:19", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:40:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:40:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:40:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:40:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:40:21", "event": "game_start"}
+{"time": "2026-08-03T18:40:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:40:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:40:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:40:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:40:38", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:40:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:40:43", "event": "snap", "round": 1, "ts": "20260803_184043", "scene": "A dog skeleton"}
