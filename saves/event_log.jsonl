@@ -7075,3 +7075,7 @@
 {"time": "2026-08-03T12:51:13", "event": "game_start"}
 {"time": "2026-08-03T12:52:13", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T12:52:31", "event": "snap", "round": 1, "ts": "20260803_125231", "scene": "A key with a fluffy dog's head"}
+{"time": "2026-08-03T12:52:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T12:52:39", "event": "round_result", "round": 1, "ts": "20260803_125231", "success": false}
+{"time": "2026-08-03T12:53:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T12:53:56", "event": "snap", "round": 2, "ts": "20260803_125356", "scene": "A bottle with a stopper"}
