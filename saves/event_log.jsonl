@@ -7241,3 +7241,7 @@
 {"time": "2026-08-03T14:34:09", "event": "round_result", "round": 1, "ts": "20260803_143334", "success": false}
 {"time": "2026-08-03T14:34:16", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T14:34:32", "event": "snap", "round": 2, "ts": "20260803_143432", "scene": "A tilted cigarette butt"}
+{"time": "2026-08-03T14:34:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T14:34:43", "event": "round_result", "round": 2, "ts": "20260803_143432", "success": false}
+{"time": "2026-08-03T14:34:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T14:35:06", "event": "snap", "round": 3, "ts": "20260803_143506", "scene": "A simplified map of a state with a river"}
