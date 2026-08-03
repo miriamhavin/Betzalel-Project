@@ -6975,3 +6975,13 @@
 {"time": "2026-08-03T11:45:57", "event": "round_result", "round": 2, "ts": "20260803_114551", "success": false}
 {"time": "2026-08-03T11:46:00", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T11:46:17", "event": "snap", "round": 3, "ts": "20260803_114617", "scene": "A broken lightbulb with a match"}
+{"time": "2026-08-03T11:46:21", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T11:46:22", "event": "round_result", "round": 3, "ts": "20260803_114617", "success": false}
+{"time": "2026-08-03T11:46:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:46:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:46:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T11:52:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:52:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:52:59", "event": "game_start"}
+{"time": "2026-08-03T11:53:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:53:28", "event": "snap", "round": 1, "ts": "20260803_115328", "scene": "A figure holding a tool"}
