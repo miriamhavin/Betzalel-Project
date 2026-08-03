@@ -7644,3 +7644,45 @@
 {"time": "2026-08-03T16:59:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T16:59:13", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T16:59:23", "event": "snap", "round": 3, "ts": "20260803_165923", "scene": "a person pushing a cart"}
+{"time": "2026-08-03T16:59:29", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:59:29", "event": "round_result", "round": 3, "ts": "20260803_165923", "success": true}
+{"time": "2026-08-03T16:59:33", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:59:33", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:59:34", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:59:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:59:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:59:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:59:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:59:36", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:59:36", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:59:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:59:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:59:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:59:39", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:59:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:59:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:59:40", "event": "game_start"}
+{"time": "2026-08-03T16:59:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:59:43", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:59:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:59:46", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:59:47", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:59:48", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:59:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:59:49", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:59:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:59:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:59:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:59:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:59:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:59:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:59:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:59:55", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:59:55", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:59:56", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:59:56", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:59:56", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:59:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:59:59", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:00:01", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:01", "event": "snap", "round": 1, "ts": "20260803_170001", "scene": "A standing person with an umbrella"}
