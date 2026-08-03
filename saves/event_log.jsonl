@@ -8775,3 +8775,7 @@
 {"time": "2026-08-03T20:17:16", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T20:17:16", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T20:17:26", "event": "snap", "round": 1, "ts": "20260803_201726", "scene": "a dancing skeleton with bunny ears"}
+{"time": "2026-08-03T20:17:33", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T20:17:34", "event": "round_result", "round": 1, "ts": "20260803_201726", "success": false}
+{"time": "2026-08-03T20:17:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:18:14", "event": "snap", "round": 2, "ts": "20260803_201814", "scene": "a chef juggling"}
