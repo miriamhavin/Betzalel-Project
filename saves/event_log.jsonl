@@ -8292,3 +8292,17 @@
 {"time": "2026-08-03T18:23:40", "event": "round_result", "round": 2, "ts": "20260803_182331", "success": false}
 {"time": "2026-08-03T18:24:18", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T18:24:35", "event": "snap", "round": 3, "ts": "20260803_182435", "scene": "A bird drinking water"}
+{"time": "2026-08-03T18:24:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:24:43", "event": "round_result", "round": 3, "ts": "20260803_182435", "success": false}
+{"time": "2026-08-03T18:25:30", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:25:31", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:25:31", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:25:32", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:25:34", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:25:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:27:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:27:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:27:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:27:12", "event": "game_start"}
+{"time": "2026-08-03T18:27:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:27:36", "event": "snap", "round": 1, "ts": "20260803_182736", "scene": "A cannonball with a fuse"}
