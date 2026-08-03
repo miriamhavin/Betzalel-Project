@@ -6943,3 +6943,10 @@
 {"time": "2026-08-02T22:02:15", "event": "round_result", "round": 1, "ts": "20260802_220205", "success": false}
 {"time": "2026-08-02T22:02:19", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-02T22:02:35", "event": "snap", "round": 2, "ts": "20260802_220235", "scene": "a vintage telephone"}
+{"time": "2026-08-02T22:25:03", "event": "button_press", "button": "YES"}
+{"time": "2026-08-02T22:25:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:19:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:19:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:19:56", "event": "game_start"}
+{"time": "2026-08-03T11:20:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:20:59", "event": "snap", "round": 1, "ts": "20260803_112059", "scene": "A bird with a broken wing"}
