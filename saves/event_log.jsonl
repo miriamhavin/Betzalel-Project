@@ -8072,3 +8072,20 @@
 {"time": "2026-08-03T17:36:43", "event": "round_result", "round": 2, "ts": "20260803_173631", "success": false}
 {"time": "2026-08-03T17:37:31", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T17:37:50", "event": "snap", "round": 3, "ts": "20260803_173750", "scene": "A person throwing a boomerang"}
+{"time": "2026-08-03T17:37:56", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:37:57", "event": "round_result", "round": 3, "ts": "20260803_173750", "success": false}
+{"time": "2026-08-03T17:39:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:39:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:39:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:39:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:39:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:39:56", "event": "game_start"}
+{"time": "2026-08-03T17:40:08", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:40:08", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:40:08", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:40:09", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:40:09", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:40:09", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:40:10", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:40:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:40:40", "event": "snap", "round": 1, "ts": "20260803_174040", "scene": "A hand reaching out"}
