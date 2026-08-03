@@ -7352,3 +7352,8 @@
 {"time": "2026-08-03T15:21:14", "event": "round_result", "round": 1, "ts": "20260803_152055", "success": false}
 {"time": "2026-08-03T15:22:01", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T15:22:19", "event": "snap", "round": 2, "ts": "20260803_152219", "scene": "A rabbit in mid-leap"}
+{"time": "2026-08-03T15:22:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:22:28", "event": "round_result", "round": 2, "ts": "20260803_152219", "success": false}
+{"time": "2026-08-03T15:22:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:22:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:22:48", "event": "snap", "round": 3, "ts": "20260803_152248", "scene": "A dollar sign ($) character in mid-stride, as if running"}
