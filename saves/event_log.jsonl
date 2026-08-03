@@ -7379,3 +7379,7 @@
 {"time": "2026-08-03T15:36:54", "event": "game_start"}
 {"time": "2026-08-03T15:37:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T15:37:53", "event": "snap", "round": 1, "ts": "20260803_153753", "scene": "A broken robot playing a drum"}
+{"time": "2026-08-03T15:37:58", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:37:59", "event": "round_result", "round": 1, "ts": "20260803_153753", "success": false}
+{"time": "2026-08-03T15:39:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:39:19", "event": "snap", "round": 2, "ts": "20260803_153919", "scene": "A small, stylized bird in flight"}
