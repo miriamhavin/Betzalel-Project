@@ -7200,3 +7200,7 @@
 {"time": "2026-08-03T14:16:28", "event": "game_start"}
 {"time": "2026-08-03T14:17:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T14:17:23", "event": "snap", "round": 1, "ts": "20260803_141723", "scene": "A bird in flight"}
+{"time": "2026-08-03T14:17:37", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T14:17:37", "event": "round_result", "round": 1, "ts": "20260803_141723", "success": false}
+{"time": "2026-08-03T14:18:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T14:18:35", "event": "snap", "round": 2, "ts": "20260803_141835", "scene": "A robot's head"}
