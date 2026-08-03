@@ -8173,3 +8173,21 @@
 {"time": "2026-08-03T18:09:18", "event": "round_result", "round": 2, "ts": "20260803_180858", "success": false}
 {"time": "2026-08-03T18:11:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T18:11:22", "event": "snap", "round": 3, "ts": "20260803_181122", "scene": "A person playing a wind instrument"}
+{"time": "2026-08-03T18:11:39", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:11:40", "event": "round_result", "round": 3, "ts": "20260803_181122", "success": true}
+{"time": "2026-08-03T18:11:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:12:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:12:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:12:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:12:09", "event": "game_start"}
+{"time": "2026-08-03T18:12:22", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:12:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:12:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:12:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:12:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:12:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:12:28", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:12:31", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:12:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:12:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:12:51", "event": "snap", "round": 1, "ts": "20260803_181251", "scene": "A robot arm reaching for an apple"}
