@@ -8068,3 +8068,7 @@
 {"time": "2026-08-03T17:35:45", "event": "round_result", "round": 1, "ts": "20260803_173532", "success": false}
 {"time": "2026-08-03T17:36:14", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T17:36:31", "event": "snap", "round": 2, "ts": "20260803_173631", "scene": "A duckling looking up at a large bird"}
+{"time": "2026-08-03T17:36:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:36:43", "event": "round_result", "round": 2, "ts": "20260803_173631", "success": false}
+{"time": "2026-08-03T17:37:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:37:50", "event": "snap", "round": 3, "ts": "20260803_173750", "scene": "A person throwing a boomerang"}
