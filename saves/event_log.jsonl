@@ -7533,3 +7533,19 @@
 {"time": "2026-08-03T16:51:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T16:51:38", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T16:51:38", "event": "snap", "round": 1, "ts": "20260803_165138", "scene": "A person holding a flashlight"}
+{"time": "2026-08-03T16:51:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:51:39", "event": "round_result", "round": 1, "ts": "20260803_165138", "success": false}
+{"time": "2026-08-03T16:51:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:51:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:51:57", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:51:58", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:51:58", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:52:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:52:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:52:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:52:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:52:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:52:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:52:02", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:52:03", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:52:04", "event": "snap", "round": 2, "ts": "20260803_165204", "scene": "A person playing a trumpet"}
