@@ -8130,3 +8130,7 @@
 {"time": "2026-08-03T17:50:05", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T17:50:09", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T17:50:25", "event": "snap", "round": 2, "ts": "20260803_175025", "scene": "A tractor"}
+{"time": "2026-08-03T17:50:31", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:50:32", "event": "round_result", "round": 2, "ts": "20260803_175025", "success": true}
+{"time": "2026-08-03T17:51:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:51:19", "event": "snap", "round": 3, "ts": "20260803_175119", "scene": "A vacuum cleaner"}
