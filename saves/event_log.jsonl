@@ -8374,3 +8374,12 @@
 {"time": "2026-08-03T18:47:40", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T18:47:53", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T18:48:10", "event": "snap", "round": 3, "ts": "20260803_184810", "scene": "A rectangular book"}
+{"time": "2026-08-03T18:48:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:48:57", "event": "round_result", "round": 3, "ts": "20260803_184810", "success": true}
+{"time": "2026-08-03T18:49:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:49:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:49:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:49:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:49:43", "event": "game_start"}
+{"time": "2026-08-03T18:50:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:51:02", "event": "snap", "round": 1, "ts": "20260803_185102", "scene": "A person playing a video game"}
