@@ -8661,3 +8661,13 @@
 {"time": "2026-08-03T19:41:10", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T19:41:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T19:41:39", "event": "snap", "round": 3, "ts": "20260803_194139", "scene": "A person holding a toothbrush"}
+{"time": "2026-08-03T19:41:44", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T19:41:45", "event": "round_result", "round": 3, "ts": "20260803_194139", "success": true}
+{"time": "2026-08-03T19:41:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:44:11", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T19:44:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:44:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:44:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:44:28", "event": "game_start"}
+{"time": "2026-08-03T19:44:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:48:52", "event": "snap", "round": 1, "ts": "20260803_194852", "scene": "A figure with scissors for legs and a wrench for a head"}
