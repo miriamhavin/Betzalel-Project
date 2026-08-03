@@ -8635,3 +8635,8 @@
 {"time": "2026-08-03T19:36:31", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T19:36:35", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T19:36:41", "event": "snap", "round": 2, "ts": "20260803_193641", "scene": "A toothbrush with a power button"}
+{"time": "2026-08-03T19:36:50", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T19:36:51", "event": "round_result", "round": 2, "ts": "20260803_193641", "success": false}
+{"time": "2026-08-03T19:37:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:37:36", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T19:37:47", "event": "snap", "round": 3, "ts": "20260803_193747", "scene": "A stylized letter 'R'"}
