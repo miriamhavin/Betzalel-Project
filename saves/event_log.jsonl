@@ -7168,3 +7168,14 @@
 {"time": "2026-08-03T14:01:54", "event": "round_result", "round": 2, "ts": "20260803_140145", "success": false}
 {"time": "2026-08-03T14:02:07", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T14:02:22", "event": "snap", "round": 3, "ts": "20260803_140222", "scene": "A toothbrush and toothpaste dispenser"}
+{"time": "2026-08-03T14:02:33", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T14:02:34", "event": "round_result", "round": 3, "ts": "20260803_140222", "success": true}
+{"time": "2026-08-03T14:03:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T14:03:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T14:08:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T14:08:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T14:08:59", "event": "game_start"}
+{"time": "2026-08-03T14:09:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T14:09:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T14:09:38", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T14:09:39", "event": "snap", "round": 1, "ts": "20260803_140939", "scene": "A handgun on a table"}
