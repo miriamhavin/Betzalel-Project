@@ -7245,3 +7245,28 @@
 {"time": "2026-08-03T14:34:43", "event": "round_result", "round": 2, "ts": "20260803_143432", "success": false}
 {"time": "2026-08-03T14:34:49", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T14:35:06", "event": "snap", "round": 3, "ts": "20260803_143506", "scene": "A simplified map of a state with a river"}
+{"time": "2026-08-03T14:35:11", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T14:35:12", "event": "round_result", "round": 3, "ts": "20260803_143506", "success": true}
+{"time": "2026-08-03T14:50:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T14:55:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T14:58:16", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T14:58:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T14:58:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:08:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:08:35", "event": "game_start"}
+{"time": "2026-08-03T15:13:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:13:17", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:13:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:13:18", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T15:13:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:13:20", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:13:24", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:13:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:13:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:13:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:13:28", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:13:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:13:29", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T15:13:33", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T15:13:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:13:33", "event": "snap", "round": 1, "ts": "20260803_151333", "scene": "a stylized pen or pencil"}
