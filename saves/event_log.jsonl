@@ -8703,3 +8703,17 @@
 {"time": "2026-08-03T20:03:32", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T20:03:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T20:03:40", "event": "snap", "round": 3, "ts": "20260803_200340", "scene": "A rabbit"}
+{"time": "2026-08-03T20:03:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:03:49", "event": "round_result", "round": 3, "ts": "20260803_200340", "success": true}
+{"time": "2026-08-03T20:03:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:03:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:03:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:03:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:03:57", "event": "game_start"}
+{"time": "2026-08-03T20:04:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:04:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:04:13", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T20:04:18", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T20:04:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:04:21", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T20:04:21", "event": "snap", "round": 1, "ts": "20260803_200421", "scene": "A stylized outline of the state of Kansas with a small inset representation of a compass or directional marker."}
