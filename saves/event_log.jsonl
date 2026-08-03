@@ -7100,3 +7100,17 @@
 {"time": "2026-08-03T12:57:35", "event": "round_result", "round": 2, "ts": "20260803_125717", "success": false}
 {"time": "2026-08-03T12:57:52", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T12:58:09", "event": "snap", "round": 3, "ts": "20260803_125809", "scene": "A bee collecting pollen"}
+{"time": "2026-08-03T13:00:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T13:00:48", "event": "round_result", "round": 3, "ts": "20260803_125809", "success": true}
+{"time": "2026-08-03T13:00:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T13:02:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T13:04:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T13:04:13", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T13:04:14", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T13:04:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T13:04:56", "event": "game_start"}
+{"time": "2026-08-03T13:05:12", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T13:05:15", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T13:05:43", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T13:05:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T13:06:11", "event": "snap", "round": 1, "ts": "20260803_130611", "scene": "a cuckoo clock"}
