@@ -8802,3 +8802,12 @@
 {"time": "2026-08-03T20:26:17", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T20:26:28", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T20:26:44", "event": "snap", "round": 3, "ts": "20260803_202644", "scene": "A broken robot leg"}
+{"time": "2026-08-03T20:30:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:30:40", "event": "round_result", "round": 3, "ts": "20260803_202644", "success": true}
+{"time": "2026-08-03T20:30:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:31:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:31:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:31:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:31:13", "event": "game_start"}
+{"time": "2026-08-03T20:31:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:31:41", "event": "snap", "round": 1, "ts": "20260803_203141", "scene": "Scarecrow"}
