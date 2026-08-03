@@ -8591,3 +8591,7 @@
 {"time": "2026-08-03T19:20:40", "event": "game_start"}
 {"time": "2026-08-03T19:20:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T19:21:04", "event": "snap", "round": 1, "ts": "20260803_192104", "scene": "a robot dog"}
+{"time": "2026-08-03T19:21:14", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T19:21:14", "event": "round_result", "round": 1, "ts": "20260803_192104", "success": false}
+{"time": "2026-08-03T19:21:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:21:57", "event": "snap", "round": 2, "ts": "20260803_192157", "scene": "a skeleton"}
