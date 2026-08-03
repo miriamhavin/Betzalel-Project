@@ -7583,3 +7583,7 @@
 {"time": "2026-08-03T16:53:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T16:53:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T16:53:47", "event": "snap", "round": 2, "ts": "20260803_165347", "scene": "A key"}
+{"time": "2026-08-03T16:53:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:53:48", "event": "round_result", "round": 2, "ts": "20260803_165347", "success": true}
+{"time": "2026-08-03T16:54:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:54:29", "event": "snap", "round": 3, "ts": "20260803_165429", "scene": "A dog playing fetch"}
