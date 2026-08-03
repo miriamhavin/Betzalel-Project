@@ -7906,3 +7906,11 @@
 {"time": "2026-08-03T17:16:48", "event": "round_result", "round": 1, "ts": "20260803_171637", "success": true}
 {"time": "2026-08-03T17:16:57", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T17:17:14", "event": "snap", "round": 2, "ts": "20260803_171714", "scene": "a stop sign"}
+{"time": "2026-08-03T17:17:15", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:17:16", "event": "round_result", "round": 2, "ts": "20260803_171714", "success": false}
+{"time": "2026-08-03T17:17:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:17:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:17:28", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:17:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:17:29", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:17:39", "event": "snap", "round": 3, "ts": "20260803_171739", "scene": "a drill"}
