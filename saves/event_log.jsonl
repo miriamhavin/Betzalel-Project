@@ -8730,3 +8730,19 @@
 {"time": "2026-08-03T20:05:31", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T20:05:32", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T20:05:36", "event": "snap", "round": 3, "ts": "20260803_200536", "scene": "A person holding a spatula, flipping a pancake."}
+{"time": "2026-08-03T20:05:38", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T20:05:39", "event": "round_result", "round": 3, "ts": "20260803_200536", "success": true}
+{"time": "2026-08-03T20:06:06", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T20:06:08", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T20:06:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:06:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:06:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:06:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:06:21", "event": "game_start"}
+{"time": "2026-08-03T20:06:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:06:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:06:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:06:27", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T20:06:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:06:28", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T20:06:41", "event": "snap", "round": 1, "ts": "20260803_200641", "scene": "A seated person"}
