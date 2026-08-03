@@ -7122,3 +7122,14 @@
 {"time": "2026-08-03T13:09:07", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T13:09:10", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T13:09:10", "event": "snap", "round": 2, "ts": "20260803_130910", "scene": "a thermometer"}
+{"time": "2026-08-03T13:09:19", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T13:09:20", "event": "round_result", "round": 2, "ts": "20260803_130910", "success": true}
+{"time": "2026-08-03T13:09:32", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T13:09:36", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T13:09:46", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T13:09:49", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T13:09:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T13:09:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T13:09:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T13:09:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T13:10:06", "event": "snap", "round": 3, "ts": "20260803_131006", "scene": "a pen and paper"}
