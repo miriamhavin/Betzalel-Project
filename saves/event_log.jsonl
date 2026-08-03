@@ -7491,3 +7491,7 @@
 {"time": "2026-08-03T16:46:49", "event": "game_start"}
 {"time": "2026-08-03T16:46:50", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T16:47:08", "event": "snap", "round": 1, "ts": "20260803_164708", "scene": "A person holding a microphone"}
+{"time": "2026-08-03T16:47:17", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:47:18", "event": "round_result", "round": 1, "ts": "20260803_164708", "success": false}
+{"time": "2026-08-03T16:48:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:48:29", "event": "snap", "round": 2, "ts": "20260803_164829", "scene": "A person holding a flag"}
