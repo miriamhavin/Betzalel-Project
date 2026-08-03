@@ -7844,3 +7844,32 @@
 {"time": "2026-08-03T17:13:27", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T17:13:28", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T17:13:33", "event": "snap", "round": 3, "ts": "20260803_171333", "scene": "a puppet show"}
+{"time": "2026-08-03T17:13:40", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:13:41", "event": "round_result", "round": 3, "ts": "20260803_171333", "success": true}
+{"time": "2026-08-03T17:13:46", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:13:47", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:13:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:13:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:04", "event": "game_start"}
+{"time": "2026-08-03T17:14:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:04", "event": "game_start"}
+{"time": "2026-08-03T17:14:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:04", "event": "game_start"}
+{"time": "2026-08-03T17:14:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:04", "event": "game_start"}
+{"time": "2026-08-03T17:14:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:12", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:14:13", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:14:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:14", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:14:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:15", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:14:20", "event": "snap", "round": 1, "ts": "20260803_171420", "scene": "a coffee cup with a saucer"}
