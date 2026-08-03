@@ -8640,3 +8640,13 @@
 {"time": "2026-08-03T19:37:30", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T19:37:36", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T19:37:47", "event": "snap", "round": 3, "ts": "20260803_193747", "scene": "A stylized letter 'R'"}
+{"time": "2026-08-03T19:37:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T19:37:52", "event": "round_result", "round": 3, "ts": "20260803_193747", "success": false}
+{"time": "2026-08-03T19:38:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:38:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:38:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:38:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:38:37", "event": "game_start"}
+{"time": "2026-08-03T19:39:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:39:28", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T19:39:41", "event": "snap", "round": 1, "ts": "20260803_193941", "scene": "A person playing a violin"}
