@@ -8751,3 +8751,7 @@
 {"time": "2026-08-03T20:09:08", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T20:10:50", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T20:11:07", "event": "snap", "round": 2, "ts": "20260803_201107", "scene": "A robot holding a gun"}
+{"time": "2026-08-03T20:11:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T20:11:28", "event": "round_result", "round": 2, "ts": "20260803_201107", "success": false}
+{"time": "2026-08-03T20:12:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:12:28", "event": "snap", "round": 3, "ts": "20260803_201228", "scene": "A cartoon rabbit character"}
