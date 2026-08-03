@@ -7426,3 +7426,27 @@
 {"time": "2026-08-03T16:41:16", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T16:41:20", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T16:41:33", "event": "snap", "round": 3, "ts": "20260803_164133", "scene": "A dragon breathing fire"}
+{"time": "2026-08-03T16:41:36", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:41:37", "event": "round_result", "round": 3, "ts": "20260803_164133", "success": true}
+{"time": "2026-08-03T16:41:39", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:41:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:42:05", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:42:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:42:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:42:07", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:42:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:42:08", "event": "game_start"}
+{"time": "2026-08-03T16:42:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:42:08", "event": "game_start"}
+{"time": "2026-08-03T16:42:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:42:08", "event": "game_start"}
+{"time": "2026-08-03T16:42:09", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:42:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:42:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:42:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:42:21", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:42:23", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:42:24", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:42:24", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:42:26", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:42:27", "event": "snap", "round": 1, "ts": "20260803_164227", "scene": "A cat batting at a dangling toy"}
