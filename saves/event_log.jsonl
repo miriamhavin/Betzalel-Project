@@ -8306,3 +8306,7 @@
 {"time": "2026-08-03T18:27:12", "event": "game_start"}
 {"time": "2026-08-03T18:27:19", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T18:27:36", "event": "snap", "round": 1, "ts": "20260803_182736", "scene": "A cannonball with a fuse"}
+{"time": "2026-08-03T18:27:53", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:27:54", "event": "round_result", "round": 1, "ts": "20260803_182736", "success": false}
+{"time": "2026-08-03T18:31:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:32:06", "event": "snap", "round": 2, "ts": "20260803_183206", "scene": "A rabbit sitting down"}
