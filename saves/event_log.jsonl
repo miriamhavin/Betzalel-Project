@@ -7348,3 +7348,7 @@
 {"time": "2026-08-03T15:19:45", "event": "game_start"}
 {"time": "2026-08-03T15:20:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T15:20:55", "event": "snap", "round": 1, "ts": "20260803_152055", "scene": "A unicorn rearing up"}
+{"time": "2026-08-03T15:21:13", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:21:14", "event": "round_result", "round": 1, "ts": "20260803_152055", "success": false}
+{"time": "2026-08-03T15:22:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:22:19", "event": "snap", "round": 2, "ts": "20260803_152219", "scene": "A rabbit in mid-leap"}
