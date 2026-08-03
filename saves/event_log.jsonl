@@ -7339,3 +7339,12 @@
 {"time": "2026-08-03T15:16:52", "event": "round_result", "round": 2, "ts": "20260803_151554", "success": true}
 {"time": "2026-08-03T15:18:56", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T15:19:15", "event": "snap", "round": 3, "ts": "20260803_151915", "scene": "A standing flamingo"}
+{"time": "2026-08-03T15:19:23", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:19:23", "event": "round_result", "round": 3, "ts": "20260803_151915", "success": false}
+{"time": "2026-08-03T15:19:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:19:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:19:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:19:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:19:45", "event": "game_start"}
+{"time": "2026-08-03T15:20:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:20:55", "event": "snap", "round": 1, "ts": "20260803_152055", "scene": "A unicorn rearing up"}
