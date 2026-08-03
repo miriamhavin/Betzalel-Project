@@ -8815,3 +8815,7 @@
 {"time": "2026-08-03T20:31:47", "event": "round_result", "round": 1, "ts": "20260803_203141", "success": false}
 {"time": "2026-08-03T20:32:07", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T20:32:23", "event": "snap", "round": 2, "ts": "20260803_203223", "scene": "A skeleton warrior"}
+{"time": "2026-08-03T20:32:28", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T20:32:28", "event": "round_result", "round": 2, "ts": "20260803_203223", "success": false}
+{"time": "2026-08-03T20:32:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:33:10", "event": "snap", "round": 3, "ts": "20260803_203310", "scene": "A robot holding a shield"}
