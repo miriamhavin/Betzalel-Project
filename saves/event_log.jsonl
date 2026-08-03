@@ -8528,3 +8528,9 @@
 {"time": "2026-08-03T19:15:25", "event": "game_start"}
 {"time": "2026-08-03T19:15:26", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T19:15:42", "event": "snap", "round": 1, "ts": "20260803_191542", "scene": "a map outline"}
+{"time": "2026-08-03T19:16:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:16:15", "event": "round_result", "round": 1, "ts": "20260803_191542", "success": true}
+{"time": "2026-08-03T19:17:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:17:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:17:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:17:37", "event": "snap", "round": 2, "ts": "20260803_191737", "scene": "a whisk and a spoon for baking"}
