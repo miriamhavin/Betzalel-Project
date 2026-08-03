@@ -7292,3 +7292,26 @@
 {"time": "2026-08-03T15:13:41", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T15:13:49", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T15:13:52", "event": "snap", "round": 2, "ts": "20260803_151352", "scene": "a piece of popcorn"}
+{"time": "2026-08-03T15:13:54", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T15:13:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:13:55", "event": "round_result", "round": 2, "ts": "20260803_151352", "success": true}
+{"time": "2026-08-03T15:13:58", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T15:13:59", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:13:59", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T15:14:00", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T15:14:05", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T15:14:05", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:14:07", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T15:14:07", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:14:08", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T15:14:08", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:14:08", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T15:14:08", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:14:08", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T15:14:09", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:14:10", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:14:10", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T15:14:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:14:25", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T15:14:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:14:32", "event": "snap", "round": 3, "ts": "20260803_151432", "scene": "a person's hand holding a small stick"}
