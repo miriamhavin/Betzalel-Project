@@ -7506,3 +7506,30 @@
 {"time": "2026-08-03T16:49:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T16:49:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T16:49:41", "event": "snap", "round": 3, "ts": "20260803_164941", "scene": "A cowboy riding a horse"}
+{"time": "2026-08-03T16:49:46", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:49:47", "event": "round_result", "round": 3, "ts": "20260803_164941", "success": false}
+{"time": "2026-08-03T16:49:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:50:02", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:50:04", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:50:04", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:50:05", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:50:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:50:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:50:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:50:09", "event": "game_start"}
+{"time": "2026-08-03T16:51:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:51:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:51:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:51:26", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:51:26", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T16:51:26", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:51:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:51:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:51:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:51:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:51:33", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:51:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:51:34", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:51:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:51:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T16:51:38", "event": "snap", "round": 1, "ts": "20260803_165138", "scene": "A person holding a flashlight"}
