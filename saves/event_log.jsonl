@@ -8792,3 +8792,8 @@
 {"time": "2026-08-03T20:23:07", "event": "game_start"}
 {"time": "2026-08-03T20:23:32", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T20:23:51", "event": "snap", "round": 1, "ts": "20260803_202351", "scene": "A snail"}
+{"time": "2026-08-03T20:25:37", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T20:25:38", "event": "round_result", "round": 1, "ts": "20260803_202351", "success": false}
+{"time": "2026-08-03T20:25:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T20:25:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:26:05", "event": "snap", "round": 2, "ts": "20260803_202605", "scene": "A stylized human figure with a broken neck"}
