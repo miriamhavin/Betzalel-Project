@@ -8035,3 +8035,15 @@
 {"time": "2026-08-03T17:19:25", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T17:19:25", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T17:19:26", "event": "snap", "round": 3, "ts": "20260803_171926", "scene": ""}
+{"time": "2026-08-03T17:19:27", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:19:27", "event": "round_result", "round": 3, "ts": "20260803_171926", "success": true}
+{"time": "2026-08-03T17:20:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:21:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:21:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:23:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:23:32", "event": "game_start"}
+{"time": "2026-08-03T17:23:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:23:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:23:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:23:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:23:50", "event": "snap", "round": 1, "ts": "20260803_172350", "scene": "A screwdriver with a screw head"}
