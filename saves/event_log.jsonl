@@ -7390,3 +7390,16 @@
 {"time": "2026-08-03T15:39:36", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T15:39:50", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T15:39:53", "event": "snap", "round": 3, "ts": "20260803_153953", "scene": "A leaning tree with a falling leaf"}
+{"time": "2026-08-03T15:39:58", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T15:39:59", "event": "round_result", "round": 3, "ts": "20260803_153953", "success": false}
+{"time": "2026-08-03T15:41:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:41:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:41:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:41:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T15:41:36", "event": "game_start"}
+{"time": "2026-08-03T16:04:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:05:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:05:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:05:56", "event": "game_start"}
+{"time": "2026-08-03T16:06:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T16:06:23", "event": "snap", "round": 1, "ts": "20260803_160623", "scene": "A cartoon-style ghost"}
