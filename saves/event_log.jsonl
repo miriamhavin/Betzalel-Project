@@ -6971,3 +6971,7 @@
 {"time": "2026-08-03T11:44:34", "event": "round_result", "round": 1, "ts": "20260803_114426", "success": false}
 {"time": "2026-08-03T11:45:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T11:45:51", "event": "snap", "round": 2, "ts": "20260803_114551", "scene": "A witch casting a spell"}
+{"time": "2026-08-03T11:45:56", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T11:45:57", "event": "round_result", "round": 2, "ts": "20260803_114551", "success": false}
+{"time": "2026-08-03T11:46:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:46:17", "event": "snap", "round": 3, "ts": "20260803_114617", "scene": "A broken lightbulb with a match"}
