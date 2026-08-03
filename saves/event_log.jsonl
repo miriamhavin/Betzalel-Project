@@ -8534,3 +8534,9 @@
 {"time": "2026-08-03T19:17:25", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T19:17:34", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T19:17:37", "event": "snap", "round": 2, "ts": "20260803_191737", "scene": "a whisk and a spoon for baking"}
+{"time": "2026-08-03T19:17:46", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T19:17:46", "event": "round_result", "round": 2, "ts": "20260803_191737", "success": false}
+{"time": "2026-08-03T19:17:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:17:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:17:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:18:07", "event": "snap", "round": 3, "ts": "20260803_191807", "scene": "a key on a keychain"}
