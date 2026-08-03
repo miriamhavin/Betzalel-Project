@@ -7709,3 +7709,36 @@
 {"time": "2026-08-03T17:00:19", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T17:00:20", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T17:00:23", "event": "snap", "round": 2, "ts": "20260803_170023", "scene": "A small bird perched on a branch"}
+{"time": "2026-08-03T17:00:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:00:23", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:24", "event": "round_result", "round": 2, "ts": "20260803_170023", "success": true}
+{"time": "2026-08-03T17:00:29", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:29", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:30", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:00:31", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:00:32", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:00:37", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:37", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:39", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:00:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:00:46", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:46", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:00:46", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:00:46", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:46", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:46", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:00:46", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:47", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:00:47", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:00:49", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:50", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:50", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:00:51", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:00:51", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:00:52", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:01:00", "event": "snap", "round": 3, "ts": "20260803_170100", "scene": "A cat chasing a mouse"}
