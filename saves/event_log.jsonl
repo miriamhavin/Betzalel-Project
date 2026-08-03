@@ -8147,3 +8147,7 @@
 {"time": "2026-08-03T17:55:04", "event": "game_start"}
 {"time": "2026-08-03T17:56:20", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T17:56:38", "event": "snap", "round": 1, "ts": "20260803_175638", "scene": "A person holding a tablet"}
+{"time": "2026-08-03T17:56:57", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:56:58", "event": "round_result", "round": 1, "ts": "20260803_175638", "success": false}
+{"time": "2026-08-03T17:58:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:58:32", "event": "snap", "round": 2, "ts": "20260803_175832", "scene": "A woman knitting"}
