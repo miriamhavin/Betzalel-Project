@@ -8430,3 +8430,27 @@
 {"time": "2026-08-03T18:57:57", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T18:57:59", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T18:58:02", "event": "snap", "round": 3, "ts": "20260803_185802", "scene": "A table with a hand reaching over it"}
+{"time": "2026-08-03T18:58:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:10", "event": "round_result", "round": 3, "ts": "20260803_185802", "success": true}
+{"time": "2026-08-03T18:58:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:16", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:58:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:21", "event": "game_start"}
+{"time": "2026-08-03T18:58:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:31", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:58:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:58:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:38", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:58:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:42", "event": "snap", "round": 1, "ts": "20260803_185842", "scene": "A hand reaching out from behind a screen"}
