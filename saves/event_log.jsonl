@@ -6967,3 +6967,7 @@
 {"time": "2026-08-03T11:43:06", "event": "game_start"}
 {"time": "2026-08-03T11:44:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T11:44:26", "event": "snap", "round": 1, "ts": "20260803_114426", "scene": "A dragon"}
+{"time": "2026-08-03T11:44:33", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T11:44:34", "event": "round_result", "round": 1, "ts": "20260803_114426", "success": false}
+{"time": "2026-08-03T11:45:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T11:45:51", "event": "snap", "round": 2, "ts": "20260803_114551", "scene": "A witch casting a spell"}
