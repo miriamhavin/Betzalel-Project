@@ -7914,3 +7914,47 @@
 {"time": "2026-08-03T17:17:28", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T17:17:29", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T17:17:39", "event": "snap", "round": 3, "ts": "20260803_171739", "scene": "a drill"}
+{"time": "2026-08-03T17:17:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:17:45", "event": "round_result", "round": 3, "ts": "20260803_171739", "success": true}
+{"time": "2026-08-03T17:17:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:17:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:02", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:18:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:24", "event": "game_start"}
+{"time": "2026-08-03T17:18:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:25", "event": "game_start"}
+{"time": "2026-08-03T17:18:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:25", "event": "game_start"}
+{"time": "2026-08-03T17:18:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:44", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:44", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:45", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:45", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:45", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:46", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:46", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:47", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:48", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:48", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:48", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:49", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:49", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:49", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:50", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:18:51", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:18:51", "event": "snap", "round": 1, "ts": "20260803_171851", "scene": ""}
