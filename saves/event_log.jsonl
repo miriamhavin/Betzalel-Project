@@ -8165,3 +8165,7 @@
 {"time": "2026-08-03T18:07:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T18:07:39", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T18:07:56", "event": "snap", "round": 1, "ts": "20260803_180756", "scene": "A person painting"}
+{"time": "2026-08-03T18:08:10", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:08:11", "event": "round_result", "round": 1, "ts": "20260803_180756", "success": false}
+{"time": "2026-08-03T18:08:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:08:58", "event": "snap", "round": 2, "ts": "20260803_180858", "scene": "A person running"}
