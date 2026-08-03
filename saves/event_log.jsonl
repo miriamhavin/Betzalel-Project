@@ -8454,3 +8454,14 @@
 {"time": "2026-08-03T18:58:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T18:58:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T18:58:42", "event": "snap", "round": 1, "ts": "20260803_185842", "scene": "A hand reaching out from behind a screen"}
+{"time": "2026-08-03T18:58:48", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:58:48", "event": "round_result", "round": 1, "ts": "20260803_185842", "success": false}
+{"time": "2026-08-03T18:58:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:58:56", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:58:56", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:58:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:58:58", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:59:08", "event": "snap", "round": 2, "ts": "20260803_185908", "scene": "A ghost emerging from a torn curtain"}
