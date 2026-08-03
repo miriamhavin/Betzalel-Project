@@ -8391,3 +8391,23 @@
 {"time": "2026-08-03T18:52:23", "event": "round_result", "round": 2, "ts": "20260803_185209", "success": false}
 {"time": "2026-08-03T18:53:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T18:53:21", "event": "snap", "round": 3, "ts": "20260803_185321", "scene": "A drill sergeant barking orders"}
+{"time": "2026-08-03T18:53:39", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:53:40", "event": "round_result", "round": 3, "ts": "20260803_185321", "success": false}
+{"time": "2026-08-03T18:53:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:53:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:56:59", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:57:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:57:01", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:57:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:57:05", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:57:06", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:57:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:57:07", "event": "game_start"}
+{"time": "2026-08-03T18:57:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:57:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:57:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:57:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:57:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:57:12", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:57:13", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T18:57:23", "event": "snap", "round": 1, "ts": "20260803_185723", "scene": "A rectangular box"}
