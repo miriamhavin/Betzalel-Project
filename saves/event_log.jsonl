@@ -8797,3 +8797,8 @@
 {"time": "2026-08-03T20:25:44", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T20:25:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T20:26:05", "event": "snap", "round": 2, "ts": "20260803_202605", "scene": "A stylized human figure with a broken neck"}
+{"time": "2026-08-03T20:26:15", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T20:26:16", "event": "round_result", "round": 2, "ts": "20260803_202605", "success": false}
+{"time": "2026-08-03T20:26:17", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T20:26:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:26:44", "event": "snap", "round": 3, "ts": "20260803_202644", "scene": "A broken robot leg"}
