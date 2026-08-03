@@ -8811,3 +8811,7 @@
 {"time": "2026-08-03T20:31:13", "event": "game_start"}
 {"time": "2026-08-03T20:31:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T20:31:41", "event": "snap", "round": 1, "ts": "20260803_203141", "scene": "Scarecrow"}
+{"time": "2026-08-03T20:31:47", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T20:31:47", "event": "round_result", "round": 1, "ts": "20260803_203141", "success": false}
+{"time": "2026-08-03T20:32:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T20:32:23", "event": "snap", "round": 2, "ts": "20260803_203223", "scene": "A skeleton warrior"}
