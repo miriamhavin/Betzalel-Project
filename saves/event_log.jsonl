@@ -8613,3 +8613,18 @@
 {"time": "2026-08-03T19:34:18", "event": "round_result", "round": 2, "ts": "20260803_193413", "success": false}
 {"time": "2026-08-03T19:34:49", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T19:35:07", "event": "snap", "round": 3, "ts": "20260803_193507", "scene": "a flamingo"}
+{"time": "2026-08-03T19:35:16", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T19:35:16", "event": "round_result", "round": 3, "ts": "20260803_193507", "success": true}
+{"time": "2026-08-03T19:35:36", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T19:35:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:35:39", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T19:35:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:35:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:35:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:35:44", "event": "game_start"}
+{"time": "2026-08-03T19:35:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:36:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:36:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:36:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T19:36:02", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T19:36:02", "event": "snap", "round": 1, "ts": "20260803_193602", "scene": "A simple door"}
