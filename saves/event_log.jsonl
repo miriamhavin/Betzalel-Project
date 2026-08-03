@@ -7762,3 +7762,10 @@
 {"time": "2026-08-03T17:02:49", "event": "round_result", "round": 1, "ts": "20260803_170242", "success": true}
 {"time": "2026-08-03T17:06:14", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T17:06:34", "event": "snap", "round": 2, "ts": "20260803_170634", "scene": "A stapler and a pen."}
+{"time": "2026-08-03T17:07:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:07:01", "event": "round_result", "round": 2, "ts": "20260803_170634", "success": false}
+{"time": "2026-08-03T17:08:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:08:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:08:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:08:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:08:27", "event": "snap", "round": 3, "ts": "20260803_170827", "scene": "A handshake"}
