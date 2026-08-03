@@ -7034,3 +7034,8 @@
 {"time": "2026-08-03T12:03:45", "event": "game_start"}
 {"time": "2026-08-03T12:04:57", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T12:05:13", "event": "snap", "round": 1, "ts": "20260803_120513", "scene": "A robot holding a broom"}
+{"time": "2026-08-03T12:05:20", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T12:05:21", "event": "round_result", "round": 1, "ts": "20260803_120513", "success": false}
+{"time": "2026-08-03T12:05:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T12:05:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T12:06:01", "event": "snap", "round": 2, "ts": "20260803_120601", "scene": "A person with outstretched arms performing a magic trick"}
