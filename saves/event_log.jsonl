@@ -8134,3 +8134,16 @@
 {"time": "2026-08-03T17:50:32", "event": "round_result", "round": 2, "ts": "20260803_175025", "success": true}
 {"time": "2026-08-03T17:51:01", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T17:51:19", "event": "snap", "round": 3, "ts": "20260803_175119", "scene": "A vacuum cleaner"}
+{"time": "2026-08-03T17:51:34", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:51:35", "event": "round_result", "round": 3, "ts": "20260803_175119", "success": false}
+{"time": "2026-08-03T17:51:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:51:39", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:51:41", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:51:43", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:51:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:53:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:54:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:55:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:55:04", "event": "game_start"}
+{"time": "2026-08-03T17:56:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:56:38", "event": "snap", "round": 1, "ts": "20260803_175638", "scene": "A person holding a tablet"}
