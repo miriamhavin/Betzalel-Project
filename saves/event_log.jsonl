@@ -8097,3 +8097,12 @@
 {"time": "2026-08-03T17:41:30", "event": "round_result", "round": 2, "ts": "20260803_174125", "success": false}
 {"time": "2026-08-03T17:42:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T17:42:22", "event": "snap", "round": 3, "ts": "20260803_174222", "scene": "A cowboy boot"}
+{"time": "2026-08-03T17:42:26", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T17:42:27", "event": "round_result", "round": 3, "ts": "20260803_174222", "success": false}
+{"time": "2026-08-03T17:42:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:42:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:42:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:42:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:42:45", "event": "game_start"}
+{"time": "2026-08-03T17:44:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:44:19", "event": "snap", "round": 1, "ts": "20260803_174419", "scene": "A rabbit"}
