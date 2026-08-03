@@ -8288,3 +8288,7 @@
 {"time": "2026-08-03T18:22:45", "event": "round_result", "round": 1, "ts": "20260803_182237", "success": false}
 {"time": "2026-08-03T18:23:14", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T18:23:31", "event": "snap", "round": 2, "ts": "20260803_182331", "scene": "A wizard casting a spell"}
+{"time": "2026-08-03T18:23:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:23:40", "event": "round_result", "round": 2, "ts": "20260803_182331", "success": false}
+{"time": "2026-08-03T18:24:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:24:35", "event": "snap", "round": 3, "ts": "20260803_182435", "scene": "A bird drinking water"}
