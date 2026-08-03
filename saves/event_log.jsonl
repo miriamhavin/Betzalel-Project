@@ -8169,3 +8169,7 @@
 {"time": "2026-08-03T18:08:11", "event": "round_result", "round": 1, "ts": "20260803_180756", "success": false}
 {"time": "2026-08-03T18:08:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T18:08:58", "event": "snap", "round": 2, "ts": "20260803_180858", "scene": "A person running"}
+{"time": "2026-08-03T18:09:18", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T18:09:18", "event": "round_result", "round": 2, "ts": "20260803_180858", "success": false}
+{"time": "2026-08-03T18:11:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T18:11:22", "event": "snap", "round": 3, "ts": "20260803_181122", "scene": "A person playing a wind instrument"}
