@@ -7092,3 +7092,7 @@
 {"time": "2026-08-03T12:55:35", "event": "game_start"}
 {"time": "2026-08-03T12:56:03", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T12:56:21", "event": "snap", "round": 1, "ts": "20260803_125621", "scene": "A wrench attempting to turn a gear"}
+{"time": "2026-08-03T12:56:32", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T12:56:33", "event": "round_result", "round": 1, "ts": "20260803_125621", "success": false}
+{"time": "2026-08-03T12:57:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T12:57:17", "event": "snap", "round": 2, "ts": "20260803_125717", "scene": "A person eating a taco"}
