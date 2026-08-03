@@ -7219,3 +7219,7 @@
 {"time": "2026-08-03T14:25:31", "event": "game_start"}
 {"time": "2026-08-03T14:25:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T14:26:03", "event": "snap", "round": 1, "ts": "20260803_142603", "scene": "A person playing a video game"}
+{"time": "2026-08-03T14:26:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T14:26:06", "event": "round_result", "round": 1, "ts": "20260803_142603", "success": true}
+{"time": "2026-08-03T14:26:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T14:26:26", "event": "snap", "round": 2, "ts": "20260803_142626", "scene": "A scientist looking into a microscope"}
