@@ -7873,3 +7873,9 @@
 {"time": "2026-08-03T17:14:14", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T17:14:15", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T17:14:20", "event": "snap", "round": 1, "ts": "20260803_171420", "scene": "a coffee cup with a saucer"}
+{"time": "2026-08-03T17:14:33", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:14:34", "event": "round_result", "round": 1, "ts": "20260803_171420", "success": true}
+{"time": "2026-08-03T17:14:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T17:14:51", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:14:53", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T17:14:56", "event": "snap", "round": 2, "ts": "20260803_171456", "scene": "a book"}
