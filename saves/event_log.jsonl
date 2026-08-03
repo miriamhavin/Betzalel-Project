@@ -7066,3 +7066,12 @@
 {"time": "2026-08-03T12:44:20", "event": "round_result", "round": 2, "ts": "20260803_124358", "success": false}
 {"time": "2026-08-03T12:44:23", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-03T12:44:40", "event": "snap", "round": 3, "ts": "20260803_124440", "scene": "A stylized key"}
+{"time": "2026-08-03T12:44:54", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T12:44:55", "event": "round_result", "round": 3, "ts": "20260803_124440", "success": true}
+{"time": "2026-08-03T12:45:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T12:49:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T12:50:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T12:51:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T12:51:13", "event": "game_start"}
+{"time": "2026-08-03T12:52:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T12:52:31", "event": "snap", "round": 1, "ts": "20260803_125231", "scene": "A key with a fluffy dog's head"}
