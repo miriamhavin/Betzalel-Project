@@ -9308,3 +9308,11 @@
 {"time": "2026-08-04T12:33:18", "event": "game_start"}
 {"time": "2026-08-04T12:33:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T12:33:38", "event": "snap", "round": 1, "ts": "20260804_123338", "scene": "A person holding scissors"}
+{"time": "2026-08-04T12:36:03", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T12:36:04", "event": "round_result", "round": 1, "ts": "20260804_123338", "success": false}
+{"time": "2026-08-04T12:36:13", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T12:36:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:36:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:36:19", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T12:36:22", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T12:36:35", "event": "snap", "round": 2, "ts": "20260804_123635", "scene": "A person with a long nose and big ears"}
