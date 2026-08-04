@@ -9731,3 +9731,7 @@
 {"time": "2026-08-04T15:28:23", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T15:28:30", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T15:28:43", "event": "snap", "round": 1, "ts": "20260804_152843", "scene": "a comma"}
+{"time": "2026-08-04T15:28:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T15:28:53", "event": "round_result", "round": 1, "ts": "20260804_152843", "success": false}
+{"time": "2026-08-04T15:29:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:29:21", "event": "snap", "round": 2, "ts": "20260804_152921", "scene": "a stylus pen"}
