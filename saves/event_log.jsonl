@@ -10057,3 +10057,22 @@
 {"time": "2026-08-04T17:05:34", "event": "round_result", "round": 2, "ts": "20260804_170528", "success": false}
 {"time": "2026-08-04T17:06:26", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T17:06:43", "event": "snap", "round": 3, "ts": "20260804_170643", "scene": "A monkey playing a guitar"}
+{"time": "2026-08-04T17:07:23", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T17:07:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:07:24", "event": "round_result", "round": 3, "ts": "20260804_170643", "success": false}
+{"time": "2026-08-04T17:07:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T17:07:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:07:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:07:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:07:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:07:48", "event": "game_start"}
+{"time": "2026-08-04T17:07:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:07:49", "event": "game_start"}
+{"time": "2026-08-04T17:07:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:07:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:07:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:07:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:07:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:07:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:07:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:08:07", "event": "snap", "round": 1, "ts": "20260804_170807", "scene": "A dumbbell"}
