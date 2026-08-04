@@ -10093,3 +10093,15 @@
 {"time": "2026-08-04T17:11:52", "event": "game_start"}
 {"time": "2026-08-04T17:13:25", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T17:13:44", "event": "snap", "round": 1, "ts": "20260804_171344", "scene": "A person holding a toothbrush and toothpaste"}
+{"time": "2026-08-04T17:14:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:14:48", "event": "round_result", "round": 1, "ts": "20260804_171344", "success": true}
+{"time": "2026-08-04T17:14:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:14:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:14:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:14:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:14:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:14:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:07", "event": "snap", "round": 2, "ts": "20260804_171507", "scene": "A person using a handle to open a door"}
