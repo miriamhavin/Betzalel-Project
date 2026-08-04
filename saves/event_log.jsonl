@@ -10636,3 +10636,20 @@
 {"time": "2026-08-04T20:39:22", "event": "round_result", "round": 2, "ts": "20260804_203916", "success": false}
 {"time": "2026-08-04T20:40:08", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T20:40:30", "event": "snap", "round": 3, "ts": "20260804_204030", "scene": "A robot with a laser gun"}
+{"time": "2026-08-04T20:40:37", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T20:40:38", "event": "round_result", "round": 3, "ts": "20260804_204030", "success": false}
+{"time": "2026-08-04T20:41:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:41:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:41:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:41:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:41:32", "event": "game_start"}
+{"time": "2026-08-04T20:41:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:41:32", "event": "game_start"}
+{"time": "2026-08-04T20:41:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:41:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:41:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:41:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:41:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:41:39", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T20:41:39", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T20:41:52", "event": "snap", "round": 1, "ts": "20260804_204152", "scene": "A table with a single playing card"}
