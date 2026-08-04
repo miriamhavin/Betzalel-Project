@@ -9554,3 +9554,7 @@
 {"time": "2026-08-04T14:27:44", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T14:27:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T14:28:05", "event": "snap", "round": 2, "ts": "20260804_142805", "scene": "A simple hammer"}
+{"time": "2026-08-04T14:28:12", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:28:13", "event": "round_result", "round": 2, "ts": "20260804_142805", "success": false}
+{"time": "2026-08-04T14:28:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:28:42", "event": "snap", "round": 3, "ts": "20260804_142842", "scene": "A toothbrush with toothpaste"}
