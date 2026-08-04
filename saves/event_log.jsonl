@@ -9868,3 +9868,14 @@
 {"time": "2026-08-04T16:22:38", "event": "round_result", "round": 2, "ts": "20260804_162227", "success": false}
 {"time": "2026-08-04T16:22:43", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T16:23:03", "event": "snap", "round": 3, "ts": "20260804_162303", "scene": "A person holding a large bunch of grapes"}
+{"time": "2026-08-04T16:23:11", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:23:12", "event": "round_result", "round": 3, "ts": "20260804_162303", "success": false}
+{"time": "2026-08-04T16:25:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:25:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:25:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:25:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:25:34", "event": "game_start"}
+{"time": "2026-08-04T16:25:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:25:35", "event": "game_start"}
+{"time": "2026-08-04T16:25:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:25:58", "event": "snap", "round": 1, "ts": "20260804_162558", "scene": "A person opening a letter"}
