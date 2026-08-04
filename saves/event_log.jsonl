@@ -9558,3 +9558,17 @@
 {"time": "2026-08-04T14:28:13", "event": "round_result", "round": 2, "ts": "20260804_142805", "success": false}
 {"time": "2026-08-04T14:28:24", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T14:28:42", "event": "snap", "round": 3, "ts": "20260804_142842", "scene": "A toothbrush with toothpaste"}
+{"time": "2026-08-04T14:28:56", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:28:57", "event": "round_result", "round": 3, "ts": "20260804_142842", "success": false}
+{"time": "2026-08-04T14:29:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:29:07", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T14:29:11", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:29:21", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T14:29:23", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T14:29:24", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T14:31:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:33:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:33:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:33:44", "event": "game_start"}
+{"time": "2026-08-04T14:34:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:34:21", "event": "snap", "round": 1, "ts": "20260804_143421", "scene": "A mushroom"}
