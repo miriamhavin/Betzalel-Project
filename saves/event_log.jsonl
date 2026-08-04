@@ -9974,3 +9974,7 @@
 {"time": "2026-08-04T16:44:40", "event": "round_result", "round": 1, "ts": "20260804_164433", "success": false}
 {"time": "2026-08-04T16:44:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T16:45:00", "event": "snap", "round": 2, "ts": "20260804_164500", "scene": "A person operating a mixer"}
+{"time": "2026-08-04T16:45:05", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:45:06", "event": "round_result", "round": 2, "ts": "20260804_164500", "success": false}
+{"time": "2026-08-04T16:45:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:45:24", "event": "snap", "round": 3, "ts": "20260804_164524", "scene": "A whisk on a kitchen counter"}
