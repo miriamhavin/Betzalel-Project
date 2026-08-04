@@ -10438,3 +10438,12 @@
 {"time": "2026-08-04T19:09:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T19:09:50", "event": "button_press", "button": "YES"}
 {"time": "2026-08-04T19:10:00", "event": "snap", "round": 3, "ts": "20260804_191000", "scene": "A superhero in a dynamic pose"}
+{"time": "2026-08-04T19:12:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:12:54", "event": "round_result", "round": 3, "ts": "20260804_191000", "success": true}
+{"time": "2026-08-04T19:14:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:14:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:14:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:14:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:14:50", "event": "game_start"}
+{"time": "2026-08-04T19:16:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:17:17", "event": "snap", "round": 1, "ts": "20260804_191717", "scene": "A skeleton key"}
