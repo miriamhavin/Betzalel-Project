@@ -10203,3 +10203,14 @@
 {"time": "2026-08-04T17:58:20", "event": "round_result", "round": 2, "ts": "20260804_175815", "success": false}
 {"time": "2026-08-04T17:59:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T17:59:33", "event": "snap", "round": 3, "ts": "20260804_175933", "scene": "A crab"}
+{"time": "2026-08-04T17:59:41", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T17:59:41", "event": "round_result", "round": 3, "ts": "20260804_175933", "success": false}
+{"time": "2026-08-04T18:00:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:00:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:01:43", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T18:01:45", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T18:02:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:02:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:02:30", "event": "game_start"}
+{"time": "2026-08-04T18:03:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:03:33", "event": "snap", "round": 1, "ts": "20260804_180333", "scene": "Chef's hat"}
