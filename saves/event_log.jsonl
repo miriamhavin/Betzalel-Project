@@ -9507,3 +9507,14 @@
 {"time": "2026-08-04T14:13:46", "event": "game_start"}
 {"time": "2026-08-04T14:13:55", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T14:14:15", "event": "snap", "round": 1, "ts": "20260804_141415", "scene": "A syringe"}
+{"time": "2026-08-04T14:14:24", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:14:24", "event": "round_result", "round": 1, "ts": "20260804_141415", "success": false}
+{"time": "2026-08-04T14:16:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:17:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:17:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:17:10", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:17:11", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T14:17:12", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:17:12", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:17:12", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:17:23", "event": "snap", "round": 2, "ts": "20260804_141723", "scene": "A feather"}
