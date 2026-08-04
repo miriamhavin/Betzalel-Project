@@ -9223,3 +9223,7 @@
 {"time": "2026-08-04T11:51:05", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T11:51:20", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T11:51:20", "event": "snap", "round": 1, "ts": "20260804_115120", "scene": "a person lying down"}
+{"time": "2026-08-04T11:51:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T11:51:26", "event": "round_result", "round": 1, "ts": "20260804_115120", "success": false}
+{"time": "2026-08-04T11:52:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T11:52:55", "event": "snap", "round": 2, "ts": "20260804_115255", "scene": "a candlestick holder"}
