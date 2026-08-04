@@ -10510,3 +10510,11 @@
 {"time": "2026-08-04T19:26:37", "event": "round_result", "round": 1, "ts": "20260804_192630", "success": false}
 {"time": "2026-08-04T19:26:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T19:26:58", "event": "snap", "round": 2, "ts": "20260804_192658", "scene": "A person with arms outstretched"}
+{"time": "2026-08-04T19:27:03", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T19:27:04", "event": "round_result", "round": 2, "ts": "20260804_192658", "success": false}
+{"time": "2026-08-04T19:43:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:43:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:44:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:44:09", "event": "game_start"}
+{"time": "2026-08-04T19:44:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:44:52", "event": "snap", "round": 1, "ts": "20260804_194452", "scene": "A simplified figure of a person holding a key"}
