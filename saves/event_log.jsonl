@@ -10589,3 +10589,10 @@
 {"time": "2026-08-04T20:18:19", "event": "game_start"}
 {"time": "2026-08-04T20:19:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T20:19:59", "event": "snap", "round": 1, "ts": "20260804_201959", "scene": "a cocktail shaker"}
+{"time": "2026-08-04T20:20:07", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T20:20:08", "event": "round_result", "round": 1, "ts": "20260804_201959", "success": false}
+{"time": "2026-08-04T20:20:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:20:17", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T20:20:18", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T20:20:19", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T20:20:32", "event": "snap", "round": 2, "ts": "20260804_202032", "scene": "a dog"}
