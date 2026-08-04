@@ -9250,3 +9250,11 @@
 {"time": "2026-08-04T12:20:28", "event": "button_press", "button": "NO"}
 {"time": "2026-08-04T12:20:29", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T12:20:33", "event": "snap", "round": 2, "ts": "20260804_122033", "scene": "a person on a beach"}
+{"time": "2026-08-04T12:20:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:20:43", "event": "round_result", "round": 2, "ts": "20260804_122033", "success": true}
+{"time": "2026-08-04T12:22:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:23:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:23:07", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T12:23:08", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T12:23:08", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T12:23:10", "event": "snap", "round": 3, "ts": "20260804_122310", "scene": "a bird taking flight"}
