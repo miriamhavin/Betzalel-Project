@@ -9757,3 +9757,17 @@
 {"time": "2026-08-04T15:38:02", "event": "round_result", "round": 2, "ts": "20260804_153755", "success": false}
 {"time": "2026-08-04T15:38:45", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T15:39:02", "event": "snap", "round": 3, "ts": "20260804_153902", "scene": "A duck"}
+{"time": "2026-08-04T15:39:05", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T15:39:06", "event": "round_result", "round": 3, "ts": "20260804_153902", "success": true}
+{"time": "2026-08-04T15:39:29", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T15:39:30", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T15:39:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T15:39:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:39:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:39:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:39:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:39:55", "event": "game_start"}
+{"time": "2026-08-04T15:39:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:40:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:40:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:40:13", "event": "snap", "round": 1, "ts": "20260804_154013", "scene": "a whisk"}
