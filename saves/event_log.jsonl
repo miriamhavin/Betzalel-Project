@@ -9951,3 +9951,7 @@
 {"time": "2026-08-04T16:41:17", "event": "game_start"}
 {"time": "2026-08-04T16:41:18", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T16:41:41", "event": "snap", "round": 1, "ts": "20260804_164141", "scene": "A person playing a recorder"}
+{"time": "2026-08-04T16:41:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:41:56", "event": "round_result", "round": 1, "ts": "20260804_164141", "success": false}
+{"time": "2026-08-04T16:41:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:42:17", "event": "snap", "round": 2, "ts": "20260804_164217", "scene": "A person holding a shield"}
