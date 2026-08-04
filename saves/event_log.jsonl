@@ -10661,3 +10661,12 @@
 {"time": "2026-08-04T20:45:08", "event": "round_result", "round": 2, "ts": "20260804_204452", "success": false}
 {"time": "2026-08-04T20:47:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T20:48:01", "event": "snap", "round": 3, "ts": "20260804_204801", "scene": "A sunflower"}
+{"time": "2026-08-04T20:48:09", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T20:48:10", "event": "round_result", "round": 3, "ts": "20260804_204801", "success": false}
+{"time": "2026-08-04T20:55:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:55:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:55:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:55:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:55:51", "event": "game_start"}
+{"time": "2026-08-04T20:56:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:57:05", "event": "snap", "round": 1, "ts": "20260804_205705", "scene": "Scuba diver"}
