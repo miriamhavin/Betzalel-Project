@@ -10036,3 +10036,16 @@
 {"time": "2026-08-04T17:03:10", "event": "button_press", "button": "NO"}
 {"time": "2026-08-04T17:03:10", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T17:03:29", "event": "snap", "round": 3, "ts": "20260804_170329", "scene": "A mushroom cloud"}
+{"time": "2026-08-04T17:03:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T17:03:36", "event": "round_result", "round": 3, "ts": "20260804_170329", "success": false}
+{"time": "2026-08-04T17:03:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:03:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:04:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:04:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:04:11", "event": "game_start"}
+{"time": "2026-08-04T17:04:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:04:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:04:18", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T17:04:18", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T17:04:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:04:29", "event": "snap", "round": 1, "ts": "20260804_170429", "scene": "A person with a rifle aiming"}
