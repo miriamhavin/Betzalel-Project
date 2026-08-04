@@ -9494,3 +9494,7 @@
 {"time": "2026-08-04T14:12:04", "event": "round_result", "round": 1, "ts": "20260804_141150", "success": false}
 {"time": "2026-08-04T14:12:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T14:12:40", "event": "snap", "round": 2, "ts": "20260804_141240", "scene": "A large, ornate key"}
+{"time": "2026-08-04T14:12:49", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:12:49", "event": "round_result", "round": 2, "ts": "20260804_141240", "success": false}
+{"time": "2026-08-04T14:12:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:13:09", "event": "snap", "round": 3, "ts": "20260804_141309", "scene": "A bird taking flight"}
