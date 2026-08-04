@@ -9012,3 +9012,30 @@
 {"time": "2026-08-03T21:59:17", "event": "button_press", "button": "NO"}
 {"time": "2026-08-03T21:59:18", "event": "button_press", "button": "YES"}
 {"time": "2026-08-03T21:59:29", "event": "snap", "round": 2, "ts": "20260803_215929", "scene": "A boat sailing on wavy water"}
+{"time": "2026-08-03T22:05:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T22:05:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T22:05:29", "event": "button_press", "button": "YES"}
+{"time": "2026-08-03T22:05:30", "event": "button_press", "button": "NO"}
+{"time": "2026-08-03T22:05:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T22:05:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-03T22:05:42", "event": "game_start"}
+{"time": "2026-08-03T22:05:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:07:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:07:59", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:15:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:15:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:15:04", "event": "game_start"}
+{"time": "2026-08-04T10:15:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:15:04", "event": "game_start"}
+{"time": "2026-08-04T10:15:05", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:15:07", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:15:32", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T10:15:47", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T10:15:48", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T10:15:48", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:15:49", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T10:15:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:15:57", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:15:58", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T10:15:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:16:07", "event": "snap", "round": 1, "ts": "20260804_101607", "scene": "A closed cardboard box"}
