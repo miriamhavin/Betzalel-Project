@@ -9068,3 +9068,40 @@
 {"time": "2026-08-04T10:17:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T10:17:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T10:18:14", "event": "snap", "round": 1, "ts": "20260804_101814", "scene": "A pair of scissors cutting a key"}
+{"time": "2026-08-04T10:18:20", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:18:21", "event": "round_result", "round": 1, "ts": "20260804_101814", "success": false}
+{"time": "2026-08-04T10:19:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:21", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:19:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:21", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:19:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:22", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:19:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:23", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:19:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:23", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:19:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:24", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:19:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:24", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:19:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:19:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:26", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:19:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:19:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:19:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:28", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:19:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:29", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:19:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:31", "event": "snap", "round": 2, "ts": "20260804_101931", "scene": "A large, broken key"}
