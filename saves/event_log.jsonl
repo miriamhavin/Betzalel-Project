@@ -10011,3 +10011,8 @@
 {"time": "2026-08-04T16:57:40", "event": "round_result", "round": 1, "ts": "20260804_165730", "success": false}
 {"time": "2026-08-04T16:58:25", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T16:58:42", "event": "snap", "round": 2, "ts": "20260804_165842", "scene": "a bucket with a hook"}
+{"time": "2026-08-04T16:58:51", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:58:52", "event": "round_result", "round": 2, "ts": "20260804_165842", "success": false}
+{"time": "2026-08-04T16:59:39", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:59:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:59:59", "event": "snap", "round": 3, "ts": "20260804_165959", "scene": "a drill bit"}
