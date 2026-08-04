@@ -9941,3 +9941,13 @@
 {"time": "2026-08-04T16:40:08", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T16:40:12", "event": "button_press", "button": "NO"}
 {"time": "2026-08-04T16:40:24", "event": "snap", "round": 3, "ts": "20260804_164024", "scene": "A person wielding a sword"}
+{"time": "2026-08-04T16:40:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:40:45", "event": "round_result", "round": 3, "ts": "20260804_164024", "success": false}
+{"time": "2026-08-04T16:40:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:40:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:41:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:41:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:41:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:41:17", "event": "game_start"}
+{"time": "2026-08-04T16:41:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:41:41", "event": "snap", "round": 1, "ts": "20260804_164141", "scene": "A person playing a recorder"}
