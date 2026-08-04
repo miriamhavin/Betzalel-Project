@@ -9271,3 +9271,7 @@
 {"time": "2026-08-04T12:24:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T12:24:25", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T12:24:34", "event": "snap", "round": 1, "ts": "20260804_122434", "scene": "A small mouse with a piece of cheese"}
+{"time": "2026-08-04T12:24:39", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T12:24:40", "event": "round_result", "round": 1, "ts": "20260804_122434", "success": true}
+{"time": "2026-08-04T12:25:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:25:28", "event": "snap", "round": 2, "ts": "20260804_122528", "scene": "A stylized person picking up a small object"}
