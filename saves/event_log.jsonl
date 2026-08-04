@@ -10782,3 +10782,8 @@
 {"time": "2026-08-04T21:36:28", "event": "button_press", "button": "NO"}
 {"time": "2026-08-04T21:36:28", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T21:36:46", "event": "snap", "round": 1, "ts": "20260804_213646", "scene": "A large, square present"}
+{"time": "2026-08-04T21:37:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:37:14", "event": "round_result", "round": 1, "ts": "20260804_213646", "success": true}
+{"time": "2026-08-04T21:37:15", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T21:37:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:38:06", "event": "snap", "round": 2, "ts": "20260804_213806", "scene": "A person holding a spray bottle"}
