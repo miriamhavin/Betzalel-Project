@@ -9347,3 +9347,17 @@
 {"time": "2026-08-04T12:49:02", "event": "round_result", "round": 2, "ts": "20260804_124852", "success": false}
 {"time": "2026-08-04T12:49:34", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T12:49:55", "event": "snap", "round": 3, "ts": "20260804_124955", "scene": "A cat"}
+{"time": "2026-08-04T12:50:02", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T12:50:03", "event": "round_result", "round": 3, "ts": "20260804_124955", "success": false}
+{"time": "2026-08-04T12:59:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:04:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:04:58", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T13:05:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:05:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:05:02", "event": "game_start"}
+{"time": "2026-08-04T13:05:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:05:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:05:17", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T13:05:19", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T13:05:19", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T13:05:27", "event": "snap", "round": 1, "ts": "20260804_130527", "scene": "A stylus pen and a sliced onion"}
