@@ -9227,3 +9227,7 @@
 {"time": "2026-08-04T11:51:26", "event": "round_result", "round": 1, "ts": "20260804_115120", "success": false}
 {"time": "2026-08-04T11:52:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T11:52:55", "event": "snap", "round": 2, "ts": "20260804_115255", "scene": "a candlestick holder"}
+{"time": "2026-08-04T11:53:10", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T11:53:11", "event": "round_result", "round": 2, "ts": "20260804_115255", "success": false}
+{"time": "2026-08-04T11:53:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T11:53:30", "event": "snap", "round": 3, "ts": "20260804_115330", "scene": "a broken clock"}
