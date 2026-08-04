@@ -9778,3 +9778,7 @@
 {"time": "2026-08-04T15:43:08", "event": "button_press", "button": "YES"}
 {"time": "2026-08-04T15:46:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T15:47:17", "event": "snap", "round": 2, "ts": "20260804_154717", "scene": "a stylized person with a sun-like head"}
+{"time": "2026-08-04T15:47:30", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T15:47:31", "event": "round_result", "round": 2, "ts": "20260804_154717", "success": false}
+{"time": "2026-08-04T15:48:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:49:01", "event": "snap", "round": 3, "ts": "20260804_154901", "scene": "a vintage spur"}
