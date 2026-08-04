@@ -10031,3 +10031,8 @@
 {"time": "2026-08-04T17:02:10", "event": "round_result", "round": 1, "ts": "20260804_170158", "success": true}
 {"time": "2026-08-04T17:02:23", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T17:02:40", "event": "snap", "round": 2, "ts": "20260804_170240", "scene": "A pair of dancing figures"}
+{"time": "2026-08-04T17:02:43", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T17:02:44", "event": "round_result", "round": 2, "ts": "20260804_170240", "success": true}
+{"time": "2026-08-04T17:03:10", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T17:03:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:03:29", "event": "snap", "round": 3, "ts": "20260804_170329", "scene": "A mushroom cloud"}
