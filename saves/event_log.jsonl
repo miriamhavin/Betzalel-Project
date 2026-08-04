@@ -9045,3 +9045,12 @@
 {"time": "2026-08-04T10:16:28", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T10:16:32", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T10:16:44", "event": "snap", "round": 2, "ts": "20260804_101644", "scene": "A key and scissors"}
+{"time": "2026-08-04T10:16:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:16:48", "event": "round_result", "round": 2, "ts": "20260804_101644", "success": true}
+{"time": "2026-08-04T10:16:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:16:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:17:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:17:02", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:17:02", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T10:17:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:17:06", "event": "snap", "round": 3, "ts": "20260804_101706", "scene": "A hammer and nail"}
