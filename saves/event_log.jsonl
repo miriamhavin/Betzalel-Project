@@ -9105,3 +9105,10 @@
 {"time": "2026-08-04T10:19:29", "event": "button_press", "button": "NO"}
 {"time": "2026-08-04T10:19:29", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T10:19:31", "event": "snap", "round": 2, "ts": "20260804_101931", "scene": "A large, broken key"}
+{"time": "2026-08-04T10:19:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:34", "event": "round_result", "round": 2, "ts": "20260804_101931", "success": true}
+{"time": "2026-08-04T10:19:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:19:52", "event": "snap", "round": 3, "ts": "20260804_101952", "scene": "A doorway"}
