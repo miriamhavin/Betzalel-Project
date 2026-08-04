@@ -9299,3 +9299,12 @@
 {"time": "2026-08-04T12:28:29", "event": "round_result", "round": 2, "ts": "20260804_122822", "success": true}
 {"time": "2026-08-04T12:29:07", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T12:29:23", "event": "snap", "round": 3, "ts": "20260804_122923", "scene": "A dinosaur skeleton"}
+{"time": "2026-08-04T12:29:30", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T12:29:31", "event": "round_result", "round": 3, "ts": "20260804_122923", "success": true}
+{"time": "2026-08-04T12:33:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:33:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:33:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:33:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:33:18", "event": "game_start"}
+{"time": "2026-08-04T12:33:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:33:38", "event": "snap", "round": 1, "ts": "20260804_123338", "scene": "A person holding scissors"}
