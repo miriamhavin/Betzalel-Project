@@ -9782,3 +9782,20 @@
 {"time": "2026-08-04T15:47:31", "event": "round_result", "round": 2, "ts": "20260804_154717", "success": false}
 {"time": "2026-08-04T15:48:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T15:49:01", "event": "snap", "round": 3, "ts": "20260804_154901", "scene": "a vintage spur"}
+{"time": "2026-08-04T15:49:07", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T15:49:08", "event": "round_result", "round": 3, "ts": "20260804_154901", "success": false}
+{"time": "2026-08-04T15:57:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:57:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:01:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:01:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:01:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:01:49", "event": "game_start"}
+{"time": "2026-08-04T16:01:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:01:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:02:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:02:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:02:11", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:02:14", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T16:02:15", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T16:02:16", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:02:24", "event": "snap", "round": 1, "ts": "20260804_160224", "scene": "A bottle of pills with a pill inside"}
