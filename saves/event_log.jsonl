@@ -10447,3 +10447,11 @@
 {"time": "2026-08-04T19:14:50", "event": "game_start"}
 {"time": "2026-08-04T19:16:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T19:17:17", "event": "snap", "round": 1, "ts": "20260804_191717", "scene": "A skeleton key"}
+{"time": "2026-08-04T19:17:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T19:17:26", "event": "round_result", "round": 1, "ts": "20260804_191717", "success": false}
+{"time": "2026-08-04T19:17:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:17:56", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T19:17:57", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T19:18:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:18:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:18:17", "event": "snap", "round": 2, "ts": "20260804_191817", "scene": "A person in a straitjacket"}
