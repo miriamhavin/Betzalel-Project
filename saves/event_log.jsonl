@@ -10417,3 +10417,13 @@
 {"time": "2026-08-04T19:05:28", "event": "round_result", "round": 2, "ts": "20260804_190518", "success": true}
 {"time": "2026-08-04T19:06:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T19:06:45", "event": "snap", "round": 3, "ts": "20260804_190645", "scene": "A scarecrow"}
+{"time": "2026-08-04T19:06:57", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T19:06:57", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T19:06:58", "event": "round_result", "round": 3, "ts": "20260804_190645", "success": false}
+{"time": "2026-08-04T19:07:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:07:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:07:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:07:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:07:59", "event": "game_start"}
+{"time": "2026-08-04T19:08:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:08:23", "event": "snap", "round": 1, "ts": "20260804_190823", "scene": "A diver"}
