@@ -10105,3 +10105,19 @@
 {"time": "2026-08-04T17:15:06", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T17:15:06", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T17:15:07", "event": "snap", "round": 2, "ts": "20260804_171507", "scene": "A person using a handle to open a door"}
+{"time": "2026-08-04T17:15:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:13", "event": "round_result", "round": 2, "ts": "20260804_171507", "success": true}
+{"time": "2026-08-04T17:15:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:15:33", "event": "snap", "round": 3, "ts": "20260804_171533", "scene": "A person operating a cash register"}
