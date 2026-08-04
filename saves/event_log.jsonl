@@ -9112,3 +9112,10 @@
 {"time": "2026-08-04T10:19:41", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T10:19:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T10:19:52", "event": "snap", "round": 3, "ts": "20260804_101952", "scene": "A doorway"}
+{"time": "2026-08-04T10:25:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:26:01", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:26:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:28:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:28:11", "event": "game_start"}
+{"time": "2026-08-04T10:29:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:30:09", "event": "snap", "round": 1, "ts": "20260804_103009", "scene": "a running figure with a large head"}
