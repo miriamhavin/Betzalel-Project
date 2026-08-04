@@ -9690,3 +9690,10 @@
 {"time": "2026-08-04T15:18:57", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T15:19:06", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T15:19:12", "event": "snap", "round": 1, "ts": "20260804_151912", "scene": "A simple rectangular fence"}
+{"time": "2026-08-04T15:19:12", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T15:19:13", "event": "round_result", "round": 1, "ts": "20260804_151912", "success": false}
+{"time": "2026-08-04T15:19:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:19:29", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T15:19:30", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T15:19:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:19:40", "event": "snap", "round": 2, "ts": "20260804_151940", "scene": "A simple rectangular box"}
