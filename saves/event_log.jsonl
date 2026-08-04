@@ -10214,3 +10214,7 @@
 {"time": "2026-08-04T18:02:30", "event": "game_start"}
 {"time": "2026-08-04T18:03:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T18:03:33", "event": "snap", "round": 1, "ts": "20260804_180333", "scene": "Chef's hat"}
+{"time": "2026-08-04T18:03:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T18:03:46", "event": "round_result", "round": 1, "ts": "20260804_180333", "success": false}
+{"time": "2026-08-04T18:04:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:04:22", "event": "snap", "round": 2, "ts": "20260804_180422", "scene": "rooster"}
