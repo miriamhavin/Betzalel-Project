@@ -9713,3 +9713,7 @@
 {"time": "2026-08-04T15:22:33", "event": "game_start"}
 {"time": "2026-08-04T15:22:51", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T15:23:09", "event": "snap", "round": 1, "ts": "20260804_152309", "scene": "A simple robot arm"}
+{"time": "2026-08-04T15:23:22", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T15:23:23", "event": "round_result", "round": 1, "ts": "20260804_152309", "success": false}
+{"time": "2026-08-04T15:23:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:23:52", "event": "snap", "round": 2, "ts": "20260804_152352", "scene": "A retro-futuristic ray gun"}
