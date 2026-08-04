@@ -10596,3 +10596,7 @@
 {"time": "2026-08-04T20:20:18", "event": "button_press", "button": "YES"}
 {"time": "2026-08-04T20:20:19", "event": "button_press", "button": "NO"}
 {"time": "2026-08-04T20:20:32", "event": "snap", "round": 2, "ts": "20260804_202032", "scene": "a dog"}
+{"time": "2026-08-04T20:20:50", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T20:20:50", "event": "round_result", "round": 2, "ts": "20260804_202032", "success": true}
+{"time": "2026-08-04T20:21:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:22:14", "event": "snap", "round": 3, "ts": "20260804_202214", "scene": "a flamingo"}
