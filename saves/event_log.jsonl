@@ -10016,3 +10016,14 @@
 {"time": "2026-08-04T16:59:39", "event": "button_press", "button": "NO"}
 {"time": "2026-08-04T16:59:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T16:59:59", "event": "snap", "round": 3, "ts": "20260804_165959", "scene": "a drill bit"}
+{"time": "2026-08-04T17:00:21", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T17:00:22", "event": "round_result", "round": 3, "ts": "20260804_165959", "success": true}
+{"time": "2026-08-04T17:00:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:00:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T17:00:43", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T17:00:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:00:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:00:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:00:44", "event": "game_start"}
+{"time": "2026-08-04T17:01:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:01:58", "event": "snap", "round": 1, "ts": "20260804_170158", "scene": "A simple wrench"}
