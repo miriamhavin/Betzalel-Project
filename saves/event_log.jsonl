@@ -10176,3 +10176,8 @@
 {"time": "2026-08-04T17:35:49", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T17:36:01", "event": "button_press", "button": "YES"}
 {"time": "2026-08-04T17:36:08", "event": "snap", "round": 1, "ts": "20260804_173608", "scene": "A horse"}
+{"time": "2026-08-04T17:36:47", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T17:36:48", "event": "round_result", "round": 1, "ts": "20260804_173608", "success": false}
+{"time": "2026-08-04T17:41:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:41:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:41:27", "event": "snap", "round": 2, "ts": "20260804_174127", "scene": "A person holding a bag"}
