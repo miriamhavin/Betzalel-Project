@@ -9922,3 +9922,12 @@
 {"time": "2026-08-04T16:35:31", "event": "round_result", "round": 2, "ts": "20260804_163521", "success": false}
 {"time": "2026-08-04T16:35:36", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T16:35:55", "event": "snap", "round": 3, "ts": "20260804_163555", "scene": "A mechanical spider"}
+{"time": "2026-08-04T16:36:59", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:37:00", "event": "round_result", "round": 3, "ts": "20260804_163555", "success": false}
+{"time": "2026-08-04T16:37:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:37:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:37:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:37:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:37:48", "event": "game_start"}
+{"time": "2026-08-04T16:38:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:38:42", "event": "snap", "round": 1, "ts": "20260804_163842", "scene": "A vintage car"}
