@@ -9597,3 +9597,8 @@
 {"time": "2026-08-04T14:39:12", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T14:39:20", "event": "button_press", "button": "NO"}
 {"time": "2026-08-04T14:39:29", "event": "snap", "round": 2, "ts": "20260804_143929", "scene": "A hand holding a whisk"}
+{"time": "2026-08-04T14:39:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:39:48", "event": "round_result", "round": 2, "ts": "20260804_143929", "success": true}
+{"time": "2026-08-04T14:39:53", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:40:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:40:19", "event": "snap", "round": 3, "ts": "20260804_144019", "scene": "A dancing bear"}
