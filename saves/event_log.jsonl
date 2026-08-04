@@ -9523,3 +9523,12 @@
 {"time": "2026-08-04T14:18:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T14:18:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T14:18:32", "event": "snap", "round": 3, "ts": "20260804_141832", "scene": "A musical note"}
+{"time": "2026-08-04T14:18:40", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T14:18:41", "event": "round_result", "round": 3, "ts": "20260804_141832", "success": true}
+{"time": "2026-08-04T14:18:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:18:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:19:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:19:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:19:49", "event": "game_start"}
+{"time": "2026-08-04T14:20:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:21:06", "event": "snap", "round": 1, "ts": "20260804_142106", "scene": "a hand holding a bowling pin"}
