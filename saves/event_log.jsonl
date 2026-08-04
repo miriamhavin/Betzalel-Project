@@ -10413,3 +10413,7 @@
 {"time": "2026-08-04T19:04:40", "event": "button_press", "button": "NO"}
 {"time": "2026-08-04T19:05:00", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T19:05:18", "event": "snap", "round": 2, "ts": "20260804_190518", "scene": "A ghost"}
+{"time": "2026-08-04T19:05:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:05:28", "event": "round_result", "round": 2, "ts": "20260804_190518", "success": true}
+{"time": "2026-08-04T19:06:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:06:45", "event": "snap", "round": 3, "ts": "20260804_190645", "scene": "A scarecrow"}
