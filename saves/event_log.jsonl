@@ -10759,3 +10759,11 @@
 {"time": "2026-08-04T21:11:25", "event": "game_start"}
 {"time": "2026-08-04T21:11:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T21:11:47", "event": "snap", "round": 1, "ts": "20260804_211147", "scene": "A monkey"}
+{"time": "2026-08-04T21:11:53", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:11:54", "event": "round_result", "round": 1, "ts": "20260804_211147", "success": false}
+{"time": "2026-08-04T21:21:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:21:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:25:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:25:55", "event": "game_start"}
+{"time": "2026-08-04T21:28:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:28:35", "event": "snap", "round": 1, "ts": "20260804_212835", "scene": "A person standing behind a counter"}
