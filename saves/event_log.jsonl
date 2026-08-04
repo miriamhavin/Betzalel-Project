@@ -9540,3 +9540,12 @@
 {"time": "2026-08-04T14:24:27", "event": "round_result", "round": 2, "ts": "20260804_142423", "success": false}
 {"time": "2026-08-04T14:25:13", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T14:25:29", "event": "snap", "round": 3, "ts": "20260804_142529", "scene": "a quill pen"}
+{"time": "2026-08-04T14:25:43", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:25:44", "event": "round_result", "round": 3, "ts": "20260804_142529", "success": false}
+{"time": "2026-08-04T14:25:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:25:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:26:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:26:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:26:27", "event": "game_start"}
+{"time": "2026-08-04T14:26:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:27:08", "event": "snap", "round": 1, "ts": "20260804_142708", "scene": "A wheelbarrow"}
