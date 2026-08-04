@@ -10537,3 +10537,7 @@
 {"time": "2026-08-04T19:49:33", "event": "game_start"}
 {"time": "2026-08-04T19:49:56", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T19:50:16", "event": "snap", "round": 1, "ts": "20260804_195016", "scene": "A small key on a keychain"}
+{"time": "2026-08-04T19:50:24", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T19:50:24", "event": "round_result", "round": 1, "ts": "20260804_195016", "success": false}
+{"time": "2026-08-04T19:51:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:51:43", "event": "snap", "round": 2, "ts": "20260804_195143", "scene": "A faucet"}
