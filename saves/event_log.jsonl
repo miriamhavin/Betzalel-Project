@@ -9970,3 +9970,7 @@
 {"time": "2026-08-04T16:44:13", "event": "game_start"}
 {"time": "2026-08-04T16:44:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T16:44:33", "event": "snap", "round": 1, "ts": "20260804_164433", "scene": "A vacuum cleaner"}
+{"time": "2026-08-04T16:44:39", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:44:40", "event": "round_result", "round": 1, "ts": "20260804_164433", "success": false}
+{"time": "2026-08-04T16:44:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:45:00", "event": "snap", "round": 2, "ts": "20260804_164500", "scene": "A person operating a mixer"}
