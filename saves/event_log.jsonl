@@ -9661,3 +9661,12 @@
 {"time": "2026-08-04T15:05:03", "event": "round_result", "round": 2, "ts": "20260804_150448", "success": false}
 {"time": "2026-08-04T15:05:10", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T15:05:27", "event": "snap", "round": 3, "ts": "20260804_150527", "scene": "a partially eaten banana"}
+{"time": "2026-08-04T15:05:57", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T15:05:58", "event": "round_result", "round": 3, "ts": "20260804_150527", "success": false}
+{"time": "2026-08-04T15:06:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:07:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:08:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:09:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:09:02", "event": "game_start"}
+{"time": "2026-08-04T15:09:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:09:32", "event": "snap", "round": 1, "ts": "20260804_150932", "scene": "A person operating a manual sewing machine"}
