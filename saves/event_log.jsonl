@@ -10750,3 +10750,12 @@
 {"time": "2026-08-04T21:10:28", "event": "round_result", "round": 2, "ts": "20260804_211020", "success": false}
 {"time": "2026-08-04T21:10:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T21:10:54", "event": "snap", "round": 3, "ts": "20260804_211054", "scene": "A hand holding a tool"}
+{"time": "2026-08-04T21:11:12", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:11:13", "event": "round_result", "round": 3, "ts": "20260804_211054", "success": false}
+{"time": "2026-08-04T21:11:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:11:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:11:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:11:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:11:25", "event": "game_start"}
+{"time": "2026-08-04T21:11:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:11:47", "event": "snap", "round": 1, "ts": "20260804_211147", "scene": "A monkey"}
