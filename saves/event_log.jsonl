@@ -10526,3 +10526,14 @@
 {"time": "2026-08-04T19:46:21", "event": "round_result", "round": 2, "ts": "20260804_194611", "success": false}
 {"time": "2026-08-04T19:46:53", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T19:47:11", "event": "snap", "round": 3, "ts": "20260804_194711", "scene": "A stylized person dancing"}
+{"time": "2026-08-04T19:48:28", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T19:48:29", "event": "round_result", "round": 3, "ts": "20260804_194711", "success": true}
+{"time": "2026-08-04T19:48:36", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T19:48:37", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T19:48:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:48:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:49:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:49:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:49:33", "event": "game_start"}
+{"time": "2026-08-04T19:49:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:50:16", "event": "snap", "round": 1, "ts": "20260804_195016", "scene": "A small key on a keychain"}
