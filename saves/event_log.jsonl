@@ -9697,3 +9697,7 @@
 {"time": "2026-08-04T15:19:30", "event": "button_press", "button": "YES"}
 {"time": "2026-08-04T15:19:31", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T15:19:40", "event": "snap", "round": 2, "ts": "20260804_151940", "scene": "A simple rectangular box"}
+{"time": "2026-08-04T15:19:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T15:19:52", "event": "round_result", "round": 2, "ts": "20260804_151940", "success": false}
+{"time": "2026-08-04T15:20:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:21:04", "event": "snap", "round": 3, "ts": "20260804_152104", "scene": "A canoe paddle"}
