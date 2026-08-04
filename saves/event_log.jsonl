@@ -10328,3 +10328,13 @@
 {"time": "2026-08-04T18:36:10", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T18:36:18", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T18:36:29", "event": "snap", "round": 1, "ts": "20260804_183629", "scene": "A person holding a tool"}
+{"time": "2026-08-04T18:36:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:36:42", "event": "round_result", "round": 1, "ts": "20260804_183629", "success": true}
+{"time": "2026-08-04T18:37:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:37:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T18:37:45", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T18:37:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T18:37:52", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T18:37:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:37:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:37:54", "event": "snap", "round": 2, "ts": "20260804_183754", "scene": "A rolled-up document being placed into a holder"}
