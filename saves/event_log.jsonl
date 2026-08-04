@@ -10691,3 +10691,36 @@
 {"time": "2026-08-04T21:03:28", "event": "game_start"}
 {"time": "2026-08-04T21:03:50", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T21:04:12", "event": "snap", "round": 1, "ts": "20260804_210412", "scene": "A standing lamp"}
+{"time": "2026-08-04T21:04:20", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:20", "event": "round_result", "round": 1, "ts": "20260804_210412", "success": false}
+{"time": "2026-08-04T21:04:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:04:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:04:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:04:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:04:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:27", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T21:04:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:04:29", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:29", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T21:04:30", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T21:04:30", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:04:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:04:32", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:32", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:32", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:32", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:33", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:33", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:33", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T21:04:33", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:33", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:34", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:34", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:04:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:04:43", "event": "snap", "round": 2, "ts": "20260804_210443", "scene": "A frog"}
