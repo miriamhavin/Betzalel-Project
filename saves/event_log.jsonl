@@ -10186,3 +10186,12 @@
 {"time": "2026-08-04T17:46:52", "event": "round_result", "round": 2, "ts": "20260804_174127", "success": false}
 {"time": "2026-08-04T17:48:23", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T17:48:40", "event": "snap", "round": 3, "ts": "20260804_174840", "scene": "A cowboy hat"}
+{"time": "2026-08-04T17:48:46", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T17:48:47", "event": "round_result", "round": 3, "ts": "20260804_174840", "success": false}
+{"time": "2026-08-04T17:49:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:49:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:55:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:55:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:55:56", "event": "game_start"}
+{"time": "2026-08-04T17:56:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:56:55", "event": "snap", "round": 1, "ts": "20260804_175655", "scene": "A monstrous creature with a gaping maw"}
