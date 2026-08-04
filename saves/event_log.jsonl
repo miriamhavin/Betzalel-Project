@@ -9258,3 +9258,16 @@
 {"time": "2026-08-04T12:23:08", "event": "button_press", "button": "YES"}
 {"time": "2026-08-04T12:23:08", "event": "button_press", "button": "NO"}
 {"time": "2026-08-04T12:23:10", "event": "snap", "round": 3, "ts": "20260804_122310", "scene": "a bird taking flight"}
+{"time": "2026-08-04T12:23:18", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T12:23:19", "event": "round_result", "round": 3, "ts": "20260804_122310", "success": false}
+{"time": "2026-08-04T12:23:22", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T12:23:24", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T12:23:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:23:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:24:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:24:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:24:15", "event": "game_start"}
+{"time": "2026-08-04T12:24:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:24:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:24:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:24:34", "event": "snap", "round": 1, "ts": "20260804_122434", "scene": "A small mouse with a piece of cheese"}
