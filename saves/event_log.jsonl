@@ -9602,3 +9602,12 @@
 {"time": "2026-08-04T14:39:53", "event": "button_press", "button": "NO"}
 {"time": "2026-08-04T14:40:02", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T14:40:19", "event": "snap", "round": 3, "ts": "20260804_144019", "scene": "A dancing bear"}
+{"time": "2026-08-04T14:41:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:41:36", "event": "round_result", "round": 3, "ts": "20260804_144019", "success": false}
+{"time": "2026-08-04T14:43:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:43:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:43:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:44:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:44:07", "event": "game_start"}
+{"time": "2026-08-04T14:44:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:44:38", "event": "snap", "round": 1, "ts": "20260804_144438", "scene": "A leaning toothbrush"}
