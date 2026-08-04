@@ -10240,3 +10240,12 @@
 {"time": "2026-08-04T18:15:20", "event": "round_result", "round": 2, "ts": "20260804_181508", "success": false}
 {"time": "2026-08-04T18:16:10", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T18:16:29", "event": "snap", "round": 3, "ts": "20260804_181629", "scene": "A keyhole with a key partially inserted"}
+{"time": "2026-08-04T18:16:32", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T18:16:33", "event": "round_result", "round": 3, "ts": "20260804_181629", "success": false}
+{"time": "2026-08-04T18:16:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:17:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:18:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:18:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:18:12", "event": "game_start"}
+{"time": "2026-08-04T18:19:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:19:26", "event": "snap", "round": 1, "ts": "20260804_181926", "scene": "A skeleton warrior"}
