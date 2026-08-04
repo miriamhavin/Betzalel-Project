@@ -9657,3 +9657,7 @@
 {"time": "2026-08-04T15:04:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T15:04:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T15:04:48", "event": "snap", "round": 2, "ts": "20260804_150448", "scene": "a person holding a fork"}
+{"time": "2026-08-04T15:05:03", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T15:05:03", "event": "round_result", "round": 2, "ts": "20260804_150448", "success": false}
+{"time": "2026-08-04T15:05:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:05:27", "event": "snap", "round": 3, "ts": "20260804_150527", "scene": "a partially eaten banana"}
