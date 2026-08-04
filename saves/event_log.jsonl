@@ -9996,3 +9996,14 @@
 {"time": "2026-08-04T16:51:41", "event": "button_press", "button": "NO"}
 {"time": "2026-08-04T16:51:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T16:52:00", "event": "snap", "round": 3, "ts": "20260804_165200", "scene": "A pair of dancing figures"}
+{"time": "2026-08-04T16:52:03", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:52:04", "event": "round_result", "round": 3, "ts": "20260804_165200", "success": false}
+{"time": "2026-08-04T16:53:43", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T16:55:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:55:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:55:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:55:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:55:41", "event": "game_start"}
+{"time": "2026-08-04T16:56:22", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:57:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:57:30", "event": "snap", "round": 1, "ts": "20260804_165730", "scene": "a hammer"}
