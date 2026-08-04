@@ -9418,3 +9418,16 @@
 {"time": "2026-08-04T13:37:59", "event": "button_press", "button": "NO"}
 {"time": "2026-08-04T13:37:59", "event": "button_press", "button": "YES"}
 {"time": "2026-08-04T13:38:10", "event": "snap", "round": 3, "ts": "20260804_133810", "scene": "A wand casting a spell"}
+{"time": "2026-08-04T13:38:17", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T13:38:17", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T13:38:18", "event": "round_result", "round": 3, "ts": "20260804_133810", "success": false}
+{"time": "2026-08-04T13:38:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T13:38:26", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T13:38:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:38:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:43:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:43:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:43:22", "event": "game_start"}
+{"time": "2026-08-04T13:43:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:43:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:43:50", "event": "snap", "round": 1, "ts": "20260804_134350", "scene": "A person holding a stapler"}
