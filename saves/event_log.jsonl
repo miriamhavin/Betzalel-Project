@@ -9987,3 +9987,7 @@
 {"time": "2026-08-04T16:48:52", "event": "game_start"}
 {"time": "2026-08-04T16:48:59", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T16:49:16", "event": "snap", "round": 1, "ts": "20260804_164916", "scene": "A motorcycle"}
+{"time": "2026-08-04T16:49:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:49:28", "event": "round_result", "round": 1, "ts": "20260804_164916", "success": false}
+{"time": "2026-08-04T16:50:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:50:21", "event": "snap", "round": 2, "ts": "20260804_165021", "scene": "A woman's face"}
