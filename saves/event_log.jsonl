@@ -10249,3 +10249,7 @@
 {"time": "2026-08-04T18:18:12", "event": "game_start"}
 {"time": "2026-08-04T18:19:09", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T18:19:26", "event": "snap", "round": 1, "ts": "20260804_181926", "scene": "A skeleton warrior"}
+{"time": "2026-08-04T18:19:39", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T18:19:40", "event": "round_result", "round": 1, "ts": "20260804_181926", "success": false}
+{"time": "2026-08-04T18:20:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:20:30", "event": "snap", "round": 2, "ts": "20260804_182030", "scene": "A broken chain"}
