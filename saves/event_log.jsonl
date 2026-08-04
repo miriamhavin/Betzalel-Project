@@ -10618,3 +10618,13 @@
 {"time": "2026-08-04T20:34:29", "event": "round_result", "round": 2, "ts": "20260804_203420", "success": false}
 {"time": "2026-08-04T20:35:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T20:35:35", "event": "snap", "round": 3, "ts": "20260804_203535", "scene": "a stylized key"}
+{"time": "2026-08-04T20:35:48", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T20:35:48", "event": "round_result", "round": 3, "ts": "20260804_203535", "success": false}
+{"time": "2026-08-04T20:36:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:36:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:36:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:37:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:37:01", "event": "game_start"}
+{"time": "2026-08-04T20:37:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:37:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:37:51", "event": "snap", "round": 1, "ts": "20260804_203751", "scene": "A clown face"}
