@@ -9127,3 +9127,14 @@
 {"time": "2026-08-04T10:31:37", "event": "round_result", "round": 2, "ts": "20260804_103127", "success": true}
 {"time": "2026-08-04T10:31:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T10:32:15", "event": "snap", "round": 3, "ts": "20260804_103215", "scene": "a person lying down"}
+{"time": "2026-08-04T10:32:24", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:32:25", "event": "round_result", "round": 3, "ts": "20260804_103215", "success": false}
+{"time": "2026-08-04T10:32:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:32:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:33:42", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T10:33:43", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:58:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:58:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:58:48", "event": "game_start"}
+{"time": "2026-08-04T10:59:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:59:56", "event": "snap", "round": 1, "ts": "20260804_105956", "scene": "A snail"}
