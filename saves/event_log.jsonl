@@ -10771,3 +10771,14 @@
 {"time": "2026-08-04T21:28:42", "event": "round_result", "round": 1, "ts": "20260804_212835", "success": false}
 {"time": "2026-08-04T21:29:05", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T21:29:27", "event": "snap", "round": 2, "ts": "20260804_212927", "scene": "A key and a padlock"}
+{"time": "2026-08-04T21:36:17", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:36:18", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T21:36:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:36:18", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:36:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:36:19", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T21:36:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:36:27", "event": "game_start"}
+{"time": "2026-08-04T21:36:28", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:36:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:36:46", "event": "snap", "round": 1, "ts": "20260804_213646", "scene": "A large, square present"}
