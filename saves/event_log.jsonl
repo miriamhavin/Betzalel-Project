@@ -10610,3 +10610,7 @@
 {"time": "2026-08-04T20:31:46", "event": "game_start"}
 {"time": "2026-08-04T20:32:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T20:32:43", "event": "snap", "round": 1, "ts": "20260804_203243", "scene": "a keyhole"}
+{"time": "2026-08-04T20:32:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T20:32:53", "event": "round_result", "round": 1, "ts": "20260804_203243", "success": false}
+{"time": "2026-08-04T20:34:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:34:20", "event": "snap", "round": 2, "ts": "20260804_203420", "scene": "a hammer"}
