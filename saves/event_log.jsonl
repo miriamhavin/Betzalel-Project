@@ -9119,3 +9119,7 @@
 {"time": "2026-08-04T10:28:11", "event": "game_start"}
 {"time": "2026-08-04T10:29:51", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T10:30:09", "event": "snap", "round": 1, "ts": "20260804_103009", "scene": "a running figure with a large head"}
+{"time": "2026-08-04T10:30:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:30:26", "event": "round_result", "round": 1, "ts": "20260804_103009", "success": false}
+{"time": "2026-08-04T10:31:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:31:27", "event": "snap", "round": 2, "ts": "20260804_103127", "scene": "a person jumping"}
