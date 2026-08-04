@@ -9231,3 +9231,14 @@
 {"time": "2026-08-04T11:53:11", "event": "round_result", "round": 2, "ts": "20260804_115255", "success": false}
 {"time": "2026-08-04T11:53:13", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T11:53:30", "event": "snap", "round": 3, "ts": "20260804_115330", "scene": "a broken clock"}
+{"time": "2026-08-04T11:53:39", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T11:53:40", "event": "round_result", "round": 3, "ts": "20260804_115330", "success": false}
+{"time": "2026-08-04T12:19:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:19:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:19:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:19:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:19:33", "event": "game_start"}
+{"time": "2026-08-04T12:19:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T12:19:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:19:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T12:20:07", "event": "snap", "round": 1, "ts": "20260804_122007", "scene": "a person performing surgery"}
