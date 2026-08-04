@@ -9905,3 +9905,12 @@
 {"time": "2026-08-04T16:30:57", "event": "round_result", "round": 2, "ts": "20260804_163047", "success": false}
 {"time": "2026-08-04T16:31:03", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T16:31:22", "event": "snap", "round": 3, "ts": "20260804_163122", "scene": "A person brushing their teeth"}
+{"time": "2026-08-04T16:31:29", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:31:30", "event": "round_result", "round": 3, "ts": "20260804_163122", "success": false}
+{"time": "2026-08-04T16:31:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:31:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:34:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:34:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:34:19", "event": "game_start"}
+{"time": "2026-08-04T16:34:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:34:41", "event": "snap", "round": 1, "ts": "20260804_163441", "scene": "A vintage camera with a tripod"}
