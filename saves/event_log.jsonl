@@ -10275,3 +10275,12 @@
 {"time": "2026-08-04T18:24:16", "event": "round_result", "round": 2, "ts": "20260804_182411", "success": true}
 {"time": "2026-08-04T18:24:31", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T18:24:48", "event": "snap", "round": 3, "ts": "20260804_182448", "scene": "A microscopic view of a bacterium"}
+{"time": "2026-08-04T18:24:51", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T18:24:52", "event": "round_result", "round": 3, "ts": "20260804_182448", "success": false}
+{"time": "2026-08-04T18:24:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:25:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:26:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:27:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:27:41", "event": "game_start"}
+{"time": "2026-08-04T18:28:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:28:24", "event": "snap", "round": 1, "ts": "20260804_182824", "scene": "A pig"}
