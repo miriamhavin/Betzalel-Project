@@ -9439,3 +9439,12 @@
 {"time": "2026-08-04T13:44:40", "event": "round_result", "round": 2, "ts": "20260804_134435", "success": false}
 {"time": "2026-08-04T13:44:57", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T13:45:15", "event": "snap", "round": 3, "ts": "20260804_134515", "scene": "A mouse with a whisk"}
+{"time": "2026-08-04T13:45:19", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T13:45:20", "event": "round_result", "round": 3, "ts": "20260804_134515", "success": false}
+{"time": "2026-08-04T13:45:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:45:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:50:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:50:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:50:21", "event": "game_start"}
+{"time": "2026-08-04T13:51:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T13:51:59", "event": "snap", "round": 1, "ts": "20260804_135159", "scene": "A person holding a microphone"}
