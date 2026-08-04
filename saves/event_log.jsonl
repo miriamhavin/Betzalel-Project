@@ -10408,3 +10408,8 @@
 {"time": "2026-08-04T19:02:26", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T19:02:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T19:02:52", "event": "snap", "round": 1, "ts": "20260804_190252", "scene": "A leaning mailbox"}
+{"time": "2026-08-04T19:02:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T19:02:56", "event": "round_result", "round": 1, "ts": "20260804_190252", "success": false}
+{"time": "2026-08-04T19:04:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T19:05:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T19:05:18", "event": "snap", "round": 2, "ts": "20260804_190518", "scene": "A ghost"}
