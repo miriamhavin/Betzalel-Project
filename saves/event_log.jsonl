@@ -10580,3 +10580,12 @@
 {"time": "2026-08-04T20:11:54", "event": "round_result", "round": 2, "ts": "20260804_201148", "success": false}
 {"time": "2026-08-04T20:12:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T20:12:53", "event": "snap", "round": 3, "ts": "20260804_201253", "scene": "A person playing a flute"}
+{"time": "2026-08-04T20:12:58", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T20:12:58", "event": "round_result", "round": 3, "ts": "20260804_201253", "success": false}
+{"time": "2026-08-04T20:16:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:16:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:17:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:18:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:18:19", "event": "game_start"}
+{"time": "2026-08-04T20:19:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:19:59", "event": "snap", "round": 1, "ts": "20260804_201959", "scene": "a cocktail shaker"}
