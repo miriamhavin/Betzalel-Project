@@ -10236,3 +10236,7 @@
 {"time": "2026-08-04T18:13:47", "event": "round_result", "round": 1, "ts": "20260804_181326", "success": true}
 {"time": "2026-08-04T18:14:51", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T18:15:08", "event": "snap", "round": 2, "ts": "20260804_181508", "scene": "A dumbbell"}
+{"time": "2026-08-04T18:15:19", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T18:15:20", "event": "round_result", "round": 2, "ts": "20260804_181508", "success": false}
+{"time": "2026-08-04T18:16:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:16:29", "event": "snap", "round": 3, "ts": "20260804_181629", "scene": "A keyhole with a key partially inserted"}
