@@ -9879,3 +9879,7 @@
 {"time": "2026-08-04T16:25:35", "event": "game_start"}
 {"time": "2026-08-04T16:25:38", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T16:25:58", "event": "snap", "round": 1, "ts": "20260804_162558", "scene": "A person opening a letter"}
+{"time": "2026-08-04T16:26:08", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T16:26:09", "event": "round_result", "round": 1, "ts": "20260804_162558", "success": false}
+{"time": "2026-08-04T16:26:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T16:26:44", "event": "snap", "round": 2, "ts": "20260804_162644", "scene": "A woman with a large bow in her hair"}
