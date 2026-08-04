@@ -10222,3 +10222,13 @@
 {"time": "2026-08-04T18:04:26", "event": "round_result", "round": 2, "ts": "20260804_180422", "success": true}
 {"time": "2026-08-04T18:04:56", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T18:05:13", "event": "snap", "round": 3, "ts": "20260804_180513", "scene": "A dinosaur"}
+{"time": "2026-08-04T18:05:17", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T18:05:18", "event": "round_result", "round": 3, "ts": "20260804_180513", "success": false}
+{"time": "2026-08-04T18:05:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:12:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:12:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:12:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:12:32", "event": "game_start"}
+{"time": "2026-08-04T18:13:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:13:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:13:26", "event": "snap", "round": 1, "ts": "20260804_181326", "scene": "A robot face"}
