@@ -10131,3 +10131,10 @@
 {"time": "2026-08-04T17:15:47", "event": "game_start"}
 {"time": "2026-08-04T17:17:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T17:17:36", "event": "snap", "round": 1, "ts": "20260804_171736", "scene": "a drill press"}
+{"time": "2026-08-04T17:17:47", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T17:17:48", "event": "round_result", "round": 1, "ts": "20260804_171736", "success": false}
+{"time": "2026-08-04T17:17:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:18:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T17:18:15", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T17:18:16", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T17:18:16", "event": "snap", "round": 2, "ts": "20260804_171816", "scene": "a person holding a wrench"}
