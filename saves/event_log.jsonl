@@ -9749,3 +9749,7 @@
 {"time": "2026-08-04T15:35:35", "event": "game_start"}
 {"time": "2026-08-04T15:36:14", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T15:36:35", "event": "snap", "round": 1, "ts": "20260804_153635", "scene": "A skeleton"}
+{"time": "2026-08-04T15:36:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T15:36:40", "event": "round_result", "round": 1, "ts": "20260804_153635", "success": false}
+{"time": "2026-08-04T15:37:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:37:55", "event": "snap", "round": 2, "ts": "20260804_153755", "scene": "A cowboy riding a horse"}
