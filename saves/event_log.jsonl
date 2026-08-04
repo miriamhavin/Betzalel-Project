@@ -10767,3 +10767,7 @@
 {"time": "2026-08-04T21:25:55", "event": "game_start"}
 {"time": "2026-08-04T21:28:03", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T21:28:35", "event": "snap", "round": 1, "ts": "20260804_212835", "scene": "A person standing behind a counter"}
+{"time": "2026-08-04T21:28:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:28:42", "event": "round_result", "round": 1, "ts": "20260804_212835", "success": false}
+{"time": "2026-08-04T21:29:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:29:27", "event": "snap", "round": 2, "ts": "20260804_212927", "scene": "A key and a padlock"}
