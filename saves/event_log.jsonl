@@ -9572,3 +9572,7 @@
 {"time": "2026-08-04T14:33:44", "event": "game_start"}
 {"time": "2026-08-04T14:34:03", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T14:34:21", "event": "snap", "round": 1, "ts": "20260804_143421", "scene": "A mushroom"}
+{"time": "2026-08-04T14:34:29", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:34:29", "event": "round_result", "round": 1, "ts": "20260804_143421", "success": false}
+{"time": "2026-08-04T14:34:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:35:17", "event": "snap", "round": 2, "ts": "20260804_143517", "scene": "A rabbit"}
