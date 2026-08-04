@@ -10812,3 +10812,9 @@
 {"time": "2026-08-04T21:49:29", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T21:49:31", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T21:49:50", "event": "snap", "round": 1, "ts": "20260804_214950", "scene": "A dog shaking its head"}
+{"time": "2026-08-04T21:49:57", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T21:49:58", "event": "round_result", "round": 1, "ts": "20260804_214950", "success": false}
+{"time": "2026-08-04T21:50:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:50:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:50:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T21:50:52", "event": "snap", "round": 2, "ts": "20260804_215052", "scene": "A simple rectangle"}
