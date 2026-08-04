@@ -9721,3 +9721,13 @@
 {"time": "2026-08-04T15:24:06", "event": "round_result", "round": 2, "ts": "20260804_152352", "success": false}
 {"time": "2026-08-04T15:24:32", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T15:24:49", "event": "snap", "round": 3, "ts": "20260804_152449", "scene": "A pitcher pouring water"}
+{"time": "2026-08-04T15:24:57", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T15:24:58", "event": "round_result", "round": 3, "ts": "20260804_152449", "success": true}
+{"time": "2026-08-04T15:25:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:25:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:28:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:28:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:28:12", "event": "game_start"}
+{"time": "2026-08-04T15:28:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:28:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T15:28:43", "event": "snap", "round": 1, "ts": "20260804_152843", "scene": "a comma"}
