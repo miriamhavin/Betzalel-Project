@@ -9532,3 +9532,7 @@
 {"time": "2026-08-04T14:19:49", "event": "game_start"}
 {"time": "2026-08-04T14:20:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T14:21:06", "event": "snap", "round": 1, "ts": "20260804_142106", "scene": "a hand holding a bowling pin"}
+{"time": "2026-08-04T14:21:13", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T14:21:14", "event": "round_result", "round": 1, "ts": "20260804_142106", "success": false}
+{"time": "2026-08-04T14:24:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T14:24:23", "event": "snap", "round": 2, "ts": "20260804_142423", "scene": "a person holding a gun"}
