@@ -10600,3 +10600,13 @@
 {"time": "2026-08-04T20:20:50", "event": "round_result", "round": 2, "ts": "20260804_202032", "success": true}
 {"time": "2026-08-04T20:21:57", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T20:22:14", "event": "snap", "round": 3, "ts": "20260804_202214", "scene": "a flamingo"}
+{"time": "2026-08-04T20:22:27", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T20:22:27", "event": "round_result", "round": 3, "ts": "20260804_202214", "success": true}
+{"time": "2026-08-04T20:22:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:22:53", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T20:26:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:27:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:31:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:31:46", "event": "game_start"}
+{"time": "2026-08-04T20:32:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:32:43", "event": "snap", "round": 1, "ts": "20260804_203243", "scene": "a keyhole"}
