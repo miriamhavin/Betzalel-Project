@@ -10311,3 +10311,20 @@
 {"time": "2026-08-04T18:33:49", "event": "button_press", "button": "NO"}
 {"time": "2026-08-04T18:33:49", "event": "button_press", "button": "YES"}
 {"time": "2026-08-04T18:33:59", "event": "snap", "round": 3, "ts": "20260804_183359", "scene": "A character with a bag"}
+{"time": "2026-08-04T18:34:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:34:20", "event": "round_result", "round": 3, "ts": "20260804_183359", "success": true}
+{"time": "2026-08-04T18:34:24", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T18:34:28", "event": "button_press", "button": "YES"}
+{"time": "2026-08-04T18:34:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:34:50", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T18:34:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T18:34:57", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T18:35:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T18:35:08", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T18:35:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:35:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:35:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:35:48", "event": "game_start"}
+{"time": "2026-08-04T18:36:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:36:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T18:36:29", "event": "snap", "round": 1, "ts": "20260804_183629", "scene": "A person holding a tool"}
