@@ -10563,3 +10563,12 @@
 {"time": "2026-08-04T19:58:35", "event": "round_result", "round": 2, "ts": "20260804_195826", "success": false}
 {"time": "2026-08-04T19:59:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T20:00:08", "event": "snap", "round": 3, "ts": "20260804_200008", "scene": "A snail"}
+{"time": "2026-08-04T20:00:22", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T20:00:22", "event": "round_result", "round": 3, "ts": "20260804_200008", "success": false}
+{"time": "2026-08-04T20:05:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:09:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:10:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:10:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:10:17", "event": "game_start"}
+{"time": "2026-08-04T20:10:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T20:10:56", "event": "snap", "round": 1, "ts": "20260804_201056", "scene": "Astronaut"}
