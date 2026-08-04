@@ -9054,3 +9054,17 @@
 {"time": "2026-08-04T10:17:02", "event": "button_press", "button": "YES"}
 {"time": "2026-08-04T10:17:05", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T10:17:06", "event": "snap", "round": 3, "ts": "20260804_101706", "scene": "A hammer and nail"}
+{"time": "2026-08-04T10:17:13", "event": "button_press", "button": "NO"}
+{"time": "2026-08-04T10:17:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:17:14", "event": "round_result", "round": 3, "ts": "20260804_101706", "success": false}
+{"time": "2026-08-04T10:17:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:17:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:17:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:17:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:17:57", "event": "game_start"}
+{"time": "2026-08-04T10:17:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:17:57", "event": "game_start"}
+{"time": "2026-08-04T10:17:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:17:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:17:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-04T10:18:14", "event": "snap", "round": 1, "ts": "20260804_101814", "scene": "A pair of scissors cutting a key"}
