@@ -11921,3 +11921,18 @@
 {"time": "2026-08-05T17:39:39", "event": "round_result", "round": 2, "ts": "20260805_173926", "success": false}
 {"time": "2026-08-05T17:40:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:40:35", "event": "snap", "round": 3, "ts": "20260805_174035", "scene": "A person wearing a maid's outfit"}
+{"time": "2026-08-05T17:40:46", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T17:40:47", "event": "round_result", "round": 3, "ts": "20260805_174035", "success": true}
+{"time": "2026-08-05T17:41:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:41:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:44:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:44:43", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T17:45:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:45:32", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:45:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:45:32", "event": "game_start"}
+{"time": "2026-08-05T17:45:33", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T17:45:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:45:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:45:59", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:45:59", "event": "snap", "round": 1, "ts": "20260805_174559", "scene": "A smiling face with a key"}
