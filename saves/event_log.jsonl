@@ -11068,3 +11068,10 @@
 {"time": "2026-08-05T13:31:00", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T13:31:02", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T13:31:06", "event": "snap", "round": 2, "ts": "20260805_133106", "scene": "A person writing with a pen"}
+{"time": "2026-08-05T13:31:12", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T13:31:12", "event": "round_result", "round": 2, "ts": "20260805_133106", "success": false}
+{"time": "2026-08-05T13:31:23", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T13:31:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:31:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:31:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:31:40", "event": "snap", "round": 3, "ts": "20260805_133140", "scene": "A dog burying a bone"}
