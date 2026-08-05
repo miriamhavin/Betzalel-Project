@@ -11410,3 +11410,20 @@
 {"time": "2026-08-05T15:33:33", "event": "button_press", "button": "NO"}
 {"time": "2026-08-05T15:33:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T15:33:52", "event": "snap", "round": 3, "ts": "20260805_153352", "scene": "A person walking a dog"}
+{"time": "2026-08-05T15:41:31", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T15:41:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:42:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:42:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:42:27", "event": "game_start"}
+{"time": "2026-08-05T15:42:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T15:42:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:42:58", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T15:42:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:42:59", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T15:42:59", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T15:42:59", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T15:43:00", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T15:43:01", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T15:43:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:43:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:43:10", "event": "snap", "round": 1, "ts": "20260805_154310", "scene": "A simple house."}
