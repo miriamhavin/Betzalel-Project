@@ -11594,3 +11594,7 @@
 {"time": "2026-08-05T16:25:57", "event": "button_press", "button": "YES"}
 {"time": "2026-08-05T16:25:58", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:26:15", "event": "snap", "round": 2, "ts": "20260805_162615", "scene": "A cannon firing"}
+{"time": "2026-08-05T16:27:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:27:47", "event": "round_result", "round": 2, "ts": "20260805_162615", "success": true}
+{"time": "2026-08-05T16:27:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:28:08", "event": "snap", "round": 3, "ts": "20260805_162808", "scene": "A hand reaching out of a frame"}
