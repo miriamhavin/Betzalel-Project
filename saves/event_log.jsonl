@@ -11522,3 +11522,13 @@
 {"time": "2026-08-05T16:13:48", "event": "round_result", "round": 2, "ts": "20260805_161324", "success": false}
 {"time": "2026-08-05T16:14:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:14:51", "event": "snap", "round": 3, "ts": "20260805_161451", "scene": "A stylized representation of a seahorse"}
+{"time": "2026-08-05T16:14:58", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T16:14:59", "event": "round_result", "round": 3, "ts": "20260805_161451", "success": true}
+{"time": "2026-08-05T16:15:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:15:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:15:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:15:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:15:08", "event": "game_start"}
+{"time": "2026-08-05T16:15:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:15:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:15:39", "event": "snap", "round": 1, "ts": "20260805_161539", "scene": "A zombie with its arms raised"}
