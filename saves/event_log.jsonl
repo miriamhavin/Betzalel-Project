@@ -11989,3 +11989,7 @@
 {"time": "2026-08-05T17:59:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:59:51", "event": "button_press", "button": "NO"}
 {"time": "2026-08-05T18:00:01", "event": "snap", "round": 1, "ts": "20260805_180001", "scene": "A simple rectangle"}
+{"time": "2026-08-05T18:00:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T18:00:39", "event": "round_result", "round": 1, "ts": "20260805_180001", "success": false}
+{"time": "2026-08-05T18:00:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:01:04", "event": "snap", "round": 2, "ts": "20260805_180104", "scene": "A framed photograph"}
