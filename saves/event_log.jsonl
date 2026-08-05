@@ -12611,3 +12611,16 @@
 {"time": "2026-08-05T21:14:35", "event": "round_result", "round": 2, "ts": "20260805_211416", "success": false}
 {"time": "2026-08-05T21:16:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T21:16:42", "event": "snap", "round": 3, "ts": "20260805_211642", "scene": "A stylized robot"}
+{"time": "2026-08-05T21:16:53", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T21:16:54", "event": "round_result", "round": 3, "ts": "20260805_211642", "success": true}
+{"time": "2026-08-05T21:17:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T21:18:15", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T21:18:19", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T21:18:20", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T21:18:20", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T21:18:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T21:25:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T21:25:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T21:25:23", "event": "game_start"}
+{"time": "2026-08-05T21:25:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T21:26:13", "event": "snap", "round": 1, "ts": "20260805_212613", "scene": "A cartoonish face"}
