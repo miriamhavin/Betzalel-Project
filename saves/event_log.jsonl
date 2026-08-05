@@ -11897,3 +11897,9 @@
 {"time": "2026-08-05T17:32:22", "event": "round_result", "round": 1, "ts": "20260805_173159", "success": false}
 {"time": "2026-08-05T17:32:24", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:32:44", "event": "snap", "round": 2, "ts": "20260805_173244", "scene": "A leaping frog"}
+{"time": "2026-08-05T17:33:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:33:01", "event": "round_result", "round": 2, "ts": "20260805_173244", "success": false}
+{"time": "2026-08-05T17:33:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:33:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:33:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:33:23", "event": "snap", "round": 3, "ts": "20260805_173323", "scene": "A person holding a whisk"}
