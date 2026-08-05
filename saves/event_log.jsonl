@@ -12489,3 +12489,15 @@
 {"time": "2026-08-05T20:22:59", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T20:23:07", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T20:23:17", "event": "snap", "round": 3, "ts": "20260805_202317", "scene": "A person playing a wind instrument"}
+{"time": "2026-08-05T20:23:26", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T20:23:27", "event": "round_result", "round": 3, "ts": "20260805_202317", "success": true}
+{"time": "2026-08-05T20:24:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:24:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:24:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T20:25:36", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T20:25:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:25:41", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T20:26:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:26:14", "event": "game_start"}
+{"time": "2026-08-05T20:27:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:27:38", "event": "snap", "round": 1, "ts": "20260805_202738", "scene": "A bomb with a fuse and timer"}
