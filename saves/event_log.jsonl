@@ -11792,3 +11792,7 @@
 {"time": "2026-08-05T17:12:53", "event": "game_start"}
 {"time": "2026-08-05T17:13:00", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:13:20", "event": "snap", "round": 1, "ts": "20260805_171320", "scene": "A monkey in a chef's hat"}
+{"time": "2026-08-05T17:13:30", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:13:31", "event": "round_result", "round": 1, "ts": "20260805_171320", "success": false}
+{"time": "2026-08-05T17:13:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:13:54", "event": "snap", "round": 2, "ts": "20260805_171354", "scene": "A snowman with a carrot nose"}
