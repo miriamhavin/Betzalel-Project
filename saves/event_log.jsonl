@@ -11075,3 +11075,14 @@
 {"time": "2026-08-05T13:31:26", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T13:31:31", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T13:31:40", "event": "snap", "round": 3, "ts": "20260805_133140", "scene": "A dog burying a bone"}
+{"time": "2026-08-05T13:31:44", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T13:31:44", "event": "round_result", "round": 3, "ts": "20260805_133140", "success": true}
+{"time": "2026-08-05T13:36:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:36:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:36:56", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T13:39:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:39:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:39:11", "event": "game_start"}
+{"time": "2026-08-05T13:39:13", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T13:39:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:39:35", "event": "snap", "round": 1, "ts": "20260805_133935", "scene": "A person speaking into a microphone"}
