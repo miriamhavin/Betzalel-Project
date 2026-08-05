@@ -12390,3 +12390,12 @@
 {"time": "2026-08-05T20:00:58", "event": "round_result", "round": 2, "ts": "20260805_200047", "success": false}
 {"time": "2026-08-05T20:01:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T20:01:37", "event": "snap", "round": 3, "ts": "20260805_200137", "scene": "A cartoon character with a large head"}
+{"time": "2026-08-05T20:01:43", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T20:01:43", "event": "round_result", "round": 3, "ts": "20260805_200137", "success": false}
+{"time": "2026-08-05T20:01:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:01:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:01:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:01:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:01:58", "event": "game_start"}
+{"time": "2026-08-05T20:04:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:04:48", "event": "snap", "round": 1, "ts": "20260805_200448", "scene": "A rabbit"}
