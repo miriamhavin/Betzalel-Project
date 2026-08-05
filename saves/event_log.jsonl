@@ -10881,3 +10881,8 @@
 {"time": "2026-08-05T12:53:31", "event": "game_start"}
 {"time": "2026-08-05T12:53:36", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T12:53:54", "event": "snap", "round": 1, "ts": "20260805_125354", "scene": "A vintage diving helmet"}
+{"time": "2026-08-05T12:54:17", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T12:54:18", "event": "round_result", "round": 1, "ts": "20260805_125354", "success": false}
+{"time": "2026-08-05T12:54:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T12:54:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T12:54:44", "event": "snap", "round": 2, "ts": "20260805_125444", "scene": "A stylized rendering of a wizard's hat"}
