@@ -11943,3 +11943,12 @@
 {"time": "2026-08-05T17:46:38", "event": "round_result", "round": 2, "ts": "20260805_174624", "success": false}
 {"time": "2026-08-05T17:47:10", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:47:30", "event": "snap", "round": 3, "ts": "20260805_174730", "scene": "A robot holding a microphone"}
+{"time": "2026-08-05T17:47:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:47:36", "event": "round_result", "round": 3, "ts": "20260805_174730", "success": false}
+{"time": "2026-08-05T17:48:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:49:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:49:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:49:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:49:59", "event": "game_start"}
+{"time": "2026-08-05T17:50:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:50:37", "event": "snap", "round": 1, "ts": "20260805_175037", "scene": "A toothbrush"}
