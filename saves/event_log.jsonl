@@ -11362,3 +11362,7 @@
 {"time": "2026-08-05T15:18:24", "event": "game_start"}
 {"time": "2026-08-05T15:18:36", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T15:18:54", "event": "snap", "round": 1, "ts": "20260805_151854", "scene": "a robot with a gun"}
+{"time": "2026-08-05T15:19:07", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T15:19:08", "event": "round_result", "round": 1, "ts": "20260805_151854", "success": false}
+{"time": "2026-08-05T15:20:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:20:19", "event": "snap", "round": 2, "ts": "20260805_152019", "scene": "a person with goggles on their head"}
