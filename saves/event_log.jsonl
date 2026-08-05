@@ -11015,3 +11015,19 @@
 {"time": "2026-08-05T13:20:07", "event": "button_press", "button": "YES"}
 {"time": "2026-08-05T13:20:07", "event": "button_press", "button": "NO"}
 {"time": "2026-08-05T13:20:08", "event": "snap", "round": 3, "ts": "20260805_132008", "scene": "A person reading a book"}
+{"time": "2026-08-05T13:20:08", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T13:20:08", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T13:20:08", "event": "round_result", "round": 3, "ts": "20260805_132008", "success": false}
+{"time": "2026-08-05T13:20:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:20:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:20:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:20:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:20:18", "event": "game_start"}
+{"time": "2026-08-05T13:20:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:20:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:20:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:20:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:20:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:20:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:20:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:20:35", "event": "snap", "round": 1, "ts": "20260805_132035", "scene": "A boat sail"}
