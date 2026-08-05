@@ -11757,3 +11757,7 @@
 {"time": "2026-08-05T17:04:57", "event": "game_start"}
 {"time": "2026-08-05T17:05:02", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:05:20", "event": "snap", "round": 1, "ts": "20260805_170520", "scene": "A cartoon hand waving hello"}
+{"time": "2026-08-05T17:05:30", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T17:05:30", "event": "round_result", "round": 1, "ts": "20260805_170520", "success": true}
+{"time": "2026-08-05T17:05:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:05:52", "event": "snap", "round": 2, "ts": "20260805_170552", "scene": "A thumbs up gesture"}
