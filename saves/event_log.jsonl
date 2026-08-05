@@ -12330,3 +12330,7 @@
 {"time": "2026-08-05T19:40:02", "event": "game_start"}
 {"time": "2026-08-05T19:40:05", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T19:40:23", "event": "snap", "round": 1, "ts": "20260805_194023", "scene": "A person picking up a key"}
+{"time": "2026-08-05T19:40:32", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:40:32", "event": "round_result", "round": 1, "ts": "20260805_194023", "success": false}
+{"time": "2026-08-05T19:41:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:41:20", "event": "snap", "round": 2, "ts": "20260805_194120", "scene": "A knight holding a sword"}
