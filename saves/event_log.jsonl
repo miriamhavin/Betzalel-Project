@@ -12445,3 +12445,10 @@
 {"time": "2026-08-05T20:17:31", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T20:17:31", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T20:17:40", "event": "snap", "round": 1, "ts": "20260805_201740", "scene": "A pair of glasses"}
+{"time": "2026-08-05T20:17:53", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T20:17:54", "event": "round_result", "round": 1, "ts": "20260805_201740", "success": false}
+{"time": "2026-08-05T20:19:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:19:20", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T20:19:20", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T20:19:20", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T20:19:28", "event": "snap", "round": 2, "ts": "20260805_201928", "scene": "A scissors cutting a thread"}
