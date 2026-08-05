@@ -11708,3 +11708,7 @@
 {"time": "2026-08-05T16:49:27", "event": "round_result", "round": 1, "ts": "20260805_164917", "success": false}
 {"time": "2026-08-05T16:50:41", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:51:00", "event": "snap", "round": 2, "ts": "20260805_165100", "scene": "A hand holding a pen"}
+{"time": "2026-08-05T16:51:08", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:51:08", "event": "round_result", "round": 2, "ts": "20260805_165100", "success": false}
+{"time": "2026-08-05T16:51:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:52:13", "event": "snap", "round": 3, "ts": "20260805_165213", "scene": "A partially opened box"}
