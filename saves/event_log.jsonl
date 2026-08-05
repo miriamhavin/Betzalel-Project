@@ -11893,3 +11893,7 @@
 {"time": "2026-08-05T17:31:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:31:59", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:31:59", "event": "snap", "round": 1, "ts": "20260805_173159", "scene": "A stylized bird in flight"}
+{"time": "2026-08-05T17:32:21", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:32:22", "event": "round_result", "round": 1, "ts": "20260805_173159", "success": false}
+{"time": "2026-08-05T17:32:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:32:44", "event": "snap", "round": 2, "ts": "20260805_173244", "scene": "A leaping frog"}
