@@ -11245,3 +11245,19 @@
 {"time": "2026-08-05T14:33:06", "event": "round_result", "round": 2, "ts": "20260805_143300", "success": true}
 {"time": "2026-08-05T14:33:08", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T14:33:24", "event": "snap", "round": 3, "ts": "20260805_143324", "scene": "A simplified rendering of a hand holding a stick"}
+{"time": "2026-08-05T14:35:29", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T14:35:30", "event": "round_result", "round": 3, "ts": "20260805_143324", "success": false}
+{"time": "2026-08-05T14:35:32", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T14:35:33", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T14:35:34", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T14:35:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T14:35:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T14:35:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T14:35:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T14:35:42", "event": "game_start"}
+{"time": "2026-08-05T14:35:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T14:35:49", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T14:35:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T14:35:53", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T14:35:56", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T14:36:09", "event": "snap", "round": 1, "ts": "20260805_143609", "scene": "A partially opened book"}
