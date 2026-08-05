@@ -11626,3 +11626,15 @@
 {"time": "2026-08-05T16:31:25", "event": "game_start"}
 {"time": "2026-08-05T16:31:37", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:31:57", "event": "snap", "round": 1, "ts": "20260805_163157", "scene": "A person lying down with a sword"}
+{"time": "2026-08-05T16:32:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:32:41", "event": "round_result", "round": 1, "ts": "20260805_163157", "success": false}
+{"time": "2026-08-05T16:32:43", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:32:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:32:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:32:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:32:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:32:47", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:32:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:32:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:32:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:33:04", "event": "snap", "round": 2, "ts": "20260805_163304", "scene": "A hand reaching out of a box"}
