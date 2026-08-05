@@ -11427,3 +11427,12 @@
 {"time": "2026-08-05T15:43:03", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T15:43:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T15:43:10", "event": "snap", "round": 1, "ts": "20260805_154310", "scene": "A simple house."}
+{"time": "2026-08-05T15:43:43", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T15:43:43", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T15:43:43", "event": "round_result", "round": 1, "ts": "20260805_154310", "success": false}
+{"time": "2026-08-05T15:50:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:50:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:50:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:50:21", "event": "game_start"}
+{"time": "2026-08-05T15:51:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:51:40", "event": "snap", "round": 1, "ts": "20260805_155140", "scene": "A person juggling a globe"}
