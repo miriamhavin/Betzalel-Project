@@ -11638,3 +11638,7 @@
 {"time": "2026-08-05T16:32:49", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:32:50", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:33:04", "event": "snap", "round": 2, "ts": "20260805_163304", "scene": "A hand reaching out of a box"}
+{"time": "2026-08-05T16:33:09", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:33:10", "event": "round_result", "round": 2, "ts": "20260805_163304", "success": false}
+{"time": "2026-08-05T16:33:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:33:31", "event": "snap", "round": 3, "ts": "20260805_163331", "scene": "A simple house"}
