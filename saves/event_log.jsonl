@@ -12190,3 +12190,17 @@
 {"time": "2026-08-05T19:13:04", "event": "button_press", "button": "NO"}
 {"time": "2026-08-05T19:13:18", "event": "button_press", "button": "NO"}
 {"time": "2026-08-05T19:13:18", "event": "snap", "round": 3, "ts": "20260805_191318", "scene": "A picture frame"}
+{"time": "2026-08-05T19:13:19", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:13:19", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:13:19", "event": "round_result", "round": 3, "ts": "20260805_191318", "success": false}
+{"time": "2026-08-05T19:13:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:13:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:13:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:13:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:13:21", "event": "game_start"}
+{"time": "2026-08-05T19:13:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:13:22", "event": "game_start"}
+{"time": "2026-08-05T19:13:36", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:13:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:13:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:13:53", "event": "snap", "round": 1, "ts": "20260805_191353", "scene": "A window frame"}
