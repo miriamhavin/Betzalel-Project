@@ -12356,3 +12356,12 @@
 {"time": "2026-08-05T19:49:47", "event": "round_result", "round": 2, "ts": "20260805_194941", "success": true}
 {"time": "2026-08-05T19:51:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T19:51:26", "event": "snap", "round": 3, "ts": "20260805_195126", "scene": "A bird"}
+{"time": "2026-08-05T19:51:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:51:39", "event": "round_result", "round": 3, "ts": "20260805_195126", "success": false}
+{"time": "2026-08-05T19:51:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:52:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:52:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:53:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:53:25", "event": "game_start"}
+{"time": "2026-08-05T19:53:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:53:45", "event": "snap", "round": 1, "ts": "20260805_195345", "scene": "R2-D2"}
