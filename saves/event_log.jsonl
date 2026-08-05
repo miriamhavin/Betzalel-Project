@@ -10852,3 +10852,7 @@
 {"time": "2026-08-05T11:52:53", "event": "round_result", "round": 1, "ts": "20260805_115225", "success": false}
 {"time": "2026-08-05T11:53:12", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T11:53:30", "event": "snap", "round": 2, "ts": "20260805_115330", "scene": "A mechanical bird"}
+{"time": "2026-08-05T11:54:22", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T11:54:23", "event": "round_result", "round": 2, "ts": "20260805_115330", "success": false}
+{"time": "2026-08-05T11:54:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T11:55:04", "event": "snap", "round": 3, "ts": "20260805_115504", "scene": "A pitcher"}
