@@ -11049,3 +11049,12 @@
 {"time": "2026-08-05T13:22:02", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T13:22:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T13:22:19", "event": "snap", "round": 3, "ts": "20260805_132219", "scene": "A sharp knife"}
+{"time": "2026-08-05T13:23:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:23:18", "event": "round_result", "round": 3, "ts": "20260805_132219", "success": true}
+{"time": "2026-08-05T13:23:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:23:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:24:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:24:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:24:24", "event": "game_start"}
+{"time": "2026-08-05T13:25:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:25:23", "event": "snap", "round": 1, "ts": "20260805_132523", "scene": "A cat chasing a mouse"}
