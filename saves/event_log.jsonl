@@ -12321,3 +12321,12 @@
 {"time": "2026-08-05T19:37:55", "event": "button_press", "button": "NO"}
 {"time": "2026-08-05T19:38:13", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T19:38:30", "event": "snap", "round": 3, "ts": "20260805_193830", "scene": "A person holding a flower"}
+{"time": "2026-08-05T19:38:41", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:38:41", "event": "round_result", "round": 3, "ts": "20260805_193830", "success": false}
+{"time": "2026-08-05T19:39:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:39:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:40:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:40:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:40:02", "event": "game_start"}
+{"time": "2026-08-05T19:40:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:40:23", "event": "snap", "round": 1, "ts": "20260805_194023", "scene": "A person picking up a key"}
