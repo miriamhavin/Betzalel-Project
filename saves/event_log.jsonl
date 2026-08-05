@@ -11287,3 +11287,7 @@
 {"time": "2026-08-05T14:54:48", "event": "game_start"}
 {"time": "2026-08-05T14:55:08", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T14:55:24", "event": "snap", "round": 1, "ts": "20260805_145524", "scene": "A knife about to cut a piece of cheese"}
+{"time": "2026-08-05T14:55:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T14:55:35", "event": "round_result", "round": 1, "ts": "20260805_145524", "success": true}
+{"time": "2026-08-05T14:55:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T14:55:59", "event": "snap", "round": 2, "ts": "20260805_145559", "scene": "A snake coiled around a staff"}
