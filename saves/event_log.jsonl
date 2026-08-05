@@ -12212,3 +12212,16 @@
 {"time": "2026-08-05T19:14:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T19:14:29", "event": "button_press", "button": "NO"}
 {"time": "2026-08-05T19:14:42", "event": "snap", "round": 2, "ts": "20260805_191442", "scene": "A cracked picture frame"}
+{"time": "2026-08-05T19:14:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:14:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:14:45", "event": "round_result", "round": 2, "ts": "20260805_191442", "success": false}
+{"time": "2026-08-05T19:14:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:14:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:14:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:14:57", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:14:58", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:14:58", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:14:58", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:15:11", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:15:13", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:15:13", "event": "snap", "round": 3, "ts": "20260805_191513", "scene": "A frog"}
