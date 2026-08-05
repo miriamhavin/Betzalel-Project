@@ -11327,3 +11327,7 @@
 {"time": "2026-08-05T15:03:02", "event": "round_result", "round": 1, "ts": "20260805_150247", "success": true}
 {"time": "2026-08-05T15:05:06", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T15:05:24", "event": "snap", "round": 2, "ts": "20260805_150524", "scene": "A knight's helmet"}
+{"time": "2026-08-05T15:05:28", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T15:05:29", "event": "round_result", "round": 2, "ts": "20260805_150524", "success": false}
+{"time": "2026-08-05T15:08:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:08:45", "event": "snap", "round": 3, "ts": "20260805_150845", "scene": "A simplified human figure lying down"}
