@@ -12139,3 +12139,30 @@
 {"time": "2026-08-05T19:01:57", "event": "round_result", "round": 2, "ts": "20260805_190137", "success": true}
 {"time": "2026-08-05T19:04:16", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T19:04:28", "event": "snap", "round": 3, "ts": "20260805_190428", "scene": "A person blowing a bubble"}
+{"time": "2026-08-05T19:04:40", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T19:04:40", "event": "round_result", "round": 3, "ts": "20260805_190428", "success": true}
+{"time": "2026-08-05T19:05:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:05:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:11:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:11:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:11:32", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T19:11:32", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:11:33", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T19:11:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:11:34", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:11:34", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T19:11:34", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:11:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:11:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:11:35", "event": "game_start"}
+{"time": "2026-08-05T19:11:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:11:37", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T19:11:40", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T19:11:41", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T19:11:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:11:46", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T19:11:47", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T19:11:48", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:11:49", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:11:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:11:53", "event": "snap", "round": 1, "ts": "20260805_191153", "scene": "A rectangular frame"}
