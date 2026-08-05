@@ -12509,3 +12509,18 @@
 {"time": "2026-08-05T20:30:08", "event": "round_result", "round": 2, "ts": "20260805_202957", "success": false}
 {"time": "2026-08-05T20:32:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T20:32:42", "event": "snap", "round": 3, "ts": "20260805_203242", "scene": "A robot dog"}
+{"time": "2026-08-05T20:32:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T20:32:53", "event": "round_result", "round": 3, "ts": "20260805_203242", "success": false}
+{"time": "2026-08-05T20:34:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:34:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:34:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:34:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:34:35", "event": "game_start"}
+{"time": "2026-08-05T20:34:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:34:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:34:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:34:46", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T20:34:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:34:46", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T20:34:47", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T20:34:58", "event": "snap", "round": 1, "ts": "20260805_203458", "scene": "A rough rectangle"}
