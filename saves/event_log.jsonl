@@ -12577,3 +12577,12 @@
 {"time": "2026-08-05T21:05:21", "event": "round_result", "round": 2, "ts": "20260805_210441", "success": true}
 {"time": "2026-08-05T21:05:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T21:05:47", "event": "snap", "round": 3, "ts": "20260805_210547", "scene": "A snail"}
+{"time": "2026-08-05T21:05:53", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T21:05:54", "event": "round_result", "round": 3, "ts": "20260805_210547", "success": false}
+{"time": "2026-08-05T21:05:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T21:06:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T21:06:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T21:06:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T21:06:18", "event": "game_start"}
+{"time": "2026-08-05T21:06:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T21:06:45", "event": "snap", "round": 1, "ts": "20260805_210645", "scene": "A toothbrush"}
