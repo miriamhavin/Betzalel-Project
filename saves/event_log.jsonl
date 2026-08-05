@@ -11712,3 +11712,12 @@
 {"time": "2026-08-05T16:51:08", "event": "round_result", "round": 2, "ts": "20260805_165100", "success": false}
 {"time": "2026-08-05T16:51:55", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:52:13", "event": "snap", "round": 3, "ts": "20260805_165213", "scene": "A partially opened box"}
+{"time": "2026-08-05T16:52:22", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:52:22", "event": "round_result", "round": 3, "ts": "20260805_165213", "success": false}
+{"time": "2026-08-05T16:53:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:53:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:54:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:54:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:54:22", "event": "game_start"}
+{"time": "2026-08-05T16:54:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:55:07", "event": "snap", "round": 1, "ts": "20260805_165507", "scene": "A clarinet player"}
