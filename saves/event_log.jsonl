@@ -10872,3 +10872,12 @@
 {"time": "2026-08-05T12:51:10", "event": "round_result", "round": 2, "ts": "20260805_125058", "success": true}
 {"time": "2026-08-05T12:53:01", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T12:53:19", "event": "snap", "round": 3, "ts": "20260805_125319", "scene": "A rabbit"}
+{"time": "2026-08-05T12:53:22", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T12:53:23", "event": "round_result", "round": 3, "ts": "20260805_125319", "success": false}
+{"time": "2026-08-05T12:53:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T12:53:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T12:53:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T12:53:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T12:53:31", "event": "game_start"}
+{"time": "2026-08-05T12:53:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T12:53:54", "event": "snap", "round": 1, "ts": "20260805_125354", "scene": "A vintage diving helmet"}
