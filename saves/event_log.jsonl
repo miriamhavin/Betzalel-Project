@@ -12171,3 +12171,22 @@
 {"time": "2026-08-05T19:12:02", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T19:12:06", "event": "button_press", "button": "NO"}
 {"time": "2026-08-05T19:12:19", "event": "snap", "round": 2, "ts": "20260805_191219", "scene": "A window frame"}
+{"time": "2026-08-05T19:12:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:12:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:12:51", "event": "round_result", "round": 2, "ts": "20260805_191219", "success": true}
+{"time": "2026-08-05T19:12:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:12:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:12:53", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:12:57", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:12:57", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T19:13:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:13:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:13:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:13:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:13:02", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:13:03", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:13:03", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T19:13:03", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T19:13:04", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:13:18", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:13:18", "event": "snap", "round": 3, "ts": "20260805_191318", "scene": "A picture frame"}
