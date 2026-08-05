@@ -12501,3 +12501,7 @@
 {"time": "2026-08-05T20:26:14", "event": "game_start"}
 {"time": "2026-08-05T20:27:18", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T20:27:38", "event": "snap", "round": 1, "ts": "20260805_202738", "scene": "A bomb with a fuse and timer"}
+{"time": "2026-08-05T20:27:57", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T20:27:58", "event": "round_result", "round": 1, "ts": "20260805_202738", "success": false}
+{"time": "2026-08-05T20:29:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:29:57", "event": "snap", "round": 2, "ts": "20260805_202957", "scene": "A cannon firing a cannonball"}
