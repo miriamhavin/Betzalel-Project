@@ -11119,3 +11119,7 @@
 {"time": "2026-08-05T13:46:28", "event": "game_start"}
 {"time": "2026-08-05T13:46:49", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T13:47:06", "event": "snap", "round": 1, "ts": "20260805_134706", "scene": "A person playing a trumpet"}
+{"time": "2026-08-05T13:47:17", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T13:47:18", "event": "round_result", "round": 1, "ts": "20260805_134706", "success": false}
+{"time": "2026-08-05T13:50:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:50:26", "event": "snap", "round": 2, "ts": "20260805_135026", "scene": "A whimsical robot"}
