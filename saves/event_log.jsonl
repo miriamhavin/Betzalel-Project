@@ -12569,3 +12569,7 @@
 {"time": "2026-08-05T21:00:30", "event": "game_start"}
 {"time": "2026-08-05T21:00:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T21:01:08", "event": "snap", "round": 1, "ts": "20260805_210108", "scene": "A dog wearing a party hat"}
+{"time": "2026-08-05T21:01:12", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T21:01:13", "event": "round_result", "round": 1, "ts": "20260805_210108", "success": false}
+{"time": "2026-08-05T21:04:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T21:04:41", "event": "snap", "round": 2, "ts": "20260805_210441", "scene": "A drill sergeant"}
