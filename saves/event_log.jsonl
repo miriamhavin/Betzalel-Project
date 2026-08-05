@@ -10856,3 +10856,11 @@
 {"time": "2026-08-05T11:54:23", "event": "round_result", "round": 2, "ts": "20260805_115330", "success": false}
 {"time": "2026-08-05T11:54:47", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T11:55:04", "event": "snap", "round": 3, "ts": "20260805_115504", "scene": "A pitcher"}
+{"time": "2026-08-05T12:21:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T12:21:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T12:37:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T12:48:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T12:48:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T12:48:52", "event": "game_start"}
+{"time": "2026-08-05T12:48:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T12:49:15", "event": "snap", "round": 1, "ts": "20260805_124915", "scene": "Whisk in use"}
