@@ -11729,3 +11729,12 @@
 {"time": "2026-08-05T16:56:33", "event": "round_result", "round": 2, "ts": "20260805_165623", "success": false}
 {"time": "2026-08-05T16:57:08", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:57:29", "event": "snap", "round": 3, "ts": "20260805_165729", "scene": "A person blowing a trumpet"}
+{"time": "2026-08-05T16:57:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:57:36", "event": "round_result", "round": 3, "ts": "20260805_165729", "success": false}
+{"time": "2026-08-05T16:59:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:01:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:01:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:01:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:01:23", "event": "game_start"}
+{"time": "2026-08-05T17:01:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:01:52", "event": "snap", "round": 1, "ts": "20260805_170152", "scene": "A lighthouse"}
