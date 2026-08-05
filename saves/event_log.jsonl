@@ -12052,3 +12052,12 @@
 {"time": "2026-08-05T18:26:33", "event": "round_result", "round": 2, "ts": "20260805_182622", "success": true}
 {"time": "2026-08-05T18:28:20", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T18:28:39", "event": "snap", "round": 3, "ts": "20260805_182839", "scene": "A magician performing a trick"}
+{"time": "2026-08-05T18:28:59", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T18:29:00", "event": "round_result", "round": 3, "ts": "20260805_182839", "success": false}
+{"time": "2026-08-05T18:30:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:31:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:31:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:32:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:32:24", "event": "game_start"}
+{"time": "2026-08-05T18:32:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:32:50", "event": "snap", "round": 1, "ts": "20260805_183250", "scene": "A person wearing goggles and holding a key"}
