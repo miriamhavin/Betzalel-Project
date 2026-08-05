@@ -11589,3 +11589,8 @@
 {"time": "2026-08-05T16:24:54", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:25:09", "event": "button_press", "button": "YES"}
 {"time": "2026-08-05T16:25:11", "event": "snap", "round": 1, "ts": "20260805_162511", "scene": "A hot air balloon taking off"}
+{"time": "2026-08-05T16:25:20", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:25:20", "event": "round_result", "round": 1, "ts": "20260805_162511", "success": false}
+{"time": "2026-08-05T16:25:57", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T16:25:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:26:15", "event": "snap", "round": 2, "ts": "20260805_162615", "scene": "A cannon firing"}
