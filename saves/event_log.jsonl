@@ -12234,3 +12234,7 @@
 {"time": "2026-08-05T19:15:20", "event": "game_start"}
 {"time": "2026-08-05T19:15:54", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T19:16:14", "event": "snap", "round": 1, "ts": "20260805_191614", "scene": "A potted plant with a bow tie"}
+{"time": "2026-08-05T19:16:19", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:16:20", "event": "round_result", "round": 1, "ts": "20260805_191614", "success": false}
+{"time": "2026-08-05T19:16:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:17:15", "event": "snap", "round": 2, "ts": "20260805_191715", "scene": "A swan with a fan"}
