@@ -11616,3 +11616,13 @@
 {"time": "2026-08-05T16:30:43", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:30:54", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:31:03", "event": "snap", "round": 3, "ts": "20260805_163103", "scene": "a fireplace with burning logs"}
+{"time": "2026-08-05T16:31:07", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T16:31:08", "event": "round_result", "round": 3, "ts": "20260805_163103", "success": true}
+{"time": "2026-08-05T16:31:16", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T16:31:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:31:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:31:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:31:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:31:25", "event": "game_start"}
+{"time": "2026-08-05T16:31:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:31:57", "event": "snap", "round": 1, "ts": "20260805_163157", "scene": "A person lying down with a sword"}
