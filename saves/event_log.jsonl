@@ -11570,3 +11570,7 @@
 {"time": "2026-08-05T16:20:37", "event": "game_start"}
 {"time": "2026-08-05T16:21:29", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:21:49", "event": "snap", "round": 1, "ts": "20260805_162149", "scene": "A stylized microphone"}
+{"time": "2026-08-05T16:21:56", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:21:56", "event": "round_result", "round": 1, "ts": "20260805_162149", "success": false}
+{"time": "2026-08-05T16:22:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:22:52", "event": "snap", "round": 2, "ts": "20260805_162252", "scene": "A hand-held caliper measuring something"}
