@@ -11387,3 +11387,16 @@
 {"time": "2026-08-05T15:25:16", "event": "round_result", "round": 2, "ts": "20260805_152511", "success": true}
 {"time": "2026-08-05T15:25:20", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T15:25:41", "event": "snap", "round": 3, "ts": "20260805_152540", "scene": "a person preparing to drink from a cup"}
+{"time": "2026-08-05T15:25:47", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T15:25:48", "event": "round_result", "round": 3, "ts": "20260805_152540", "success": false}
+{"time": "2026-08-05T15:30:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T15:31:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:31:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:32:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:32:08", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T15:32:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:32:14", "event": "game_start"}
+{"time": "2026-08-05T15:32:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:32:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:32:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:32:32", "event": "snap", "round": 1, "ts": "20260805_153232", "scene": "A rifle and a skull with crossed bones"}
