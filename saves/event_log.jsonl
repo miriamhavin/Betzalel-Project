@@ -10835,3 +10835,16 @@
 {"time": "2026-08-04T21:52:31", "event": "round_result", "round": 1, "ts": "20260804_215213", "success": false}
 {"time": "2026-08-04T21:52:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-04T21:52:51", "event": "snap", "round": 2, "ts": "20260804_215251", "scene": "a close-up of a key in a lock"}
+{"time": "2026-08-04T22:35:03", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T11:00:49", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T11:00:49", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T11:00:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T11:00:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T11:00:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T11:00:55", "event": "game_start"}
+{"time": "2026-08-05T11:22:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T11:22:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T11:52:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T11:52:00", "event": "game_start"}
+{"time": "2026-08-05T11:52:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T11:52:25", "event": "snap", "round": 1, "ts": "20260805_115225", "scene": "A knight's helmet"}
