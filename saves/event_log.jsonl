@@ -11817,3 +11817,14 @@
 {"time": "2026-08-05T17:18:36", "event": "round_result", "round": 2, "ts": "20260805_171829", "success": false}
 {"time": "2026-08-05T17:19:28", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:19:46", "event": "snap", "round": 3, "ts": "20260805_171946", "scene": "a flute player"}
+{"time": "2026-08-05T17:19:53", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:19:54", "event": "round_result", "round": 3, "ts": "20260805_171946", "success": false}
+{"time": "2026-08-05T17:20:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:20:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:21:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:21:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:21:26", "event": "game_start"}
+{"time": "2026-08-05T17:21:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:21:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:21:30", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:21:45", "event": "snap", "round": 1, "ts": "20260805_172145", "scene": "A key fob"}
