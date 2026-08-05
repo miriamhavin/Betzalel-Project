@@ -11796,3 +11796,7 @@
 {"time": "2026-08-05T17:13:31", "event": "round_result", "round": 1, "ts": "20260805_171320", "success": false}
 {"time": "2026-08-05T17:13:34", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:13:54", "event": "snap", "round": 2, "ts": "20260805_171354", "scene": "A snowman with a carrot nose"}
+{"time": "2026-08-05T17:13:58", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:13:59", "event": "round_result", "round": 2, "ts": "20260805_171354", "success": false}
+{"time": "2026-08-05T17:14:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:14:20", "event": "snap", "round": 3, "ts": "20260805_171420", "scene": "A skeleton holding a microphone"}
