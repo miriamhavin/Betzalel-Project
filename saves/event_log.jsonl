@@ -11704,3 +11704,7 @@
 {"time": "2026-08-05T16:48:52", "event": "game_start"}
 {"time": "2026-08-05T16:48:59", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:49:17", "event": "snap", "round": 1, "ts": "20260805_164917", "scene": "A man reclining in a chair with a book"}
+{"time": "2026-08-05T16:49:26", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:49:27", "event": "round_result", "round": 1, "ts": "20260805_164917", "success": false}
+{"time": "2026-08-05T16:50:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:51:00", "event": "snap", "round": 2, "ts": "20260805_165100", "scene": "A hand holding a pen"}
