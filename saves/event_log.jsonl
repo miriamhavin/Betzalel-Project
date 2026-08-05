@@ -11687,3 +11687,7 @@
 {"time": "2026-08-05T16:43:44", "event": "game_start"}
 {"time": "2026-08-05T16:43:52", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:44:11", "event": "snap", "round": 1, "ts": "20260805_164411", "scene": "A robot butler serving a drink"}
+{"time": "2026-08-05T16:44:23", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:44:24", "event": "round_result", "round": 1, "ts": "20260805_164411", "success": false}
+{"time": "2026-08-05T16:44:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:45:13", "event": "snap", "round": 2, "ts": "20260805_164513", "scene": "A man playing a saxophone"}
