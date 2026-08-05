@@ -12061,3 +12061,8 @@
 {"time": "2026-08-05T18:32:24", "event": "game_start"}
 {"time": "2026-08-05T18:32:31", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T18:32:50", "event": "snap", "round": 1, "ts": "20260805_183250", "scene": "A person wearing goggles and holding a key"}
+{"time": "2026-08-05T18:33:03", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T18:33:04", "event": "round_result", "round": 1, "ts": "20260805_183250", "success": false}
+{"time": "2026-08-05T18:33:44", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T18:33:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:34:04", "event": "snap", "round": 2, "ts": "20260805_183404", "scene": "A cat playing with a ball of yarn"}
