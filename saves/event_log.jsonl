@@ -11765,3 +11765,13 @@
 {"time": "2026-08-05T17:06:07", "event": "round_result", "round": 2, "ts": "20260805_170552", "success": true}
 {"time": "2026-08-05T17:06:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:06:29", "event": "snap", "round": 3, "ts": "20260805_170629", "scene": "A hand reaching out from behind a curtain"}
+{"time": "2026-08-05T17:06:35", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:06:36", "event": "round_result", "round": 3, "ts": "20260805_170629", "success": false}
+{"time": "2026-08-05T17:06:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:06:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:06:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:09:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:09:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:09:20", "event": "game_start"}
+{"time": "2026-08-05T17:09:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:09:46", "event": "snap", "round": 1, "ts": "20260805_170946", "scene": "A bird in flight"}
