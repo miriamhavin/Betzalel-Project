@@ -12225,3 +12225,12 @@
 {"time": "2026-08-05T19:15:11", "event": "button_press", "button": "NO"}
 {"time": "2026-08-05T19:15:13", "event": "button_press", "button": "NO"}
 {"time": "2026-08-05T19:15:13", "event": "snap", "round": 3, "ts": "20260805_191513", "scene": "A frog"}
+{"time": "2026-08-05T19:15:14", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:15:14", "event": "round_result", "round": 3, "ts": "20260805_191513", "success": false}
+{"time": "2026-08-05T19:15:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:15:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:15:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:15:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:15:20", "event": "game_start"}
+{"time": "2026-08-05T19:15:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:16:14", "event": "snap", "round": 1, "ts": "20260805_191614", "scene": "A potted plant with a bow tie"}
