@@ -11481,3 +11481,19 @@
 {"time": "2026-08-05T16:04:40", "event": "round_result", "round": 2, "ts": "20260805_160430", "success": false}
 {"time": "2026-08-05T16:05:30", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:05:49", "event": "snap", "round": 3, "ts": "20260805_160549", "scene": "A vintage ray gun"}
+{"time": "2026-08-05T16:06:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:06:01", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T16:06:01", "event": "round_result", "round": 3, "ts": "20260805_160549", "success": false}
+{"time": "2026-08-05T16:06:01", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:06:05", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T16:06:05", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:06:06", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T16:06:07", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:06:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:06:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:07:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:07:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:07:30", "event": "game_start"}
+{"time": "2026-08-05T16:08:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:08:34", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:08:49", "event": "snap", "round": 1, "ts": "20260805_160849", "scene": "A person holding a tool"}
