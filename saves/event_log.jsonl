@@ -12008,3 +12008,7 @@
 {"time": "2026-08-05T18:04:03", "event": "game_start"}
 {"time": "2026-08-05T18:04:12", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T18:04:31", "event": "snap", "round": 1, "ts": "20260805_180431", "scene": "A stylized watering can"}
+{"time": "2026-08-05T18:04:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T18:04:43", "event": "round_result", "round": 1, "ts": "20260805_180431", "success": false}
+{"time": "2026-08-05T18:05:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:05:31", "event": "snap", "round": 2, "ts": "20260805_180531", "scene": "A computer monitor with a mouse"}
