@@ -11800,3 +11800,12 @@
 {"time": "2026-08-05T17:13:59", "event": "round_result", "round": 2, "ts": "20260805_171354", "success": false}
 {"time": "2026-08-05T17:14:03", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:14:20", "event": "snap", "round": 3, "ts": "20260805_171420", "scene": "A skeleton holding a microphone"}
+{"time": "2026-08-05T17:14:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:14:26", "event": "round_result", "round": 3, "ts": "20260805_171420", "success": false}
+{"time": "2026-08-05T17:15:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:15:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:15:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:16:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:16:01", "event": "game_start"}
+{"time": "2026-08-05T17:16:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:16:24", "event": "snap", "round": 1, "ts": "20260805_171624", "scene": "a candelabra"}
