@@ -11651,3 +11651,7 @@
 {"time": "2026-08-05T16:35:30", "event": "game_start"}
 {"time": "2026-08-05T16:35:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:35:59", "event": "snap", "round": 1, "ts": "20260805_163559", "scene": "A stylized tree"}
+{"time": "2026-08-05T16:36:09", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:36:10", "event": "round_result", "round": 1, "ts": "20260805_163559", "success": false}
+{"time": "2026-08-05T16:36:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:36:39", "event": "snap", "round": 2, "ts": "20260805_163639", "scene": "A skier"}
