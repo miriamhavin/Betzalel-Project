@@ -12524,3 +12524,9 @@
 {"time": "2026-08-05T20:34:46", "event": "button_press", "button": "NO"}
 {"time": "2026-08-05T20:34:47", "event": "button_press", "button": "NO"}
 {"time": "2026-08-05T20:34:58", "event": "snap", "round": 1, "ts": "20260805_203458", "scene": "A rough rectangle"}
+{"time": "2026-08-05T20:35:09", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T20:35:10", "event": "round_result", "round": 1, "ts": "20260805_203458", "success": true}
+{"time": "2026-08-05T20:36:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:36:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T20:36:27", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T20:36:39", "event": "snap", "round": 2, "ts": "20260805_203639", "scene": "A hand holding a fishing rod"}
