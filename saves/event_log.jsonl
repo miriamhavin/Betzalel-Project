@@ -12016,3 +12016,12 @@
 {"time": "2026-08-05T18:05:45", "event": "round_result", "round": 2, "ts": "20260805_180531", "success": false}
 {"time": "2026-08-05T18:06:23", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T18:06:42", "event": "snap", "round": 3, "ts": "20260805_180642", "scene": "A person holding a spoon"}
+{"time": "2026-08-05T18:06:57", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T18:06:58", "event": "round_result", "round": 3, "ts": "20260805_180642", "success": true}
+{"time": "2026-08-05T18:08:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:08:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:08:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:08:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:08:16", "event": "game_start"}
+{"time": "2026-08-05T18:09:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:09:37", "event": "snap", "round": 1, "ts": "20260805_180937", "scene": "A trumpet"}
