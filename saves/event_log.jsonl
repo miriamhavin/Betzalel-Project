@@ -11936,3 +11936,6 @@
 {"time": "2026-08-05T17:45:45", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:45:59", "event": "button_press", "button": "NO"}
 {"time": "2026-08-05T17:45:59", "event": "snap", "round": 1, "ts": "20260805_174559", "scene": "A smiling face with a key"}
+{"time": "2026-08-05T17:46:00", "event": "round_result", "round": 1, "ts": "20260805_174559", "success": false}
+{"time": "2026-08-05T17:46:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:46:24", "event": "snap", "round": 2, "ts": "20260805_174624", "scene": "A ghost holding a sign"}
