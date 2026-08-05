@@ -12044,3 +12044,7 @@
 {"time": "2026-08-05T18:22:07", "event": "game_start"}
 {"time": "2026-08-05T18:23:38", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T18:23:55", "event": "snap", "round": 1, "ts": "20260805_182355", "scene": "A mushroom"}
+{"time": "2026-08-05T18:24:13", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T18:24:14", "event": "round_result", "round": 1, "ts": "20260805_182355", "success": false}
+{"time": "2026-08-05T18:26:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:26:22", "event": "snap", "round": 2, "ts": "20260805_182622", "scene": "A cartoon dog wearing a party hat"}
