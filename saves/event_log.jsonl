@@ -11306,3 +11306,7 @@
 {"time": "2026-08-05T14:58:13", "event": "game_start"}
 {"time": "2026-08-05T14:58:41", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T14:59:01", "event": "snap", "round": 1, "ts": "20260805_145901", "scene": "A person playing a musical instrument"}
+{"time": "2026-08-05T14:59:07", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T14:59:07", "event": "round_result", "round": 1, "ts": "20260805_145901", "success": false}
+{"time": "2026-08-05T14:59:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:00:06", "event": "snap", "round": 2, "ts": "20260805_150006", "scene": "A person standing on a stool"}
