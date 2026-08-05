@@ -12632,3 +12632,19 @@
 {"time": "2026-08-05T21:27:06", "event": "round_result", "round": 2, "ts": "20260805_212701", "success": true}
 {"time": "2026-08-05T21:27:49", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T21:28:11", "event": "snap", "round": 3, "ts": "20260805_212811", "scene": "A monkey"}
+{"time": "2026-08-05T21:28:18", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T21:28:19", "event": "round_result", "round": 3, "ts": "20260805_212811", "success": false}
+{"time": "2026-08-05T21:28:21", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T21:28:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T21:48:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T22:01:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T22:01:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T22:01:39", "event": "game_start"}
+{"time": "2026-08-05T22:03:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T22:03:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T22:03:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T22:03:45", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T22:03:48", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T22:03:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T22:03:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T22:03:54", "event": "snap", "round": 1, "ts": "20260805_220354", "scene": ""}
