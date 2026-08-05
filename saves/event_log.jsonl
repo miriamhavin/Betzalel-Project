@@ -11828,3 +11828,7 @@
 {"time": "2026-08-05T17:21:29", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:21:30", "event": "button_press", "button": "NO"}
 {"time": "2026-08-05T17:21:45", "event": "snap", "round": 1, "ts": "20260805_172145", "scene": "A key fob"}
+{"time": "2026-08-05T17:21:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:21:56", "event": "round_result", "round": 1, "ts": "20260805_172145", "success": false}
+{"time": "2026-08-05T17:23:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:23:35", "event": "snap", "round": 2, "ts": "20260805_172335", "scene": "A broken toy robot"}
