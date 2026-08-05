@@ -12293,3 +12293,7 @@
 {"time": "2026-08-05T19:29:34", "event": "game_start"}
 {"time": "2026-08-05T19:29:50", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T19:30:09", "event": "snap", "round": 1, "ts": "20260805_193009", "scene": "A figure holding a bouquet"}
+{"time": "2026-08-05T19:30:23", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:30:23", "event": "round_result", "round": 1, "ts": "20260805_193009", "success": false}
+{"time": "2026-08-05T19:31:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:31:23", "event": "snap", "round": 2, "ts": "20260805_193123", "scene": "A rotary-style firearm"}
