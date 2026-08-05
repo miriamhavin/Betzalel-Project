@@ -11444,3 +11444,12 @@
 {"time": "2026-08-05T15:52:56", "event": "round_result", "round": 2, "ts": "20260805_155242", "success": false}
 {"time": "2026-08-05T15:53:49", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T15:54:07", "event": "snap", "round": 3, "ts": "20260805_155407", "scene": "A koala bear climbing a tree"}
+{"time": "2026-08-05T15:54:14", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T15:54:15", "event": "round_result", "round": 3, "ts": "20260805_155407", "success": true}
+{"time": "2026-08-05T15:56:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:56:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:56:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:56:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:56:31", "event": "game_start"}
+{"time": "2026-08-05T15:57:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:57:31", "event": "snap", "round": 1, "ts": "20260805_155731", "scene": "A broken toy soldier"}
