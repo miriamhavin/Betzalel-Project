@@ -11540,3 +11540,7 @@
 {"time": "2026-08-05T16:16:14", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:16:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:16:19", "event": "snap", "round": 2, "ts": "20260805_161619", "scene": "A startled cat"}
+{"time": "2026-08-05T16:16:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:16:22", "event": "round_result", "round": 2, "ts": "20260805_161619", "success": true}
+{"time": "2026-08-05T16:16:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:16:41", "event": "snap", "round": 3, "ts": "20260805_161641", "scene": "A large, upright rectangle with a torn or jagged right edge."}
