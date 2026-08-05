@@ -11453,3 +11453,7 @@
 {"time": "2026-08-05T15:56:31", "event": "game_start"}
 {"time": "2026-08-05T15:57:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T15:57:31", "event": "snap", "round": 1, "ts": "20260805_155731", "scene": "A broken toy soldier"}
+{"time": "2026-08-05T15:57:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T15:57:41", "event": "round_result", "round": 1, "ts": "20260805_155731", "success": false}
+{"time": "2026-08-05T15:58:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:58:45", "event": "snap", "round": 2, "ts": "20260805_155845", "scene": "A pair of scissors cutting a ribbon"}
