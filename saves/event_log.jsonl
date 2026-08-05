@@ -11370,3 +11370,12 @@
 {"time": "2026-08-05T15:20:25", "event": "round_result", "round": 2, "ts": "20260805_152019", "success": true}
 {"time": "2026-08-05T15:21:55", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T15:22:11", "event": "snap", "round": 3, "ts": "20260805_152211", "scene": "a bird perched on a branch"}
+{"time": "2026-08-05T15:23:17", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T15:23:17", "event": "round_result", "round": 3, "ts": "20260805_152211", "success": false}
+{"time": "2026-08-05T15:23:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:24:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:24:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:24:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:24:19", "event": "game_start"}
+{"time": "2026-08-05T15:24:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:24:46", "event": "snap", "round": 1, "ts": "20260805_152446", "scene": "a person using a magnifying glass to examine an insect"}
