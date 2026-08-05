@@ -11405,3 +11405,8 @@
 {"time": "2026-08-05T15:33:08", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T15:33:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T15:33:27", "event": "snap", "round": 2, "ts": "20260805_153327", "scene": "A simple robot"}
+{"time": "2026-08-05T15:33:28", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T15:33:29", "event": "round_result", "round": 2, "ts": "20260805_153327", "success": false}
+{"time": "2026-08-05T15:33:33", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T15:33:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:33:52", "event": "snap", "round": 3, "ts": "20260805_153352", "scene": "A person walking a dog"}
