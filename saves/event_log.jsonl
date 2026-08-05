@@ -11836,3 +11836,19 @@
 {"time": "2026-08-05T17:23:42", "event": "round_result", "round": 2, "ts": "20260805_172335", "success": false}
 {"time": "2026-08-05T17:23:46", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T17:24:04", "event": "snap", "round": 3, "ts": "20260805_172404", "scene": "A robot holding a blaster"}
+{"time": "2026-08-05T17:24:15", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T17:24:15", "event": "round_result", "round": 3, "ts": "20260805_172404", "success": true}
+{"time": "2026-08-05T17:24:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:24:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:24:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:24:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:24:29", "event": "game_start"}
+{"time": "2026-08-05T17:25:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:25:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:25:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:25:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:25:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:25:41", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T17:25:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:25:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T17:25:50", "event": "snap", "round": 1, "ts": "20260805_172550", "scene": "A simple frame or border"}
