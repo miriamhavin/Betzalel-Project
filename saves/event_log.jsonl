@@ -11670,3 +11670,7 @@
 {"time": "2026-08-05T16:39:33", "event": "game_start"}
 {"time": "2026-08-05T16:39:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:39:58", "event": "snap", "round": 1, "ts": "20260805_163958", "scene": "A person holding a toothbrush and toothpaste"}
+{"time": "2026-08-05T16:40:11", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:40:11", "event": "round_result", "round": 1, "ts": "20260805_163958", "success": false}
+{"time": "2026-08-05T16:40:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:40:48", "event": "snap", "round": 2, "ts": "20260805_164048", "scene": "A medieval knight on horseback"}
