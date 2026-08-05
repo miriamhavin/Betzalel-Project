@@ -11110,3 +11110,12 @@
 {"time": "2026-08-05T13:42:44", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T13:42:44", "event": "button_press", "button": "YES"}
 {"time": "2026-08-05T13:42:54", "event": "snap", "round": 3, "ts": "20260805_134254", "scene": "A castle gate"}
+{"time": "2026-08-05T13:45:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:45:28", "event": "round_result", "round": 3, "ts": "20260805_134254", "success": true}
+{"time": "2026-08-05T13:45:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:46:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:46:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:46:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:46:28", "event": "game_start"}
+{"time": "2026-08-05T13:46:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T13:47:06", "event": "snap", "round": 1, "ts": "20260805_134706", "scene": "A person playing a trumpet"}
