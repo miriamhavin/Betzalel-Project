@@ -11661,3 +11661,12 @@
 {"time": "2026-08-05T16:37:01", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:37:12", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:37:19", "event": "snap", "round": 3, "ts": "20260805_163719", "scene": "A door"}
+{"time": "2026-08-05T16:37:29", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T16:37:30", "event": "round_result", "round": 3, "ts": "20260805_163719", "success": false}
+{"time": "2026-08-05T16:38:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:38:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:38:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:39:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:39:33", "event": "game_start"}
+{"time": "2026-08-05T16:39:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:39:58", "event": "snap", "round": 1, "ts": "20260805_163958", "scene": "A person holding a toothbrush and toothpaste"}
