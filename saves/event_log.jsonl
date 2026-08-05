@@ -11598,3 +11598,12 @@
 {"time": "2026-08-05T16:27:47", "event": "round_result", "round": 2, "ts": "20260805_162615", "success": true}
 {"time": "2026-08-05T16:27:51", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T16:28:08", "event": "snap", "round": 3, "ts": "20260805_162808", "scene": "A hand reaching out of a frame"}
+{"time": "2026-08-05T16:28:13", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T16:28:13", "event": "round_result", "round": 3, "ts": "20260805_162808", "success": true}
+{"time": "2026-08-05T16:28:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:28:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:28:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:28:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:28:27", "event": "game_start"}
+{"time": "2026-08-05T16:28:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T16:29:19", "event": "snap", "round": 1, "ts": "20260805_162919", "scene": "a person opening a door"}
