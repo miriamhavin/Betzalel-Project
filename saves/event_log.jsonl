@@ -12079,3 +12079,7 @@
 {"time": "2026-08-05T18:37:47", "event": "game_start"}
 {"time": "2026-08-05T18:38:23", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T18:38:42", "event": "snap", "round": 1, "ts": "20260805_183842", "scene": "A knight in armor"}
+{"time": "2026-08-05T18:39:08", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T18:39:09", "event": "round_result", "round": 1, "ts": "20260805_183842", "success": false}
+{"time": "2026-08-05T18:39:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:39:49", "event": "snap", "round": 2, "ts": "20260805_183949", "scene": "A robotic arm holding a key"}
