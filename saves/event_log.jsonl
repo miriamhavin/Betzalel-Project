@@ -12242,3 +12242,16 @@
 {"time": "2026-08-05T19:17:24", "event": "round_result", "round": 2, "ts": "20260805_191715", "success": true}
 {"time": "2026-08-05T19:17:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T19:17:49", "event": "snap", "round": 3, "ts": "20260805_191749", "scene": "A knight's helmet"}
+{"time": "2026-08-05T19:17:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:17:58", "event": "round_result", "round": 3, "ts": "20260805_191749", "success": true}
+{"time": "2026-08-05T19:18:01", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T19:18:03", "event": "button_press", "button": "YES"}
+{"time": "2026-08-05T19:18:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:18:09", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T19:18:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:19:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:19:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:19:23", "event": "game_start"}
+{"time": "2026-08-05T19:19:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:19:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T19:19:47", "event": "snap", "round": 1, "ts": "20260805_191947", "scene": "Toothbrush"}
