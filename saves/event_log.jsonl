@@ -12105,3 +12105,12 @@
 {"time": "2026-08-05T18:49:23", "event": "round_result", "round": 2, "ts": "20260805_184917", "success": true}
 {"time": "2026-08-05T18:49:52", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T18:50:12", "event": "snap", "round": 3, "ts": "20260805_185012", "scene": "A smiling caterpillar"}
+{"time": "2026-08-05T18:51:32", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T18:51:33", "event": "round_result", "round": 3, "ts": "20260805_185012", "success": false}
+{"time": "2026-08-05T18:51:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:51:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:51:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:51:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:51:52", "event": "game_start"}
+{"time": "2026-08-05T18:53:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:53:20", "event": "snap", "round": 1, "ts": "20260805_185320", "scene": "A hand holding a whisk"}
