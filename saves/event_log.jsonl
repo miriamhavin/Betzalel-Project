@@ -12097,3 +12097,7 @@
 {"time": "2026-08-05T18:47:45", "event": "game_start"}
 {"time": "2026-08-05T18:48:01", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T18:48:20", "event": "snap", "round": 1, "ts": "20260805_184820", "scene": "A frog sitting on a lily pad"}
+{"time": "2026-08-05T18:48:30", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T18:48:30", "event": "round_result", "round": 1, "ts": "20260805_184820", "success": false}
+{"time": "2026-08-05T18:48:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T18:49:17", "event": "snap", "round": 2, "ts": "20260805_184917", "scene": "A snail"}
