@@ -11314,3 +11314,12 @@
 {"time": "2026-08-05T15:00:13", "event": "round_result", "round": 2, "ts": "20260805_150006", "success": true}
 {"time": "2026-08-05T15:00:49", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-05T15:01:07", "event": "snap", "round": 3, "ts": "20260805_150107", "scene": "A rabbit eating"}
+{"time": "2026-08-05T15:01:12", "event": "button_press", "button": "NO"}
+{"time": "2026-08-05T15:01:13", "event": "round_result", "round": 3, "ts": "20260805_150107", "success": false}
+{"time": "2026-08-05T15:01:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:01:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:01:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:01:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:01:40", "event": "game_start"}
+{"time": "2026-08-05T15:02:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-05T15:02:47", "event": "snap", "round": 1, "ts": "20260805_150247", "scene": "Skeleton"}
