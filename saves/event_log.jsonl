@@ -13995,3 +13995,7 @@
 {"time": "2026-08-06T17:50:01", "event": "game_start"}
 {"time": "2026-08-06T17:50:36", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T17:50:55", "event": "snap", "round": 1, "ts": "20260806_175055", "scene": "A cartoon dog wearing glasses"}
+{"time": "2026-08-06T17:51:03", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:51:03", "event": "round_result", "round": 1, "ts": "20260806_175055", "success": false}
+{"time": "2026-08-06T17:51:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:51:42", "event": "snap", "round": 2, "ts": "20260806_175142", "scene": "A swan swimming"}
