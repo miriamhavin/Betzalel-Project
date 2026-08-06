@@ -14933,3 +14933,12 @@
 {"time": "2026-08-06T22:00:10", "event": "round_result", "round": 2, "ts": "20260806_220002", "success": false}
 {"time": "2026-08-06T22:00:25", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T22:00:44", "event": "snap", "round": 3, "ts": "20260806_220044", "scene": "A key"}
+{"time": "2026-08-06T22:00:49", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:00:50", "event": "round_result", "round": 3, "ts": "20260806_220044", "success": false}
+{"time": "2026-08-06T22:01:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:01:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:01:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:01:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:01:34", "event": "game_start"}
+{"time": "2026-08-06T22:01:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:02:00", "event": "snap", "round": 1, "ts": "20260806_220200", "scene": "A whisk inside a box"}
