@@ -12869,3 +12869,15 @@
 {"time": "2026-08-06T13:29:00", "event": "round_result", "round": 2, "ts": "20260806_132345", "success": true}
 {"time": "2026-08-06T13:29:06", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T13:29:25", "event": "snap", "round": 3, "ts": "20260806_132925", "scene": "A person watering a plant"}
+{"time": "2026-08-06T13:29:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:29:39", "event": "round_result", "round": 3, "ts": "20260806_132925", "success": false}
+{"time": "2026-08-06T13:29:47", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:29:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:29:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:29:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:30:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:30:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:30:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:30:18", "event": "game_start"}
+{"time": "2026-08-06T13:30:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:30:38", "event": "snap", "round": 1, "ts": "20260806_133038", "scene": "A running dog"}
