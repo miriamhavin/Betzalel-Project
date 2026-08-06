@@ -13801,3 +13801,9 @@
 {"time": "2026-08-06T17:03:05", "event": "round_result", "round": 1, "ts": "20260806_170258", "success": false}
 {"time": "2026-08-06T17:03:24", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T17:03:44", "event": "snap", "round": 2, "ts": "20260806_170344", "scene": "A blank, empty picture frame with a damaged edge"}
+{"time": "2026-08-06T17:03:49", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:03:50", "event": "round_result", "round": 2, "ts": "20260806_170344", "success": false}
+{"time": "2026-08-06T17:04:08", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:04:11", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:04:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:04:31", "event": "snap", "round": 3, "ts": "20260806_170431", "scene": "A cartoon representation of the state of Colorado"}
