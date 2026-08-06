@@ -14787,3 +14787,26 @@
 {"time": "2026-08-06T21:46:42", "event": "game_start"}
 {"time": "2026-08-06T21:47:25", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T21:47:43", "event": "snap", "round": 1, "ts": "20260806_214743", "scene": "A toothbrush with toothpaste on it"}
+{"time": "2026-08-06T21:47:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:47:55", "event": "round_result", "round": 1, "ts": "20260806_214743", "success": false}
+{"time": "2026-08-06T21:47:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:48:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:48:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:48:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:48:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:48:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:48:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:48:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:48:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:48:11", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:48:11", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:48:12", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T21:48:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:48:14", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:48:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:48:14", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:48:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:48:15", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:48:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:48:16", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:48:17", "event": "snap", "round": 2, "ts": "20260806_214817", "scene": "A hand holding a toothbrush"}
