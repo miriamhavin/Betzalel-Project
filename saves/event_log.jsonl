@@ -13910,3 +13910,7 @@
 {"time": "2026-08-06T17:27:36", "event": "game_start"}
 {"time": "2026-08-06T17:28:20", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T17:28:39", "event": "snap", "round": 1, "ts": "20260806_172839", "scene": "A frog catching a fly"}
+{"time": "2026-08-06T17:28:48", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:28:49", "event": "round_result", "round": 1, "ts": "20260806_172839", "success": false}
+{"time": "2026-08-06T17:29:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:29:44", "event": "snap", "round": 2, "ts": "20260806_172944", "scene": "A cowboy riding a horse"}
