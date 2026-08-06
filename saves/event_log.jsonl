@@ -13046,3 +13046,7 @@
 {"time": "2026-08-06T14:11:43", "event": "game_start"}
 {"time": "2026-08-06T14:12:16", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:12:34", "event": "snap", "round": 1, "ts": "20260806_141234", "scene": "A clown juggling"}
+{"time": "2026-08-06T14:12:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:12:45", "event": "round_result", "round": 1, "ts": "20260806_141234", "success": false}
+{"time": "2026-08-06T14:13:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:13:25", "event": "snap", "round": 2, "ts": "20260806_141325", "scene": "A squirrel eating a nut"}
