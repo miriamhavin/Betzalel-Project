@@ -13384,3 +13384,9 @@
 {"time": "2026-08-06T15:15:30", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T15:15:30", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T15:15:33", "event": "snap", "round": 1, "ts": "20260806_151533", "scene": "A moth resting on a blank canvas"}
+{"time": "2026-08-06T15:15:41", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T15:15:41", "event": "round_result", "round": 1, "ts": "20260806_151533", "success": false}
+{"time": "2026-08-06T15:15:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:15:42", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T15:15:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:16:00", "event": "snap", "round": 2, "ts": "20260806_151600", "scene": "A boat sailing on the sea"}
