@@ -13878,3 +13878,12 @@
 {"time": "2026-08-06T17:18:13", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T17:18:13", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T17:18:29", "event": "snap", "round": 3, "ts": "20260806_171829", "scene": "A mushroom"}
+{"time": "2026-08-06T17:20:47", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:20:47", "event": "round_result", "round": 3, "ts": "20260806_171829", "success": false}
+{"time": "2026-08-06T17:20:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:20:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:22:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:22:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:22:44", "event": "game_start"}
+{"time": "2026-08-06T17:24:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:24:44", "event": "snap", "round": 1, "ts": "20260806_172444", "scene": "a bouquet of flowers in a vase"}
