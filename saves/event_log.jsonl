@@ -13956,3 +13956,26 @@
 {"time": "2026-08-06T17:37:25", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T17:37:27", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T17:37:30", "event": "snap", "round": 1, "ts": "20260806_173730", "scene": "A woman's head and shoulders"}
+{"time": "2026-08-06T17:37:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:37:32", "event": "round_result", "round": 1, "ts": "20260806_173730", "success": false}
+{"time": "2026-08-06T17:37:39", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:37:40", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:37:41", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:37:41", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:37:42", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:37:42", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:37:43", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:37:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:37:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:37:49", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:37:49", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:37:50", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:37:50", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:37:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:37:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:37:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:37:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:37:53", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:37:58", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:38:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:38:03", "event": "snap", "round": 2, "ts": "20260806_173803", "scene": "A duck"}
