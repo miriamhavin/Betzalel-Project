@@ -13491,3 +13491,13 @@
 {"time": "2026-08-06T15:31:32", "event": "round_result", "round": 2, "ts": "20260806_153126", "success": false}
 {"time": "2026-08-06T15:32:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T15:32:29", "event": "snap", "round": 3, "ts": "20260806_153229", "scene": "A clarinet"}
+{"time": "2026-08-06T15:32:33", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T15:32:33", "event": "round_result", "round": 3, "ts": "20260806_153229", "success": true}
+{"time": "2026-08-06T15:32:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:33:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T15:33:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:33:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:33:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:33:32", "event": "game_start"}
+{"time": "2026-08-06T15:35:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:35:34", "event": "snap", "round": 1, "ts": "20260806_153534", "scene": "A woman with a prominent nose and open mouth"}
