@@ -13080,3 +13080,7 @@
 {"time": "2026-08-06T14:19:02", "event": "game_start"}
 {"time": "2026-08-06T14:19:02", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:19:21", "event": "snap", "round": 1, "ts": "20260806_141921", "scene": "A railroad crossing signal with a barrier arm."}
+{"time": "2026-08-06T14:19:30", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:19:31", "event": "round_result", "round": 1, "ts": "20260806_141921", "success": false}
+{"time": "2026-08-06T14:19:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:20:14", "event": "snap", "round": 2, "ts": "20260806_142014", "scene": "A pincer-like grip from a mechanical arm holding a small object."}
