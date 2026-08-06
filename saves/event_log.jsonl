@@ -14843,3 +14843,24 @@
 {"time": "2026-08-06T21:54:17", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T21:54:21", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T21:54:21", "event": "snap", "round": 1, "ts": "20260806_215421", "scene": "A bird sitting on a branch"}
+{"time": "2026-08-06T21:54:21", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:54:22", "event": "round_result", "round": 1, "ts": "20260806_215421", "success": false}
+{"time": "2026-08-06T21:54:23", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:54:23", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:54:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:54:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:54:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:54:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:54:26", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T21:54:26", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:54:27", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T21:54:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:54:27", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T21:54:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:54:29", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T21:54:30", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:54:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:54:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:54:36", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:54:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:54:43", "event": "snap", "round": 2, "ts": "20260806_215443", "scene": "A watering can"}
