@@ -13483,3 +13483,7 @@
 {"time": "2026-08-06T15:29:05", "event": "game_start"}
 {"time": "2026-08-06T15:29:42", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T15:30:00", "event": "snap", "round": 1, "ts": "20260806_153000", "scene": "A drill press"}
+{"time": "2026-08-06T15:30:11", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T15:30:12", "event": "round_result", "round": 1, "ts": "20260806_153000", "success": false}
+{"time": "2026-08-06T15:31:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:31:26", "event": "snap", "round": 2, "ts": "20260806_153126", "scene": "A wrench"}
