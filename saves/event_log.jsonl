@@ -15183,3 +15183,13 @@
 {"time": "2026-08-06T22:44:40", "event": "round_result", "round": 2, "ts": "20260806_224418", "success": true}
 {"time": "2026-08-06T22:44:52", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T22:45:10", "event": "snap", "round": 3, "ts": "20260806_224510", "scene": "A cactus"}
+{"time": "2026-08-06T22:45:23", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:45:23", "event": "round_result", "round": 3, "ts": "20260806_224510", "success": false}
+{"time": "2026-08-06T22:45:27", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:45:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:45:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:45:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:45:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:45:38", "event": "game_start"}
+{"time": "2026-08-06T22:46:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:46:21", "event": "snap", "round": 1, "ts": "20260806_224620", "scene": "A seated person with their head in their hands"}
