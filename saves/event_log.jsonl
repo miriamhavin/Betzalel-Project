@@ -14183,3 +14183,30 @@
 {"time": "2026-08-06T18:47:36", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T18:47:36", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T18:47:37", "event": "snap", "round": 3, "ts": "20260806_184737", "scene": "A crude representation of a house"}
+{"time": "2026-08-06T18:47:37", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:37", "event": "round_result", "round": 3, "ts": "20260806_184737", "success": false}
+{"time": "2026-08-06T18:47:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:41", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:41", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:41", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:47:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:47:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:47:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:47:44", "event": "game_start"}
+{"time": "2026-08-06T18:47:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:47:45", "event": "game_start"}
+{"time": "2026-08-06T18:47:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:47:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:46", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:47", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:47:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:47:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:48:04", "event": "snap", "round": 1, "ts": "20260806_184804", "scene": "A cartoonish bat flying"}
