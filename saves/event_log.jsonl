@@ -12985,3 +12985,8 @@
 {"time": "2026-08-06T14:02:04", "event": "round_result", "round": 1, "ts": "20260806_140157", "success": true}
 {"time": "2026-08-06T14:02:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:02:36", "event": "snap", "round": 2, "ts": "20260806_140236", "scene": "A skeleton holding a scalpel"}
+{"time": "2026-08-06T14:02:48", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:02:49", "event": "round_result", "round": 2, "ts": "20260806_140236", "success": false}
+{"time": "2026-08-06T14:03:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:03:12", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:03:29", "event": "snap", "round": 3, "ts": "20260806_140329", "scene": "A person holding a musical instrument"}
