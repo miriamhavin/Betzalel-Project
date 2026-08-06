@@ -13501,3 +13501,7 @@
 {"time": "2026-08-06T15:33:32", "event": "game_start"}
 {"time": "2026-08-06T15:35:14", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T15:35:34", "event": "snap", "round": 1, "ts": "20260806_153534", "scene": "A woman with a prominent nose and open mouth"}
+{"time": "2026-08-06T15:35:46", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T15:35:47", "event": "round_result", "round": 1, "ts": "20260806_153534", "success": false}
+{"time": "2026-08-06T15:37:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:38:17", "event": "snap", "round": 2, "ts": "20260806_153817", "scene": "A sewing machine with a spool of thread"}
