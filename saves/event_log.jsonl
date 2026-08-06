@@ -13099,3 +13099,9 @@
 {"time": "2026-08-06T14:21:34", "event": "game_start"}
 {"time": "2026-08-06T14:21:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:22:00", "event": "snap", "round": 1, "ts": "20260806_142200", "scene": "A horse-drawn cart"}
+{"time": "2026-08-06T14:22:05", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:22:06", "event": "round_result", "round": 1, "ts": "20260806_142200", "success": false}
+{"time": "2026-08-06T14:22:07", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T14:22:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:22:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:22:27", "event": "snap", "round": 2, "ts": "20260806_142227", "scene": "A cannon on a wheeled carriage"}
