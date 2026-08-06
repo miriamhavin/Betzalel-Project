@@ -14658,3 +14658,14 @@
 {"time": "2026-08-06T20:47:18", "event": "game_start"}
 {"time": "2026-08-06T20:47:25", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T20:47:45", "event": "snap", "round": 1, "ts": "20260806_204745", "scene": "A vacuum cleaner"}
+{"time": "2026-08-06T20:58:37", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T20:58:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T20:58:39", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T20:58:41", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T20:58:44", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T20:59:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T20:59:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:00:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:00:06", "event": "game_start"}
+{"time": "2026-08-06T21:00:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:01:12", "event": "snap", "round": 1, "ts": "20260806_210112", "scene": "A pair of cartoonish ears on a head"}
