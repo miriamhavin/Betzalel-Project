@@ -12999,3 +12999,7 @@
 {"time": "2026-08-06T14:03:44", "event": "game_start"}
 {"time": "2026-08-06T14:04:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:04:29", "event": "snap", "round": 1, "ts": "20260806_140429", "scene": "A toy robot in a defensive stance."}
+{"time": "2026-08-06T14:04:39", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:04:40", "event": "round_result", "round": 1, "ts": "20260806_140429", "success": false}
+{"time": "2026-08-06T14:05:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:05:59", "event": "snap", "round": 2, "ts": "20260806_140559", "scene": "A person preparing to play a mandolin"}
