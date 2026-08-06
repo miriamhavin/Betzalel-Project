@@ -14012,3 +14012,7 @@
 {"time": "2026-08-06T17:53:14", "event": "game_start"}
 {"time": "2026-08-06T17:53:31", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T17:53:49", "event": "snap", "round": 1, "ts": "20260806_175349", "scene": "a stylized ant"}
+{"time": "2026-08-06T17:54:11", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:54:12", "event": "round_result", "round": 1, "ts": "20260806_175349", "success": false}
+{"time": "2026-08-06T17:54:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:54:32", "event": "snap", "round": 2, "ts": "20260806_175432", "scene": "a wrench and a rod"}
