@@ -15165,3 +15165,12 @@
 {"time": "2026-08-06T22:40:00", "event": "round_result", "round": 2, "ts": "20260806_223947", "success": false}
 {"time": "2026-08-06T22:40:56", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T22:41:13", "event": "snap", "round": 3, "ts": "20260806_224113", "scene": "A crane"}
+{"time": "2026-08-06T22:41:18", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T22:41:19", "event": "round_result", "round": 3, "ts": "20260806_224113", "success": true}
+{"time": "2026-08-06T22:42:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:42:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:42:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:42:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:42:51", "event": "game_start"}
+{"time": "2026-08-06T22:43:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:43:47", "event": "snap", "round": 1, "ts": "20260806_224347", "scene": "A handgun"}
