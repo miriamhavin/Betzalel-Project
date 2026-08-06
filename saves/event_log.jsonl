@@ -13751,3 +13751,7 @@
 {"time": "2026-08-06T16:53:27", "event": "game_start"}
 {"time": "2026-08-06T16:54:04", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T16:54:26", "event": "snap", "round": 1, "ts": "20260806_165426", "scene": "A person holding a spoon and about to stir a cup"}
+{"time": "2026-08-06T16:54:36", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T16:54:37", "event": "round_result", "round": 1, "ts": "20260806_165426", "success": false}
+{"time": "2026-08-06T16:54:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:55:07", "event": "snap", "round": 2, "ts": "20260806_165507", "scene": "A person brushing their teeth"}
