@@ -14039,3 +14039,14 @@
 {"time": "2026-08-06T18:01:24", "event": "round_result", "round": 2, "ts": "20260806_180047", "success": true}
 {"time": "2026-08-06T18:01:28", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T18:01:46", "event": "snap", "round": 3, "ts": "20260806_180145", "scene": "a tooth being brushed"}
+{"time": "2026-08-06T18:01:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:01:55", "event": "round_result", "round": 3, "ts": "20260806_180145", "success": true}
+{"time": "2026-08-06T18:01:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:01:57", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:02:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:02:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:02:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:02:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:02:31", "event": "game_start"}
+{"time": "2026-08-06T18:02:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:02:55", "event": "snap", "round": 1, "ts": "20260806_180255", "scene": "A startled frog"}
