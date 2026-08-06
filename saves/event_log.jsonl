@@ -14692,3 +14692,22 @@
 {"time": "2026-08-06T21:14:25", "event": "round_result", "round": 2, "ts": "20260806_211410", "success": false}
 {"time": "2026-08-06T21:14:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T21:14:59", "event": "snap", "round": 3, "ts": "20260806_211459", "scene": "A rudimentary water pump"}
+{"time": "2026-08-06T21:15:07", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T21:15:08", "event": "round_result", "round": 3, "ts": "20260806_211459", "success": true}
+{"time": "2026-08-06T21:16:32", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T21:17:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:17:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:17:43", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:17:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:17:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:17:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:17:51", "event": "game_start"}
+{"time": "2026-08-06T21:18:04", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:18:07", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T21:18:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:18:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:18:22", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:18:23", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T21:18:24", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:18:27", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T21:18:33", "event": "snap", "round": 1, "ts": "20260806_211833", "scene": "A large turtle"}
