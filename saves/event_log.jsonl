@@ -13797,3 +13797,7 @@
 {"time": "2026-08-06T17:02:38", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T17:02:40", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T17:02:58", "event": "snap", "round": 1, "ts": "20260806_170258", "scene": "A torn or partially destroyed rectangular document or map"}
+{"time": "2026-08-06T17:03:04", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:03:05", "event": "round_result", "round": 1, "ts": "20260806_170258", "success": false}
+{"time": "2026-08-06T17:03:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:03:44", "event": "snap", "round": 2, "ts": "20260806_170344", "scene": "A blank, empty picture frame with a damaged edge"}
