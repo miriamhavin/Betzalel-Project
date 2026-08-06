@@ -12967,3 +12967,7 @@
 {"time": "2026-08-06T13:58:58", "event": "round_result", "round": 1, "ts": "20260806_135820", "success": false}
 {"time": "2026-08-06T13:59:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T13:59:34", "event": "snap", "round": 2, "ts": "20260806_135934", "scene": "A cat"}
+{"time": "2026-08-06T13:59:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:59:46", "event": "round_result", "round": 2, "ts": "20260806_135934", "success": false}
+{"time": "2026-08-06T14:00:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:00:36", "event": "snap", "round": 3, "ts": "20260806_140036", "scene": "A robot vacuum cleaner"}
