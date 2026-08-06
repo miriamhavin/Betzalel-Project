@@ -15057,3 +15057,9 @@
 {"time": "2026-08-06T22:14:51", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T22:14:51", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T22:14:56", "event": "snap", "round": 2, "ts": "20260806_221456", "scene": "A bird in flight"}
+{"time": "2026-08-06T22:15:02", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:15:03", "event": "round_result", "round": 2, "ts": "20260806_221456", "success": false}
+{"time": "2026-08-06T22:15:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:15:21", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T22:15:21", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:15:27", "event": "snap", "round": 3, "ts": "20260806_221527", "scene": "A ghostly figure reaching out"}
