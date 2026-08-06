@@ -12812,3 +12812,8 @@
 {"time": "2026-08-06T13:06:06", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T13:06:08", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T13:06:09", "event": "snap", "round": 1, "ts": "20260806_130609", "scene": "A sword"}
+{"time": "2026-08-06T13:06:09", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:06:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:06:10", "event": "round_result", "round": 1, "ts": "20260806_130609", "success": false}
+{"time": "2026-08-06T13:06:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:06:28", "event": "snap", "round": 2, "ts": "20260806_130628", "scene": "A pen about to write"}
