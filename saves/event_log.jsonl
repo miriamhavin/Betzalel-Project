@@ -13899,3 +13899,14 @@
 {"time": "2026-08-06T17:26:31", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T17:26:43", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T17:26:46", "event": "snap", "round": 3, "ts": "20260806_172646", "scene": "a camel"}
+{"time": "2026-08-06T17:27:24", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:27:25", "event": "round_result", "round": 3, "ts": "20260806_172646", "success": false}
+{"time": "2026-08-06T17:27:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:27:32", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:27:33", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:27:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:27:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:27:36", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:27:36", "event": "game_start"}
+{"time": "2026-08-06T17:28:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:28:39", "event": "snap", "round": 1, "ts": "20260806_172839", "scene": "A frog catching a fly"}
