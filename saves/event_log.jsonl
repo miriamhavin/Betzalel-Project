@@ -14627,3 +14627,7 @@
 {"time": "2026-08-06T20:33:26", "event": "round_result", "round": 1, "ts": "20260806_203319", "success": false}
 {"time": "2026-08-06T20:35:38", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T20:35:56", "event": "snap", "round": 2, "ts": "20260806_203556", "scene": "A dancing figure"}
+{"time": "2026-08-06T20:36:21", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T20:36:22", "event": "round_result", "round": 2, "ts": "20260806_203556", "success": false}
+{"time": "2026-08-06T20:38:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T20:38:48", "event": "snap", "round": 3, "ts": "20260806_203848", "scene": "A watering can"}
