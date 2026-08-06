@@ -13154,3 +13154,7 @@
 {"time": "2026-08-06T14:27:09", "event": "game_start"}
 {"time": "2026-08-06T14:27:10", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:27:28", "event": "snap", "round": 1, "ts": "20260806_142728", "scene": "A person with their head tilted back in agony or ecstasy"}
+{"time": "2026-08-06T14:27:33", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:27:34", "event": "round_result", "round": 1, "ts": "20260806_142728", "success": false}
+{"time": "2026-08-06T14:28:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:28:27", "event": "snap", "round": 2, "ts": "20260806_142827", "scene": "A pen drawing a line"}
