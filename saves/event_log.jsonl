@@ -14719,3 +14719,14 @@
 {"time": "2026-08-06T21:19:18", "event": "round_result", "round": 2, "ts": "20260806_211913", "success": false}
 {"time": "2026-08-06T21:19:35", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T21:19:53", "event": "snap", "round": 3, "ts": "20260806_211953", "scene": "A bottle opener"}
+{"time": "2026-08-06T21:20:01", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T21:20:01", "event": "round_result", "round": 3, "ts": "20260806_211953", "success": true}
+{"time": "2026-08-06T21:20:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:20:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:22:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:22:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:22:55", "event": "game_start"}
+{"time": "2026-08-06T21:22:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:23:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:23:11", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:23:13", "event": "snap", "round": 1, "ts": "20260806_212313", "scene": "A bird about to take flight"}
