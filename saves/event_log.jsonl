@@ -15127,3 +15127,13 @@
 {"time": "2026-08-06T22:22:35", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T22:23:16", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T22:23:36", "event": "snap", "round": 3, "ts": "20260806_222336", "scene": "A medieval anchor"}
+{"time": "2026-08-06T22:23:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:23:45", "event": "round_result", "round": 3, "ts": "20260806_222336", "success": false}
+{"time": "2026-08-06T22:23:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:23:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:24:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:24:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:24:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:24:45", "event": "game_start"}
+{"time": "2026-08-06T22:24:50", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:25:07", "event": "snap", "round": 1, "ts": "20260806_222507", "scene": "A rolling pin with a bit of dough stuck to it."}
