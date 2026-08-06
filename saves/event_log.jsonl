@@ -14929,3 +14929,7 @@
 {"time": "2026-08-06T21:58:42", "event": "round_result", "round": 1, "ts": "20260806_215742", "success": true}
 {"time": "2026-08-06T21:59:34", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T22:00:02", "event": "snap", "round": 2, "ts": "20260806_220002", "scene": "A skull with a bone"}
+{"time": "2026-08-06T22:00:09", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:00:10", "event": "round_result", "round": 2, "ts": "20260806_220002", "success": false}
+{"time": "2026-08-06T22:00:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:00:44", "event": "snap", "round": 3, "ts": "20260806_220044", "scene": "A key"}
