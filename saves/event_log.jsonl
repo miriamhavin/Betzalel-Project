@@ -12735,3 +12735,7 @@
 {"time": "2026-08-06T12:32:13", "event": "game_start"}
 {"time": "2026-08-06T12:32:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T12:32:40", "event": "snap", "round": 1, "ts": "20260806_123240", "scene": "A standing sewing machine foot with an open bobbin casing"}
+{"time": "2026-08-06T12:33:49", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T12:33:50", "event": "round_result", "round": 1, "ts": "20260806_123240", "success": false}
+{"time": "2026-08-06T12:35:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T12:35:21", "event": "snap", "round": 2, "ts": "20260806_123521", "scene": "A surprised frog"}
