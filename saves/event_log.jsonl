@@ -13617,3 +13617,19 @@
 {"time": "2026-08-06T16:28:59", "event": "round_result", "round": 2, "ts": "20260806_162820", "success": false}
 {"time": "2026-08-06T16:29:00", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T16:29:21", "event": "snap", "round": 3, "ts": "20260806_162921", "scene": "A watering can"}
+{"time": "2026-08-06T16:34:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:34:33", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T16:34:34", "event": "round_result", "round": 3, "ts": "20260806_162921", "success": false}
+{"time": "2026-08-06T16:34:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:34:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:34:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:35:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:35:04", "event": "game_start"}
+{"time": "2026-08-06T16:39:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:39:40", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T16:39:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:39:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:39:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:39:43", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T16:39:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T16:39:49", "event": "snap", "round": 1, "ts": "20260806_163949", "scene": "A simple open box"}
