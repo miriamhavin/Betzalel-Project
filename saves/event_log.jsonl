@@ -12716,3 +12716,9 @@
 {"time": "2026-08-06T12:28:24", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T12:28:32", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T12:28:33", "event": "snap", "round": 1, "ts": "20260806_122833", "scene": "A partially eaten ice cream cone"}
+{"time": "2026-08-06T12:29:10", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T12:29:11", "event": "round_result", "round": 1, "ts": "20260806_122833", "success": false}
+{"time": "2026-08-06T12:29:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T12:29:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T12:29:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T12:29:30", "event": "snap", "round": 2, "ts": "20260806_122930", "scene": "A key"}
