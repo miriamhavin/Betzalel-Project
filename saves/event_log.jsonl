@@ -14127,3 +14127,8 @@
 {"time": "2026-08-06T18:41:53", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T18:41:55", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T18:41:57", "event": "snap", "round": 2, "ts": "20260806_184157", "scene": "A rifle with a bayonet"}
+{"time": "2026-08-06T18:42:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:42:08", "event": "round_result", "round": 2, "ts": "20260806_184157", "success": true}
+{"time": "2026-08-06T18:45:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:45:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:45:29", "event": "snap", "round": 3, "ts": "20260806_184529", "scene": "A dog wearing a hat"}
