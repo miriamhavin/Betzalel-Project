@@ -13759,3 +13759,19 @@
 {"time": "2026-08-06T16:55:13", "event": "round_result", "round": 2, "ts": "20260806_165507", "success": true}
 {"time": "2026-08-06T16:55:22", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T16:55:40", "event": "snap", "round": 3, "ts": "20260806_165540", "scene": "A hand holding a microphone"}
+{"time": "2026-08-06T16:55:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T16:55:45", "event": "round_result", "round": 3, "ts": "20260806_165540", "success": false}
+{"time": "2026-08-06T16:55:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:55:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:56:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:58:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:58:46", "event": "game_start"}
+{"time": "2026-08-06T16:59:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:59:36", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T16:59:38", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T16:59:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:59:45", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T16:59:47", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T16:59:49", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T16:59:50", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T16:59:51", "event": "snap", "round": 1, "ts": "20260806_165951", "scene": "A rectangular box"}
