@@ -12942,3 +12942,24 @@
 {"time": "2026-08-06T13:54:04", "event": "round_result", "round": 2, "ts": "20260806_135359", "success": false}
 {"time": "2026-08-06T13:54:05", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T13:54:25", "event": "snap", "round": 3, "ts": "20260806_135425", "scene": "A watering can with a spout"}
+{"time": "2026-08-06T13:55:13", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:55:14", "event": "round_result", "round": 3, "ts": "20260806_135425", "success": false}
+{"time": "2026-08-06T13:55:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:55:36", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:55:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:55:49", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T13:56:01", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T13:56:13", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:56:21", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:56:32", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T13:56:44", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T13:56:50", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:57:03", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T13:57:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:57:35", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:57:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:57:42", "event": "game_start"}
+{"time": "2026-08-06T13:58:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:58:03", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T13:58:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:58:20", "event": "snap", "round": 1, "ts": "20260806_135820", "scene": "A rolling pin and a circular object with four indentations"}
