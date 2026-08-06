@@ -14730,3 +14730,11 @@
 {"time": "2026-08-06T21:23:06", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T21:23:11", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T21:23:13", "event": "snap", "round": 1, "ts": "20260806_212313", "scene": "A bird about to take flight"}
+{"time": "2026-08-06T21:23:19", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:23:20", "event": "round_result", "round": 1, "ts": "20260806_212313", "success": false}
+{"time": "2026-08-06T21:24:50", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:24:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:24:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:24:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:24:59", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T21:25:10", "event": "snap", "round": 2, "ts": "20260806_212510", "scene": "A simple smiling face"}
