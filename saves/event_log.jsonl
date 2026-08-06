@@ -14602,3 +14602,7 @@
 {"time": "2026-08-06T20:25:03", "event": "game_start"}
 {"time": "2026-08-06T20:25:08", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T20:25:27", "event": "snap", "round": 1, "ts": "20260806_202527", "scene": "A person holding a microphone and speaking"}
+{"time": "2026-08-06T20:25:56", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T20:25:57", "event": "round_result", "round": 1, "ts": "20260806_202527", "success": false}
+{"time": "2026-08-06T20:26:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T20:26:34", "event": "snap", "round": 2, "ts": "20260806_202634", "scene": "A key and a lock"}
