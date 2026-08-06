@@ -13609,3 +13609,7 @@
 {"time": "2026-08-06T16:27:14", "event": "game_start"}
 {"time": "2026-08-06T16:27:23", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T16:27:41", "event": "snap", "round": 1, "ts": "20260806_162741", "scene": "A hand holding a single bone"}
+{"time": "2026-08-06T16:27:58", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T16:27:59", "event": "round_result", "round": 1, "ts": "20260806_162741", "success": false}
+{"time": "2026-08-06T16:28:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:28:20", "event": "snap", "round": 2, "ts": "20260806_162820", "scene": "A small dog in a kennel"}
