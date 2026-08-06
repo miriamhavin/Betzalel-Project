@@ -12859,3 +12859,8 @@
 {"time": "2026-08-06T13:23:00", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T13:23:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T13:23:17", "event": "snap", "round": 1, "ts": "20260806_132317", "scene": "A dog drinking from a bowl"}
+{"time": "2026-08-06T13:23:25", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:23:25", "event": "round_result", "round": 1, "ts": "20260806_132317", "success": false}
+{"time": "2026-08-06T13:23:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:23:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:23:45", "event": "snap", "round": 2, "ts": "20260806_132345", "scene": "A rabbit"}
