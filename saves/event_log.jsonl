@@ -14504,3 +14504,10 @@
 {"time": "2026-08-06T19:43:55", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T19:43:57", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T19:44:03", "event": "snap", "round": 1, "ts": "20260806_194403", "scene": ""}
+{"time": "2026-08-06T19:50:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:50:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:50:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:50:40", "event": "game_start"}
+{"time": "2026-08-06T19:51:02", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:51:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:51:20", "event": "snap", "round": 1, "ts": "20260806_195120", "scene": "A simple rectangular frame"}
