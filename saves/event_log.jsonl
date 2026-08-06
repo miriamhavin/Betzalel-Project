@@ -14441,3 +14441,7 @@
 {"time": "2026-08-06T19:28:51", "event": "game_start"}
 {"time": "2026-08-06T19:29:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T19:29:58", "event": "snap", "round": 1, "ts": "20260806_192958", "scene": "a bee"}
+{"time": "2026-08-06T19:30:02", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T19:30:03", "event": "round_result", "round": 1, "ts": "20260806_192958", "success": false}
+{"time": "2026-08-06T19:30:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:30:43", "event": "snap", "round": 2, "ts": "20260806_193043", "scene": "a person holding a lamp"}
