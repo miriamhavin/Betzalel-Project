@@ -13394,3 +13394,12 @@
 {"time": "2026-08-06T15:16:08", "event": "round_result", "round": 2, "ts": "20260806_151600", "success": true}
 {"time": "2026-08-06T15:16:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T15:16:37", "event": "snap", "round": 3, "ts": "20260806_151637", "scene": "A person holding a bottle"}
+{"time": "2026-08-06T15:16:49", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T15:16:50", "event": "round_result", "round": 3, "ts": "20260806_151637", "success": true}
+{"time": "2026-08-06T15:16:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:16:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:16:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:17:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:17:00", "event": "game_start"}
+{"time": "2026-08-06T15:17:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:17:28", "event": "snap", "round": 1, "ts": "20260806_151728", "scene": "Dog looking over a fence"}
