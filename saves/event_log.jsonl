@@ -13223,3 +13223,16 @@
 {"time": "2026-08-06T14:40:31", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T14:40:31", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T14:40:32", "event": "snap", "round": 3, "ts": "20260806_144032", "scene": "A person doing a handstand"}
+{"time": "2026-08-06T14:40:39", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:40:40", "event": "round_result", "round": 3, "ts": "20260806_144032", "success": false}
+{"time": "2026-08-06T14:41:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:41:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:41:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:41:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:41:06", "event": "game_start"}
+{"time": "2026-08-06T14:41:07", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:41:08", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:41:09", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:41:11", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:41:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:41:39", "event": "snap", "round": 1, "ts": "20260806_144139", "scene": "A toothbrush resting on a surface"}
