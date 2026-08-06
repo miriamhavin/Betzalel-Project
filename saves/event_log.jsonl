@@ -14810,3 +14810,7 @@
 {"time": "2026-08-06T21:48:15", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T21:48:16", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T21:48:17", "event": "snap", "round": 2, "ts": "20260806_214817", "scene": "A hand holding a toothbrush"}
+{"time": "2026-08-06T21:48:18", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T21:48:19", "event": "round_result", "round": 2, "ts": "20260806_214817", "success": false}
+{"time": "2026-08-06T21:49:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:49:28", "event": "snap", "round": 3, "ts": "20260806_214928", "scene": "A man with a large belly, holding a belly"}
