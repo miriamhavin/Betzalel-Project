@@ -13487,3 +13487,7 @@
 {"time": "2026-08-06T15:30:12", "event": "round_result", "round": 1, "ts": "20260806_153000", "success": false}
 {"time": "2026-08-06T15:31:06", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T15:31:26", "event": "snap", "round": 2, "ts": "20260806_153126", "scene": "A wrench"}
+{"time": "2026-08-06T15:31:32", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T15:31:32", "event": "round_result", "round": 2, "ts": "20260806_153126", "success": false}
+{"time": "2026-08-06T15:32:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:32:29", "event": "snap", "round": 3, "ts": "20260806_153229", "scene": "A clarinet"}
