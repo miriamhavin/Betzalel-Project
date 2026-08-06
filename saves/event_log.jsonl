@@ -12657,3 +12657,7 @@
 {"time": "2026-08-06T11:16:32", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T11:16:41", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T11:16:47", "event": "snap", "round": 1, "ts": "20260806_111647", "scene": "A person holding a toothbrush"}
+{"time": "2026-08-06T11:17:01", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T11:17:02", "event": "round_result", "round": 1, "ts": "20260806_111647", "success": false}
+{"time": "2026-08-06T11:17:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T11:17:29", "event": "snap", "round": 2, "ts": "20260806_111729", "scene": "A bird perched on a branch"}
