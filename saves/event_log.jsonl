@@ -13637,3 +13637,7 @@
 {"time": "2026-08-06T16:39:52", "event": "round_result", "round": 1, "ts": "20260806_163949", "success": true}
 {"time": "2026-08-06T16:40:52", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T16:41:12", "event": "snap", "round": 2, "ts": "20260806_164112", "scene": "A leaning man with his arms outstretched"}
+{"time": "2026-08-06T16:41:20", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T16:41:21", "event": "round_result", "round": 2, "ts": "20260806_164112", "success": false}
+{"time": "2026-08-06T16:41:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:42:12", "event": "snap", "round": 3, "ts": "20260806_164212", "scene": "A scarecrow"}
