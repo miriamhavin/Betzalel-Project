@@ -12881,3 +12881,7 @@
 {"time": "2026-08-06T13:30:18", "event": "game_start"}
 {"time": "2026-08-06T13:30:20", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T13:30:38", "event": "snap", "round": 1, "ts": "20260806_133038", "scene": "A running dog"}
+{"time": "2026-08-06T13:30:48", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:30:49", "event": "round_result", "round": 1, "ts": "20260806_133038", "success": false}
+{"time": "2026-08-06T13:32:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:32:23", "event": "snap", "round": 2, "ts": "20260806_133223", "scene": "A crow with a twig"}
