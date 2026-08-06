@@ -14523,3 +14523,12 @@
 {"time": "2026-08-06T19:56:14", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T19:56:16", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T19:56:28", "event": "snap", "round": 3, "ts": "20260806_195628", "scene": "A cracked window pane"}
+{"time": "2026-08-06T19:57:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T19:57:41", "event": "round_result", "round": 3, "ts": "20260806_195628", "success": false}
+{"time": "2026-08-06T19:57:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:57:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:57:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:58:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:58:13", "event": "game_start"}
+{"time": "2026-08-06T19:58:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:59:05", "event": "snap", "round": 1, "ts": "20260806_195905", "scene": "A table with dental hygiene items"}
