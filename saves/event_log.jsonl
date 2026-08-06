@@ -14252,3 +14252,19 @@
 {"time": "2026-08-06T18:50:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T18:50:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T18:50:42", "event": "snap", "round": 1, "ts": "20260806_185042", "scene": "A teapot with a spout and handle, emitting steam"}
+{"time": "2026-08-06T18:50:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:50:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:50:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:50:44", "event": "round_result", "round": 1, "ts": "20260806_185042", "success": true}
+{"time": "2026-08-06T18:50:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:50:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:50:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:50:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:50:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:50:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:50:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:51:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:51:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:51:01", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:51:01", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:51:05", "event": "snap", "round": 2, "ts": "20260806_185105", "scene": "A key"}
