@@ -12779,3 +12779,7 @@
 {"time": "2026-08-06T13:03:18", "event": "game_start"}
 {"time": "2026-08-06T13:03:33", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T13:03:56", "event": "snap", "round": 1, "ts": "20260806_130356", "scene": "A snail moving past a clock"}
+{"time": "2026-08-06T13:04:10", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:04:11", "event": "round_result", "round": 1, "ts": "20260806_130356", "success": false}
+{"time": "2026-08-06T13:04:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:04:38", "event": "snap", "round": 2, "ts": "20260806_130438", "scene": "A person jumping"}
