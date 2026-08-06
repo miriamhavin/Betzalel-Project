@@ -14031,3 +14031,7 @@
 {"time": "2026-08-06T17:59:43", "event": "game_start"}
 {"time": "2026-08-06T17:59:51", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T18:00:09", "event": "snap", "round": 1, "ts": "20260806_180009", "scene": "a closed box with a label"}
+{"time": "2026-08-06T18:00:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:00:26", "event": "round_result", "round": 1, "ts": "20260806_180009", "success": true}
+{"time": "2026-08-06T18:00:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:00:47", "event": "snap", "round": 2, "ts": "20260806_180047", "scene": "a person playing a video game"}
