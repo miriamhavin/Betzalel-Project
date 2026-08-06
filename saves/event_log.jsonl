@@ -14482,3 +14482,7 @@
 {"time": "2026-08-06T19:40:52", "event": "round_result", "round": 1, "ts": "20260806_194038", "success": false}
 {"time": "2026-08-06T19:41:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T19:41:45", "event": "snap", "round": 2, "ts": "20260806_194145", "scene": "A skeleton"}
+{"time": "2026-08-06T19:41:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T19:41:54", "event": "round_result", "round": 2, "ts": "20260806_194145", "success": false}
+{"time": "2026-08-06T19:42:19", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:42:37", "event": "snap", "round": 3, "ts": "20260806_194237", "scene": "A person sitting at a table with a bowl of food"}
