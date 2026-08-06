@@ -13442,3 +13442,7 @@
 {"time": "2026-08-06T15:21:18", "event": "game_start"}
 {"time": "2026-08-06T15:21:28", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T15:21:47", "event": "snap", "round": 1, "ts": "20260806_152147", "scene": "A person writing"}
+{"time": "2026-08-06T15:22:18", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T15:22:19", "event": "round_result", "round": 1, "ts": "20260806_152147", "success": false}
+{"time": "2026-08-06T15:22:26", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:22:45", "event": "snap", "round": 2, "ts": "20260806_152245", "scene": "A simple picture frame"}
