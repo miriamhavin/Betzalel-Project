@@ -12907,3 +12907,12 @@
 {"time": "2026-08-06T13:43:12", "event": "round_result", "round": 2, "ts": "20260806_134251", "success": true}
 {"time": "2026-08-06T13:43:52", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T13:44:10", "event": "snap", "round": 3, "ts": "20260806_134410", "scene": "A cartoonish face"}
+{"time": "2026-08-06T13:44:15", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:44:16", "event": "round_result", "round": 3, "ts": "20260806_134410", "success": false}
+{"time": "2026-08-06T13:46:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:46:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:47:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:47:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:47:17", "event": "game_start"}
+{"time": "2026-08-06T13:47:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:48:05", "event": "snap", "round": 1, "ts": "20260806_134805", "scene": "A figure playing handball"}
