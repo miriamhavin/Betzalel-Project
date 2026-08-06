@@ -13580,3 +13580,13 @@
 {"time": "2026-08-06T16:17:02", "event": "round_result", "round": 2, "ts": "20260806_161640", "success": false}
 {"time": "2026-08-06T16:18:03", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T16:18:21", "event": "snap", "round": 3, "ts": "20260806_161821", "scene": "A man fishing"}
+{"time": "2026-08-06T16:18:36", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T16:18:37", "event": "round_result", "round": 3, "ts": "20260806_161821", "success": false}
+{"time": "2026-08-06T16:19:13", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T16:19:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:19:51", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:19:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:20:05", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:20:05", "event": "game_start"}
+{"time": "2026-08-06T16:20:38", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:20:55", "event": "snap", "round": 1, "ts": "20260806_162055", "scene": "A microscope"}
