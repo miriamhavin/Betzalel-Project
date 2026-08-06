@@ -12849,3 +12849,13 @@
 {"time": "2026-08-06T13:20:33", "event": "round_result", "round": 2, "ts": "20260806_132026", "success": true}
 {"time": "2026-08-06T13:20:43", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T13:21:04", "event": "snap", "round": 3, "ts": "20260806_132104", "scene": "A whisk being used to stir"}
+{"time": "2026-08-06T13:21:16", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T13:21:16", "event": "round_result", "round": 3, "ts": "20260806_132104", "success": true}
+{"time": "2026-08-06T13:22:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:22:42", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:22:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:22:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:22:52", "event": "game_start"}
+{"time": "2026-08-06T13:23:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:23:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:23:17", "event": "snap", "round": 1, "ts": "20260806_132317", "scene": "A dog drinking from a bowl"}
