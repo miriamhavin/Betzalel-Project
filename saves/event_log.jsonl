@@ -13029,3 +13029,7 @@
 {"time": "2026-08-06T14:08:12", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T14:08:12", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T14:08:22", "event": "snap", "round": 1, "ts": "20260806_140822", "scene": "A hand holding a pencil"}
+{"time": "2026-08-06T14:08:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:08:41", "event": "round_result", "round": 1, "ts": "20260806_140822", "success": false}
+{"time": "2026-08-06T14:09:09", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:09:27", "event": "snap", "round": 2, "ts": "20260806_140927", "scene": "A person playing a trumpet"}
