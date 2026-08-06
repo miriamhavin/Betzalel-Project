@@ -13563,3 +13563,12 @@
 {"time": "2026-08-06T16:02:32", "event": "round_result", "round": 2, "ts": "20260806_160136", "success": true}
 {"time": "2026-08-06T16:02:44", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T16:03:04", "event": "snap", "round": 3, "ts": "20260806_160304", "scene": "A stylized bird in flight"}
+{"time": "2026-08-06T16:09:09", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T16:09:10", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T16:09:10", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T16:09:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:14:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:14:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:14:56", "event": "game_start"}
+{"time": "2026-08-06T16:15:23", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T16:15:42", "event": "snap", "round": 1, "ts": "20260806_161542", "scene": "A running dinosaur"}
