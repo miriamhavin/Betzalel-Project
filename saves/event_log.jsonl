@@ -13008,3 +13008,24 @@
 {"time": "2026-08-06T14:06:44", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:06:51", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:07:01", "event": "snap", "round": 3, "ts": "20260806_140701", "scene": "A tattoo machine in use"}
+{"time": "2026-08-06T14:07:16", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T14:07:17", "event": "round_result", "round": 3, "ts": "20260806_140701", "success": true}
+{"time": "2026-08-06T14:07:22", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:07:23", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T14:07:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:07:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:07:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:07:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:08:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:08:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:08:04", "event": "game_start"}
+{"time": "2026-08-06T14:08:04", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T14:08:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:08:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:08:09", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:08:10", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T14:08:11", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:08:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:08:12", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:08:12", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T14:08:22", "event": "snap", "round": 1, "ts": "20260806_140822", "scene": "A hand holding a pencil"}
