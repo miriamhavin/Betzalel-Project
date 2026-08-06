@@ -13355,3 +13355,7 @@
 {"time": "2026-08-06T15:14:10", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T15:14:10", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T15:14:14", "event": "snap", "round": 2, "ts": "20260806_151414", "scene": "A jack-in-the-box"}
+{"time": "2026-08-06T15:14:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:14:17", "event": "round_result", "round": 2, "ts": "20260806_151414", "success": true}
+{"time": "2026-08-06T15:14:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:14:45", "event": "snap", "round": 3, "ts": "20260806_151445", "scene": "A leaf falling"}
