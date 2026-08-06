@@ -13257,3 +13257,7 @@
 {"time": "2026-08-06T14:52:12", "event": "game_start"}
 {"time": "2026-08-06T14:52:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:52:37", "event": "snap", "round": 1, "ts": "20260806_145237", "scene": "A key holding a needle"}
+{"time": "2026-08-06T14:53:01", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:53:02", "event": "round_result", "round": 1, "ts": "20260806_145237", "success": false}
+{"time": "2026-08-06T14:53:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:53:26", "event": "snap", "round": 2, "ts": "20260806_145326", "scene": "A stylized heart with a needle"}
