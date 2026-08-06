@@ -14380,3 +14380,25 @@
 {"time": "2026-08-06T19:11:52", "event": "game_start"}
 {"time": "2026-08-06T19:12:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T19:12:45", "event": "snap", "round": 1, "ts": "20260806_191245", "scene": "Gingerbread man"}
+{"time": "2026-08-06T19:12:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T19:12:55", "event": "round_result", "round": 1, "ts": "20260806_191245", "success": false}
+{"time": "2026-08-06T19:15:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T19:15:42", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T19:15:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:15:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:15:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T19:15:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:15:47", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T19:15:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:15:49", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T19:15:50", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T19:15:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:15:52", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T19:15:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:15:53", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T19:15:53", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T19:15:54", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T19:15:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T19:15:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:15:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:16:02", "event": "snap", "round": 2, "ts": "20260806_191602", "scene": "A stylized map of a country"}
