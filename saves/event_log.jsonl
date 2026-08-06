@@ -14478,3 +14478,7 @@
 {"time": "2026-08-06T19:40:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T19:40:37", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T19:40:38", "event": "snap", "round": 1, "ts": "20260806_194038", "scene": "A dog panting"}
+{"time": "2026-08-06T19:40:51", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T19:40:52", "event": "round_result", "round": 1, "ts": "20260806_194038", "success": false}
+{"time": "2026-08-06T19:41:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T19:41:45", "event": "snap", "round": 2, "ts": "20260806_194145", "scene": "A skeleton"}
