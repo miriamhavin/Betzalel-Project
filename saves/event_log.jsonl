@@ -13783,3 +13783,17 @@
 {"time": "2026-08-06T17:01:17", "event": "round_result", "round": 2, "ts": "20260806_170107", "success": false}
 {"time": "2026-08-06T17:01:39", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T17:01:55", "event": "snap", "round": 3, "ts": "20260806_170155", "scene": "A torn piece of paper"}
+{"time": "2026-08-06T17:02:04", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:02:04", "event": "round_result", "round": 3, "ts": "20260806_170155", "success": false}
+{"time": "2026-08-06T17:02:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:02:12", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:02:13", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:02:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:02:16", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:02:18", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:02:18", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:02:18", "event": "game_start"}
+{"time": "2026-08-06T17:02:37", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T17:02:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:02:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:02:58", "event": "snap", "round": 1, "ts": "20260806_170258", "scene": "A torn or partially destroyed rectangular document or map"}
