@@ -15063,3 +15063,57 @@
 {"time": "2026-08-06T22:15:21", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T22:15:21", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T22:15:27", "event": "snap", "round": 3, "ts": "20260806_221527", "scene": "A ghostly figure reaching out"}
+{"time": "2026-08-06T22:15:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:15:32", "event": "round_result", "round": 3, "ts": "20260806_221527", "success": false}
+{"time": "2026-08-06T22:16:48", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:16:51", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T22:16:51", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:16:52", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T22:16:52", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:16:52", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T22:16:53", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:16:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:16:54", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:16:55", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T22:16:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:16:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:16:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:16:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:16:58", "event": "game_start"}
+{"time": "2026-08-06T22:16:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:16:58", "event": "game_start"}
+{"time": "2026-08-06T22:16:58", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:16:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:16:59", "event": "game_start"}
+{"time": "2026-08-06T22:16:59", "event": "game_start"}
+{"time": "2026-08-06T22:16:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:16:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:16:59", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:16:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:16:59", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:17:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:17:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:17:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:17:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:00", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:17:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:01", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:03", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:04", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T22:17:04", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:17:04", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:17:04", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T22:17:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:05", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T22:17:05", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T22:17:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:10", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T22:17:16", "event": "snap", "round": 1, "ts": "20260806_221716", "scene": "A human skeleton"}
