@@ -13999,3 +13999,7 @@
 {"time": "2026-08-06T17:51:03", "event": "round_result", "round": 1, "ts": "20260806_175055", "success": false}
 {"time": "2026-08-06T17:51:23", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T17:51:42", "event": "snap", "round": 2, "ts": "20260806_175142", "scene": "A swan swimming"}
+{"time": "2026-08-06T17:51:48", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:51:49", "event": "round_result", "round": 2, "ts": "20260806_175142", "success": false}
+{"time": "2026-08-06T17:52:15", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:52:34", "event": "snap", "round": 3, "ts": "20260806_175234", "scene": "A person performing CPR on another person"}
