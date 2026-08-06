@@ -13289,3 +13289,19 @@
 {"time": "2026-08-06T14:56:24", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:56:28", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:56:30", "event": "snap", "round": 1, "ts": "20260806_145630", "scene": "A knife slicing through something"}
+{"time": "2026-08-06T14:56:31", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:56:32", "event": "round_result", "round": 1, "ts": "20260806_145630", "success": true}
+{"time": "2026-08-06T14:57:17", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:57:24", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:57:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:57:25", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:57:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:57:27", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:57:28", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:57:28", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:57:28", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:57:29", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T14:57:30", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:57:32", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:57:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:57:35", "event": "snap", "round": 2, "ts": "20260806_145735", "scene": "A frog leaping"}
