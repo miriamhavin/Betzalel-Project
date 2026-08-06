@@ -13173,3 +13173,14 @@
 {"time": "2026-08-06T14:34:20", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:34:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:34:27", "event": "snap", "round": 1, "ts": "20260806_143427", "scene": "a pencil drawing a line"}
+{"time": "2026-08-06T14:34:29", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:34:30", "event": "round_result", "round": 1, "ts": "20260806_143427", "success": false}
+{"time": "2026-08-06T14:34:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:34:44", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:34:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:34:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:34:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:34:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:34:50", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:34:50", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:34:51", "event": "snap", "round": 2, "ts": "20260806_143451", "scene": "a hand holding a pencil over a piece of paper"}
