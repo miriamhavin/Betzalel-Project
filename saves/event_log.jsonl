@@ -14082,3 +14082,8 @@
 {"time": "2026-08-06T18:14:15", "event": "round_result", "round": 1, "ts": "20260806_181319", "success": true}
 {"time": "2026-08-06T18:15:13", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T18:15:32", "event": "snap", "round": 2, "ts": "20260806_181532", "scene": "A snail"}
+{"time": "2026-08-06T18:15:43", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:15:44", "event": "round_result", "round": 2, "ts": "20260806_181532", "success": false}
+{"time": "2026-08-06T18:15:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:16:06", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T18:16:14", "event": "snap", "round": 3, "ts": "20260806_181614", "scene": "A hand holding a leash attached to a dog"}
