@@ -13824,3 +13824,7 @@
 {"time": "2026-08-06T17:11:27", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T17:11:27", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T17:11:47", "event": "snap", "round": 1, "ts": "20260806_171147", "scene": "A robot with a spoon for an arm, holding a gun"}
+{"time": "2026-08-06T17:11:56", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T17:11:57", "event": "round_result", "round": 1, "ts": "20260806_171147", "success": false}
+{"time": "2026-08-06T17:12:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T17:12:27", "event": "snap", "round": 2, "ts": "20260806_171227", "scene": "A toothbrush holder with toothbrushes"}
