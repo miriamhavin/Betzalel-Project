@@ -12754,3 +12754,15 @@
 {"time": "2026-08-06T12:39:37", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T12:39:38", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T12:39:42", "event": "snap", "round": 3, "ts": "20260806_123942", "scene": "A stylized comma"}
+{"time": "2026-08-06T12:39:47", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T12:39:47", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T12:39:48", "event": "round_result", "round": 3, "ts": "20260806_123942", "success": true}
+{"time": "2026-08-06T12:39:55", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T12:39:57", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T12:39:58", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T12:39:59", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T12:40:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T12:48:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T12:48:20", "event": "game_start"}
+{"time": "2026-08-06T12:49:08", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T12:49:26", "event": "snap", "round": 1, "ts": "20260806_124926", "scene": "A frog catching a fly"}
