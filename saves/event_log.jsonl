@@ -13460,3 +13460,13 @@
 {"time": "2026-08-06T15:25:51", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T15:25:56", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T15:26:10", "event": "snap", "round": 1, "ts": "20260806_152610", "scene": "A crude map outline"}
+{"time": "2026-08-06T15:26:10", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T15:26:11", "event": "round_result", "round": 1, "ts": "20260806_152610", "success": false}
+{"time": "2026-08-06T15:26:13", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:26:18", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T15:26:19", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T15:26:20", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T15:26:21", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:26:21", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T15:26:29", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T15:26:30", "event": "snap", "round": 2, "ts": "20260806_152630", "scene": "A stylized quill pen"}
