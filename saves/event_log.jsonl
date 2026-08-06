@@ -14870,3 +14870,21 @@
 {"time": "2026-08-06T21:55:17", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T21:55:19", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T21:55:36", "event": "snap", "round": 3, "ts": "20260806_215536", "scene": "A person holding a backpack"}
+{"time": "2026-08-06T21:55:37", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:55:38", "event": "round_result", "round": 3, "ts": "20260806_215536", "success": true}
+{"time": "2026-08-06T21:55:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:55:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:55:47", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:55:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:55:48", "event": "game_start"}
+{"time": "2026-08-06T21:55:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:55:49", "event": "game_start"}
+{"time": "2026-08-06T21:55:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:55:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:55:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:55:52", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:55:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:55:53", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:55:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:56:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T21:56:08", "event": "snap", "round": 1, "ts": "20260806_215608", "scene": "A child's drawing of a person"}
