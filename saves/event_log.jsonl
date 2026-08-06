@@ -13206,3 +13206,20 @@
 {"time": "2026-08-06T14:39:26", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:39:42", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T14:39:44", "event": "snap", "round": 2, "ts": "20260806_143944", "scene": "A person using a pencil to draw a picture"}
+{"time": "2026-08-06T14:39:52", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T14:39:52", "event": "round_result", "round": 2, "ts": "20260806_143944", "success": true}
+{"time": "2026-08-06T14:39:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:39:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:39:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:39:55", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:40:14", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:40:20", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:40:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:40:22", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:40:26", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T14:40:28", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T14:40:30", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T14:40:30", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T14:40:31", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T14:40:31", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T14:40:32", "event": "snap", "round": 3, "ts": "20260806_144032", "scene": "A person doing a handstand"}
