@@ -14325,3 +14325,7 @@
 {"time": "2026-08-06T18:53:50", "event": "button_press", "button": "NO"}
 {"time": "2026-08-06T18:54:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T18:54:31", "event": "snap", "round": 1, "ts": "20260806_185431", "scene": "A skeleton key"}
+{"time": "2026-08-06T18:54:40", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:54:41", "event": "round_result", "round": 1, "ts": "20260806_185431", "success": false}
+{"time": "2026-08-06T18:55:39", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:56:00", "event": "snap", "round": 2, "ts": "20260806_185600", "scene": "A cartoon monster's face"}
