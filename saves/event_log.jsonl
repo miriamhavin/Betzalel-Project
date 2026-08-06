@@ -12971,3 +12971,13 @@
 {"time": "2026-08-06T13:59:46", "event": "round_result", "round": 2, "ts": "20260806_135934", "success": false}
 {"time": "2026-08-06T14:00:11", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T14:00:36", "event": "snap", "round": 3, "ts": "20260806_140036", "scene": "A robot vacuum cleaner"}
+{"time": "2026-08-06T14:00:45", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:00:46", "event": "round_result", "round": 3, "ts": "20260806_140036", "success": false}
+{"time": "2026-08-06T14:00:56", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:01:00", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:01:04", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:01:07", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:01:07", "event": "game_start"}
+{"time": "2026-08-06T14:01:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T14:01:44", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T14:01:57", "event": "snap", "round": 1, "ts": "20260806_140157", "scene": "A mouse holding a pencil"}
