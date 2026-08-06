@@ -12821,3 +12821,16 @@
 {"time": "2026-08-06T13:07:42", "event": "round_result", "round": 2, "ts": "20260806_130628", "success": true}
 {"time": "2026-08-06T13:08:21", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T13:08:38", "event": "snap", "round": 3, "ts": "20260806_130838", "scene": "A key"}
+{"time": "2026-08-06T13:09:21", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T13:09:22", "event": "round_result", "round": 3, "ts": "20260806_130838", "success": true}
+{"time": "2026-08-06T13:16:40", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:17:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:17:49", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:17:50", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:17:51", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T13:18:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:18:43", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:18:43", "event": "game_start"}
+{"time": "2026-08-06T13:18:43", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T13:19:06", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T13:19:24", "event": "snap", "round": 1, "ts": "20260806_131924", "scene": "A person riding a horse"}
