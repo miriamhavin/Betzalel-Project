@@ -14315,3 +14315,13 @@
 {"time": "2026-08-06T18:52:53", "event": "round_result", "round": 2, "ts": "20260806_185248", "success": false}
 {"time": "2026-08-06T18:53:01", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T18:53:22", "event": "snap", "round": 3, "ts": "20260806_185322", "scene": "A dinosaur head"}
+{"time": "2026-08-06T18:53:38", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:53:39", "event": "round_result", "round": 3, "ts": "20260806_185322", "success": false}
+{"time": "2026-08-06T18:53:41", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:53:46", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:53:48", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:53:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:53:49", "event": "game_start"}
+{"time": "2026-08-06T18:53:50", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:54:11", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:54:31", "event": "snap", "round": 1, "ts": "20260806_185431", "scene": "A skeleton key"}
