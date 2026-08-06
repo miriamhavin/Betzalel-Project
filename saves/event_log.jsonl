@@ -14087,3 +14087,17 @@
 {"time": "2026-08-06T18:15:56", "event": "button_press", "button": "ENTER"}
 {"time": "2026-08-06T18:16:06", "event": "button_press", "button": "YES"}
 {"time": "2026-08-06T18:16:14", "event": "snap", "round": 3, "ts": "20260806_181614", "scene": "A hand holding a leash attached to a dog"}
+{"time": "2026-08-06T18:16:17", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T18:16:18", "event": "round_result", "round": 3, "ts": "20260806_181614", "success": true}
+{"time": "2026-08-06T18:17:29", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T18:17:31", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:17:33", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:17:45", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:17:49", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:17:54", "event": "button_press", "button": "NO"}
+{"time": "2026-08-06T18:17:55", "event": "button_press", "button": "YES"}
+{"time": "2026-08-06T18:17:57", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:17:57", "event": "game_start"}
+{"time": "2026-08-06T18:18:28", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:18:34", "event": "button_press", "button": "ENTER"}
+{"time": "2026-08-06T18:18:56", "event": "snap", "round": 1, "ts": "20260806_181856", "scene": "A person holding pliers"}
